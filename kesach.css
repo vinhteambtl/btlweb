@@ -1,0 +1,185 @@
+/* Thiết lập chung và màu sắc */
+:root {
+    --primary-color: #cc0000; /* Màu đỏ chủ đạo (cho thương hiệu VASAOCHU, giá) */
+    --secondary-color: #f8f8f8; /* Màu nền nhẹ (cho header) */
+    --filter-header-color: #ff6633; /* Màu cam đậm (cho tiêu đề bộ lọc) */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* === 1. HEADER VÀ TÌM KIẾM === */
+
+.header-bar {
+    background-color: var(--secondary-color);
+    border-bottom: 1px solid #eee;
+}
+
+.navbar-brand {
+    color: var(--primary-color) !important; 
+    transition: color 0.2s;
+}
+
+/* Kiểu cho thanh tìm kiếm */
+#search-button {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+#search-button:hover {
+    background-color: #a00000 !important;
+    border-color: #a00000 !important;
+}
+
+/* === 2. SIDEBAR VÀ BỘ LỌC (Kèm Thanh Cuộn & Xóa Lọc) === */
+
+.sidebar {
+    padding-right: 20px;
+}
+
+/* Kiểu cho nút XÓA LỌC */
+#clear-filters-btn {
+    font-weight: bold;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    transition: all 0.2s;
+}
+
+#clear-filters-btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+/* Header Bộ lọc */
+.filter-header {
+    background-color: var(--filter-header-color); 
+    color: white;
+    padding: 8px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%); 
+    margin-bottom: 5px;
+}
+
+/* Danh sách Bộ lọc và Thanh Cuộn */
+.filter-list {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 10px; 
+    border: 1px solid #ddd; 
+    
+    /* Thuộc tính tạo thanh cuộn */
+    max-height: 250px; 
+    overflow-y: auto;   
+}
+
+.filter-list label {
+    display: block;
+    padding: 7px 10px;
+    color: #333;
+    font-size: 0.95rem;
+    cursor: pointer;
+    border-bottom: 1px dashed #eee;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.filter-list label:hover {
+    background-color: #f7f7f7;
+    color: var(--primary-color); 
+}
+
+/* Màu checkbox/radio */
+.filter-list input[type="checkbox"],
+.filter-list input[type="radio"] {
+    margin-right: 8px;
+    accent-color: var(--primary-color); 
+}
+
+/* Tùy chỉnh thanh cuộn (cho trình duyệt Webkit: Chrome, Safari) */
+.filter-list::-webkit-scrollbar {
+    width: 6px; 
+}
+
+.filter-list::-webkit-scrollbar-thumb {
+    background-color: #ccc; 
+    border-radius: 10px;
+}
+
+.filter-list::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* === 3. KHU VỰC DANH SÁCH SẢN PHẨM === */
+
+.product-list-area {
+    padding-left: 15px;
+}
+
+.product-card {
+    border: 1px solid #eee;
+    text-align: center;
+    padding: 10px;
+    transition: box-shadow 0.2s ease, border-color 0.2s;
+    height: 100%; 
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,.1);
+    border-color: var(--primary-color); 
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.product-title {
+    font-size: 0.95rem;
+    color: #333;
+    height: 38px; 
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    color: var(--primary-color) !important; 
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Nút thêm vào giỏ hàng ẩn hiện khi hover */
+.add-to-cart-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.product-card:hover .add-to-cart-btn {
+    opacity: 1;
+}
+
+/* Phân trang */
+.pagination .page-item.active .page-link {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+.pagination .page-link {
+    color: var(--primary-color) !important;
+}
+
+.pagination .page-link:focus, .pagination .page-link:hover {
+    color: #a00000 !important;
+    box-shadow: none;
+}
