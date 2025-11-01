@@ -1,9 +1,108 @@
-{    
+{
     "books": {
-        "Giả tưởng & Khoa học Viễn tưởng": [
+        "Văn học Hiện đại & Kinh điển": [
+            {
+                 "link_image_author": "https://vimages.coccoc.com/vimage?ns=public_people&url=https://imgprofile.vnanet.vn/Media/Graphic/Profile/2023/07/25/nam-cao-3.JPG",
+                "image": "images/vhhd-kd(1).png",
+                "name": "Chí Phèo",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "Nam Cao",
+                "price": "49.000đ",
+                "Content": "“Chí Phèo” là truyện ngắn nổi tiếng của Nam Cao, sáng tác năm 1941, thuộc văn học hiện thực phê phán Việt Nam. Tác phẩm kể về bi kịch của Chí Phèo – người nông dân lương thiện bị xã hội phong kiến tàn ác biến thành kẻ tha hóa và bị từ chối quyền làm người. Qua đó, Nam Cao lên án xã hội bất công và thể hiện niềm thương cảm sâu sắc đối với người lao động nghèo, đồng thời đặt ra câu hỏi nhức nhối: “Ai cho Chí Phèo lương thiện?”"
+            },
+            {
+                "image": "images/vhhd-kd(2).png",
+                "name": "ROMEO AND JULIET",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "William Shakespeare",
+                "price": "149.000đ",
+                "Content": "“Romeo and Juliet” là vở bi kịch nổi tiếng của nhà soạn kịch William Shakespeare (Anh), sáng tác vào khoảng năm 1595. Tác phẩm kể về chuyện tình bi thương giữa Romeo và Juliet, hai người trẻ thuộc hai dòng họ thù địch ở thành Verona (Ý). Dù tình yêu của họ chân thành và mãnh liệt, nhưng sự hận thù giữa hai gia tộc đã dẫn đến cái chết oan nghiệt của đôi tình nhân. “Romeo and Juliet” ca ngợi tình yêu trong sáng, dám vượt qua định kiến xã hội, đồng thời lên án những hận thù mù quáng. Đây là một trong những tác phẩm kinh điển nhất của văn học thế giới, biểu tượng cho tình yêu và bi kịch tuổi trẻ."
+            },
+            {
+                "image": "images/vhhd-kd(3).png",
+                "name": "Chiến tranh và hòa bình (War and Peace)",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "LEO TOLSTOY",
+                "price": "167.000đ",
+                "Content": "“War and Peace” ( Chiến tranh và Hòa bình ) là tiểu thuyết vĩ đại của Lev Tolstoy (Nga), xuất bản năm 1869. Tác phẩm khắc họa bức tranh toàn cảnh xã hội Nga đầu thế kỷ XIX, trong bối cảnh chiến tranh giữa Nga và Napoléon. Câu chuyện xoay quanh nhiều nhân vật thuộc tầng lớp quý tộc như Pierre Bezukhov, Andrei Bolkonsky và Natasha Rostova, thể hiện những biến đổi trong tình yêu, lý tưởng và số phận con người. Tolstoy đã ca ngợi tinh thần dân tộc, lòng nhân ái và khát vọng hòa bình, đồng thời thể hiện tư tưởng triết học sâu sắc về con người và lịch sử nhân loại."
+            },
+            {
+                "image": "images/vhhd-kd(4).png",
+                "name": "Những người khốn khổ (Les Misérables)",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "Victor Hugo",
+                "price": "205.000đ",
+                "Content": "“Les Misérables” ( Những người khốn khổ ) là tiểu thuyết vĩ đại của Victor Hugo (Pháp), xuất bản năm 1862. Tác phẩm kể về Jean Valjean, một người tù khổ sai bị xã hội ruồng bỏ nhưng luôn khao khát làm lại cuộc đời. Song song đó là số phận Fantine, Cosette và Marius, phản ánh nỗi đau, bất công và tình yêu giữa bối cảnh nước Pháp thế kỷ XIX. Qua tác phẩm, Victor Hugo lên án xã hội bất công, ca ngợi lòng nhân ái, sự tha thứ và khát vọng tự do, thể hiện niềm tin sâu sắc vào khả năng hướng thiện của con người."
+            },
+            {
+                "image": "images/vhhd-kd(5).png",
+                "name": "Frankenstein",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "Mary Shelley",
+                "price": "134.000đ",
+                "Content": "\"Frankenstein\" là một tiểu thuyết kinh điển của Mary Shelley, xuất bản lần đầu năm 1818. Tác phẩm kể về Victor Frankenstein, một nhà khoa học trẻ tuổi bị ám ảnh bởi khát vọng chinh phục sự sống. Anh đã tạo ra một sinh vật khổng lồ từ các bộ phận xác chết, nhưng khi con quái vật sống dậy, Frankenstein kinh hoàng và ruồng bỏ nó. Tác phẩm không chỉ là một câu chuyện kinh dị mà còn là biểu tượng triết học và nhân văn sâu sắc, đặt ra nhiều câu hỏi về đạo đức khoa học, trách nhiệm của con người, và sự cô đơn của kẻ bị xã hội ruồng bỏ."
+            },
+            {
+                "image": "images/vhhd-kd(6).png",
+                "name": "Nhà Quý tộc tài ba xứ ManCha (Don Quixote)",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "Miguel de Cervantes",
+                "price": "99.000đ",
+                "Content": "“Don Quixote” là tiểu thuyết kinh điển của Miguel de Cervantes (Tây Ban Nha), gồm hai phần xuất bản năm 1605 và 1615. Tác phẩm kể về Don Quixote, một quý ông say mê truyện hiệp sĩ đến mức hóa điên, cùng người hầu trung thành Sancho Panza lên đường đi “trừ gian diệt ác” để bảo vệ công lý. Trên hành trình đó, ông gặp nhiều tình huống bi hài, bị người đời chế giễu nhưng vẫn kiên trì theo đuổi lý tưởng của mình. Với ngòi bút châm biếm và nhân văn, Cervantes vừa phê phán ảo tưởng lãng mạn và xã hội lỗi thời, vừa ca ngợi khát vọng sống đẹp, lòng dũng cảm và niềm tin vào cái thiện của con người."
+            },
+            {
+                "image": "images/vhhd-kd(7).png",
+                "name": "Ông già và biển cả (The Old Man and the Sea)",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "Ernest Hemingway",
+                "price": "125.000đ",
+                "Content": "“The Old Man and the Sea” ( Ông già và biển cả ) là tiểu thuyết ngắn nổi tiếng của Ernest Hemingway (Mỹ), xuất bản năm 1952. Tác phẩm kể về Santiago, một ông lão đánh cá ở Cuba đã 84 ngày liền không bắt được cá. Một hôm, ông ra khơi xa và chiến đấu suốt ba ngày với con cá kiếm khổng lồ, cuối cùng giết được nó nhưng bị bầy cá mập rỉa sạch thịt trên đường trở về. Dù thất bại, Santiago vẫn giữ lòng kiêu hãnh và ý chí không khuất phục, thể hiện triết lý sống nổi tiếng của Hemingway: “Con người có thể bị hủy diệt nhưng không thể bị khuất phục.” Tác phẩm mang ý nghĩa biểu tượng sâu sắc về nghị lực, lòng dũng cảm và phẩm giá con người."
+            },
+            {
+                "image": "images/vhhd-kd(8).png",
+                "name": "Kiêu hãnh và định kiến (Pride and Prejudice)",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "Jane Austen",
+                "price": "99.000đ",
+                "Content": "“Pride and Prejudice” ( Kiêu hãnh và định kiến ) là tiểu thuyết nổi tiếng của Jane Austen (Anh), xuất bản năm 1813. Tác phẩm xoay quanh chuyện tình giữa Elizabeth Bennet và Fitzwilliam Darcy, phản ánh vấn đề giai cấp, hôn nhân và định kiến xã hội trong nước Anh thế kỷ XIX. Với giọng văn hài hước, tinh tế và sâu sắc, tác phẩm ca ngợi tình yêu chân thành, sự tự trọng và khả năng vượt qua định kiến của con người."
+            },
+            {
+                "image": "images/vhhd-kd(9).png",
+                "name": "Cuộc đời của Pi (Life of Pi)",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "Yann Martel",
+                "price": "189.000đ",
+                "Content": "“Life of Pi” (Cuộc đời của Pi) là tiểu thuyết nổi tiếng của Yann Martel xoay quanh Pi Patel, một cậu bé người Ấn Độ yêu động vật và có niềm tin mạnh mẽ vào tôn giáo. Sau khi con tàu chở gia đình và các con vật trong vườn thú bị đắm, Pi trở thành người sống sót duy nhất — trôi dạt trên biển 227 ngày cùng một con hổ Bengal tên Richard Parker. Trên chiếc xuồng cứu sinh, Pi phải học cách chung sống với con hổ, vượt qua nỗi sợ hãi, cơn đói, sự cô độc và tuyệt vọng, đồng thời tìm kiếm ý nghĩa của niềm tin và sự sống. Tác phẩm là một hành trình sinh tồn đầy tính biểu tượng, vừa là câu chuyện phiêu lưu kỳ thú, vừa là ẩn dụ triết lý sâu sắc về đức tin, bản năng và ý chí con người."
+            },
+            {
+                "image": "images/vhhd-kd(10).png",
+                "name": "KẺ TRỘM SÁCH (The Book Thief)",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "Markus Zusak",
+                "price": "219.000đ",
+                "Content": "“The Book Thief” (Kẻ trộm sách) là tiểu thuyết nổi tiếng của Markus Zusak, nhà văn người Úc, xuất bản năm 2005. Câu chuyện lấy bối cảnh Đức Quốc xã trong Thế chiến thứ hai, được nhân vật Thần Chết (Death) kể lại. Nhân vật chính là Liesel Meminger, một cô bé mồ côi được gia đình nuôi dưỡng ở thị trấn nhỏ Molching. Liesel có niềm đam mê đặc biệt với sách và ngôn từ, cô thường trộm sách để đọc và chia sẻ với những người xung quanh — như một cách giữ lại niềm tin, tình người và hy vọng giữa chiến tranh tàn khốc. Tác phẩm ca ngợi sức mạnh của ngôn từ, tình yêu thương và lòng nhân ái, đồng thời phản ánh nỗi đau và mất mát của con người trong chiến tranh."
+            },
+            {
+                "image": "images/vhhd-kd(11).png",
+                "name": "HÓA THÂN (The Metamorphosis)",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "Franz Kafka",
+                "price": "109.000đ",
+                "Content": "“The Metamorphosis” (Hóa thân) là truyện vừa nổi tiếng của Franz Kafka, nhà văn gốc Áo – Tiệp (Áo-Hung/hiện nay là Cộng hòa Séc), được xuất bản năm 1915. Tác phẩm kể về Gregor Samsa, một nhân viên bán hàng bình thường, một sáng tỉnh dậy bỗng biến thành một con côn trùng khổng lồ. Từ đó, anh dần bị gia đình xa lánh, xã hội ruồng bỏ, và sống trong cô đơn, tuyệt vọng cho đến khi chết đi. Câu chuyện mang tính biểu tượng sâu sắc, thể hiện sự tha hóa, cô lập và bi kịch của con người trong xã hội hiện đại, nơi con người bị mất đi nhân tính và bị biến thành “vật thể” trong guồng máy vô cảm."
+            },
+            {
+                "image": "images/vhhd-kd(12).png",
+                "name": "Những cuộc phiêu lưu của Huckleberry Finn (The Adventures of Huckleberry Finn)",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "Mark Twain",
+                "price": "250.000đ",
+                "Content": "“The Adventures of Huckleberry Finn” (Những cuộc phiêu lưu của Huckleberry Finn) là tiểu thuyết nổi tiếng của Mark Twain, nhà văn người Mỹ, xuất bản năm 1884. Tác phẩm kể về Huckleberry Finn, một cậu bé nghèo sống ở miền Nam nước Mỹ, bỏ nhà ra đi cùng Jim – một nô lệ da đen trốn chạy – trên hành trình xuôi theo sông Mississippi. Trên con thuyền nhỏ, họ trải qua nhiều cuộc phiêu lưu kỳ thú, đồng thời phải đối mặt với định kiến, bất công và nạn phân biệt chủng tộc trong xã hội Mỹ thế kỷ XIX. Tiểu thuyết vừa mang tính phiêu lưu hài hước, vừa là lời phê phán sâu sắc xã hội Mỹ đương thời."
+            }
+        ],
+       "Giả tưởng & Khoa học Viễn tưởng": [
             {
                 "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqRTuGV2FzTDRD2CUorQGy-R8cNcEF2Iu4ug&s",
-                "image": "image_book/Screenshot 2025-10-21 203501.png",
+                "image": "images/gt-khvt(1).png",
                 "name": "Cỗ máy thời gian",
                 "genre": "Viễn tưởng giả tưởng",
                 "author": "Herbert George Wells",
@@ -12,7 +111,7 @@
             },
             {
                 "link_image_author": "https://th.bing.com/th/id/OIP.awAiMS1BCAQ2xS2lcdXGlwHaHH?w=170&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-                "image": "image_book/Screenshot 2025-10-21 203508.png",
+                "image": "images/gt-khvt(2).png",
                 "name": "我能给物品加个点",
                 "genre": "Khoa học viễn tưởng, Công nghệ siêu việt",
                 "author": "钢丝上跳舞",
@@ -21,7 +120,7 @@
             },
             {
                 "link_image_author": "https://vidian.vn/img-thumbnail/img-thumbnail-1721446111344.jpg",
-                "image": "image_book/Screenshot 2025-10-21 203525.png",
+                "image": "images/gt-khvt(3).png",
                 "name": "Thôn Phệ Tinh Không",
                 "genre": "Huyền huyễn, Khoa học, Hành động",
                 "author": "Ngã Cật Tây Hồng Thị",
@@ -30,7 +129,7 @@
             },
             {
                 "link_image_author": "https://lh3.googleusercontent.com/proxy/-BZr5tSVuPOqWg1LnK2VtCAKy8FmZX_Nbj2mqoM4qCx4vbZyqr-bgbxF2JUDUxYnuKhKeJYgThh-A5hcVt73xfAGA9nuwOQmO8g-1FrvQ-amcF3pIshgUSsZQU91I9uQWuQ",
-                "image": "image_book/Screenshot 2025-10-21 203530.png",
+                "image": "images/gt-khvt(4).png",
                 "name": "Tam thể",
                 "genre": "Viễn tưởng không gian – xâm lăng ngoài hành tinh",
                 "author": "Lưu Từ Ân",
@@ -39,7 +138,7 @@
             },
             {
                 "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZMmsIxdr6fOk1qlQUcavjLmj0TaSxIYpSA&s",
-                "image": "image_book/Screenshot 2025-10-21 203541.png",
+                "image": "images/gt-khvt(5).png",
                 "name": "Animorphs - Người hóa thú",
                 "genre": "Khoa học viễn tưởng, Phiêu lưu",
                 "author": "K. A. Applegate",
@@ -48,7 +147,7 @@
             },
             {
                 "link_image_author": "https://th.bing.com/th/id/OIP.6mAjcugEREQR0E6Z-iVjyQHaHa?w=208&h=208&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-                "image": "image_book/Screenshot 2025-10-21 203546.png",
+                "image": "images/gt-khvt(6).png",
                 "name": "Dune – Xứ cát",
                 "genre": "Khoa học viễn tưởng, Chính trị, Hành động",
                 "author": "Frank Herbert",
@@ -56,8 +155,8 @@
                 "Content": "Trên hành tinh sa mạc Arrakis, Paul Atreides bị phản bội và lưu đày. Anh trở thành biểu tượng dân Fremen, dẫn dắt họ chống lại đế chế, mở ra huyền thoại về người được chọn của vũ trụ."
             },
             {
-                "link_image_author": "data:image/webp;base64,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",
-                "image": "image_book/Screenshot 2025-10-21 203554.png",
+                "link_image_author":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Isaac.Asimov01.jpg/500px-Isaac.Asimov01.jpg",
+                "image": "images/gt-khvt(7).png",
                 "name": "Foundation – Định chế",
                 "genre": "Khoa học viễn tưởng, Triết học, Chính trị",
                 "author": "Isaac Asimov",
@@ -66,7 +165,7 @@
             },
             {
                 "link_image_author": "https://th.bing.com/th/id/OIP.G2tsLqGXWsH8UyY6xIOrGAHaLE?w=186&h=278&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-                "image": "image_book/Screenshot 2025-10-21 203559.png",
+                "image": "images/gt-khvt(8).png",
                 "name": "Neuromancer – Kẻ mộng du mạng",
                 "genre": "Cyberpunk, Công nghệ, Giả tưởng tương lai",
                 "author": "William Gibson",
@@ -75,7 +174,7 @@
             },
             {
                 "link_image_author": "https://th.bing.com/th/id/OIP.vJ3Y-eDQbETQhOYTgYdUgAAAAA?w=146&h=204&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-                "image": "image_book/Screenshot 2025-10-21 203606.png",
+                "image": "images/gt-khvt(9).png",
                 "name": "The Martian – Người về từ Sao Hỏa",
                 "genre": "Khoa học viễn tưởng, Sinh tồn, Hài hước",
                 "author": "Andy Weir",
@@ -84,7 +183,7 @@
             },
             {
                 "link_image_author": "https://th.bing.com/th/id/OIP.RvNCnE7UAimsqw_H2GHMEwHaJt?w=147&h=193&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-                "image": "image_book/Screenshot 2025-10-21 203611.png",
+                "image": "images/gt-khvt(10).png",
                 "name": "The Hobbit – Người Hobbit",
                 "genre": "Giả tưởng, Phiêu lưu, Thần thoại",
                 "author": "J. R. R. Tolkien",
@@ -93,7 +192,7 @@
             },
             {
                 "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUZgyPO8krfY6_yaX6iGK81B6k4kjd7cIiyg&s",
-                "image": "image_book/Screenshot 2025-10-21 203617.png",
+                "image": "images/gt-khvt(11).png",
                 "name": "Ready Player One – Đấu trường ảo",
                 "genre": "Khoa học viễn tưởng, Công nghệ, Phiêu lưu",
                 "author": "Ernest Cline",
@@ -102,7 +201,7 @@
             },
             {
                 "link_image_author": "https://th.bing.com/th/id/OIP.dSFd0ZfBppYrQ2V3eL-r8AHaFj?w=185&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-                "image": "image_book/Screenshot 2025-10-21 203629.png",
+                "image": "images/gt-khvt(12).png",
                 "name": "Frankenstein – Quái vật của Frankenstein",
                 "genre": "Khoa học viễn tưởng, Kinh dị, Triết học nhân sinh",
                 "author": "Mary Shelley",
@@ -112,8 +211,8 @@
         ],
         "Trinh thám, Kinh dị & Giật gân": [
             {
-                "link_image_author": "data:image/webp;base64,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",
-                "image": "image_book/g1 (1).png",
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Arthur_Conan_Doyle_by_Walter_Benington%2C_1914.png/500px-Arthur_Conan_Doyle_by_Walter_Benington%2C_1914.png",
+                "image": "images/tt-kdi-gg(1).png",
                 "name": "Sherlock Holmes – Chiếc nhẫn tình cờ",
                 "genre": "Trinh thám cổ điển",
                 "author": "Arthur Conan Doyle",
@@ -122,7 +221,7 @@
             },
             {
                 "link_image_author": "https://th.bing.com/th/id/OIP.nf40QdVmfkvbadttbvP-qAHaFj?w=251&h=188&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-                "image": "image_book/g1 (2).png",
+                "image": "images/tt-kdi-gg(2).png",
                 "name": "The Girl with the Dragon Tattoo – Cô gái có hình xăm rồng",
                 "genre": "Trinh thám, Giật gân, Tội phạm",
                 "author": "Stieg Larsson",
@@ -131,7 +230,7 @@
             },
             {
                 "link_image_author": "https://th.bing.com/th/id/OIP.8JdK3JTBUfTZawaM4YJckwHaJt?w=186&h=244&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-                "image": "image_book/g1 (3).png",
+                "image": "images/tt-kdi-gg(3).png",
                 "name": "Gone Girl – Cô gái mất tích",
                 "genre": "Giật gân tâm lý, Trinh thám hiện đại",
                 "author": "Gillian Flynn",
@@ -140,7 +239,7 @@
             },
             {
                 "link_image_author": "https://th.bing.com/th/id/OIP.0mxuH2gszU8kuLBuSknSHQHaF3?w=241&h=191&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-                "image": "image_book/g1 (4).png",
+                "image": "images/tt-kdi-gg(4).png",
                 "name": "The Da Vinci Code – Mật mã Da Vinci",
                 "genre": "Trinh thám, Giật gân, Tôn giáo",
                 "author": "Dan Brown",
@@ -149,7 +248,7 @@
             },
             {
                 "link_image_author": "https://th.bing.com/th/id/OIP.9pXu-wsAH8mJ7dT0m84UkQHaFa?w=238&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-                "image": "image_book/g1 (5).png",
+                "image": "images/tt-kdi-gg(5).png",
                 "name": "Shutter Island – Đảo kinh hoàng",
                 "genre": "Kinh dị tâm lý, Trinh thám",
                 "author": "Dennis Lehane",
@@ -157,8 +256,8 @@
                 "Content": "Hai đặc vụ điều tra vụ mất tích tại bệnh viện tâm thần trên đảo Shutter. Càng đi sâu, họ càng lạc vào mê cung dối trá rợn người."
             },
             {
-                "link_image_author": "data:image/webp;base64,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",
-                "image": "image_book/g1 (6).png",
+                "link_image_author": "https://www.netabooks.vn/data/author/2964/logo-thomas-harris.jpg",
+                "image": "images/tt-kdi-gg(6).png",
                 "name": "The Silence of the Lambs – Sự im lặng của bầy cừu",
                 "genre": "Kinh dị, Tội phạm, Giật gân tâm lý",
                 "author": "Thomas Harris",
@@ -166,8 +265,8 @@
                 "Content": "Clarice Starling phải nhờ tới bác sĩ Hannibal Lecter – kẻ ăn thịt người – để truy tìm tên sát nhân hàng loạt Buffalo Bill."
             },
             {   
-                "link_image_author": "data:image/webp;base64,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",
-                "image": "image_book/g1 (7).png",
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Stephen_King_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg/500px-Stephen_King_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg",
+                "image": "images/tt-kdi-gg(7).png",
                 "name": "Misery – Nỗi khổ không tên",
                 "genre": "Kinh dị, Tâm lý, Giật gân",
                 "author": "Stephen King",
@@ -176,7 +275,7 @@
             },
             {
                 "link_image_author": "https://th.bing.com/th/id/OIP.mp0s41bfes90asLxBK1MpwHaLX?w=115&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-                "image": "image_book/g1 (8).png",
+                "image": "images/tt-kdi-gg(8).png",
                 "name": "The Shining – Tỏa sáng",
                 "genre": "Kinh dị siêu nhiên, Tâm lý",
                 "author": "Stephen King",
@@ -184,8 +283,8 @@
                 "Content": "Jack Torrance cùng gia đình trông khách sạn Overlook bị thế lực ma quái chi phối khiến anh hóa điên và trở thành mối đe dọa với chính gia đình."
             },
             {
-                "link_image_author": "data:image/webp;base64,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",
-                "image": "image_book/g1 (9).png",
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Agatha_Christie.png",
+                "image": "images/tt-kdi-gg(9).png",
                 "name": "And Then There Were None – Mười người da đen nhỏ",
                 "genre": "Trinh thám, Giật gân, Tội phạm",
                 "author": "Agatha Christie",
@@ -194,7 +293,7 @@
             },
             {
                 "link_image_author": "https://th.bing.com/th/id/OIP.C3XEcrbgkPCy2UvrAKRC0wHaEW?w=303&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-                "image": "image_book/g1 (10).png",
+                "image": "images/tt-kdi-gg(10).png",
                 "name": "The Woman in the Window – Người phụ nữ trong cửa sổ",
                 "genre": "Giật gân tâm lý, Trinh thám",
                 "author": "A. J. Finn",
@@ -203,7 +302,7 @@
             },
             {
                 "link_image_author": "https://th.bing.com/th/id/OIP.chg-WFeWXhslCAXBAkWMoQHaFi?w=240&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-                "image": "image_book/g1 (11).png",
+                "image": "images/tt-kdi-gg(11).png",
                 "name": "The Girl on the Train – Cô gái trên tàu",
                 "genre": "Trinh thám, Tâm lý, Giật gân",
                 "author": "Paula Hawkins",
@@ -212,7 +311,7 @@
             },
             {
                 "link_image_author": "https://th.bing.com/th/id/OIP.0-nSZsxwuRKooQHdNVwmQgHaD5?w=186&h=98&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-                "image": "image_book/g1 (12).png",
+                "image": "images/tt-kdi-gg(12).png",
                 "name": "Psycho – Kẻ tâm thần ám ảnh",
                 "genre": "Kinh dị, Tội phạm, Giật gân tâm lý",
                 "author": "Robert Bloch",
@@ -223,16 +322,16 @@
         "Công nghệ – Khoa học – Kỹ thuật": [
             {
                 "link_image_author": "https://salt.tikicdn.com/ts/brickv2og/77/04/92/aa48e1a6413b09dc108137d012a11989.jpg",
-                "image": "image_book/cnkh (1).PNG",
+                "image": "images/cn-kh-kt(1).png",
                 "name": "Physics of the Future: How Science Will Shape Human Destiny and Our Daily Lives by the Year 2100 (Vật lý của tương lai)",
-                "genre": "Khoa học, công nghệ",
+                "genre": "Khoa học - công nghệ",
                 "author": "Michio Kaku",
                 "price": "172.000 ₫",
                 "Content": "Cuốn sách này đưa người đọc du hành tới tương lai — khám phá các công nghệ đang trong phòng thí nghiệm hôm nay và sẽ phổ biến trong thế kỉ tới: từ y học, máy tính, năng lượng tới du hành vũ trụ."
             },
             {
                 "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRDzCP2oiAlfJtPde9ntDG51XxvttI6vavbQ&s",
-                "image": "image_book/cnkh (2).PNG",
+                "image": "images/cn-kh-kt(2).png",
                 "name": "Life 3.0: Being Human in the Age of Artificial Intelligence (Loài người trong kỷ nguyên trí tuệ nhân tạo)",
                 "genre": "Khoa học, triết học , trí tuệ nhân tạo",
                 "author": "Max Tegmark",
@@ -241,7 +340,7 @@
             },
             {
                 "link_image_author": "https://salt.tikicdn.com/ts/brickv2og/8a/f8/8a/2b0718c85dafd9707d7b832982a01906.jpg",
-                "image": "image_book/cnkh (3).PNG",
+                "image": "images/cn-kh-kt(3).png",
                 "name": "The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution (Những người tiên phong: Tin tặc, thiên tài và chuyên gia đã tạo ra cách mạng kỹ thuật số như thế nào)",
                 "genre": "Lịch sử công nghệ, khoa học, phi hư cấu",
                 "author": "Walter Isaacson",
@@ -250,7 +349,7 @@
             },
             {
                 "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5tV4_vd7S20ZIBss2o92DAhea11PwNKiftw&s",
-                "image": "image_book/cnkh (4).PNG",
+                "image": "images/cn-kh-kt(4).png",
                 "name": "On the Future: Prospects for Humanity (Về Tương Lai: Triển Vọng cho Nhân Loại)",
                 "genre": "Khoa học, phi hư cấu",
                 "author": "Martin Rees",
@@ -259,7 +358,7 @@
             },
             {
                 "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZPIdJkTIWrxBkVewpNg_Qvxvcx_RC3rLMLw&s",
-                "image": "image_book/cnkh (5).PNG",
+                "image": "images/cn-kh-kt(5).png",
                 "name": "The Sixth Extinction: An Unnatural History (Đại tuyệt chủng lần thứ sáu: Lịch sử phi tự nhiên)",
                 "genre": "khoa học, lịch sử tự nhiên , sinh học, phi hư cấu",
                 "author": "Elizabeth Kolbert",
@@ -268,7 +367,7 @@
             },
             {
                 "link_image_author": "https://yt3.googleusercontent.com/ytc/AIdro_lic1QYrqPPFE5INvfHeZogVR0Lnt2B24ynIfd1bpExhMw=s900-c-k-c0x00ffffff-no-rj",
-                "image": "image_book/cnkh (6).PNG",
+                "image": "images/cn-kh-kt(6).png",
                 "name": "The Big Picture: On the Origins of Life, Meaning, and the Universe Itself (Bức tranh lớn: Nguồn gốc của sự sống, ý nghĩa và chính vũ trụ)",
                 "genre": "Khoa học, vật lý , triết học khoa học, phi hư cấu",
                 "author": "Sean Carroll",
@@ -277,7 +376,7 @@
             },
             {
                 "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3CFd6QA5DJX3olsFHkSSkc_Hvqyhmc2LB1f1etEs7Mm7SZlPNH1JEM-QAG-WoliwDu40&usqp=CAU",
-                "image": "image_book/cnkh (7).PNG",
+                "image": "images/cn-kh-kt(7).png",
                 "name": "Digital Minimalism: Choosing a Focused Life in a Noisy World (Chủ nghĩa tối giản kỹ thuật số: Sống tập trung trong thế giới ồn ào)",
                 "genre": "Khoa học- công nghệ, phi hư cấu, phát triển bản thân",
                 "author": "Cal Newport",
@@ -286,7 +385,7 @@
             },
             {
                 "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo7U4aFxAXCTRgdhk4mu7GQr19QZ7RSwe3Rw&s",
-                "image": "image_book/cnkh (8).PNG",
+                "image": "images/cn-kh-kt(8).png",
                 "name": "Sapiens: A Brief History of Humankind (Lược sử loài người)",
                 "genre": "Phi hư cấu – Lịch sử – Nhân học – Xã hội học",
                 "author": "Yuval Noah Harari",
@@ -295,7 +394,7 @@
             },
             {
                 "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo7U4aFxAXCTRgdhk4mu7GQr19QZ7RSwe3Rw&s",
-                "image": "image_book/cnkh (9).PNG",
+                "image": "images/cn-kh-kt(9).png",
                 "name": "Homo Deus: A Brief History of Tomorrow (Lược sử tương lai)",
                 "genre": "Phi hư cấu – Triết học – Tương lai học – Khoa học và công nghệ",
                 "author": "Yuval Noah Harari",
@@ -304,7 +403,7 @@
             },
             {
                 "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Neil_DeGrasse_Tyson_%282023%29.jpg/250px-Neil_DeGrasse_Tyson_%282023%29.jpg",
-                "image": "image_book/cnkh (10).PNG",
+                "image": "images/cn-kh-kt(10).png",
                 "name": "Astrophysics for People in a Hurry (Thiên văn học cho người bận rộn)",
                 "genre": "Phi hư cấu – Khoa học– Thiên văn học",
                 "author": "Neil deGrasse Tyson",
@@ -313,7 +412,7 @@
             },
             {
                 "link_image_author": "https://salt.tikicdn.com/ts/brickv2og/8a/f8/8a/2b0718c85dafd9707d7b832982a01906.jpg",
-                "image": "image_book/cnkh (11).PNG",
+                "image": "images/cn-kh-kt(11).png",
                 "name": "Steve Jobs (Biography) (tiểu sử của steve jobs)",
                 "genre": "Tiểu sử – Lịch sử công nghệ – Doanh nhân",
                 "author": "Walter Isaacson",
@@ -322,7 +421,7 @@
             },
             {
                 "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Raymond_Kurzweil_Fantastic_Voyage.jpg",
-                "image": "image_book/cnkh (12).PNG",
+                "image": "images/cn-kh-kt(12).png",
                 "name": "The Singularity Is Near (Thời điểm kỳ dị sắp đến)",
                 "genre": "Phi hư cấu – Khoa học– Trí tuệ nhân tạo – Công nghệ",
                 "author": "Ray Kurzweil",
@@ -333,7 +432,7 @@
         "Sách Đại cương": [
             {
                 "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
-                "image": "image_book/sdc (1).PNG",
+                "image": "images/sdcuong(1).png",
                 "name": "Pháp luật đại cương dùng trong các trường ĐH, CĐ và trung cấp, xuất bản lần 19, sửa đổi, bổ sung",
                 "genre": "Phi hư cấu – Đại cương – Luật học cơ bản",
                 "author": "TS Lê Minh Toàn",
@@ -342,7 +441,7 @@
             },
             {
                 "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
-                "image": "image_book/sdc (2).PNG",
+                "image": "images/sdcuong(2).png",
                 "name": "Đại cương đại cương về nhà nước và pháp luật",
                 "genre": "Phi hư cấu – Đại cương – Luật học – Khoa học chính trị",
                 "author": "nhieu tac gia",
@@ -351,7 +450,7 @@
             },
             {
                 "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
-                "image": "image_book/sdc (3).PNG",
+                "image": "images/sdcuong(3).png",
                 "name": "Hóa Học Đại Cương - Dành Cho Sinh Viên Không Chuyên Ngành Hóa",
                 "genre": "Phi hư cấu – Đại cương – Khoa học tự nhiên – Hóa học",
                 "author": "Trương Thanh Tú - Lâm Ngọc Thiềm",
@@ -360,7 +459,7 @@
             },
             {
                 "link_image_author": "https://vannguyen.edu.vn/wp-content/uploads/2024/06/nguyen-van-thuc-van-nguyen-edubiz.png",
-                "image": "image_book/sdc (4).PNG",
+                "image": "images/sdcuong(4).png",
                 "name": "Bài Tập Hóa Học Đại Cương Tập 1: Cơ Sở Cấu Tạo Chất",
                 "genre": "Phi hư cấu – Sách bài tập – Hóa học-đại cương",
                 "author": "Nguyễn Văn Thức",
@@ -369,7 +468,7 @@
             },
             {
                 "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
-                "image": "image_book/sdc (5).PNG",
+                "image": "images/sdcuong(5).png",
                 "name": "Vật Lí Đại Cương Tập 2 - Dùng Cho Các Trường Đại Học Khối Kĩ Thuật Công Nghiệp",
                 "genre": "Phi hư cấu – Đại cương – Vật lí – Khoa học kỹ thuật",
                 "author": "Lương Duyên Bình",
@@ -378,7 +477,7 @@
             },
             {
                 "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
-                "image": "image_book/sdc (6).PNG",
+                "image": "images/sdcuong(6).png",
                 "name": "Vật Lí Đại Cương Tập 1 - Dùng Cho Các Trường Đại Học Khối Kỹ Thuật Công Nghiệp",
                 "genre": "Phi hư cấu – Đại cương – Vật lí",
                 "author": "Lương Duyên Bình (CB)",
@@ -387,7 +486,7 @@
             },
             {
                 "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
-                "image": "image_book/sdc (7).PNG",
+                "image": "images/sdcuong(7).png",
                 "name": "Ôn luyện Toán cao cấp",
                 "genre": "Phi hư cấu – Sách bài tập – Toán học- Đại cương",
                 "author": "Lê Đình ĐỊnh",
@@ -396,7 +495,7 @@
             },
             {
                 "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxGoo1NJEOEKhbb9NqOdiPZY8rpu0rQmT6EQ&s",
-                "image": "image_book/sdc (8).PNG",
+                "image": "images/sdcuong(8).png",
                 "name": "Đại cương Lịch sử Việt Nam",
                 "genre": "Phi hư cấu – Đại cương – Lịch sử",
                 "author": "Trương Hữu Quýnh, Đinh Xuân Lâm và Lê Mậu Hãn",
@@ -405,7 +504,7 @@
             },
             {
                 "link_image_author": "https://dialy.hnue.edu.vn/sites/default/files/dh3.jpg",
-                "image": "image_book/sdc (9).PNG",
+                "image": "images/sdcuong(9).png",
                 "name": "Đại cương Địa lí tự nhiên Việt Nam",
                 "genre": "Phi hư cấu – Đại cương – Địa lí – Khoa học Trái Đất",
                 "author": "Nguyễn Quyết Chiến, Bùi Thị Thanh Dung",
@@ -414,7 +513,7 @@
             },
             {
                 "link_image_author": "https://soict.hust.edu.vn/wp-content/uploads/2018/01/DHP_5814-400x599.jpg",
-                "image": "image_book/sdc (10).PNG",
+                "image": "images/sdcuong(10).png",
                 "name": "Đại cương Tin học đại cương",
                 "genre": "Phi hư cấu – Đại cương – Công nghệ thông tin",
                 "author": "Trần Đình Khang (chủ biên)",
@@ -423,8 +522,8 @@
             },
             {
                 "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
-                "image": "image_book/sdc (11).PNG",
-                "name": "Hoá SInh Đại cương",
+                "image": "images/sdcuong(11).png",
+                "name": "Hoá Sinh Đại cương",
                 "genre": "Phi hư cấu – Đại cương – Sinh học – Hóa học",
                 "author": "Lê Đức Ngọc (chủ biên)",
                 "price": "60.000đ",
@@ -432,7 +531,7 @@
             },
             {
                 "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
-                "image": "image_book/sdc (12).PNG",
+                "image": "images/sdcuong(12).png",
                 "name": "Đại cương – Chủ nghĩa xã hội khoa học",
                 "genre": "Phi hư cấu – Đại cương – Triết học – Chính trị học",
                 "author": "Bộ Giáo Dục",
@@ -443,7 +542,7 @@
         "Sách Thiếu nhi": [
             {
                 "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
-                "image": "image_book/stn (1).PNG",
+                "image": "images/stnhi(1).png",
                 "name": "Truyện cổ tích Việt Nam",
                 "genre": "Truyện dân gian - văn học Việt Nam-thiếu nhi",
                 "author": "Hà Minh",
@@ -452,7 +551,7 @@
             },
             {
                 "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/d/db/Frances_Burnett.jpg",
-                "image": "image_book/stn (2).PNG",
+                "image": "images/stnhi(2).png",
                 "name": "Khu Vườn Bí Mật",
                 "genre": "Văn học cổ điển - thiếu nhi",
                 "author": "Frances Hodgson Burnett",
@@ -461,7 +560,7 @@
             },
             {
                 "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Portrait_of_Nam_Cao.jpg",
-                "image": "image_book/stn (3).PNG",
+                "image": "images/stnhi(3).png",
                 "name": "Con Mèo Mắt Ngọc - Tập Truyện Viết Cho Thiếu Nhi",
                 "genre": "Thiếu nhi- Văn học VIệt Nam",
                 "author": "Nam Cao, Lại Nguyên Ân",
@@ -470,7 +569,7 @@
             },
             {
                 "link_image_author": "https://upload.wikimedia.org/wikipedia/vi/7/73/Nhavan_t%C3%B4_ho%C3%A0i.jpg",
-                "image": "image_book/stn (4).PNG",
+                "image": "images/stnhi(4).png",
                 "name": "Dế Mèn Phiêu Lưu Ký",
                 "genre": "Truyện dân gian -văn học Việt Nam-thiếu nhi",
                 "author": "Tô Hoài",
@@ -479,7 +578,7 @@
             },
             {
                 "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT2SAXjnvFs2j83V6UoZI65ctJY4cp1ZbUAw&s",
-                "image": "image_book/stn (5).PNG",
+                "image": "images/stnhi(5).png",
                 "name": "Tuổi Thơ Dữ Dội",
                 "genre": "thiếu nhi & văn học Việt Nam",
                 "author": "Phùng Quán",
@@ -488,7 +587,7 @@
             },
             {
                 "link_image_author": "https://suckhoedoisong.qltns.mediacdn.vn/2015/chan-dung-nha-tho-tran-dang-khoa-1430155371700.jpg",
-                "image": "image_book/stn (6).PNG",
+                "image": "images/stnhi(6).png",
                 "name": "Góc Sân Khoảng Trời",
                 "genre": "Thiếu nhi & văn học Việt Nam",
                 "author": "Trần Đăng KHoa",
@@ -497,7 +596,7 @@
             },
             {
                 "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/7/71/Hector_Malot.jpg",
-                "image": "image_book/stn (7).PNG",
+                "image": "images/stnhi(7).png",
                 "name": "Không Gia Đình",
                 "genre": "Tiểu thuyết phiêu lưu – Cảm động-thiếu nhi",
                 "author": "Hector Malot",
@@ -506,7 +605,7 @@
             },
             {
                 "link_image_author": "https://bizweb.dktcdn.net/thumb/grande/100/363/455/articles/a-nh-chu-p-ma-n-hi-nh-2023-10-14-lu-c-10-38-39.png?v=1697254726877",
-                "image": "image_book/stn (8).PNG",
+                "image": "images/stnhi(8).png",
                 "name": "Cây Cam Ngọt Của Tôi",
                 "genre": "Truyện dân gian - văn học –thiếu nhi",
                 "author": "José Mauro de Vasconcelos",
@@ -515,7 +614,7 @@
             },
             {
                 "link_image_author": "https://www.nxbtre.com.vn/Images/Writer/nxbtre_thumb_30552016_085555.jpg",
-                "image": "image_book/stn (9).PNG",
+                "image": "images/stnhi(9).png",
                 "name": "Kính Vạn Hoa - Tập 1 - Kỉ Niệm 65 Năm NXB Kim Đồng",
                 "genre": "Truyện dài thiếu nhi / Học đường",
                 "author": "Nguyễn Nhật Ánh",
@@ -524,7 +623,7 @@
             },
             {
                 "link_image_author": "https://m.media-amazon.com/images/M/MV5BNzQ0YWMxNzYtOWM1Ni00MDM0LWI4ZDMtOTZjNzc2OThmMGY1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-                "image": "image_book/stn (10).PNG",
+                "image": "images/stnhi(10).png",
                 "name": "Hoàng Tử Bé",
                 "genre": "Truyện ngụ ngôn triết lý – Thiếu nhi",
                 "author": "Antoine De Saint-Exupéry",
@@ -533,7 +632,7 @@
             },
             {
                 "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzXD59OmpcOMIXzETzcJrj_QPU7hwNE4LAyw&s",
-                "image": "image_book/stn (11).PNG",
+                "image": "images/stnhi(11).png",
                 "name": "Totto-chan: Cô bé bên cửa sổ",
                 "genre": "Tự truyện – Thiếu nhi",
                 "author": "Kuroyanagi Tetsuko",
@@ -542,7 +641,7 @@
             },
             {
                 "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Nesbit.jpg",
-                "image": "image_book/stn (12).PNG",
+                "image": "images/stnhi(12).png",
                 "name": "Lũ Trẻ Đường Tàu",
                 "genre": "Tiểu thuyết phiêu lưu – Gia đình-thiếu nhi",
                 "author": "Edith Nesbit",
@@ -551,7 +650,7 @@
             },
             {
                 "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/6/60/Carlo_Collodi.jpg",
-                "image": "image_book/stn (13).PNG",
+                "image": "images/stnhi(13).png",
                 "name": "Những Cuộc Phiêu Lưu Của Pinocchio",
                 "genre": "Cổ tích – Phiêu lưu-thiếun hi",
                 "author": "Carlo Collodi",
@@ -560,7 +659,7 @@
             },
             {
                 "link_image_author": "https://static.wikia.nocookie.net/dorepedia/images/4/4e/Img_fujiko.jpg/revision/latest/scale-to-width-down/284?cb=20131012133632&path-prefix=vi",
-                "image": "image_book/stn (14).PNG",
+                "image": "images/stnhi(14).png",
                 "name": "Đội Quân Doraemon - Vương Quốc Bánh Kẹo Okashinana",
                 "genre": "Thiếu nhi - Truyện tranh – Hài – Phiêu lưu Truyện tranh – Viễn tưởng – Thiếu nhi",
                 "author": "Fujiko F Fujio",
@@ -569,7 +668,7 @@
             },
             {
                 "link_image_author": "https://static.wikia.nocookie.net/dorepedia/images/4/4e/Img_fujiko.jpg/revision/latest/scale-to-width-down/284?cb=20131012133632&path-prefix=vi",
-                "image": "image_book/stn (15).PNG",
+                "image": "images/stnhi(15).png",
                 "name": "Dorami Và Đội Quân Doraemon - 7 Bí Ẩn Của Trường Đào Tạo Robot",
                 "genre": "Truyện tranh – Viễn tưởng – Thiếu nhi",
                 "author": "Fujiko F Fujio",
@@ -578,7 +677,7 @@
             },
             {
                 "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJFSkkn-PJlWgfYYEX8a2x1hnEfGdkBg_wBztiLpCmaVcSLg3dt0Rkcof0PezjWgm62wA&usqp=CAU",
-                "image": "image_book/stn (16).PNG",
+                "image": "images/stnhi(16).png",
                 "name": "Thám Tử Lừng Danh Conan - Tập 1",
                 "genre": "Thiếu nhi – trinh thám- truyện tranh",
                 "author": "Gosho Aoyama",
@@ -587,7 +686,7 @@
             },
             {
                 "link_image_author": "https://upload.wikimedia.org/wikipedia/vi/0/07/Yoshito_Usui.jpg",
-                "image": "image_book/stn (17).PNG",
+                "image": "images/stnhi(17).png",
                 "name": "Shin - Cậu Bé Bút Chì - Tập 49",
                 "genre": "Thiếu nhi – truyện tranh- hài hước",
                 "author": "Yoshito Usui",
@@ -596,7 +695,7 @@
             },
             {
                 "link_image_author": "https://static.cand.com.vn/Files/Image/thanhbinh/2020/07/27/b9718468-0478-48d0-a5a6-5d0c1579df7f.jpg",
-                "image": "image_book/stn (18).PNG",
+                "image": "images/stnhi(18).png",
                 "name": "Tý Quậy - Tập 8",
                 "genre": "Thiếu nhi – truyện tranh – hài hước",
                 "author": "Đào Hải",
@@ -605,7 +704,7 @@
             },
             {
                 "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvWGwp3hJLxcS6knHxs-6TMC7Rcq6wvS5QHw&s",
-                "image": "image_book/stn (19).PNG",
+                "image": "images/stnhi(19).png",
                 "name": "Dragon Ball SD - 7 Viên Ngọc Rồng Nhí - Tập 1",
                 "genre": "Thiếu nhi – truyện tranh – hành động – phiêu lưu",
                 "author": "Akira Toriyama, Naho Ohishi",
@@ -614,7 +713,7 @@
             },
             {
                 "link_image_author": "https://cdn-images.vtv.vn/zoom/554_346/2017/photo-1-1486453368951.jpg",
-                "image": "image_book/stn (20).PNG",
+                "image": "images/stnhi(20).png",
                 "name": "Đất Rồng - Tập 2: Lệnh Bài",
                 "genre": "THiếu nhi – truyện tranh – phiêu lưu – kỳ bí",
                 "author": "Can Tiểu Hy",
@@ -623,7 +722,7 @@
             },
             {
                 "link_image_author": "https://cdn-images.vtv.vn/zoom/554_346/2017/photo-1-1486453368951.jpg",
-                "image": "image_book/stn (21).PNG",
+                "image": "images/stnhi(21).png",
                 "name": "Đất Rồng - Tập 1: Trận Chiến Trên Không",
                 "genre": "THiếu nhi – truyện tranh – phiêu lưu – kỳ bí",
                 "author": "Can Tiểu Hy",
@@ -634,7 +733,7 @@
         "Tôn giáo & Triết học": [
             {
                 "link_image_author": "https://danviet.ex-cdn.com/files/f1/upload/4-2019/images/2019-11-28/Kham-pha-Ho-Tay-40ky-1241-Phan-Ke-Binh-va-39dem-trang-choi-Ho-Tay39-1022-1574911958-width429height300.jpg",
-                "image": "image_book/stg (1).PNG",
+                "image": "images/stg-trh(1).png",
                 "name": "Việt Nam Phong Tục",
                 "genre": "tôn giáo học -Văn hoá – Dân tộc học – Lịch sử xã hội",
                 "author": "Phan Kế Bính",
@@ -643,7 +742,7 @@
             },
             {
                 "link_image_author": "https://vi.waj.world//cms/uploads/news/2024/03/20//img_2835.jpeg",
-                "image": "image_book/stg (2).PNG",
+                "image": "images/stg-trh(2).png",
                 "name": "\"Đạo mẫu di sản văn hoá của tình thương\"",
                 "genre": "Văn hoá dân gian – Tôn giáo học",
                 "author": "Hà Huy Thanh",
@@ -652,7 +751,7 @@
             },
             {
                 "link_image_author": "https://upload.wikimedia.org/wikipedia/vi/a/ad/Picturecarnegie.jpg",
-                "image": "image_book/stg (3).PNG",
+                "image": "images/stg-trh(3).png",
                 "name": "Đắc Nhân Tâm",
                 "genre": "Tâm lý ứng xử-tôn giáo học",
                 "author": "Dale Carnegie",
@@ -661,7 +760,7 @@
             },
             {
                 "link_image_author": "https://i.guim.co.uk/img/static/sys-images/Admin/BkFill/Default_image_group/2012/2/15/1329320024840/Richard-Holloway-007.jpg?width=465&dpr=1&s=none&crop=none",
-                "image": "image_book/stg (4).PNG",
+                "image": "images/stg-trh(4).png",
                 "name": "”Lược Sử tôn giáo học”",
                 "genre": "Tôn giáo học – Lịch sử văn hoá",
                 "author": "Richard Holloway",
@@ -670,7 +769,7 @@
             },
             {
                 "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
-                "image": "image_book/stg (5).PNG",
+                "image": "images/stg-trh(5).png",
                 "name": "Tôn giáo học - Khái Lược Những Tư Tưởng Lớn",
                 "genre": "Tôn giáo học– Triết học – Kiến thức tổng hợp",
                 "author": "DK",
@@ -679,7 +778,7 @@
             },
             {
                 "link_image_author": "https://lytu.vn/uploads/images/2022/03/image_750x_622ffed78df71.jpg",
-                "image": "image_book/stg (6).PNG",
+                "image": "images/stg-trh(6).png",
                 "name": "Phật Giáo Và Thiền",
                 "genre": "Triết học – Tôn giáo học – Thiền học",
                 "author": "Lý Tứ",
@@ -688,7 +787,7 @@
             },
             {
                 "link_image_author": "https://fms.wustl.edu/sites/fms.wustl.edu/files/styles/square_1_1_1888w/public/2025-04/john_powers.jpeg.webp",
-                "image": "image_book/stg (7).PNG",
+                "image": "images/stg-trh(7).png",
                 "name": "Thế Giới Phật Giáo",
                 "genre": "Tôn giáo học – Văn hoá – Lịch sử",
                 "author": "John Powers",
@@ -697,7 +796,7 @@
             },
             {
                 "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmY-BuXBaLHNbKWmHNr9KV4h5UpTiktefyfQ&s",
-                "image": "image_book/stg (8).PNG",
+                "image": "images/stg-trh(8).png",
                 "name": "Nho giáo",
                 "genre": "Tôn giáo học-Triết học – Văn hoá",
                 "author": "Trần Trọng Kim",
@@ -706,7 +805,7 @@
             },
             {
                 "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
-                "image": "image_book/stg (9).PNG",
+                "image": "images/stg-trh(9).png",
                 "name": "Công Giáo Và Đức Kitô",
                 "genre": "Tôn giáo học – Thần học – Lịch sử tôn giáo",
                 "author": "Lý Minh Tuấn",
@@ -715,7 +814,7 @@
             },
             {
                 "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
-                "image": "image_book/stg (10).PNG",
+                "image": "images/stg-trh(10).png",
                 "name": "Đạo Giáo Sinh Tử Kỳ Thư",
                 "genre": "Tôn giáo- Triết học – Tôn giáo – Văn hoá",
                 "author": "Tống Đạo Nguyên",
@@ -724,7 +823,7 @@
             },
             {
                 "link_image_author": "https://www.babelio.com/users/AVT_Jean-Louis-Siemons_2237.jpg",
-                "image": "image_book/stg (11).PNG",
+                "image": "images/stg-trh(11).png",
                 "name": "Bí Ẩn Luân Hồi",
                 "genre": "Tôn giáo – Tâm linh – Triết học nhân sinh",
                 "author": "Jean-Louisn Siemons",
@@ -733,7 +832,7 @@
             },
             {
                 "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmlt5Lf6TdZhoqk1-IdlyNwoA8Mkm7f72A0w&s",
-                "image": "image_book/stg (12).PNG",
+                "image": "images/stg-trh(12).png",
                 "name": "Lịch Âm Dương Cát Tường Năm Bính Ngọ 2026",
                 "genre": "Văn hoá dân gian – Phong thuỷ – Tử vi – Lịch học-tôn giáo",
                 "author": "Nguyễn Mạnh Linh",
@@ -741,118 +840,405 @@
                 "Content": "Lịch âm - Dương cát tường năm Bính Ngọ 2026 được phát hành, xây dựng dựa vào thuyết âm dương Ngũ hành sinh khắc chế hoá lẫn nhau, kết hợp với Thập can, Thập nhị chi, Cửu cung, Bát quái và nhiều cơ sở lý luận khác thuộc khoa học cổ đại phương Đông như Thập nhị trực (Kiến Trừ thập nhị khách), Nhị thập bát tú, 12 cung Hoàng đạo, Hắc đạ để tính ngày giờ tốt xấu và được đối chiếu với lịch của Ban lịch Nhà nước. Cuốn sách cũng có chức năng để bạn đọc tham khảo cách chọn ngày lành, tháng tốt, giờ Hoàng đạo/Hắc đạo (Giờ ở đây, là tính theo giờ tại nơi cư ngụ của bạn), sao tốt/sao xấu lo cho công việc, chọn người xông đất đầu năm, chọn tuổi làm nhà, chọn ngày giờ đẹp cho cưới hỏi, xuất hành, khai trương, mở hàng, thành lập công được tốt đẹp nhất theo dân gian."
             }
         ],       
-        "Lịch sử, Văn hóa & Tiểu sử": [
-              {
-                "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs93CVxFgBOgXDLBD52FWU6GycvKq47iABFw&s",
-                "image": "image_book/history-man.png",
-                "name": "Lược sử loài người",
-                "genre": "Lịch sử, Văn hóa & Tiểu sử",
+        "Văn học Lãng mạn": [
+            {
+                "image": "images/vhlm(1).png",
+                "name": "Khởi đầu của chúng ta",
+                "genre": "Văn học Lãng mạn",
+                "author": "COLLEEN HOOVER",
+                "price": "185.000đ",
+                "Content": "Tác phẩm là phần tiếp theo của “It Ends with Us” (Kết thúc để bắt đầu), tiếp tục câu chuyện của Lily Bloom, người phụ nữ mạnh mẽ đang học cách cân bằng giữa vai trò làm mẹ và việc hàn gắn tổn thương trong quá khứ. Khi Atlas Corrigan, mối tình đầu của cô, xuất hiện trở lại, Lily đứng trước cơ hội yêu thương mới, nhưng đồng thời phải đối mặt với Ryle – chồng cũ, người vẫn là một phần trong cuộc sống của cô và con gái.Câu chuyện được kể xen kẽ giữa góc nhìn của Lily và Atlas, mang đến cảm xúc chân thực về tình yêu, sự tha thứ, lòng kiên cường và khát vọng hạnh phúc."
+            },
+            {
+                "image": "images/vhlm(2).png",
+                "name": "Tình yêu xấu xí",
+                "genre": "Văn học Lãng mạn",
+                "author": "COLLEEN HOOVER",
+                "price": "206.000đ",
+                "Content": "“Tình yêu xấu xí” (Ugly Love) là tiểu thuyết nổi tiếng của Colleen Hoover, xuất bản năm 2014. Câu chuyện xoay quanh Tate Collins, cô sinh viên vừa chuyển đến San Francisco, và Miles Archer, chàng phi công lạnh lùng mang nhiều tổn thương. Họ bước vào mối quan hệ chỉ dựa trên đam mê, với hai quy tắc: “Đừng hỏi về quá khứ. Đừng mong đợi tương lai.” Nhưng khi cảm xúc thật xuất hiện, mọi giới hạn dần sụp đổ, kéo theo nỗi đau, sự mất mát và khát vọng được yêu thương thật sự."
+            },
+            {
+                "image": "images/vhlm(3).png",
+                "name": "Tì Nam: Nữ hải tặc",
+                "genre": "Văn học Lãng mạn",
+                "author": "Châu Văn Văn",
+                "price": " 280.000đ",
+                "Content": "Tì Nam: Nữ hải tặc là tiểu thuyết trinh thám – huyền huyễn – cổ đại, mở đầu bằng vụ cháy bí ẩn tại điện Phụng Thiên trong Tử Cấm Thành. Câu chuyện theo chân Chu Duật Hằng, hoàng thái tôn triều Minh, người bị nguyền rủa chỉ còn sống một năm, và Ti Nam, cô gái bí ẩn vừa trở về từ hải ngoại. Họ cùng nhau khám phá những bí thuật cổ xưa như Ngũ Hành Quyết, Lục Cực Lôi, Tam Thiên Giai... để giải mã âm mưu kinh thiên động địa đe dọa vận mệnh giang sơn."
+            },
+            {
+                "image": "images/vhlm(4).png",
+                "name": "Tớ muốn ăn tụy của cậu",
+                "genre": "Văn học Lãng mạn",
+                "author": "SUMINO YORU",
+                "price": "126.000đ",
+                "Content": "“Tớ muốn ăn tụy của cậu” là một tiểu thuyết cảm động xoay quanh câu chuyện giữa một nam sinh hướng nội và một cô gái mắc bệnh nan y tên Sakura. Dù biết mình sắp chết, Sakura vẫn sống lạc quan và nỗ lực tận hưởng từng khoảnh khắc cuối cùng của cuộc đời. Qua tình bạn đặc biệt giữa hai người, tác phẩm khắc họa sâu sắc ý nghĩa của sự sống, cái chết và tình yêu thương."
+            },
+            {
+                "image": "images/vhlm(5).png",
+                "name": "Em thuộc về anh",
+                "genre": "Văn học Lãng mạn",
+                "author": "EMILY GIFFIN",
+                "price": " 102.000đ",
+                "Content": "“Em thuộc về anh” – Emily Giffin.Câu chuyện xoay quanh Marian Caldwell, người phụ nữ thành đạt với cuộc sống tưởng như hoàn hảo, nhưng bị đảo lộn khi Kirby Rose – cô con gái mà Marian từng cho đi làm con nuôi – bất ngờ xuất hiện sau 18 năm. Cuộc gặp gỡ định mệnh ấy mở ra hành trình tìm lại quá khứ, đối mặt với bí mật, tổn thương và sự lựa chọn giữa lý trí và con tim. Một cuốn tiểu thuyết sâu sắc, cảm động về tình mẫu tử, sự tha thứ và hành trình đi tìm nơi mình thực sự thuộc về."
+            },
+            {
+                "image": "images/vhlm(6).png",
+                "name": "Trong đáy mắt trời xanh là vĩnh viễn",
+                "genre": "Văn học Lãng mạn",
+                "author": "Xuân Quỳnh",
+                "price": "155.000đ",
+                "Content": "Nhân dịp kỷ niệm 80 năm ngày sinh của nữ thi sĩ Xuân Quỳnh, tập di cảo “Trong đáy mắt trời xanh là vĩnh viễn” được ra mắt như một lời tri ân sâu sắc. Cuốn sách tập hợp nhật ký, ghi chép và thư từ của Xuân Quỳnh – những trang viết chan chứa tình cảm, phản ánh tâm hồn nhạy cảm, tình yêu tha thiết với cuộc đời, với gia đình và Tổ quốc. Qua từng dòng chữ, độc giả cảm nhận được hình ảnh một người mẹ dịu dàng, một thi sĩ tận tụy và một con người sống trọn vẹn với yêu thương và khát vọng sáng tạo."
+            },
+            {
+                "image": "images/vhlm(7).png",
+                "name": "Cô gái năm ấy chúng ta cùng theo đuổi",
+                "genre": "Văn học Lãng mạn",
+                "author": "CỬU BẢ ĐAO",
+                "price": "96.000đ",
+                "Content": "“Cô gái năm ấy chúng ta cùng theo đuổi” – Cửu Bả Đao.Tác phẩm kể về tuổi thanh xuân rực rỡ của nhóm nam sinh cùng đem lòng yêu mến cô bạn học xinh đẹp, thông minh Thẩm Giai Nghi. Giữa những rung động đầu đời, sự ngây ngô và chân thành, họ cùng trải qua những năm tháng học trò đầy kỷ niệm. Đây là câu chuyện trong trẻo, hoài niệm và cảm động về tình yêu, tuổi trẻ và những điều đẹp đẽ nhưng không thể níu giữ – nơi mỗi người đều có “cô gái năm ấy” của riêng mình."
+            },
+            {
+                "image": "images/vhlm(8).png",
+                "name": "Kết thúc của chúng ta (It Ends With Us)",
+                "genre": "Văn học Lãng mạn",
+                "author": "COLLEEN HOOVER",
+                "price": "188.000đ",
+                "Content": "“Kết thúc của chúng ta” (It Ends With Us) – Colleen Hoover . Là tác phẩm nổi bật và cảm xúc nhất của Colleen Hoover, được chính tác giả thừa nhận là “cuốn sách khó viết nhất”. Xuất bản năm 2016, tác phẩm nhanh chóng trở thành hiện tượng toàn cầu, bán hàng triệu bản và được dịch ra hơn 20 ngôn ngữ. Câu chuyện chạm đến vấn đề bạo lực gia đình, tình yêu và sự dũng cảm buông bỏ, khiến người đọc phải suy ngẫm sâu sắc về ranh giới giữa yêu thương và tổn thương. Đây cũng là cuốn sách được lan tỏa mạnh mẽ trên BookTok, trở thành biểu tượng của sức mạnh và lòng tự trọng trong tình yêu."
+            },
+            {
+                "image": "images/vhlm(9).png",
+                "name": "All in Love",
+                "genre": "Văn học Lãng mạn",
+                "author": "All in Love",
+                "price": "119.000đ",
+                "Content": "“All in Love” – Cố Tây Tước .All in Love là một tác phẩm ngọt ngào và gần gũi, được xem như cuốn nhật ký thanh xuân của nhà văn Cố Tây Tước. Qua lời kể của nhân vật “tôi” – Cố Thanh Khê và chàng trai “vô sỉ” nhưng chân thành Từ Vi Vũ, cuốn sách tái hiện những câu chuyện giản dị, hài hước và cảm động về tình yêu, tình bạn và tuổi trẻ. Tác phẩm không chỉ mang lại tiếng cười mà còn chạm đến những rung động sâu sắc, gợi người đọc nhớ về một thời thanh xuân đầy cảm xúc và chân thật."
+            },
+            {
+                "image": "images/vhlm(10).png",
+                "name": "Khó Dỗ Dành - Tập 1",
+                "genre": "Văn học Lãng mạn",
+                "author": "Trúc Dĩ",
+                "price": "145.000đ",
+                "Content": "“Khó Dỗ Dành” kể về Ôn Dĩ Phàm và Tang Diên – hai người từng là bạn học, từng lỡ nhau trong quá khứ và gặp lại sau nhiều năm. Tang Diên vẫn âm thầm yêu cô, còn Ôn Dĩ Phàm quyết tâm không để lạc mất anh thêm lần nữa. Với giọng văn tinh tế, sâu sắc, Cửu Nguyệt Hi đã khắc họa một chuyện tình vừa ngọt ngào vừa day dứt, về những người từng tổn thương nhưng vẫn dũng cảm yêu thêm lần nữa."
+            },
+            {
+                "image": "images/vhlm(11).png",
+                "name": "Chiều Em Đau Cả Trái Tim",
+                "genre": "Văn học Lãng mạn",
+                "author": "Túy Hậu Ngư Ca",
+                "price": "139.000đ",
+                "Content": "“Chiều em đau cả trái tim” là một tiểu thuyết thanh xuân vườn trường cảm động của Tiêu Đường Đông Qua, kể về mối tình sâu sắc nhưng nhiều tổn thương giữa Thời Hạ và Thẩm Nhất Thành. Họ từng là hai con người mang đầy kiêu ngạo và sĩ diện, vì vậy đã bỏ lỡ nhau trong những năm tháng tuổi trẻ. Chỉ khi mất đi, Thời Hạ mới nhận ra tình cảm thật sự của mình dành cho Thẩm Nhất Thành – người đã rời đi không hẹn ngày trở lại. Gặp lại nhau sau nhiều biến cố, giữa họ không còn là sự ngông cuồng của tuổi trẻ mà là những vết thương, nỗi day dứt và tình yêu sâu đậm chưa từng nguôi."
+            },
+            {
+                "image": "images/vhlm(12).png",
+                "name": "Đoán xem anh yêu em nhường nào",
+                "genre": "Văn học Lãng mạn",
+                "author": "Superpanda",
+                "price": "125.000đ",
+                "Content": "“Đoán xem anh yêu em nhường nào” xoay quanh Phù Hiểu và Trần Ý Hành, những người chọn đè nén tình yêu để theo đuổi sự nghiệp. Họ bước vào mối quan hệ “quen nửa vời” kỳ quặc: Không tùy ý gặp mặt, nắm tay hay ôm hôn, mà mỗi phần thưởng của tình yêu đều phải nhờ vào tiến triển trong sự nghiệp. Tình cảm cùng sự nghiệp cứ thế song hành, lặng lẽ lớn dần lên qua những năm tháng kỳ lạ đó."
+            }
+        ],
+        "Sách Ngoại Ngữ": [
+            {
+                "image": "images/snngu(1).png",
+                "name": "Destination B1 - Grammar And Vocabulary With Answer Key (Tái Bản 2024)",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Malcom Mann, Syeve Taylore-Knowles",
+                "price": "162.000đ",
+                "Content": "Destination B1 – Grammar & Vocabulary With Answer Key là cuốn sách tự học và luyện thi lấy chứng chỉ B1 uy tín nhất hiện nay. Rất cần thiết cho mọi lứa tuổi vì tiếng Anh B1 là một chứng chỉ phổ biến, là điều kiện cần có của nhiều thạc sĩ, tiến sĩ và sinh viên."
+            },
+            {
+                "image": "images/snngu(2).png",
+                "name": "Cambridge IELTS 18 Academic - With Answer + Audio",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Nhiều tác giả",
+                "price": "230.000đ",
+                "Content": "Bộ sách IELTS được thiết kế chuẩn theo cấu trúc bài thi thực tế, sử dụng được cho cả hai hình thức thi là IELTS General và Academic. Giúp giải quyết các vấn đề thường gặp của thí sinh như không căn chỉnh được thời gian thi, không quen cấu trúc đề thi, và thiếu tài liệu có đáp án giải chi tiết."
+            },
+            {
+                "image": "images/snngu(3).png",
+                "name": "Essential Words For The Toeic 6th (Tái Bản 2019)",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Dr Lin Lougheed",
+                "price": "238.000đ",
+                "Content": "“Essential Words for the TOEIC” là cuốn sách giúp người học xây dựng và củng cố vốn từ vựng tiếng Anh cần thiết cho kỳ thi TOEIC. Sách tập trung vào 600 từ thông dụng nhất thường xuất hiện trong các ngữ cảnh giao tiếp và kinh doanh quốc tế. Mỗi chương giới thiệu các từ vựng theo chủ đề thực tế, kèm ví dụ và ngữ cảnh từng xuất hiện trong bài thi TOEIC, giúp người học hiểu cách dùng từ tự nhiên và hiệu quả hơn. Đây là tài liệu thiết yếu dành cho những ai muốn nâng cao điểm số TOEIC và cải thiện khả năng tiếng Anh giao tiếp chuyên nghiệp."
+            },
+            {
+                "image": "images/snngu(4).png",
+                "name": "15 Phút luyện Kanji mỗi ngày",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Trường Nhật ngữ Quốc tế KCP",
+                "price": "145.000đ",
+                "Content": "“15 Phút luyện Kanji mỗi ngày” là bộ sách học Kanji được thiết kế theo cấp độ tương ứng với kỳ thi JLPT, gồm 4 tập chia thành hai trình độ: Sơ cấp – Sơ trung cấp và Trung cấp. Tập 3 và 4 hướng đến người học Kanji cấp độ N2 hoặc những ai gặp khó khăn trong việc ghi nhớ chữ Hán. Với phương pháp học 15 phút mỗi ngày – 5 chữ Kanji kèm câu chuyện và chủ đề riêng, sách giúp người học tiếp thu dễ dàng và ghi nhớ lâu hơn. Mỗi bài học có giải nghĩa tiếng Việt, ví dụ minh họa, file nghe CD và từ vựng thực tế, giúp người học rèn kỹ năng đọc, viết, nghe và sử dụng Kanji tự nhiên hơn."
+            },
+            {
+                "image": "images/snngu(5).png",
+                "name": "Giáo Trình Chuẩn HSK 1",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Khương Lệ Bình, Vương Phương, Vương Phong, Lưu Lệ Bình",
+                "price": "198.000đ",
+                "Content": "Giáo Trình Chuẩn HSK 1 là cuốn đầu tiên trong bộ giáo trình 6 cấp độ, được biên soạn theo chuẩn cấu trúc đề thi HSK của Trung Quốc. Sách giúp người học tiếng Trung làm quen với từ vựng, ngữ pháp, và mẫu câu cơ bản trong giao tiếp hằng ngày. Với nội dung gần gũi, hình ảnh minh họa sinh động và bài luyện nghe – nói – đọc – viết phong phú, cuốn sách này là lựa chọn lý tưởng cho người mới bắt đầu học tiếng Trung hoặc chuẩn bị thi HSK cấp 1."
+            },
+            {
+                "image": "images/snngu(6).png",
+                "name": "Giáo Trình Chuẩn HSK 2",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Khương Lệ Bình",
+                "price": "135.000đ",
+                "Content": "Giáo Trình Chuẩn HSK 2 – Bài Học là cuốn sách tiếp nối HSK 1, được biên soạn theo chuẩn đề thi HSK nhằm giúp người học nâng cao trình độ tiếng Trung. Sách cung cấp hệ thống từ vựng, ngữ pháp và bài tập luyện nghe – nói – đọc – viết phù hợp với cấp độ 2. Với nội dung gần gũi, tình huống giao tiếp thực tế, cách trình bày sinh động và file nghe chuẩn giọng bản xứ, đây là tài liệu lý tưởng cho cả người tự học lẫn giảng dạy, giúp người học tự tin chinh phục kỳ thi HSK 2."
+            },
+            {
+                "image": "images/snngu(7).png",
+                "name": "Giáo Trình Chuẩn HSK 3",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Khương Lệ Bình",
+                "price": "205.000đ",
+                "Content": "Giáo Trình Chuẩn HSK 3 là phần tiếp theo trong bộ giáo trình chuẩn HSK, được biên soạn bám sát cấu trúc và nội dung kỳ thi HSK. Sách kết hợp hài hòa giữa giảng dạy và luyện thi, giúp người học củng cố ngữ pháp, mở rộng vốn từ và nâng cao kỹ năng nghe – nói – đọc – viết qua các tình huống giao tiếp thực tế. Với bố cục khoa học, hình ảnh minh họa sinh động và file nghe MP3 chuẩn giọng bản xứ, đây là tài liệu lý tưởng cho người học tiếng Trung ở trình độ trung cấp, giúp họ tiến gần hơn đến việc sử dụng tiếng Trung một cách tự nhiên và hiệu quả."
+            },
+            {
+                "image": "images/snngu(8).png",
+                "name": "Giáo trình chuẩn HSK 4",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Khương Lệ Bình",
+                "price": "228.000đ",
+                "Content": "Giáo Trình Chuẩn HSK 4 thuộc bộ giáo trình HSK gồm 6 cấp độ (18 cuốn), được biên soạn dựa trên cấu trúc và nội dung của đề thi HSK thật, giúp người học vừa rèn luyện kỹ năng ngôn ngữ vừa chuẩn bị hiệu quả cho kỳ thi. Sách có bố cục logic, giải thích rõ ràng các điểm ngữ pháp, mở rộng vốn từ và mẫu câu giao tiếp ở trình độ trung – cao cấp. Các bài học được thiết kế sinh động, gần gũi với đời sống, kèm file nghe MP3 giúp luyện phát âm và nghe hiểu. Đây là tài liệu lý tưởng cho người học tiếng Trung muốn nâng cao kỹ năng toàn diện và đạt chứng chỉ HSK cấp 4."
+            },
+            {
+                "image": "images/snngu(9).png",
+                "name": "Giáo Trình Chuẩn HSK 5 - Tập 1",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Khương Lệ Bình, Lỗ Giang, Lưu Sướng",
+                "price": " 278.000đ",
+                "Content": "Giáo Trình Chuẩn HSK 5 – Tập 1 nằm trong bộ giáo trình HSK gồm 6 cấp độ (18 cuốn), được biên soạn dựa trên cấu trúc và nội dung của kỳ thi HSK thật. Sách giúp người học nâng cao khả năng ngôn ngữ toàn diện thông qua hệ thống bài học có bố cục khoa học, ngữ pháp rõ ràng và vốn từ phong phú. Các chủ đề quen thuộc, gắn liền với đời sống, giúp rèn luyện kỹ năng nghe – nói – đọc – viết một cách tự nhiên. Với cách trình bày sinh động, nhiều hình minh họa và file nghe MP3 đi kèm, đây là tài liệu lý tưởng cho người học tiếng Trung ở trình độ trung – cao cấp, đặc biệt là những ai đang chuẩn bị thi chứng chỉ HSK 5."
+            },
+            {
+                "image": "images/snngu(10).png",
+                "name": "Giáo Trình Chuẩn HSk 6 - Tập 1",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Khương Lệ Bình",
+                "price": "298.000đ",
+                "Content": "Giáo Trình Chuẩn HSK 6 – Tập 1 là cấp độ cao nhất trong bộ giáo trình HSK, được biên soạn dành cho người học tiếng Trung nâng cao và những ai chuẩn bị thi chứng chỉ HSK 6. Sách kết hợp hài hòa giữa giảng dạy và luyện thi, giúp người học rèn luyện toàn diện các kỹ năng nghe, nói, đọc, viết. Bố cục bài học logic, ngữ pháp chuyên sâu, cùng nhiều chủ đề thực tế giúp người học mở rộng vốn từ và khả năng diễn đạt. Với nội dung phong phú, hình ảnh minh họa sinh động và file nghe MP3 đi kèm, đây là tài liệu không thể thiếu cho những ai muốn đạt trình độ tiếng Trung lưu loát và chuyên nghiệp."
+            },
+            {
+                "image": "images/snngu(11).png",
+                "name": "Giáo Trình Chuẩn HSK 6 - Tập 2",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Khương Lệ Bình",
+                "price": "298.000đ",
+                "Content": "Giáo Trình Chuẩn HSK 6 – Tập 2 là phần tiếp theo của cấp độ cao nhất trong bộ HSK, được thiết kế dành cho người học tiếng Trung nâng cao và chuẩn bị thi HSK 6. Sách giúp người học củng cố vốn từ vựng, ngữ pháp phức tạp và nâng cao khả năng đọc – viết ở trình độ học thuật. Với bố cục khoa học, chủ đề phong phú và bài luyện nghe đi kèm MP3, cuốn sách hỗ trợ hiệu quả trong việc rèn luyện kỹ năng ngôn ngữ toàn diện. Đây là tài liệu lý tưởng cho người học muốn đạt trình độ tiếng Trung thành thạo và sử dụng lưu loát trong học tập, công việc."
+            },
+            {
+                "image": "images/snngu(12).png",
+                "name": "Destination C1&C2 - Grammar & Vocabulary With Answer Key (Tái Bản 2024)",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Malcolm Mann",
+                "price": "205.000đ",
+                "Content": "Destination C1 & C2 là giáo trình luyện ngữ pháp và từ vựng tiếng Anh nâng cao, được biên soạn dành cho người học hướng tới trình độ C1–C2 theo Khung tham chiếu châu Âu (CEFR). Sách gồm 42 bài học, xen kẽ giữa ngữ pháp và từ vựng theo chủ đề, giúp người học củng cố kiến thức chuyên sâu, mở rộng vốn từ và cải thiện kỹ năng sử dụng tiếng Anh học thuật. Với phần đáp án chi tiết, Destination C1 & C2 là tài liệu lý tưởng cho cả học viên tự học và người đang ôn luyện cho các kỳ thi chứng chỉ quốc tế."
+            }
+        ],
+          "Lịch sử , văn hóa và tiểu sử": [
+            {
+                "image": "images/lsu-vh-tsu(1).png",
+                "name": "Lược sử loài người ( Sapiens: A Brief History of Humankind )",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
                 "author": "Yuval Noah Harari",
                 "price": "157.000đ",
                 "Content": "“Sapiens: A Brief History of Humankind” (Lược sử loài người) là tác phẩm nổi tiếng của Yuval Noah Harari, nhà sử học người Israel, xuất bản lần đầu năm 2011. Cuốn sách là một hành trình khám phá toàn diện lịch sử nhân loại, từ thời loài người nguyên thủy (Homo sapiens) xuất hiện cách đây hơn 70.000 năm cho đến thời đại công nghệ và trí tuệ nhân tạo ngày nay. Harari phân tích cách con người tiến hóa, xây dựng xã hội, tín ngưỡng, kinh tế và khoa học, đồng thời đặt ra nhiều câu hỏi triết học về ý nghĩa của sự tồn tại và tương lai của loài người."
-              },
-              {
-                "link_image_author": "https://pyxis.nymag.com/v1/imgs/bec/61c/afc409b7fc2e2e8234c4ffc2cc5eee8cd1-10-jared-diamond.rhorizontal.w600.jpg",
-                "image": "image_book/gun-steel.png",
-                "name": "Súng, vi trùng và thép",
-                "genre": "Lịch sử, Văn hóa & Tiểu sử",
+            },
+            {
+                "image": "images/lsu-vh-tsu(2).png",
+                "name": "Súng, vi trùng và thép ( Guns, Germs, and Steel )",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
                 "author": "Jared Diamond",
-                "price": "59.000đ",
+                "price": "95.000đ",
                 "Content": "“Guns, Germs, and Steel” (Súng, vi trùng và thép) là công trình nổi tiếng của Jared Diamond, học giả và nhà địa lý học người Mỹ, được xuất bản năm 1997. Tác phẩm tìm cách giải thích vì sao các nền văn minh trên thế giới phát triển không đồng đều, và tại sao người châu Âu lại có thể chinh phục và thống trị nhiều khu vực khác. Jared Diamond cho rằng sự khác biệt này không bắt nguồn từ chủng tộc hay trí tuệ, mà từ điều kiện địa lý, khí hậu, tài nguyên, cây trồng – vật nuôi và bệnh tật. Cuốn sách kết hợp giữa lịch sử, sinh học, địa lý và nhân học, đưa ra cái nhìn khoa học và toàn diện về sự phát triển của loài người."
-              },
-              {
-                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Howard_Zinn%2C_2009_%28cropped%29.jpg",
-                "image": "image_book/history-usa.png",
-                "name": "Lịch sử nhân dân Hoa Kỳ",
-                "genre": "Lịch sử, Văn hóa & Tiểu sử",
+            },
+            {
+                "image": "images/lsu-vh-tsu(3).png",
+                "name": "Lịch sử nhân dân Hoa Kỳ ( A People’s History of the United States )",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
                 "author": "Howard Zinn",
                 "price": "89.000đ",
                 "Content": "“A People’s History of the United States” của Howard Zinn là một cuốn lịch sử phi truyền thống, kể lại lịch sử Mỹ từ góc nhìn của những nhóm bị áp bức: người bản địa, nô lệ, phụ nữ, người lao động và các cộng đồng thiểu số. Cuốn sách nhấn mạnh những cuộc đấu tranh xã hội và bất công, thách thức các câu chuyện chính thống về quyền lực và lịch sử “chính thức” của nước Mỹ."
-              },
-              {
-                "link_image_author": "https://ww2.kqed.org/app/uploads/sites/43/2023/10/1920-x-1080-forum-web-page-2-1020x574.jpg",
-                "image": "image_book/twoface.png",
-                "name": "A Man of Two Faces: A Memoir, A History, A Memorial",
-                "genre": "Lịch sử, Văn hóa & Tiểu sử",
-                "author": "Nguyễn Thanh Việt",
-                "price": "173.000đ",
+            },
+            {
+                "image": "images/lsu-vh-tsu(4).png",
+                "name": "A Man of Two Faces: A Memoir, A History, A Memorial ( Hồi ký, Lịch sử và Tưởng niệm )",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
+                "author": "Nguyễn Thanh Việt ",
+                "price": "145.000đ",
                 "Content": "A Man of Two Faces: A Memoir, A History, A Memorial của Viet Thanh Nguyen là hồi ký kết hợp giữa tự truyện, lịch sử và tưởng niệm. Cuốn sách kể về tuổi thơ của tác giả, trải nghiệm di cư từ Việt Nam sang Mỹ, những mất mát gia đình, và hành trình tìm kiếm bản sắc. Với lối viết sáng tạo, Nguyen kết hợp hồi tưởng cá nhân, phân tích xã hội và văn hóa, phản ánh sâu sắc trải nghiệm người nhập cư và di dân."
-              },
-              {
-                "link_image_author": "https://www.historyhit.com/app/uploads/2020/07/photo-of-anne-frank-1.jpg?x81146",
-                "image": "image_book/anne-frank.png",
-                "name": "Nhật ký Anne Frank",
-                "genre": "Lịch sử, Văn hóa & Tiểu sử",
+            },
+            {
+                "image": "images/lsu-vh-tsu(5).png",
+                "name": "Nhật ký Anne Frank ( The Diary of a Young Girl )",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
                 "author": "Anne Frank",
-                "price": "152.000đ",
-                "Content": "“ A People’s History of the United States ” của Howard Zinn (xuất bản lần đầu 1980) là một tác phẩm lịch sử phi truyền thống nổi tiếng, kể lại lịch sử Mỹ từ góc nhìn của những nhóm bị áp bức, như người bản địa, nô lệ, phụ nữ, công nhân và các cộng đồng thiểu số. Cuốn sách nhấn mạnh các cuộc đấu tranh xã hội, bất công và những mâu thuẫn quyền lực, thách thức các câu chuyện lịch sử chính thống. Nó được coi là một tác phẩm kinh điển trong giáo dục và nghiên cứu về lịch sử xã hội và nhân quyền."
-              },
-              {
-                "link_image_author": "http://www.khoavanhoc-ngonngu.edu.vn/images/stories/freud.jpg",
-                "image": "image_book/civilization.png",
-                "name": "Văn minh và những bất mãn của nó",
-                "genre": "Lịch sử, Văn hóa & Tiểu sử",
+                "price": "198.000đ",
+                "Content": "“Nhật ký Anne Frank là cuốn hồi ký cảm động của cô bé người Do Thái Anne Frank, ghi lại cuộc sống của gia đình cô khi phải ẩn náu trong suốt Thế chiến II để trốn tránh sự truy bắt của phát xít Đức. Qua những trang viết chân thực, Anne thể hiện tâm hồn nhạy cảm, niềm tin mãnh liệt vào con người và khát vọng sống giữa bối cảnh tăm tối của chiến tranh. Tác phẩm không chỉ là lời chứng lịch sử sâu sắc mà còn là biểu tượng của nghị lực, hi vọng và nhân tính trong nghịch cảnh."
+            },
+            {
+                "image": "images/lsu-vh-tsu(6).png",
+                "name": "Văn minh và những bất mãn của nó ( Civilization and Its Discontents )",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
                 "author": "Sigmund Freud",
-                "price": "146.000đ",
+                "price": "138.000đ",
                 "Content": "Civilization and Its Discontents (Văn minh và những bất mãn của nó) của Sigmund Freud (1930) là một tác phẩm kinh điển về tâm lý học và xã hội học. Trong cuốn sách, Freud phân tích xung đột giữa bản năng cá nhân và những yêu cầu của xã hội văn minh, chỉ ra rằng văn minh mang lại trật tự nhưng cũng tạo ra bất mãn và căng thẳng tâm lý. Tác phẩm bàn về tội lỗi, đạo đức, tình dục và tôn giáo, đồng thời đặt nền tảng cho nhiều nghiên cứu về bản chất con người và mối quan hệ giữa cá nhân với xã hội."
-              },
-              {
-                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Bill_Bryson_%2828449155987%29_%28Bryson_cropped%29_%28cropped%29.jpg/330px-Bill_Bryson_%2828449155987%29_%28Bryson_cropped%29_%28cropped%29.jpg",
-                "image": "image_book/history-everything.png",
-                "name": "Lịch sử vạn vật",
-                "genre": "Lịch sử, Văn hóa & Tiểu sử",
+            },
+            {
+                "image": "images/lsu-vh-tsu(7).png",
+                "name": "Lịch sử vạn vật ( A Short History of Nearly Everything )",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
                 "author": "Bill Bryson",
-                "price": "173.000đ",
-                "Content": "A Short History of Nearly Everything (Lược sử vạn vật) của Bill Bryson là một tác phẩm khoa học phổ thông nổi tiếng , xuất bản năm 2003 . Cuốn sách giúp người đọc hiểu về lịch sử hình thành vũ trụ , Trái Đất và sự sống – từ vụ nổ Big Bang , sự tiến hóa , đén vai trò của con người trong tự nhiên . Với lối viết hài hước , dễ hiểu và giàu thông tin , Bryson kể lại hành trình khám phá khoa học qua nhà bác học vĩ đại như Newton ,Darwin hay Einstein. Tác phẩm từng đoạt nhiều giải thưởng, trong đó có Aventis Prize for Science Books , và được xem là một trong những cuốn sách giúp phổ biến khoa học hay nhất thế kỷ 21."
-              },
-              {
-                "link_image_author": "https://pyxis.nymag.com/v1/imgs/bec/61c/afc409b7fc2e2e8234c4ffc2cc5eee8cd1-10-jared-diamond.rhorizontal.w600.jpg",
-                "image": "image_book/supdo.png",
-                "name": "Sụp đổ: Cách các xã hội lựa chọn thất bại hay thành công",
-                "genre": "Lịch sử, Văn hóa & Tiểu sử",
+                "price": "209.000đ",
+                "Content": "A Short History of Nearly Everything (Lược sử vạn vật) của Bill Bryson là một tác phẩm khoa học phổ thông nổi tiếng , xuất bản năm 2003 . Cuốn sách giúp người đọc hiểu về lịch sử hình thành vũ trụ , Trái Đất và sự sống – từ vụ nổ Big Bang , sự tiến hóa , đén vai trò của con người trong tự nhiên . Với lối viết hài hước , dễ hiểu và giàu thông tin , Bryson kể lại hành trình khám phá khoa học qua nhà bác học vĩ đại như Newton ,Darwin hay Einstein. Tác phẩm từng đoạt nhiều giải thưởng, trong đó có Aventis Prize for Science Books, và được xem là một trong những cuốn sách giúp phổ biến khoa học hay nhất thế kỷ 21."
+            },
+            {
+                "image": "images/lsu-vh-tsu(8).png",
+                "name": "Sụp đổ: Cách các xã hội lựa chọn thất bại hay thành công ( Collapse: How Societies Choose to Fail or Succeed )",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
                 "author": "Jared Diamond",
-                "price": "153.000đ",
+                "price": "200.000đ",
                 "Content": "Collapse: How Societies Choose to Fail or Succeed (Sụp đổ: Cách các xã hội lựa chọn thất bại hay thành công) của Jared Diamond, xuất bản năm 2005, là tác phẩm nghiên cứu về nguyên nhân khiến nhiều nền văn minh trong lịch sử suy tàn. Diamond phân tích các trường hợp như người Maya, người Viking ở Greenland hay đảo Phục Sinh, để chỉ ra tác động của môi trường, tài nguyên và cách con người ra quyết định. Ông đồng thời cảnh báo rằng xã hội hiện đại cũng có thể sụp đổ nếu không biết cân bằng giữa phát triển và bảo về hành tinh."
-              },
-              {
-                "link_image_author": "https://tulieuvankien.dangcongsan.vn/Uploads/2018/7/5/12/mandela-portrait-up.jpg",
-                "image": "image_book/freedom.png",
-                "name": "Con đường dài đến tự do",
-                "genre": "Lịch sử, Văn hóa & Tiểu sử",
+            },
+            {
+                "image": "images/lsu-vh-tsu(9).png",
+                "name": "Con đường dài đến tự do ( Long Walk to Freedom )",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
                 "author": "Nelson Mendela",
-                "price": "197.000đ",
+                "price": " 197.000đ",
                 "Content": "Long Walk to Freedom (Con đường dài đến tự do) là hồi ký của Nelson Mandela, xuất bản năm 1994. Cuốn sách kể lại cuộc đời ông từ thời niên thiếu ở Nam Phi, quá trình trở thành nhà đấu tranh chống chủ nghĩa phân biệt chủng tộc (Apartheid), 27 năm tù đày, và hành trình đi đến tự do cũng như trở thành Tổng thống Nam Phi. Tác phẩm thể hiện tinh thần kiên cường, lòng nhân ái và khát vọng bình đẳng, trở thành biểu tượng cho tự do và công lý trên toàn thế giới."
-              },
-              {
-                "link_image_author": "https://cdn.britannica.com/91/82291-050-EB7A276A/Mohandas-K-Gandhi-leader-Mahatma-Indian.jpg?w=300",
-                "image": "image_book/story-gandhi.png",
-                "name": "Tự truyện của Mahatma Gandhi",
-                "genre": "Lịch sử, Văn hóa & Tiểu sử",
+            },
+            {
+                "image": "images/lsu-vh-tsu(10).png",
+                "name": "Tự truyện của Mahatma Gandhi ( The Story of My Experiments with Truth )",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
                 "author": "Mahatma Gandi",
                 "price": "249.000đ",
                 "Content": "The Story of My Experiments with Truth (Tự truyện của Mahatma Gandhi) là hồi ký của lãnh tụ Ấn Độ Mahatma Gandhi, được viết trong giai đoạn 1925–1929. Cuốn sách ghi lại hành trình tìm kiếm chân lý, đạo đức và tinh thần bất bạo động (ahimsa) của Gandhi — từ thời niên thiếu, những năm du học ở Anh, đến khi lãnh đạo phong trào độc lập Ấn Độ. Qua những “thí nghiệm với sự thật”, Gandhi chia sẻ triết lý sống giản dị, lòng tin vào công lý và sức mạnh đạo đức của con người."
-              },
-              {
-                "link_image_author": "https://nld.mediacdn.vn/zoom/320_200/2019/7/19/photo-1-15634996291692129668760.jpg",
-                "image": "image_book/dvietskytoanthu.png",
-                "name": "Đại Việt sử ký toàn thứ",
-                "genre": "Lịch sử , Văn hóa & Tiểu sử",
+            },
+            {
+                "image": "images/lsu-vh-tsu(11).png",
+                "name": "Đại Việt sử ký toàn thư",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
                 "author": "Ngô Sĩ Liên",
                 "price": "350.000đ",
-                "Content": "“Đại Việt sử ký toàn thư” do Ngô Sĩ Liên biên soạn vào năm 1479 dưới triều Lê Thánh Tông, là bộ quốc sử chính thống đầu tiên và đầy đủ nhất của Việt Nam thời trung đại. Tác phẩm ghi chép lịch sử dân tộc từ thời Hồng Bàng đến cuối triều Lê sơ, dựa trên các nguồn sử cũ như Đại Việt sử ký và Đại Việt sử ký tục biên . Với cách biên soạn khoa học, có nhận xét, đánh giá mang tư tưởng Nho giáo, tác phẩm không chỉ có giá trị lịch sử mà còn là di sản văn hóa, thể hiện tinh thần độc lập, tự hào dân tộc."
-              },
-              {
-                "link_image_author": "https://nguoikesu.com/images/wiki/nguyen-ai-quoc/c66f2bba90fc3863be732216ae656d42.jpg",
-                "image": "image_book/dgkachmenh.png",
+                "Content": "“Đại Việt sử ký toàn thư” do Ngô Sĩ Liên biên soạn vào năm 1479 dưới triều Lê Thánh Tông, là bộ quốc sử chính thống đầu tiên và đầy đủ nhất của Việt Nam thời trung đại. Tác phẩm ghi chép lịch sử dân tộc từ thời Hồng Bàng đến cuối triều Lê sơ, dựa trên các nguồn sử cũ như Đại Việt sử ký và Đại Việt sử ký tục biên. Với cách biên soạn khoa học, có nhận xét, đánh giá mang tư tưởng Nho giáo, tác phẩm không chỉ có giá trị lịch sử mà còn là di sản văn hóa, thể hiện tinh thần độc lập, tự hào dân tộc."
+            },
+            {
+                "image": "images/lsu-vh-tsu(12).png",
                 "name": "Đường Kách Mệnh",
-                "genre": "Lịch sử , Văn hóa & Tiểu sử",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
                 "author": "Nguyễn Ái Quốc",
                 "price": "499.000đ",
                 "Content": "“Đường Kách mệnh” là tác phẩm của Chủ tịch Hồ Chí Minh, viết năm 1927, tập hợp các bài giảng của Người tại lớp huấn luyện chính trị ở Quảng Châu (Trung Quốc). Tác phẩm trình bày những vấn đề cơ bản về con đường cách mạng Việt Nam, vai trò của giai cấp công nhân, tổ chức Đảng và tinh thần đoàn kết quốc tế. Đây được xem là cuốn sách lý luận chính trị đầu tiên của cách mạng Việt Nam, đặt nền tảng tư tưởng cho việc thành lập Đảng Cộng sản Việt Nam năm 1930."
-              }
-            ]
-
+            }
+        ],
+        "Kinh tế & Quản trị Kinh doanh": [
+            {
+                "image": "images/skt-qtkd(1).png",
+                "name": "Tại sao các Đế quốc sụp đổ",
+                "genre": "Kinh tế & Quản trị Kinh doanh",
+                "author": "Peter Heather, John Rapley",
+                "price": "144.500đ",
+                "Content": "Từng có một Hoa Kỳ là cuốn sách của Peter Heather và John Rapley, khám phá quy luật thịnh – suy của các đế quốc trong lịch sử, đặc biệt so sánh giữa đế chế La Mã cổ đại và phương Tây hiện đại. Bằng cách phân tích kinh tế, chính trị và xã hội, hai tác giả lý giải nguyên nhân khiến phương Tây – từng thống trị toàn cầu – đang dần suy yếu trước sự trỗi dậy của các cường quốc mới như Trung Quốc. Tác phẩm mang đến góc nhìn sâu sắc về chu kỳ phát triển của các nền văn minh và đặt ra câu hỏi liệu lịch sử có đang lặp lại."
+            },
+            {
+                "image": "images/skt-qtkd(2).png",
+                "name": "Tiền mã hóa - Giấc mơ vàng và cơn ác mộng tài chính",
+                "genre": "Kinh tế & Quản trị Kinh doanh",
+                "author": "Zeke Faux",
+                "price": "193.800đ",
+                "Content": "Cuốn “Tiền mã hóa – Giấc mơ vàng và cơn ác mộng tài chính” là tác phẩm điều tra nổi bật của nhà báo Zeke Faux, được đề cử cho nhiều giải thưởng uy tín như Edgar, Macavity, Porchlight, SABEW và được vinh danh trong danh sách sách hay nhất năm của nhiều tờ báo lớn (The New York Times, Washington Post, Financial Times,…). Nội dung sách kể về hành trình hai năm điều tra của tác giả nhằm khám phá mặt tối của cơn sốt tiền mã hóa bùng nổ năm 2021 – khi cả thế giới từ giới đầu tư lớn, người nổi tiếng đến truyền thông đều xem crypto là “tương lai của tiền tệ”. Zeke Faux đặt ra câu hỏi: liệu đây là cuộc cách mạng tài chính thật sự hay một trò lừa đảo tinh vi?"
+            },
+            {
+                "image": "images/skt-qtkd(3).png",
+                "name": "How money works - Hiểu biết về tiền",
+                "genre": "Kinh tế & Quản trị Kinh doanh",
+                "author": "Bùi Thị Quỳnh Chi",
+                "price": "280.500đ",
+                "Content": "How money works – Hiểu hết về tiền tìm hiểu cách thức các chính phủ kiểm soát tiền tệ, cách các công ty kiếm ra tiền, cách các thị trường tài chính vận hành, cách các cá nhân tối đa hóa thu nhập thông qua đầu tư… Đưa ra định nghĩa cho hàng trăm khái niệm, cùng với những kiến thức nền tảng nhất về các hệ thống tài chính, như trái phiếu, cổ phiếu, tiền mã hóa, bitcoin, quản lý nợ, tránh vỡ nợ trực tuyến và gọi vốn cộng đồng, cũng như cách tiền vận hành thế giới."
+            },
+            {
+                "image": "images/skt-qtkd(4).png",
+                "name": "Kinh doanh sự lựa chọn",
+                "genre": "Kinh tế & Quản trị Kinh doanh",
+                "author": "Matthew Willcox ",
+                "price": "145.000đ",
+                "Content": "Cuốn sách phân tích cách con người thực sự đưa ra quyết định – từ những lựa chọn nhỏ nhất đến các quyết định lớn trong đời – dựa trên cách bộ não tiến hóa qua hàng triệu năm. Tác phẩm giúp các marketer hiểu và vận dụng khoa học hành vi vào chiến lược marketing, từ đó tạo ra sản phẩm và thương hiệu phù hợp với bản chất tự nhiên của người tiêu dùng, khiến chúng trở thành “lựa chọn tự nhiên” trong tâm trí khách hàng."
+            },
+            {
+                "image": "images/skt-qtkd(5).png",
+                "name": "Doanh Nghiệp Cống Hiến",
+                "genre": "Kinh tế & Quản trị Kinh doanh",
+                "author": "Anne Frank",
+                "price": "198.000đ",
+                "Content": "Doanh Nghiệp Cống Hiến đưa ra những lời khuyên hữu ích để tích hợp các sáng kiến marketing vì cộng đồng vào mục tiêu kinh doanh tổng thể của doanh nghiệp. Đây cũng là cuốn sổ tay giúp các nhà quản lý và nhân viên trong công ty có thể lựa chọn những vấn đề phù hợp nhất, những đối tác tốt nhất và những sáng kiến có tiềm năng cao nhất để theo đuổi. Đối với các tổ chức phi lợi nhuận và cơ quan công ích đang tìm kiếm sự hỗ trợ từ các doanh nghiệp, cuốn sách cung cấp những hiểu biết sâu sắc cần thiết để tạo ra những mối quan hệ đối tác đôi bên cùng có lợi."
+            }
+        ],
+        "Sách Nấu Ăn & Phong Cách Sống": [
+            {
+                "image": "images/snan-pcs(1).png",
+                "name": "Khác Biệt Để Tỏa Sáng",
+                "genre": "Sách Nấu Ăn & Phong Cách Sống",
+                "author": "Hồ Tuệ Mạn",
+                "price": "148.750đ",
+                "Content": "Cuốn sách của Hồ Tuệ Mạn là một tiểu thuyết ứng dụng tâm lý học Virginia Satir, giúp người đọc hiểu rõ bản thân, giữ vững cái tôi và ứng xử hài hòa trong các mối quan hệ. Qua những câu chuyện quen thuộc, tác phẩm chỉ ra cách sống dịu dàng nhưng kiên định, biết thấu hiểu người khác mà vẫn bảo vệ giá trị của chính mình – để sống một cuộc đời trọn vẹn và trưởng thành hơn."
+            },
+            {
+                "image": "images/snan-pcs(2).png",
+                "name": "Sống trọn vẹn năm giác quan",
+                "genre": "Sách Nấu Ăn & Phong Cách Sống",
+                "author": "Gretchen Rubin",
+                "price": "143.650đ",
+                "Content": "Với hơn một thập kỷ nghiên cứu về hạnh phúc và bản chất con người, một ngày nọ, sau khi bước ra từ phòng khám mắt, Gretchen Rubin chợt nhận thấy mình đã bỏ qua một yếu tố then chốt để đạt đến hạnh phúc: năm giác quan. Trong chuyến hành trình này, cô đã bước ra khỏi tâm trí mà đi vào thế giới thực qua trải nghiệm cơ bản nhất của con người: nhìn, nghe, ngửi, nếm và chạm. Từ vui thích đơn giản nhất trong việc trân trọng hương vị tương cà hay thêm bài hát vào danh sách nhạc yêu thích, cho tới những việc đầy tính phiêu lưu hơn như thăm thú bảo tàng, hay tham dự một lớp học hương vị, Rubin đã hướng dẫn chúng ta cảm nhận từng ngày một cách sâu lắng và trọn vẹn nhất. Trong cơn hối hả của cuộc sống, cô phát hiện rằng năm giác quan là thứ mang lại cho chúng ta niềm vui, sự động viên một cách nhanh chóng và ổn định nhất – đồng thời giúp chúng ta thoáng chạm vào tâm hồn và vượt ra khỏi tâm trí để bước vào thế giới thực."
+            },
+            {
+                "image": "images/snan-pcs(3).png",
+                "name": "Tuổi giá rực rỡ",
+                "genre": "Sách Nấu Ăn & Phong Cách Sống",
+                "author": "Daniel J. Levitin",
+                "price": "254.150đ",
+                "Content": "Cuốn sách của Daniel J. Levitin mang đến một góc nhìn tích cực và khoa học về tuổi già — không phải là thời kỳ suy tàn, mà là giai đoạn chín muồi của trí tuệ và cảm xúc. Dựa trên nghiên cứu về khoa học thần kinh, y học và tâm lý học, tác giả chỉ ra rằng với lối sống lành mạnh và tư duy đúng đắn, con người có thể “già đi theo cách mình muốn” — sống hạnh phúc, minh mẫn và khôn ngoan hơn qua từng năm tháng."
+            },
+            {
+                "image": "images/snan-pcs(4).png",
+                "name": "Tiệm Cà Phê Tại Nhà",
+                "genre": "Sách Nấu Ăn & Phong Cách Sống",
+                "author": "WOW",
+                "price": "88.000 đ",
+                "Content": "“Tiệm cà phê tại nhà” là cuốn sách đầu tay của tác giả WOW. Cô là là một nhà sáng tạo nội dung đa nền tảng mạng xã hội như Tiktok, Instagram, Facebook… với tên gọi “Wow_homecafe”. Cô bắt đầu tìm thấy niềm đam mê với pha chế vào 4 năm trước và hoàn thiện cuốn sách này với khao khát bất cứ ai cũng có thể tự pha cho mình một ly đồ uống yêu thích. Dù bạn đã từng thử, hoặc chưa thì cuốn sách này cũng sẽ trở thành một người bạn dễ mến trên hành trình khám phá hương vị của bạn. “Tiệm cà phê tại nhà” – Đong trà pha cà phê chưa bao giờ đơn giản đến thế!"
+            },
+            {
+                "image": "images/snan-pcs(5).png",
+                "name": "Nấu Ăn Gia Đình - 30 Thực Đơn Ngày Thường + 52 Thực Đơn Ngày Chủ Nhật",
+                "genre": "Sách Nấu Ăn & Phong Cách Sống",
+                "author": "Triệu Thị Chơi",
+                "price": "38.000đ",
+                "Content": "Mỗi dân tộc ở mỗi vùng lãnh thổ khác nhau trên thê giới đều có tập quán ăn uống và món ăn riêng. Song, dân tộc nào cũng có các loại thức ăn thường ngày trong gia đình, các bữa ăn tươi, các bữa cỗ, bữa tiệc,... Dù là bữa ăn được tổ chức dưới bất cứ hình thức nào, mọi người cũng đều ưa thích được thưởng thức một bữa ăn ngon. Nhưng, một bữa ăn ngon thật sự là gì? Chúng phải có sự phong phú và ngon miệng, tạo được sự thích thú, và trên hết tất cả phải có đủ chất dinh dưỡng."
+            },
+             {
+                "image": "images/snan-pcs(6).png",
+                "name": "Vegan Asian - Đi Khắp Châu Á Để Ăn Chay",
+                "genre": "Sách Nấu Ăn & Phong Cách Sống",
+                "author": "Jeeca Uy",
+                "price": "121.500 đ",
+                "Content": "“Vegan Asian – Đi khắp châu Á để ăn chay” của Jeeca Uy là một hành trình khám phá ẩm thực chay đặc sắc khắp châu Á, được giới thiệu bởi I Love Cookbook trong bối cảnh xu hướng “Ăn sạch - Sống khỏe” ngày càng lan rộng sau đại dịch Covid-19. Tác phẩm mang đến gần 70 công thức món chay tiêu biểu từ nhiều quốc gia châu Á: Pad Thái của Thái Lan, mì Udon của Nhật Bản, Dimsum Trung Quốc, và nhiều món khác. Mỗi công thức không chỉ là hướng dẫn nấu ăn mà còn phản ánh nền văn hóa ẩm thực đặc trưng của từng quốc gia. Jeeca Uy – tác giả đồng thời là food blogger và nhiếp ảnh gia của The Foodie Takes Flight, chịu ảnh hưởng sâu sắc từ ẩm thực Philippines và Trung Quốc, tạo nên phong cách nấu ăn kết hợp hài hòa giữa Đông Á và Đông Nam Á. "
+            },
+            {
+                "image": "images/snan-pcs(7).png",
+                "name": "Kỹ Thuật Làm Bánh Ngọt - Ngẫu Hứng Cùng Cake (Tái Bản)",
+                "genre": "Sách Nấu Ăn & Phong Cách Sống",
+                "author": "Đình Bình, Đình Trung",
+                "price": "68.000đ",
+                "Content": "Giữa lúc dịch bệnh đang ngày một khó lường, mỗi người dân đều cố gắng nâng cao ý thức tự bảo vệ mình và những người xung quanh bằng việc hạn chế đi ăn hàng quán, hạn chế tiếp xúc đông người. Còn gì tuyệt hơn khi trong những ngày “giãn cách” chúng ta được tự tay làm ra những món ăn ngon lành, mới lạ để những người thân yêu thưởng thức. Hơn lúc nào hết các bà, các mẹ, các chị,.. thậm chí là cả các bố, các anh,.. rất cần những “người bạn” gợi ý và chỉ dẫn để gian bếp gia đình có đa dạng hơn những hương vị của các loại đồ ăn khác nhau. Hiểu được nhu cầu đó, Nhà xuất bản Phụ nữ Việt Nam xin trân trọng giới thiệu cuốn sách Ngẫu hứng cùng Cake, để làm phong phú thêm kĩ năng chế biến món ăn nhẹ của các độc giả yêu bếp. Với một chiếc lò nướng bánh gia đình và một số dụng cụ, khi bạn làm đúng theo các bước hướng dẫn và công thức đảm bảo bạn luôn đi đúng đường, mùi thơm của bánh ngọt sẽ lan tỏa trong căn bếp nhà bạn."
+            }
+        ]
+        
     }
-
 }
+        
 
+
+        
+    
