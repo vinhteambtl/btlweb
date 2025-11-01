@@ -28,6 +28,7 @@ async function search() {
             ...data.books["Sách Đại cương"],
             ...data.books["Sách Thiếu nhi"],
             ...data.books["Tôn giáo & Triết học"],
+            ...data.books["Lịch sử, Văn hóa & Tiểu sử"],
         ];
 
         // 4. Lọc ra những cuốn sách có tên chứa từ khóa tìm kiếm
@@ -114,4 +115,5 @@ function displaySearchResults(books, query) {
     }
     
     mainContent.appendChild(container);
+
 }
