@@ -29,6 +29,11 @@ async function search() {
             ...data.books["Sách Thiếu nhi"],
             ...data.books["Tôn giáo & Triết học"],
             ...data.books["Lịch sử, Văn hóa & Tiểu sử"],
+            ...data.books["Văn học Hiện đại & Kinh điển"],
+            ...data.books["Văn học Lãng mạn"],
+            ...data.books["Kinh tế & Quản trị Kinh doanh"],
+            ...data.books["Sách Ngoại Ngữ"],
+            ...data.books["Sách Nấu Ăn & Phong Cách Sống"]
         ];
 
         // 4. Lọc ra những cuốn sách có tên chứa từ khóa tìm kiếm
@@ -117,3 +122,4 @@ function displaySearchResults(books, query) {
     mainContent.appendChild(container);
 
 }
+
