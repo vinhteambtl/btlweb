@@ -740,8 +740,118 @@
                 "price": "31.500đ",
                 "Content": "Lịch âm - Dương cát tường năm Bính Ngọ 2026 được phát hành, xây dựng dựa vào thuyết âm dương Ngũ hành sinh khắc chế hoá lẫn nhau, kết hợp với Thập can, Thập nhị chi, Cửu cung, Bát quái và nhiều cơ sở lý luận khác thuộc khoa học cổ đại phương Đông như Thập nhị trực (Kiến Trừ thập nhị khách), Nhị thập bát tú, 12 cung Hoàng đạo, Hắc đạ để tính ngày giờ tốt xấu và được đối chiếu với lịch của Ban lịch Nhà nước. Cuốn sách cũng có chức năng để bạn đọc tham khảo cách chọn ngày lành, tháng tốt, giờ Hoàng đạo/Hắc đạo (Giờ ở đây, là tính theo giờ tại nơi cư ngụ của bạn), sao tốt/sao xấu lo cho công việc, chọn người xông đất đầu năm, chọn tuổi làm nhà, chọn ngày giờ đẹp cho cưới hỏi, xuất hành, khai trương, mở hàng, thành lập công được tốt đẹp nhất theo dân gian."
             }
-        ]       
-        
+        ],       
+        "Lịch sử, Văn hóa & Tiểu sử": [
+              {
+                "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs93CVxFgBOgXDLBD52FWU6GycvKq47iABFw&s",
+                "image": "image_book/history-man.png",
+                "name": "Lược sử loài người",
+                "genre": "Lịch sử, Văn hóa & Tiểu sử",
+                "author": "Yuval Noah Harari",
+                "price": "157K",
+                "Content": "“Sapiens: A Brief History of Humankind” (Lược sử loài người) là tác phẩm nổi tiếng của Yuval Noah Harari, nhà sử học người Israel, xuất bản lần đầu năm 2011. Cuốn sách là một hành trình khám phá toàn diện lịch sử nhân loại, từ thời loài người nguyên thủy (Homo sapiens) xuất hiện cách đây hơn 70.000 năm cho đến thời đại công nghệ và trí tuệ nhân tạo ngày nay. Harari phân tích cách con người tiến hóa, xây dựng xã hội, tín ngưỡng, kinh tế và khoa học, đồng thời đặt ra nhiều câu hỏi triết học về ý nghĩa của sự tồn tại và tương lai của loài người."
+              },
+              {
+                "link_image_author": "https://pyxis.nymag.com/v1/imgs/bec/61c/afc409b7fc2e2e8234c4ffc2cc5eee8cd1-10-jared-diamond.rhorizontal.w600.jpg",
+                "image": "image_book/gun-steel.png",
+                "name": "Súng, vi trùng và thép",
+                "genre": "Lịch sử, Văn hóa & Tiểu sử",
+                "author": "Jared Diamond",
+                "price": "59K",
+                "Content": "“Guns, Germs, and Steel” (Súng, vi trùng và thép) là công trình nổi tiếng của Jared Diamond, học giả và nhà địa lý học người Mỹ, được xuất bản năm 1997. Tác phẩm tìm cách giải thích vì sao các nền văn minh trên thế giới phát triển không đồng đều, và tại sao người châu Âu lại có thể chinh phục và thống trị nhiều khu vực khác. Jared Diamond cho rằng sự khác biệt này không bắt nguồn từ chủng tộc hay trí tuệ, mà từ điều kiện địa lý, khí hậu, tài nguyên, cây trồng – vật nuôi và bệnh tật. Cuốn sách kết hợp giữa lịch sử, sinh học, địa lý và nhân học, đưa ra cái nhìn khoa học và toàn diện về sự phát triển của loài người."
+              },
+              {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Howard_Zinn%2C_2009_%28cropped%29.jpg",
+                "image": "image_book/history-usa.png",
+                "name": "Lịch sử nhân dân Hoa Kỳ",
+                "genre": "Lịch sử, Văn hóa & Tiểu sử",
+                "author": "Howard Zinn",
+                "price": "89k",
+                "Content": "“A People’s History of the United States” của Howard Zinn là một cuốn lịch sử phi truyền thống, kể lại lịch sử Mỹ từ góc nhìn của những nhóm bị áp bức: người bản địa, nô lệ, phụ nữ, người lao động và các cộng đồng thiểu số. Cuốn sách nhấn mạnh những cuộc đấu tranh xã hội và bất công, thách thức các câu chuyện chính thống về quyền lực và lịch sử “chính thức” của nước Mỹ."
+              },
+              {
+                "link_image_author": "https://ww2.kqed.org/app/uploads/sites/43/2023/10/1920-x-1080-forum-web-page-2-1020x574.jpg",
+                "image": "image_book/twoface.png",
+                "name": "A Man of Two Faces: A Memoir, A History, A Memorial",
+                "genre": "Lịch sử, Văn hóa & Tiểu sử",
+                "author": "Nguyễn Thanh Việt",
+                "price": "",
+                "Content": "A Man of Two Faces: A Memoir, A History, A Memorial của Viet Thanh Nguyen là hồi ký kết hợp giữa tự truyện, lịch sử và tưởng niệm. Cuốn sách kể về tuổi thơ của tác giả, trải nghiệm di cư từ Việt Nam sang Mỹ, những mất mát gia đình, và hành trình tìm kiếm bản sắc. Với lối viết sáng tạo, Nguyen kết hợp hồi tưởng cá nhân, phân tích xã hội và văn hóa, phản ánh sâu sắc trải nghiệm người nhập cư và di dân."
+              },
+              {
+                "link_image_author": "https://www.historyhit.com/app/uploads/2020/07/photo-of-anne-frank-1.jpg?x81146",
+                "image": "image_book/anne-frank.png",
+                "name": "Nhật ký Anne Frank",
+                "genre": "Lịch sử, Văn hóa & Tiểu sử",
+                "author": "Anne Frank",
+                "price": "",
+                "Content": "“ A People’s History of the United States ” của Howard Zinn (xuất bản lần đầu 1980) là một tác phẩm lịch sử phi truyền thống nổi tiếng, kể lại lịch sử Mỹ từ góc nhìn của những nhóm bị áp bức, như người bản địa, nô lệ, phụ nữ, công nhân và các cộng đồng thiểu số. Cuốn sách nhấn mạnh các cuộc đấu tranh xã hội, bất công và những mâu thuẫn quyền lực, thách thức các câu chuyện lịch sử chính thống. Nó được coi là một tác phẩm kinh điển trong giáo dục và nghiên cứu về lịch sử xã hội và nhân quyền."
+              },
+              {
+                "link_image_author": "http://www.khoavanhoc-ngonngu.edu.vn/images/stories/freud.jpg",
+                "image": "image_book/civilization.png",
+                "name": "Văn minh và những bất mãn của nó",
+                "genre": "Lịch sử, Văn hóa & Tiểu sử",
+                "author": "Sigmund Freud",
+                "price": "",
+                "Content": "Civilization and Its Discontents (Văn minh và những bất mãn của nó) của Sigmund Freud (1930) là một tác phẩm kinh điển về tâm lý học và xã hội học. Trong cuốn sách, Freud phân tích xung đột giữa bản năng cá nhân và những yêu cầu của xã hội văn minh, chỉ ra rằng văn minh mang lại trật tự nhưng cũng tạo ra bất mãn và căng thẳng tâm lý. Tác phẩm bàn về tội lỗi, đạo đức, tình dục và tôn giáo, đồng thời đặt nền tảng cho nhiều nghiên cứu về bản chất con người và mối quan hệ giữa cá nhân với xã hội."
+              },
+              {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Bill_Bryson_%2828449155987%29_%28Bryson_cropped%29_%28cropped%29.jpg/330px-Bill_Bryson_%2828449155987%29_%28Bryson_cropped%29_%28cropped%29.jpg",
+                "image": "image_book/history-everything.png",
+                "name": "Lịch sử vạn vật",
+                "genre": "Lịch sử, Văn hóa & Tiểu sử",
+                "author": "Bill Bryson",
+                "price": "173K",
+                "Content": "A Short History of Nearly Everything (Lược sử vạn vật) của Bill Bryson là một tác phẩm khoa học phổ thông nổi tiếng , xuất bản năm 2003 . Cuốn sách giúp người đọc hiểu về lịch sử hình thành vũ trụ , Trái Đất và sự sống – từ vụ nổ Big Bang , sự tiến hóa , đén vai trò của con người trong tự nhiên . Với lối viết hài hước , dễ hiểu và giàu thông tin , Bryson kể lại hành trình khám phá khoa học qua nhà bác học vĩ đại như Newton ,Darwin hay Einstein. Tác phẩm từng đoạt nhiều giải thưởng, trong đó có Aventis Prize for Science Books , và được xem là một trong những cuốn sách giúp phổ biến khoa học hay nhất thế kỷ 21."
+              },
+              {
+                "link_image_author": "https://pyxis.nymag.com/v1/imgs/bec/61c/afc409b7fc2e2e8234c4ffc2cc5eee8cd1-10-jared-diamond.rhorizontal.w600.jpg",
+                "image": "image_book/supdo.png",
+                "name": "Sụp đổ: Cách các xã hội lựa chọn thất bại hay thành công",
+                "genre": "Lịch sử, Văn hóa & Tiểu sử",
+                "author": "Jared Diamond",
+                "price": "",
+                "Content": "Collapse: How Societies Choose to Fail or Succeed (Sụp đổ: Cách các xã hội lựa chọn thất bại hay thành công) của Jared Diamond, xuất bản năm 2005, là tác phẩm nghiên cứu về nguyên nhân khiến nhiều nền văn minh trong lịch sử suy tàn. Diamond phân tích các trường hợp như người Maya, người Viking ở Greenland hay đảo Phục Sinh, để chỉ ra tác động của môi trường, tài nguyên và cách con người ra quyết định. Ông đồng thời cảnh báo rằng xã hội hiện đại cũng có thể sụp đổ nếu không biết cân bằng giữa phát triển và bảo về hành tinh."
+              },
+              {
+                "link_image_author": "https://tulieuvankien.dangcongsan.vn/Uploads/2018/7/5/12/mandela-portrait-up.jpg",
+                "image": "image_book/freedom.png",
+                "name": "Con đường dài đến tự do",
+                "genre": "Lịch sử, Văn hóa & Tiểu sử",
+                "author": "Nelson Mendela",
+                "price": "197K",
+                "Content": "Long Walk to Freedom (Con đường dài đến tự do) là hồi ký của Nelson Mandela, xuất bản năm 1994. Cuốn sách kể lại cuộc đời ông từ thời niên thiếu ở Nam Phi, quá trình trở thành nhà đấu tranh chống chủ nghĩa phân biệt chủng tộc (Apartheid), 27 năm tù đày, và hành trình đi đến tự do cũng như trở thành Tổng thống Nam Phi. Tác phẩm thể hiện tinh thần kiên cường, lòng nhân ái và khát vọng bình đẳng, trở thành biểu tượng cho tự do và công lý trên toàn thế giới."
+              },
+              {
+                "link_image_author": "https://cdn.britannica.com/91/82291-050-EB7A276A/Mohandas-K-Gandhi-leader-Mahatma-Indian.jpg?w=300",
+                "image": "image_book/story-gandhi.png",
+                "name": "Tự truyện của Mahatma Gandhi",
+                "genre": ": Lịch sử, Văn hóa & Tiểu sử",
+                "author": "Mahatma Gandi",
+                "price": "249K",
+                "Content": "The Story of My Experiments with Truth (Tự truyện của Mahatma Gandhi) là hồi ký của lãnh tụ Ấn Độ Mahatma Gandhi, được viết trong giai đoạn 1925–1929. Cuốn sách ghi lại hành trình tìm kiếm chân lý, đạo đức và tinh thần bất bạo động (ahimsa) của Gandhi — từ thời niên thiếu, những năm du học ở Anh, đến khi lãnh đạo phong trào độc lập Ấn Độ. Qua những “thí nghiệm với sự thật”, Gandhi chia sẻ triết lý sống giản dị, lòng tin vào công lý và sức mạnh đạo đức của con người."
+              },
+              {
+                "link_image_author": "https://nld.mediacdn.vn/zoom/320_200/2019/7/19/photo-1-15634996291692129668760.jpg",
+                "image": "image_book/dvietskytoanthu.png",
+                "name": "Đại Việt sử ký toàn thứ",
+                "genre": "Lịch sử , Văn hóa & Tiểu sử",
+                "author": "Ngô Sĩ Liên",
+                "price": "350k",
+                "Content": "“Đại Việt sử ký toàn thư” do Ngô Sĩ Liên biên soạn vào năm 1479 dưới triều Lê Thánh Tông, là bộ quốc sử chính thống đầu tiên và đầy đủ nhất của Việt Nam thời trung đại. Tác phẩm ghi chép lịch sử dân tộc từ thời Hồng Bàng đến cuối triều Lê sơ, dựa trên các nguồn sử cũ như Đại Việt sử ký và Đại Việt sử ký tục biên . Với cách biên soạn khoa học, có nhận xét, đánh giá mang tư tưởng Nho giáo, tác phẩm không chỉ có giá trị lịch sử mà còn là di sản văn hóa, thể hiện tinh thần độc lập, tự hào dân tộc."
+              },
+              {
+                "link_image_author": "https://nguoikesu.com/images/wiki/nguyen-ai-quoc/c66f2bba90fc3863be732216ae656d42.jpg",
+                "image": "image_book/dgkachmenh.png",
+                "name": "Đường Kách Mệnh",
+                "genre": "Lịch sử , Văn hóa & Tiểu sử",
+                "author": "Nguyễn Ái Quốc",
+                "price": "499k",
+                "Content": "“Đường Kách mệnh” là tác phẩm của Chủ tịch Hồ Chí Minh, viết năm 1927, tập hợp các bài giảng của Người tại lớp huấn luyện chính trị ở Quảng Châu (Trung Quốc). Tác phẩm trình bày những vấn đề cơ bản về con đường cách mạng Việt Nam, vai trò của giai cấp công nhân, tổ chức Đảng và tinh thần đoàn kết quốc tế. Đây được xem là cuốn sách lý luận chính trị đầu tiên của cách mạng Việt Nam, đặt nền tảng tư tưởng cho việc thành lập Đảng Cộng sản Việt Nam năm 1930."
+              }
+            ]
 
     }
+
 }
