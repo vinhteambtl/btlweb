@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* ===== BỐ CỤC CHÍNH ===== */
+.store-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 60px;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+/* --- Danh sách cửa hàng --- */
+.store-list {
+  width: 36%;
+  min-width: 300px;
+  background: #fff;
+  padding: 24px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+
+.store-list h2 {
+  color: #222;
+  margin-bottom: 12px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+select {
+  padding: 6px 10px;
+  margin: 10px 0 15px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* --- Cuộn danh sách --- */
+.store-scroll {
+  max-height: 420px;
+  overflow-y: auto;
+  padding-right: 6px;
+}
+
+/* --- Từng địa điểm --- */
+.bookstore {
+  padding: 10px 12px;
+  border-left: 3px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.bookstore:hover {
+  background-color: #e8f6e8;
+  border-left: 3px solid #2e9e34;
+}
+
+.bookstore.active {
+  background-color: #d4f1d6;
+  border-left: 3px solid #222;
+}
+
+/* --- Bản đồ --- */
+.map-container {
+  flex: 1;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  min-width: 400px;
+}
+
+.newsletter {
+  background-color: #343a40; /* hoặc màu bạn muốn */
+}
+/*====Phan khuyen mai de ngoai footer nen phải như v ==== */
+.newsletter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.newsletter-input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.newsletter-input input {
+  flex: 1;
+  min-width: 220px;
+}
+
+.newsletter-input button {
+  white-space: nowrap;
+}

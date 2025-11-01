@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Thanh nhận khuyến mãi */
+.newsletter {
+  background-color: #363d36;
+}
+
+/* Footer */
+.footer {
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Logo */
+.logo {
+  width: 80px;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+/* Liên kết */
+.footer-link {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  margin: 6px 0;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.footer-link:hover {
+  color: #2e9e34;
+  text-decoration: underline;
+}
+
+/* Phương thức thanh toán */
+.payment-methods img {
+  height: 28px;
+  margin: 4px;
+}
+
+.text-gray {
+  color: gray !important;
+}
+/* .newsletter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.newsletter-input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.newsletter-input input {
+  flex: 1;
+  min-width: 220px;
+}
+
+.newsletter-input button {
+  white-space: nowrap;
+} */
+/*Phan khuyen mại để ngoài footer nên nếu nối thêm phần này vào */

@@ -1,0 +1,42 @@
+/* Toàn trang cơ bản */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f5f6f7;
+  color: #333;
+}
+
+/* Giới hạn width giống ảnh */
+main .container {
+  max-width: 980px;
+}
+
+/* Card chính (nền trắng, bo, shadow) */
+.card {
+  border-radius: 10px;
+}
+.card .card-body p {
+  line-height: 1.8;
+  font-size: 15.8px;
+  text-align: justify;
+  margin-bottom: 16px;
+}
+
+/* Khung thông tin xanh nhạt với viền trái đậm */
+.info-box {
+  background-color: #f0fbf3; /* xanh nhạt */
+  border-left: 5px solid #111; /* viền trái đậm */
+  padding: 18px;
+  border-radius: 6px;
+  margin-top: 12px;
+}
+
+/* Link trong content */
+a {
+  color: #0b6f0b; /* xanh đậm nhẹ */
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
