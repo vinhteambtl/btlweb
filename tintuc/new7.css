@@ -1,0 +1,62 @@
+/* ===== GIỚI HẠN VÀ CĂN GIỮA PHẦN NỘI DUNG ===== */
+.content-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* ===== BREADCRUMB ===== */
+.breadcrumb-wrapper {
+  padding-left: 30px; /* nằm gần lề trái hơn */
+}
+
+.breadcrumb-custom {
+  margin-left: 20px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: '>'; /* dùng dấu “>” giữa các mục */
+  font-weight: 700;
+  color: #6c757d;
+  margin: 0 6px;
+}
+
+.breadcrumb-item a,
+.breadcrumb-item.active {
+  color: black !important;
+  text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+  color: #1b677e !important;
+  text-decoration: underline;
+}
+
+/* ===== CHỮ MÀU XÁM NHẸ ===== */
+.text-gray {
+  color: #555 !important;
+}
+
+/* ===== TIÊU ĐỀ ===== */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ===== ẢNH VÀ CHÚ THÍCH (CAPTION) ===== */
+figure {
+  text-align: center;
+  margin: 20px 0;
+}
+
+figure img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+figcaption {
+  font-size: 0.95rem;
+  color: #6c757d;
+  margin-top: 8px;
+  font-style: italic;
+}

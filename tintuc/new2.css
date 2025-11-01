@@ -1,0 +1,88 @@
+/* ===== Breadcrumb ===== */
+.breadcrumb-custom {
+  padding-left: 30px; /* cách lề trái 30px */
+  font-size: 14px; /* giảm từ 16px xuống 14px */
+}
+.breadcrumb-bold {
+  font-weight: 600;
+  color: #6c757d; /* màu xám */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.breadcrumb-bold:hover {
+  color: #0d6efd; /* xanh Bootstrap khi hover */
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  content: '>'; /* đảm bảo nó dùng dấu “>” */
+  font-weight: 700; /* làm đậm dấu “>” */
+  color: #0b0c0e; /* giữ màu xám */
+  margin: 0 6px; /* khoảng cách hai bên */
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #646769;
+  margin: 0 0 20px 0;
+}
+
+/* ===== Bài viết ===== */
+.article-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.article-container h3 {
+  color: #6c757d; /* đổi sang xám chuẩn */
+  font-weight: 700;
+}
+
+p,
+li {
+  font-size: 17px;
+  line-height: 1.7;
+  text-align: justify;
+  color: #212529;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+/* ===== Ảnh ===== */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+img.rounded {
+  border-radius: 10px;
+}
+
+.shadow-sm {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+/* .text-gray {
+  color: black !important; /* màu đen chuẩn Bootstrap */
+
+/* ===== Tổng thể ===== */
+body {
+  background-color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #212529;
+  margin: 0;
+  padding: 0;
+}
+pre {
+  background-color: #f8f9fa; /* nền sáng nhẹ, giống màu Bootstrap light */
+  padding: 12px 16px; /* padding vừa phải */
+  border-radius: 8px; /* bo góc nhẹ */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* font giống body */
+  font-size: 15px; /* cỡ chữ vừa phải */
+  line-height: 1.6; /* khoảng cách dòng */
+  color: #212529; /* chữ màu đen */
+  overflow-x: auto; /* scroll ngang nếu quá dài */
+  white-space: pre-wrap; /* xuống dòng khi dài quá */
+  word-break: break-word; /* tránh chữ bị tràn */
+  margin-bottom: 20px; /* khoảng cách dưới */
+}

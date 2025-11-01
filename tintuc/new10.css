@@ -1,0 +1,88 @@
+/* ===== Breadcrumb ===== */
+.breadcrumb-custom {
+  padding-left: 30px;
+  font-size: 14px;
+}
+
+.breadcrumb-bold {
+  font-weight: 600;
+  color: #6c757d;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.breadcrumb-bold:hover {
+  color: #0d6efd;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: '>';
+  font-weight: 700;
+  color: #0b0c0e;
+  margin: 0 6px;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #646769;
+  margin: 0 0 20px 0;
+}
+
+/* ===== Bài viết ===== */
+.article-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.article-container h3 {
+  color: #6c757d;
+  font-weight: 700;
+}
+
+p,
+li {
+  font-size: 17px;
+  line-height: 1.7;
+  text-align: justify;
+  color: #212529;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+/* ===== Ảnh ===== */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+img.rounded {
+  border-radius: 10px;
+}
+
+.shadow-sm {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-gray {
+  color: black !important;
+}
+
+/* Caption ảnh */
+.img-caption {
+  font-style: italic;
+  color: #6c757d;
+  font-size: 0.95rem;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* ===== Tổng thể ===== */
+body {
+  background-color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #212529;
+  margin: 0;
+  padding: 0;
+}

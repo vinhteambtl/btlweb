@@ -1,0 +1,47 @@
+/* ===== Breadcrumb ===== */
+.breadcrumb-custom {
+  padding-left: 30px;
+  font-size: 14px;
+}
+
+.breadcrumb-bold {
+  font-weight: 600;
+  color: var(--bs-secondary);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.breadcrumb-bold:hover {
+  color: var(--bs-primary);
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: '>';
+  font-weight: 700;
+  color: var(--bs-dark);
+  margin: 0 6px;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--bs-dark);
+  margin: 0 0 20px 0;
+  color: black;
+}
+
+/* ===== Bài viết ===== */
+.article-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.article-container p {
+  font-size: 1rem;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+/* Tổng thể */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,35 @@
+/* Giới hạn độ rộng phần nội dung */
+.content-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Canh trái phần breadcrumb (cách 1 chút) */
+.breadcrumb-custom {
+  margin-left: 20px;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  content: '>'; /* đảm bảo nó dùng dấu “>” */
+  font-weight: 700; /* làm đậm dấu “>” */
+  color: #6c757d; /* giữ màu xám */
+  margin: 0 6px; /* khoảng cách hai bên */
+}
+/* Màu chữ xám cho breadcrumb */
+.breadcrumb-item a,
+.breadcrumb-item.active {
+  color: #6c757d !important;
+  text-decoration: none;
+}
+
+/* Khi di chuột qua đổi màu */
+.breadcrumb-item a:hover {
+  color: #1b677e !important;
+  text-decoration: underline;
+}
+.text-gray {
+  color: #555 !important;
+}
+/* Breadcrumb nằm gần lề trái hơn */
+.breadcrumb-wrapper {
+  padding-left: 30px;
+}
