@@ -1,0 +1,1244 @@
+{
+    "books": {
+        "Văn học Hiện đại & Kinh điển": [
+            {
+                 "link_image_author": "https://vimages.coccoc.com/vimage?ns=public_people&url=https://imgprofile.vnanet.vn/Media/Graphic/Profile/2023/07/25/nam-cao-3.JPG",
+                "image": "images/vhhd-kd(1).png",
+                "name": "Chí Phèo",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "Nam Cao",
+                "price": "49.000đ",
+                "Content": "“Chí Phèo” là truyện ngắn nổi tiếng của Nam Cao, sáng tác năm 1941, thuộc văn học hiện thực phê phán Việt Nam. Tác phẩm kể về bi kịch của Chí Phèo – người nông dân lương thiện bị xã hội phong kiến tàn ác biến thành kẻ tha hóa và bị từ chối quyền làm người. Qua đó, Nam Cao lên án xã hội bất công và thể hiện niềm thương cảm sâu sắc đối với người lao động nghèo, đồng thời đặt ra câu hỏi nhức nhối: “Ai cho Chí Phèo lương thiện?”"
+            },
+            {
+                "image": "images/vhhd-kd(2).png",
+                "name": "ROMEO AND JULIET",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "William Shakespeare",
+                "price": "149.000đ",
+                "Content": "“Romeo and Juliet” là vở bi kịch nổi tiếng của nhà soạn kịch William Shakespeare (Anh), sáng tác vào khoảng năm 1595. Tác phẩm kể về chuyện tình bi thương giữa Romeo và Juliet, hai người trẻ thuộc hai dòng họ thù địch ở thành Verona (Ý). Dù tình yêu của họ chân thành và mãnh liệt, nhưng sự hận thù giữa hai gia tộc đã dẫn đến cái chết oan nghiệt của đôi tình nhân. “Romeo and Juliet” ca ngợi tình yêu trong sáng, dám vượt qua định kiến xã hội, đồng thời lên án những hận thù mù quáng. Đây là một trong những tác phẩm kinh điển nhất của văn học thế giới, biểu tượng cho tình yêu và bi kịch tuổi trẻ."
+            },
+            {
+                "image": "images/vhhd-kd(3).png",
+                "name": "Chiến tranh và hòa bình (War and Peace)",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "LEO TOLSTOY",
+                "price": "167.000đ",
+                "Content": "“War and Peace” ( Chiến tranh và Hòa bình ) là tiểu thuyết vĩ đại của Lev Tolstoy (Nga), xuất bản năm 1869. Tác phẩm khắc họa bức tranh toàn cảnh xã hội Nga đầu thế kỷ XIX, trong bối cảnh chiến tranh giữa Nga và Napoléon. Câu chuyện xoay quanh nhiều nhân vật thuộc tầng lớp quý tộc như Pierre Bezukhov, Andrei Bolkonsky và Natasha Rostova, thể hiện những biến đổi trong tình yêu, lý tưởng và số phận con người. Tolstoy đã ca ngợi tinh thần dân tộc, lòng nhân ái và khát vọng hòa bình, đồng thời thể hiện tư tưởng triết học sâu sắc về con người và lịch sử nhân loại."
+            },
+            {
+                "image": "images/vhhd-kd(4).png",
+                "name": "Những người khốn khổ (Les Misérables)",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "Victor Hugo",
+                "price": "205.000đ",
+                "Content": "“Les Misérables” ( Những người khốn khổ ) là tiểu thuyết vĩ đại của Victor Hugo (Pháp), xuất bản năm 1862. Tác phẩm kể về Jean Valjean, một người tù khổ sai bị xã hội ruồng bỏ nhưng luôn khao khát làm lại cuộc đời. Song song đó là số phận Fantine, Cosette và Marius, phản ánh nỗi đau, bất công và tình yêu giữa bối cảnh nước Pháp thế kỷ XIX. Qua tác phẩm, Victor Hugo lên án xã hội bất công, ca ngợi lòng nhân ái, sự tha thứ và khát vọng tự do, thể hiện niềm tin sâu sắc vào khả năng hướng thiện của con người."
+            },
+            {
+                "image": "images/vhhd-kd(5).png",
+                "name": "Frankenstein",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "Mary Shelley",
+                "price": "134.000đ",
+                "Content": "\"Frankenstein\" là một tiểu thuyết kinh điển của Mary Shelley, xuất bản lần đầu năm 1818. Tác phẩm kể về Victor Frankenstein, một nhà khoa học trẻ tuổi bị ám ảnh bởi khát vọng chinh phục sự sống. Anh đã tạo ra một sinh vật khổng lồ từ các bộ phận xác chết, nhưng khi con quái vật sống dậy, Frankenstein kinh hoàng và ruồng bỏ nó. Tác phẩm không chỉ là một câu chuyện kinh dị mà còn là biểu tượng triết học và nhân văn sâu sắc, đặt ra nhiều câu hỏi về đạo đức khoa học, trách nhiệm của con người, và sự cô đơn của kẻ bị xã hội ruồng bỏ."
+            },
+            {
+                "image": "images/vhhd-kd(6).png",
+                "name": "Nhà Quý tộc tài ba xứ ManCha (Don Quixote)",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "Miguel de Cervantes",
+                "price": "99.000đ",
+                "Content": "“Don Quixote” là tiểu thuyết kinh điển của Miguel de Cervantes (Tây Ban Nha), gồm hai phần xuất bản năm 1605 và 1615. Tác phẩm kể về Don Quixote, một quý ông say mê truyện hiệp sĩ đến mức hóa điên, cùng người hầu trung thành Sancho Panza lên đường đi “trừ gian diệt ác” để bảo vệ công lý. Trên hành trình đó, ông gặp nhiều tình huống bi hài, bị người đời chế giễu nhưng vẫn kiên trì theo đuổi lý tưởng của mình. Với ngòi bút châm biếm và nhân văn, Cervantes vừa phê phán ảo tưởng lãng mạn và xã hội lỗi thời, vừa ca ngợi khát vọng sống đẹp, lòng dũng cảm và niềm tin vào cái thiện của con người."
+            },
+            {
+                "image": "images/vhhd-kd(7).png",
+                "name": "Ông già và biển cả (The Old Man and the Sea)",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "Ernest Hemingway",
+                "price": "125.000đ",
+                "Content": "“The Old Man and the Sea” ( Ông già và biển cả ) là tiểu thuyết ngắn nổi tiếng của Ernest Hemingway (Mỹ), xuất bản năm 1952. Tác phẩm kể về Santiago, một ông lão đánh cá ở Cuba đã 84 ngày liền không bắt được cá. Một hôm, ông ra khơi xa và chiến đấu suốt ba ngày với con cá kiếm khổng lồ, cuối cùng giết được nó nhưng bị bầy cá mập rỉa sạch thịt trên đường trở về. Dù thất bại, Santiago vẫn giữ lòng kiêu hãnh và ý chí không khuất phục, thể hiện triết lý sống nổi tiếng của Hemingway: “Con người có thể bị hủy diệt nhưng không thể bị khuất phục.” Tác phẩm mang ý nghĩa biểu tượng sâu sắc về nghị lực, lòng dũng cảm và phẩm giá con người."
+            },
+            {
+                "image": "images/vhhd-kd(8).png",
+                "name": "Kiêu hãnh và định kiến (Pride and Prejudice)",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "Jane Austen",
+                "price": "99.000đ",
+                "Content": "“Pride and Prejudice” ( Kiêu hãnh và định kiến ) là tiểu thuyết nổi tiếng của Jane Austen (Anh), xuất bản năm 1813. Tác phẩm xoay quanh chuyện tình giữa Elizabeth Bennet và Fitzwilliam Darcy, phản ánh vấn đề giai cấp, hôn nhân và định kiến xã hội trong nước Anh thế kỷ XIX. Với giọng văn hài hước, tinh tế và sâu sắc, tác phẩm ca ngợi tình yêu chân thành, sự tự trọng và khả năng vượt qua định kiến của con người."
+            },
+            {
+                "image": "images/vhhd-kd(9).png",
+                "name": "Cuộc đời của Pi (Life of Pi)",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "Yann Martel",
+                "price": "189.000đ",
+                "Content": "“Life of Pi” (Cuộc đời của Pi) là tiểu thuyết nổi tiếng của Yann Martel xoay quanh Pi Patel, một cậu bé người Ấn Độ yêu động vật và có niềm tin mạnh mẽ vào tôn giáo. Sau khi con tàu chở gia đình và các con vật trong vườn thú bị đắm, Pi trở thành người sống sót duy nhất — trôi dạt trên biển 227 ngày cùng một con hổ Bengal tên Richard Parker. Trên chiếc xuồng cứu sinh, Pi phải học cách chung sống với con hổ, vượt qua nỗi sợ hãi, cơn đói, sự cô độc và tuyệt vọng, đồng thời tìm kiếm ý nghĩa của niềm tin và sự sống. Tác phẩm là một hành trình sinh tồn đầy tính biểu tượng, vừa là câu chuyện phiêu lưu kỳ thú, vừa là ẩn dụ triết lý sâu sắc về đức tin, bản năng và ý chí con người."
+            },
+            {
+                "image": "images/vhhd-kd(10).png",
+                "name": "KẺ TRỘM SÁCH (The Book Thief)",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "Markus Zusak",
+                "price": "219.000đ",
+                "Content": "“The Book Thief” (Kẻ trộm sách) là tiểu thuyết nổi tiếng của Markus Zusak, nhà văn người Úc, xuất bản năm 2005. Câu chuyện lấy bối cảnh Đức Quốc xã trong Thế chiến thứ hai, được nhân vật Thần Chết (Death) kể lại. Nhân vật chính là Liesel Meminger, một cô bé mồ côi được gia đình nuôi dưỡng ở thị trấn nhỏ Molching. Liesel có niềm đam mê đặc biệt với sách và ngôn từ, cô thường trộm sách để đọc và chia sẻ với những người xung quanh — như một cách giữ lại niềm tin, tình người và hy vọng giữa chiến tranh tàn khốc. Tác phẩm ca ngợi sức mạnh của ngôn từ, tình yêu thương và lòng nhân ái, đồng thời phản ánh nỗi đau và mất mát của con người trong chiến tranh."
+            },
+            {
+                "image": "images/vhhd-kd(11).png",
+                "name": "HÓA THÂN (The Metamorphosis)",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "Franz Kafka",
+                "price": "109.000đ",
+                "Content": "“The Metamorphosis” (Hóa thân) là truyện vừa nổi tiếng của Franz Kafka, nhà văn gốc Áo – Tiệp (Áo-Hung/hiện nay là Cộng hòa Séc), được xuất bản năm 1915. Tác phẩm kể về Gregor Samsa, một nhân viên bán hàng bình thường, một sáng tỉnh dậy bỗng biến thành một con côn trùng khổng lồ. Từ đó, anh dần bị gia đình xa lánh, xã hội ruồng bỏ, và sống trong cô đơn, tuyệt vọng cho đến khi chết đi. Câu chuyện mang tính biểu tượng sâu sắc, thể hiện sự tha hóa, cô lập và bi kịch của con người trong xã hội hiện đại, nơi con người bị mất đi nhân tính và bị biến thành “vật thể” trong guồng máy vô cảm."
+            },
+            {
+                "image": "images/vhhd-kd(12).png",
+                "name": "Những cuộc phiêu lưu của Huckleberry Finn (The Adventures of Huckleberry Finn)",
+                "genre": "Văn học Hiện đại & Kinh điển",
+                "author": "Mark Twain",
+                "price": "250.000đ",
+                "Content": "“The Adventures of Huckleberry Finn” (Những cuộc phiêu lưu của Huckleberry Finn) là tiểu thuyết nổi tiếng của Mark Twain, nhà văn người Mỹ, xuất bản năm 1884. Tác phẩm kể về Huckleberry Finn, một cậu bé nghèo sống ở miền Nam nước Mỹ, bỏ nhà ra đi cùng Jim – một nô lệ da đen trốn chạy – trên hành trình xuôi theo sông Mississippi. Trên con thuyền nhỏ, họ trải qua nhiều cuộc phiêu lưu kỳ thú, đồng thời phải đối mặt với định kiến, bất công và nạn phân biệt chủng tộc trong xã hội Mỹ thế kỷ XIX. Tiểu thuyết vừa mang tính phiêu lưu hài hước, vừa là lời phê phán sâu sắc xã hội Mỹ đương thời."
+            }
+        ],
+       "Giả tưởng & Khoa học Viễn tưởng": [
+            {
+                "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqRTuGV2FzTDRD2CUorQGy-R8cNcEF2Iu4ug&s",
+                "image": "images/gt-khvt(1).png",
+                "name": "Cỗ máy thời gian",
+                "genre": "Viễn tưởng giả tưởng",
+                "author": "Herbert George Wells",
+                "price": "361.000đ",
+                "Content": "Một nhà khoa học thời Victoria chế tạo một cỗ máy có khả năng du hành xuyên thời gian. Ông du hành đến năm 802,701 và gặp gỡ tộc người Eloi xinh đẹp nhưng yếu đuối. Dưới lòng đất, ông kinh hoàng phát hiện ra tộc Morlock, hậu duệ của giai cấp lao động. Các Morlock nay đã trở thành kẻ săn mồi, chăn nuôi và ăn thịt những người Eloi. Sau một cuộc đấu tranh để giành lại cỗ máy, ông phải trốn thoát khỏi tương lai tăm tối. Trở về kể lại câu chuyện, ông lại bắt đầu một chuyến đi mới và biến mất vĩnh viễn."
+            },
+            {
+                "link_image_author": "https://th.bing.com/th/id/OIP.awAiMS1BCAQ2xS2lcdXGlwHaHH?w=170&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+                "image": "images/gt-khvt(2).png",
+                "name": "我能给物品加个点",
+                "genre": "Khoa học viễn tưởng, Công nghệ siêu việt",
+                "author": "钢丝上跳舞",
+                "price": "276.000đ",
+                "Content": "Trần Giác, một chàng trai thất nghiệp ở thành phố lớn, trở về nhà để thừa kế cửa hàng tiện lợi của gia đình. Anh phát hiện chiếc bếp đồng cổ ẩn chứa hệ thống công nghệ cao có thể truyền năng lượng cho vật thể. Anh bắt đầu hành trình khám phá sức mạnh này và mở ra khả năng thay đổi thế giới."
+            },
+            {
+                "link_image_author": "https://vidian.vn/img-thumbnail/img-thumbnail-1721446111344.jpg",
+                "image": "images/gt-khvt(3).png",
+                "name": "Thôn Phệ Tinh Không",
+                "genre": "Huyền huyễn, Khoa học, Hành động",
+                "author": "Ngã Cật Tây Hồng Thị",
+                "price": "341.000đ",
+                "Content": "Virus 'RR' khiến nhân loại biến đổi, thiên nhiên trở thành mối đe dọa. Nhân vật chính La Phong phát hiện năng lực đặc biệt, từ một học sinh bình thường trở thành chiến binh chống lại sinh vật biến dị và chinh phục vũ trụ."
+            },
+            {
+                "link_image_author": "https://lh3.googleusercontent.com/proxy/-BZr5tSVuPOqWg1LnK2VtCAKy8FmZX_Nbj2mqoM4qCx4vbZyqr-bgbxF2JUDUxYnuKhKeJYgThh-A5hcVt73xfAGA9nuwOQmO8g-1FrvQ-amcF3pIshgUSsZQU91I9uQWuQ",
+                "image": "images/gt-khvt(4).png",
+                "name": "Tam thể",
+                "genre": "Viễn tưởng không gian – xâm lăng ngoài hành tinh",
+                "author": "Lưu Từ Ân",
+                "price": "216.000đ",
+                "Content": "Giáo sư Uông Diểu say mê trò chơi Tam Thể, nơi tồn tại nền văn minh kỳ lạ có ba mặt trời. Nhưng trò chơi ấy lại là cánh cửa cho sinh vật ngoài hành tinh xâm chiếm Trái Đất – và nó đã mở ra từ lâu."
+            },
+            {
+                "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZMmsIxdr6fOk1qlQUcavjLmj0TaSxIYpSA&s",
+                "image": "images/gt-khvt(5).png",
+                "name": "Animorphs - Người hóa thú",
+                "genre": "Khoa học viễn tưởng, Phiêu lưu",
+                "author": "K. A. Applegate",
+                "price": "123.000đ",
+                "Content": "Nhóm thiếu niên có khả năng biến thành động vật để chiến đấu chống loài ký sinh ngoài hành tinh Yeerks. Câu chuyện về tình bạn, lòng dũng cảm và trách nhiệm với Trái Đất."
+            },
+            {
+                "link_image_author": "https://th.bing.com/th/id/OIP.6mAjcugEREQR0E6Z-iVjyQHaHa?w=208&h=208&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+                "image": "images/gt-khvt(6).png",
+                "name": "Dune – Xứ cát",
+                "genre": "Khoa học viễn tưởng, Chính trị, Hành động",
+                "author": "Frank Herbert",
+                "price": "185.000đ",
+                "Content": "Trên hành tinh sa mạc Arrakis, Paul Atreides bị phản bội và lưu đày. Anh trở thành biểu tượng dân Fremen, dẫn dắt họ chống lại đế chế, mở ra huyền thoại về người được chọn của vũ trụ."
+            },
+            {
+                "link_image_author":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Isaac.Asimov01.jpg/500px-Isaac.Asimov01.jpg",
+                "image": "images/gt-khvt(7).png",
+                "name": "Foundation – Định chế",
+                "genre": "Khoa học viễn tưởng, Triết học, Chính trị",
+                "author": "Isaac Asimov",
+                "price": "160.000đ",
+                "Content": "Hari Seldon phát minh môn 'tâm sử học' dự đoán sự sụp đổ của Đế chế Thiên Hà. Ông lập kế hoạch 'Định chế' để lưu giữ tri thức nhân loại, rút ngắn thời kỳ hỗn loạn hàng nghìn năm."
+            },
+            {
+                "link_image_author": "https://th.bing.com/th/id/OIP.G2tsLqGXWsH8UyY6xIOrGAHaLE?w=186&h=278&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+                "image": "images/gt-khvt(8).png",
+                "name": "Neuromancer – Kẻ mộng du mạng",
+                "genre": "Cyberpunk, Công nghệ, Giả tưởng tương lai",
+                "author": "William Gibson",
+                "price": "145.000đ",
+                "Content": "Case – một hacker hết thời – được thuê thực hiện phi vụ cuối cùng trong thế giới mạng. Câu chuyện đặt nền móng cho thể loại cyberpunk với trí tuệ nhân tạo và ảo giác số."
+            },
+            {
+                "link_image_author": "https://th.bing.com/th/id/OIP.vJ3Y-eDQbETQhOYTgYdUgAAAAA?w=146&h=204&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+                "image": "images/gt-khvt(9).png",
+                "name": "The Martian – Người về từ Sao Hỏa",
+                "genre": "Khoa học viễn tưởng, Sinh tồn, Hài hước",
+                "author": "Andy Weir",
+                "price": "130.000đ",
+                "Content": "Phi hành gia Mark Watney bị bỏ lại trên Sao Hỏa. Anh tận dụng kiến thức khoa học để sống sót, trồng khoai tây, và liên lạc với Trái Đất trong hành trình sinh tồn đầy cảm hứng."
+            },
+            {
+                "link_image_author": "https://th.bing.com/th/id/OIP.RvNCnE7UAimsqw_H2GHMEwHaJt?w=147&h=193&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+                "image": "images/gt-khvt(10).png",
+                "name": "The Hobbit – Người Hobbit",
+                "genre": "Giả tưởng, Phiêu lưu, Thần thoại",
+                "author": "J. R. R. Tolkien",
+                "price": "170.000đ",
+                "Content": "Bilbo Baggins cùng 13 người lùn và pháp sư Gandalf phiêu lưu giành lại kho báu từ rồng Smaug, mở đầu cho thế giới Trung Địa huyền thoại."
+            },
+            {
+                "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUZgyPO8krfY6_yaX6iGK81B6k4kjd7cIiyg&s",
+                "image": "images/gt-khvt(11).png",
+                "name": "Ready Player One – Đấu trường ảo",
+                "genre": "Khoa học viễn tưởng, Công nghệ, Phiêu lưu",
+                "author": "Ernest Cline",
+                "price": "155.000đ",
+                "Content": "Trong tương lai, con người chìm trong thế giới ảo OASIS. Wade Watts tham gia cuộc săn kho báu kỹ thuật số, khám phá ranh giới giữa thực và ảo."
+            },
+            {
+                "link_image_author": "https://th.bing.com/th/id/OIP.dSFd0ZfBppYrQ2V3eL-r8AHaFj?w=185&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+                "image": "images/gt-khvt(12).png",
+                "name": "Frankenstein – Quái vật của Frankenstein",
+                "genre": "Khoa học viễn tưởng, Kinh dị, Triết học nhân sinh",
+                "author": "Mary Shelley",
+                "price": "135.000đ",
+                "Content": "Victor Frankenstein tạo ra sinh vật từ thi thể người chết. Khi con quái vật sống dậy, anh ruồng bỏ nó – mở ra câu chuyện bi kịch về đạo đức và trách nhiệm khoa học."
+            }
+        ],
+        "Trinh thám, Kinh dị & Giật gân": [
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Arthur_Conan_Doyle_by_Walter_Benington%2C_1914.png/500px-Arthur_Conan_Doyle_by_Walter_Benington%2C_1914.png",
+                "image": "images/tt-kdi-gg(1).png",
+                "name": "Sherlock Holmes – Chiếc nhẫn tình cờ",
+                "genre": "Trinh thám cổ điển",
+                "author": "Arthur Conan Doyle",
+                "price": "145.000đ",
+                "Content": "Câu chuyện đầu tiên về Sherlock Holmes và bác sĩ Watson phá vụ án giết người bí ẩn trong căn nhà trống, mở đầu cho loạt truyện trinh thám kinh điển."
+            },
+            {
+                "link_image_author": "https://th.bing.com/th/id/OIP.nf40QdVmfkvbadttbvP-qAHaFj?w=251&h=188&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+                "image": "images/tt-kdi-gg(2).png",
+                "name": "The Girl with the Dragon Tattoo – Cô gái có hình xăm rồng",
+                "genre": "Trinh thám, Giật gân, Tội phạm",
+                "author": "Stieg Larsson",
+                "price": "170.000đ",
+                "Content": "Nhà báo Mikael Blomkvist và hacker Lisbeth Salander điều tra vụ mất tích kéo dài hàng chục năm, hé lộ bí mật đen tối trong một gia tộc quyền lực."
+            },
+            {
+                "link_image_author": "https://th.bing.com/th/id/OIP.8JdK3JTBUfTZawaM4YJckwHaJt?w=186&h=244&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+                "image": "images/tt-kdi-gg(3).png",
+                "name": "Gone Girl – Cô gái mất tích",
+                "genre": "Giật gân tâm lý, Trinh thám hiện đại",
+                "author": "Gillian Flynn",
+                "price": "160.000đ",
+                "Content": "Amy biến mất trong ngày kỷ niệm cưới, và chồng cô trở thành nghi phạm. Câu chuyện hé lộ trò chơi tâm lý lạnh lùng giữa hai người tưởng chừng yêu nhau."
+            },
+            {
+                "link_image_author": "https://th.bing.com/th/id/OIP.0mxuH2gszU8kuLBuSknSHQHaF3?w=241&h=191&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+                "image": "images/tt-kdi-gg(4).png",
+                "name": "The Da Vinci Code – Mật mã Da Vinci",
+                "genre": "Trinh thám, Giật gân, Tôn giáo",
+                "author": "Dan Brown",
+                "price": "185.000đ",
+                "Content": "Giáo sư Robert Langdon bị cuốn vào vụ án giết người ở Louvre. Manh mối trong tranh Leonardo da Vinci dẫn đến bí mật ngàn năm của Giáo hội."
+            },
+            {
+                "link_image_author": "https://th.bing.com/th/id/OIP.9pXu-wsAH8mJ7dT0m84UkQHaFa?w=238&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+                "image": "images/tt-kdi-gg(5).png",
+                "name": "Shutter Island – Đảo kinh hoàng",
+                "genre": "Kinh dị tâm lý, Trinh thám",
+                "author": "Dennis Lehane",
+                "price": "150.000đ",
+                "Content": "Hai đặc vụ điều tra vụ mất tích tại bệnh viện tâm thần trên đảo Shutter. Càng đi sâu, họ càng lạc vào mê cung dối trá rợn người."
+            },
+            {
+                "link_image_author": "https://www.netabooks.vn/data/author/2964/logo-thomas-harris.jpg",
+                "image": "images/tt-kdi-gg(6).png",
+                "name": "The Silence of the Lambs – Sự im lặng của bầy cừu",
+                "genre": "Kinh dị, Tội phạm, Giật gân tâm lý",
+                "author": "Thomas Harris",
+                "price": "175.000đ",
+                "Content": "Clarice Starling phải nhờ tới bác sĩ Hannibal Lecter – kẻ ăn thịt người – để truy tìm tên sát nhân hàng loạt Buffalo Bill."
+            },
+            {   
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Stephen_King_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg/500px-Stephen_King_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg",
+                "image": "images/tt-kdi-gg(7).png",
+                "name": "Misery – Nỗi khổ không tên",
+                "genre": "Kinh dị, Tâm lý, Giật gân",
+                "author": "Stephen King",
+                "price": "140.000đ",
+                "Content": "Nhà văn Paul Sheldon bị fan cuồng Annie Wilkes giam giữ và tra tấn để ép viết lại cái kết truyện của mình."
+            },
+            {
+                "link_image_author": "https://th.bing.com/th/id/OIP.mp0s41bfes90asLxBK1MpwHaLX?w=115&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+                "image": "images/tt-kdi-gg(8).png",
+                "name": "The Shining – Tỏa sáng",
+                "genre": "Kinh dị siêu nhiên, Tâm lý",
+                "author": "Stephen King",
+                "price": "165.000đ",
+                "Content": "Jack Torrance cùng gia đình trông khách sạn Overlook bị thế lực ma quái chi phối khiến anh hóa điên và trở thành mối đe dọa với chính gia đình."
+            },
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Agatha_Christie.png",
+                "image": "images/tt-kdi-gg(9).png",
+                "name": "And Then There Were None – Mười người da đen nhỏ",
+                "genre": "Trinh thám, Giật gân, Tội phạm",
+                "author": "Agatha Christie",
+                "price": "150.000đ",
+                "Content": "Mười người bị mời đến hòn đảo cô lập, lần lượt bị giết theo bài đồng dao. Kẻ sát nhân thật sự là ai?"
+            },
+            {
+                "link_image_author": "https://th.bing.com/th/id/OIP.C3XEcrbgkPCy2UvrAKRC0wHaEW?w=303&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+                "image": "images/tt-kdi-gg(10).png",
+                "name": "The Woman in the Window – Người phụ nữ trong cửa sổ",
+                "genre": "Giật gân tâm lý, Trinh thám",
+                "author": "A. J. Finn",
+                "price": "145.000đ",
+                "Content": "Anna mắc chứng sợ ra ngoài, chứng kiến tội ác từ cửa sổ nhưng không ai tin cô. Mọi thứ dần biến thành cơn ác mộng."
+            },
+            {
+                "link_image_author": "https://th.bing.com/th/id/OIP.chg-WFeWXhslCAXBAkWMoQHaFi?w=240&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+                "image": "images/tt-kdi-gg(11).png",
+                "name": "The Girl on the Train – Cô gái trên tàu",
+                "genre": "Trinh thám, Tâm lý, Giật gân",
+                "author": "Paula Hawkins",
+                "price": "155.000đ",
+                "Content": "Rachel mỗi ngày nhìn qua cửa sổ tàu và vô tình thấy điều bất thường, bị cuốn vào vụ án mất tích đầy nghi hoặc."
+            },
+            {
+                "link_image_author": "https://th.bing.com/th/id/OIP.0-nSZsxwuRKooQHdNVwmQgHaD5?w=186&h=98&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+                "image": "images/tt-kdi-gg(12).png",
+                "name": "Psycho – Kẻ tâm thần ám ảnh",
+                "genre": "Kinh dị, Tội phạm, Giật gân tâm lý",
+                "author": "Robert Bloch",
+                "price": "135.000đ",
+                "Content": "Marion Crane trốn chạy cùng số tiền ăn cắp và trú tại nhà nghỉ Bates. Nơi đây ẩn chứa bí mật tâm lý kinh hoàng của Norman Bates."
+            }
+        ],
+        "Công nghệ – Khoa học – Kỹ thuật": [
+            {
+                "link_image_author": "https://salt.tikicdn.com/ts/brickv2og/77/04/92/aa48e1a6413b09dc108137d012a11989.jpg",
+                "image": "images/cn-kh-kt(1).png",
+                "name": "Physics of the Future: How Science Will Shape Human Destiny and Our Daily Lives by the Year 2100 (Vật lý của tương lai)",
+                "genre": "Khoa học - công nghệ",
+                "author": "Michio Kaku",
+                "price": "172.000 ₫",
+                "Content": "Cuốn sách này đưa người đọc du hành tới tương lai — khám phá các công nghệ đang trong phòng thí nghiệm hôm nay và sẽ phổ biến trong thế kỉ tới: từ y học, máy tính, năng lượng tới du hành vũ trụ."
+            },
+            {
+                "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRDzCP2oiAlfJtPde9ntDG51XxvttI6vavbQ&s",
+                "image": "images/cn-kh-kt(2).png",
+                "name": "Life 3.0: Being Human in the Age of Artificial Intelligence (Loài người trong kỷ nguyên trí tuệ nhân tạo)",
+                "genre": "Khoa học, triết học , trí tuệ nhân tạo",
+                "author": "Max Tegmark",
+                "price": "179.000 ₫",
+                "Content": "Tác giả là giáo sư tại MIT, bàn về tương lai khi trí tuệ nhân tạo (AI) ngày càng mạnh — sẽ ảnh hưởng như thế nào đến nhân loại, công việc, đạo đức, và cả bản thân chúng ta."
+            },
+            {
+                "link_image_author": "https://salt.tikicdn.com/ts/brickv2og/8a/f8/8a/2b0718c85dafd9707d7b832982a01906.jpg",
+                "image": "images/cn-kh-kt(3).png",
+                "name": "The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution (Những người tiên phong: Tin tặc, thiên tài và chuyên gia đã tạo ra cách mạng kỹ thuật số như thế nào)",
+                "genre": "Lịch sử công nghệ, khoa học, phi hư cấu",
+                "author": "Walter Isaacson",
+                "price": "827.600 ₫",
+                "Content": "Cuốn sách kể lại lịch sử hình thành của cuộc cách mạng số — từ những người tiên phong như Ada Lovelace, Alan Turing, John von Neumann, đến những người như Bill Gates, Steve Jobs. Tác giả tập trung vào yếu tố “hợp tác” (collaboration) – tại sao nhóm người làm cùng nhau mới tạo nên bước đột phá."
+            },
+            {
+                "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5tV4_vd7S20ZIBss2o92DAhea11PwNKiftw&s",
+                "image": "images/cn-kh-kt(4).png",
+                "name": "On the Future: Prospects for Humanity (Về Tương Lai: Triển Vọng cho Nhân Loại)",
+                "genre": "Khoa học, phi hư cấu",
+                "author": "Martin Rees",
+                "price": "313.000đ",
+                "Content": "Nhà vũ trụ học Martin Rees nói về tương lai nhân loại: biến đổi khí hậu, AI, vũ trụ học và đạo đức trong khoa học. Dễ đọc, đầy suy ngẫm."
+            },
+            {
+                "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZPIdJkTIWrxBkVewpNg_Qvxvcx_RC3rLMLw&s",
+                "image": "images/cn-kh-kt(5).png",
+                "name": "The Sixth Extinction: An Unnatural History (Đại tuyệt chủng lần thứ sáu: Lịch sử phi tự nhiên)",
+                "genre": "khoa học, lịch sử tự nhiên , sinh học, phi hư cấu",
+                "author": "Elizabeth Kolbert",
+                "price": "137.000đ",
+                "Content": "Giải Pulitzer. Phân tích đợt tuyệt chủng lớn thứ sáu do con người gây ra: biến đổi khí hậu, công nghiệp, và hậu quả sinh thái toàn cầu."
+            },
+            {
+                "link_image_author": "https://yt3.googleusercontent.com/ytc/AIdro_lic1QYrqPPFE5INvfHeZogVR0Lnt2B24ynIfd1bpExhMw=s900-c-k-c0x00ffffff-no-rj",
+                "image": "images/cn-kh-kt(6).png",
+                "name": "The Big Picture: On the Origins of Life, Meaning, and the Universe Itself (Bức tranh lớn: Nguồn gốc của sự sống, ý nghĩa và chính vũ trụ)",
+                "genre": "Khoa học, vật lý , triết học khoa học, phi hư cấu",
+                "author": "Sean Carroll",
+                "price": "257.000đ",
+                "Content": "Giải thích những câu hỏi lớn: vũ trụ hình thành thế nào, con người có vai trò gì, ý nghĩa cuộc sống qua lăng kính vật lý hiện đại."
+            },
+            {
+                "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3CFd6QA5DJX3olsFHkSSkc_Hvqyhmc2LB1f1etEs7Mm7SZlPNH1JEM-QAG-WoliwDu40&usqp=CAU",
+                "image": "images/cn-kh-kt(7).png",
+                "name": "Digital Minimalism: Choosing a Focused Life in a Noisy World (Chủ nghĩa tối giản kỹ thuật số: Sống tập trung trong thế giới ồn ào)",
+                "genre": "Khoa học- công nghệ, phi hư cấu, phát triển bản thân",
+                "author": "Cal Newport",
+                "price": "393.000đ",
+                "Content": "Hướng dẫn cách sống cân bằng với công nghệ, tránh “nghiện mạng xã hội” và tìm lại sự tập trung, năng suất trong thời đại số."
+            },
+            {
+                "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo7U4aFxAXCTRgdhk4mu7GQr19QZ7RSwe3Rw&s",
+                "image": "images/cn-kh-kt(8).png",
+                "name": "Sapiens: A Brief History of Humankind (Lược sử loài người)",
+                "genre": "Phi hư cấu – Lịch sử – Nhân học – Xã hội học",
+                "author": "Yuval Noah Harari",
+                "price": "309.000đ",
+                "Content": "Giải thích lịch sử loài người dưới góc nhìn khoa học – từ tiến hóa đến trí tuệ nhân tạo. Nằm trong top 10 sách hay nhất thập kỷ, được Bill Gates, Obama, Mark Zuckerberg khuyên đọc."
+            },
+            {
+                "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo7U4aFxAXCTRgdhk4mu7GQr19QZ7RSwe3Rw&s",
+                "image": "images/cn-kh-kt(9).png",
+                "name": "Homo Deus: A Brief History of Tomorrow (Lược sử tương lai)",
+                "genre": "Phi hư cấu – Triết học – Tương lai học – Khoa học và công nghệ",
+                "author": "Yuval Noah Harari",
+                "price": "349.000đ",
+                "Content": "Phần tiếp theo của Sapiens, nói về tương lai của nhân loại trong thời đại công nghệ, AI và sinh học. Dự đoán loài người sẽ tiến hóa thành “thượng đế công nghệ”."
+            },
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Neil_DeGrasse_Tyson_%282023%29.jpg/250px-Neil_DeGrasse_Tyson_%282023%29.jpg",
+                "image": "images/cn-kh-kt(10).png",
+                "name": "Astrophysics for People in a Hurry (Thiên văn học cho người bận rộn)",
+                "genre": "Phi hư cấu – Khoa học– Thiên văn học",
+                "author": "Neil deGrasse Tyson",
+                "price": "527.000đ",
+                "Content": "Giải thích những khái niệm lớn của vũ trụ (Big Bang, hố đen, vật chất tối) bằng ngôn ngữ dễ hiểu. Bestseller #1 của New York Times."
+            },
+            {
+                "link_image_author": "https://salt.tikicdn.com/ts/brickv2og/8a/f8/8a/2b0718c85dafd9707d7b832982a01906.jpg",
+                "image": "images/cn-kh-kt(11).png",
+                "name": "Steve Jobs (Biography) (tiểu sử của steve jobs)",
+                "genre": "Tiểu sử – Lịch sử công nghệ – Doanh nhân",
+                "author": "Walter Isaacson",
+                "price": "750.000đ",
+                "Content": "Tiểu sử chính thức của Steve Jobs – tái hiện hành trình Apple, Pixar và triết lý sáng tạo. Được chuyển thể thành phim."
+            },
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Raymond_Kurzweil_Fantastic_Voyage.jpg",
+                "image": "images/cn-kh-kt(12).png",
+                "name": "The Singularity Is Near (Thời điểm kỳ dị sắp đến)",
+                "genre": "Phi hư cấu – Khoa học– Trí tuệ nhân tạo – Công nghệ",
+                "author": "Ray Kurzweil",
+                "price": "364.000đ",
+                "Content": "Dự đoán về “điểm kỳ dị công nghệ” – khi trí tuệ nhân tạo vượt con người. Một tác phẩm kinh điển của giới tương lai học."
+            }
+        ],
+        "Sách Đại cương": [
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
+                "image": "images/sdcuong(1).png",
+                "name": "Pháp luật đại cương dùng trong các trường ĐH, CĐ và trung cấp, xuất bản lần 19, sửa đổi, bổ sung",
+                "genre": "Phi hư cấu – Đại cương – Luật học cơ bản",
+                "author": "TS Lê Minh Toàn",
+                "price": "179.000₫",
+                "Content": "Cuốn sách Pháp luật đại cương - dùng trong các trường đại học cao đẳng và trung cấp của TS. Lê Minh Toàn đưa ra những vấn đề lý luận chung về nhà nước và pháp luật; trình bày các ngành luật cơ bản của hệ thống pháp luật Việt Nam như: Luật Hiến pháp, Luật Hành chính, Luật Hình sự và Luật Tố tụng hình sự, Luật Dân sự và Luật Tố tụng dân sự, Pháp luật về lao động, Bảo hiểm xã hội, Pháp luật về kinh doanh. Ngoài ra, cuốn sách còn thể hiện đường lối, chủ trương của Đảng, chính sách của Nhà nước trong việc tăng cường giáo dục pháp luật ở mỗi cá nhân công dân, xây dựng “Tủ sách pháp luật” tại các xã, phường, thị trấn và điểm bưu điện văn hóa xã. Cuốn sách giúp cho học sinh, sinh viên có điều kiện dễ dàng tiếp cận với các môn học khác có liên quan đến pháp luật; góp phần xây dựng ý thức sống và làm việc theo Hiến pháp và pháp luật của mỗi cá nhân, giúp cho mỗi cá nhân hình thành ý thức và thói quen xử sự phù hợp với quy định của pháp luật."
+            },
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
+                "image": "images/sdcuong(2).png",
+                "name": "Đại cương đại cương về nhà nước và pháp luật",
+                "genre": "Phi hư cấu – Đại cương – Luật học – Khoa học chính trị",
+                "author": "nhieu tac gia",
+                "price": "195.000đ",
+                "Content": "Nhà nước và Pháp luật là hai hiện tượng quan trọng, phức tạp nhất trong thượng tầng chính trị - pháp lí của xã hội, và gắn bó chặt chẽ với nhau bởi sự hình thành của nhà nước cũng là tiền đề để hình thành pháp luật và ngược lại. Vì vậy, đi sâu tìm hiểu nguồn gốc, bản chất, vai trò, chức năng cơ bản của bộ máy nhà nước và hệ thống pháp luật luôn là đề tài thu hút sự quan tâm đặc biệt của mọi công dân và toàn xã hội. Đại cương Đại cương Nhà nước và Pháp luật do GS.TSKH Đào Trí Úc, GS.TS Hoàng Thị Kim Quế và các nhà khoa học pháp lý hàng đầu hiện đang công tác, giảng dạy tại Trường Đại học Luật, Đại học Quốc gia Hà Nội biên soạn sẽ cung cấp cho người đọc những kiến thức cơ bản, rõ nét về thiết chế bộ máy nhà nước và hệ thống pháp luật của Việt Nam trên cơ sở đối sánh với một số hệ thống nhà nước và pháp luật trên thế giới. Qua đó, giúp người học hiểu rõ hơn nội dung, ý nghĩa của công cuộc xây dựng, hoàn thiện Nhà nước pháp quyền xã hội chủ nghĩa ở nước ta, đồng thời góp phần xây dựng và hình thành ý thức tuân thủ, tinh thần thượng tôn pháp luật. Sách là học liệu chính thức của sinh viên Đại học Quốc gia Hà Nội và là tài liệu tham khảo hữu ích cho các học sinh, sinh viên, học viên cao học, nghiên cứu sinh và những ai quan tâm tìm hiểu những kiến thức nền tảng quan trọng của nhà nước và pháp luật."
+            },
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
+                "image": "images/sdcuong(3).png",
+                "name": "Hóa Học Đại Cương - Dành Cho Sinh Viên Không Chuyên Ngành Hóa",
+                "genre": "Phi hư cấu – Đại cương – Khoa học tự nhiên – Hóa học",
+                "author": "Trương Thanh Tú - Lâm Ngọc Thiềm",
+                "price": "198.000đ",
+                "Content": "Cuốn sách gồm 2 phần. Phần 1. Cấu tạo nguyên tử - liên kết hóa học. Phần 2. Lý thuyết và các quá trình hóa học."
+            },
+            {
+                "link_image_author": "https://vannguyen.edu.vn/wp-content/uploads/2024/06/nguyen-van-thuc-van-nguyen-edubiz.png",
+                "image": "images/sdcuong(4).png",
+                "name": "Bài Tập Hóa Học Đại Cương Tập 1: Cơ Sở Cấu Tạo Chất",
+                "genre": "Phi hư cấu – Sách bài tập – Hóa học-đại cương",
+                "author": "Nguyễn Văn Thức",
+                "price": "192.000đ",
+                "Content": "Sách bài tập giúp bổ sung kiến thức vững chắc hơn cho môn học. Để làm được các dạng bài tập, người học cần hiểu kỹ lý thuyết và biết cách vận dụng nó vào trường hợp cụ thể, kể cả các phép chuyển đổi đơn vị tính lẫn kỹ năng giải toán. Cuốn bài tập này đã đáp ứng được mục tiêu này. Nội dung cuốn bài tập được biên soạn theo đúng chương trình chuẩn đã được hội đồng chuyên ngành Đại Học Quốc Gia Hà Nội thông qua."
+            },
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
+                "image": "images/sdcuong(5).png",
+                "name": "Vật Lí Đại Cương Tập 2 - Dùng Cho Các Trường Đại Học Khối Kĩ Thuật Công Nghiệp",
+                "genre": "Phi hư cấu – Đại cương – Vật lí – Khoa học kỹ thuật",
+                "author": "Lương Duyên Bình",
+                "price": "60.000đ",
+                "Content": "Đại cương \"Vật Lý Đại Cương\" được biên soạn theo khung chương trình của Bộ Giáo Dục - Đào Tạo, có chú ý đến nội dung đào tạo của khối các trường kỹ thuật. Mục tiêu của Đại cương nhằm giúp cho sinh viên: - Nắm vững các khái niệm, định luật, nguyên lý cơ bản của Vật lý. - Vận dụng tốt các kiến thức đó để hiểu được bản chất của các hiện tượng Vật lý xảy ra trong tự nhiên và kỹ thuật. - Giải quyết được các bài toán định tính và định lượng. - Rèn luyện kỹ năng vận dụng kiến thức Vật lý trong việc nghiên cứu các lĩnh vực chuyên ngành và trong thực tế."
+            },
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
+                "image": "images/sdcuong(6).png",
+                "name": "Vật Lí Đại Cương Tập 1 - Dùng Cho Các Trường Đại Học Khối Kỹ Thuật Công Nghiệp",
+                "genre": "Phi hư cấu – Đại cương – Vật lí",
+                "author": "Lương Duyên Bình (CB)",
+                "price": "50.000đ",
+                "Content": "Vật Lí Đại Cương Tập 1  - Dùng Cho Các Trường Đại Học Khối Kỹ Thuật Công Nghiệp. Tác giả: Lương Duyên Bình (CB). NXB: NXB Giáo Dục Việt Nam. Năm XB: 11/2020 - Số trang: 268 - Tái bản lần thứ 28. Đại cương được biên soạn theo khung chương trình của Bộ Giáo Dục - Đào Tạo, có chú ý đến nội dung đào tạo của khối các trường kỹ thuật. Mục tiêu của Đại cương nhằm giúp cho sinh viên: - Nắm vững các khái niệm, định luật, nguyên lý cơ bản của Vật lý. - Vận dụng tốt các kiến thức đó để hiểu được bản chất của các hiện tượng Vật lý xảy ra trong tự nhiên và kỹ thuật. - Giải quyết được các bài toán định tính và định lượng. - Rèn luyện kỹ năng vận dụng kiến thức Vật lý trong việc nghiên cứu các lĩnh vực chuyên ngành và trong thực tế."
+            },
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
+                "image": "images/sdcuong(7).png",
+                "name": "Ôn luyện Toán cao cấp",
+                "genre": "Phi hư cấu – Sách bài tập – Toán học- Đại cương",
+                "author": "Lê Đình ĐỊnh",
+                "price": "63.050đ",
+                "Content": "Trong những năm gần đây, ở hầu hết các trường đại học trong toàn quốc, việc dạy và học môn Toán cao cấp đều được thực hiện theo tín chỉ. Thời gian dạy và học trên lớp được rút ngắn, sinh viên phải tự học ở nhà. Hơn thế nữa, đối với các học viên thi cao học, do thời gian ôn tập có hạn nên việc ôn tập môn này khá vất vả. Trước tình hình này, chúng tôi biên soạn cuốn Ôn luyện Toán cao cấp nhằm giúp các bạn sinh viên, học viên ôn tập hiệu quả hơn. Khi biên soạn cuốn sách này, tác giả đã dựa theo Đề cương hiện đang được dạy và học theo tín chỉ và Đề cương ôn tập môn Toán cao cấp cho học viên thi vào cao học ở Đại học Quốc gia Hà Nội. Tài liệu gồm sáu phần: Phần I: Đại số và hình giải tích; - Phần II: Phép tính vi phân; - Phần III: Tích phân một lớp và tích phân phụ thuộc tham số; Phần IV: Tích phân bội, tích phân đường và 'ch phân mặt. Phần V: Chuỗi số, chuỗi hàm và chuỗi luỹ thừa; Phần VI: Phương trình vi phân."
+            },
+            {
+                "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxGoo1NJEOEKhbb9NqOdiPZY8rpu0rQmT6EQ&s",
+                "image": "images/sdcuong(8).png",
+                "name": "Đại cương Lịch sử Việt Nam",
+                "genre": "Phi hư cấu – Đại cương – Lịch sử",
+                "author": "Trương Hữu Quýnh, Đinh Xuân Lâm và Lê Mậu Hãn",
+                "price": "400.000đ",
+                "Content": "Đại cương lịch sử Việt Nam trọn bộ được cấu trúc thành ba thời kỳ: - Lịch sử Việt Nam ( từ thời nguyên thủy đến 1858), trải qua các giai đoạn phát triển của xã hội nguyên thủy để đến ngày hợp nhất cùng nhau dựng nên nước Văn Lang - quốc gia đầu tiên của người Việt, đặt nền móng cho sự hình thành của dân tộc với một nền văn hóa riêng - cội nguồn sức mạnh tinh thần của người dân Việt để vượt qua những thử thách hết sức gian nguy, ác độc."
+            },
+            {
+                "link_image_author": "https://dialy.hnue.edu.vn/sites/default/files/dh3.jpg",
+                "image": "images/sdcuong(9).png",
+                "name": "Đại cương Địa lí tự nhiên Việt Nam",
+                "genre": "Phi hư cấu – Đại cương – Địa lí – Khoa học Trái Đất",
+                "author": "Nguyễn Quyết Chiến, Bùi Thị Thanh Dung",
+                "price": "95.000đ",
+                "Content": "Nội dung gồm có:\nChương 1: Vị trí địa lí, phạm vi lãnh thổ và vai trò của vị trí địa lí, phạm vi lãnh thổ đối với tự nhiên Việt Nam\nChương 2: Lịch sự phát triển lãnh thổ Việt Nam\nChương 3: Đặc điểm chung của tự nhiên Việt Nam\nChương 4: Địa hình Việt Nam\nChương 5: Khí hậu Việt Nam\nChương 6: Thuỷ văn Việt Nam\nChương 7: Thổ Nhưỡng Việt Nam\nChương 8: Sinh vật Việt Nam\nChương 9: Sử dụng hợp lý tài nguyên thiên nhiên và bảo vệ môi trường Việt Nam\nCâu hỏi và bài tập các chương"
+            },
+            {
+                "link_image_author": "https://soict.hust.edu.vn/wp-content/uploads/2018/01/DHP_5814-400x599.jpg",
+                "image": "images/sdcuong(10).png",
+                "name": "Đại cương Tin học đại cương",
+                "genre": "Phi hư cấu – Đại cương – Công nghệ thông tin",
+                "author": "Trần Đình Khang (chủ biên)",
+                "price": "45.000đ",
+                "Content": "cuốn Đại cương Tin học ứng dụng nhằm đáp ứng chuẩn đầu ra về tin học dành cho sinh viên trường Bách KHoa"
+            },
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
+                "image": "images/sdcuong(11).png",
+                "name": "Hoá Sinh Đại cương",
+                "genre": "Phi hư cấu – Đại cương – Sinh học – Hóa học",
+                "author": "Lê Đức Ngọc (chủ biên)",
+                "price": "60.000đ",
+                "Content": "Ngoài ra cuốn sách còn cung cấp các câu hỏi trắc nghiệm nhiều lựa chọn và bài tập tính toán để người đọc hiểu sâu hơn các thông tin trình bày trong sách. Đối với các thầy cô giáo dạy môn Hóa sinh đại cương , tác giả cũng giới thiệu phương pháp dạy học tích cực sử dụng câu hỏi bài tập để dạy theo xu hướng “ kiểm tra đánh giá như hoạt động dạy học ” đang thịnh hành ở các nước tiên tiến. Cuốn sách rất bổ ích cho những ai muốn tìm hiểu về Hóa sinh và Sinh học phân tử, từ học sinh để đi thi Olympic hóa học; sinh viên, học viên, giảng viên và những người nghiên cứu cần kiến thức Hóa sinh và Sinh học phân tử để hiểu các khoa học liên quan."
+            },
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
+                "image": "images/sdcuong(12).png",
+                "name": "Đại cương – Chủ nghĩa xã hội khoa học",
+                "genre": "Phi hư cấu – Đại cương – Triết học – Chính trị học",
+                "author": "Bộ Giáo Dục",
+                "price": "46.000đ",
+                "Content": "Đại cương Chủ Nghĩa Xã Hội Khoa Học (Dành Cho Bậc Đại Học Hệ Không Chuyên Lý Luận Chính Trị) (Dành Cho Bậc Đại Học Hệ Không Chuyên Lý Luận Chính Trị) Đại cương Chủ Nghĩa Xã Hội Khoa Học Đại cương"
+            }
+        ],
+        "Sách Thiếu nhi": [
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
+                "image": "images/stnhi(1).png",
+                "name": "Truyện cổ tích Việt Nam",
+                "genre": "Truyện dân gian - văn học Việt Nam-thiếu nhi",
+                "author": "Hà Minh",
+                "price": "124.000đ",
+                "Content": "Trong kho tàng văn học dân gian Việt Nam, truyện cổ tích có vai trò vô cùng quan trọng, phản ánh nhiều mặt về tư tưởng, thái độ, tình cảm của nhân dân ta trong suốt chiều dài lịch sử. Trải qua nhiều thế hệ truyền miệng trong dân gian, truyện cổ tích trở nên gần gũi và quen thuộc với tuỏi thơ của mỗi chúng ta. Những câu chuyện mà ông bà, cha mẹ kể trong những năm tháng tuổi thơ sẽ giúp chúng ta lớn lên biết cảm nhận cái đẹp, cái thiện trong cuộc sống. Bước vào thế giới của những câu chuyện cổ tích, các bạn nhỏ không chỉ thỏa mãn được nhu cầu khám phá, tìm hiểu về đời sống cha ông từ thuở xưa mà còn rút ra nhiều bài học ý nghĩa về cuộc sống, tình yêu thương và lòng nhân ái."
+            },
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/d/db/Frances_Burnett.jpg",
+                "image": "images/stnhi(2).png",
+                "name": "Khu Vườn Bí Mật",
+                "genre": "Văn học cổ điển - thiếu nhi",
+                "author": "Frances Hodgson Burnett",
+                "price": "99.000đ",
+                "Content": "Mary Lennox, một cô bé mồ côi, cáu kỉnh, không ai ưa, tới sống tại nhà ông bác ở vùng đồng hoang Yorkshire, nước Anh, nơi có rất nhiều bí mật đang đợi cô. Ban đêm, có tiếng khóc của ai đó từ một hành lang gần phòng cô. Còn ban ngày, cô gặp Dickon, một cậu bé biết thuần dưỡng và nói chuyện cùng loài vật. Rồi một ngày, nhờ sự giúp đỡ của một con chim ức đỏ, Mary khám phá ra một nơi bí ẩn nhất trên thế gian này – Khu vườn bí mật. Mọi thứ dường như đã chết trong khu vườn mười năm qua khóa kín. Cùng với Colin, vị chủ nhân ốm yếu của tiếng khóc bí ẩn kia, và Dickon, cậu bé mà tất cả mọi người đều yêu mến, Mary đã tìm ra những thứ sẽ làm thay đổi cuộc đời cô mãi mãi, khi mùa xuân về đánh thức cả khu vườn tuyệt đẹp."
+            },
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Portrait_of_Nam_Cao.jpg",
+                "image": "images/stnhi(3).png",
+                "name": "Con Mèo Mắt Ngọc - Tập Truyện Viết Cho Thiếu Nhi",
+                "genre": "Thiếu nhi- Văn học VIệt Nam",
+                "author": "Nam Cao, Lại Nguyên Ân",
+                "price": "108.000đ",
+                "Content": "Những sáng tác viết cho thiếu nhi trước 1945 của Nam Cao, có thể sẽ khiến bạn đọc ngày nay bất ngờ và hiểu hơn về sự nghiệp của một nhà văn tài năng. Không chỉ am tường xã hội đương thời, thấu tỏ những bất công và thân phận con người, khi viết cho thiếu nhi, tác phẩm của Nam Cao thật ý nhị, đa sắc và hàm ẩn triết lí nhân sinh. Hãy đọc cổ tích “hiện đại” Con mèo mắt ngọc, gặp Ba người bạn, qua Người thợ rèn, tham dự cuộc phiêu lưu trên Đảo Hang Cọp, trải nghiệm kinh dị cùng Người đàn bà nuôi rắn rồi Thám hiểm châu Phi xa tít..."
+            },
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/vi/7/73/Nhavan_t%C3%B4_ho%C3%A0i.jpg",
+                "image": "images/stnhi(4).png",
+                "name": "Dế Mèn Phiêu Lưu Ký",
+                "genre": "Truyện dân gian -văn học Việt Nam-thiếu nhi",
+                "author": "Tô Hoài",
+                "price": "45.000đ",
+                "Content": "Ấn bản minh họa màu đặc biệt của Dế Mèn phiêu lưu ký, với phần tranh ruột được in hai màu xanh - đen ấn tượng, gợi không khí đồng thoại. “Một con dế đã từ tay ông thả ra chu du thế giới tìm những điều tốt đẹp cho loài người. Và con dế ấy đã mang tên tuổi ông đi cùng trên những chặng đường phiêu lưu đến với cộng đồng những con vật trong văn học thế giới, đến với những xứ sở thiên nhiên và văn hóa của các quốc gia khác. Dế Mèn Tô Hoài đã lại sinh ra Tô Hoài Dế Mèn, một nhà văn trẻ mãi không già trong văn chương…” - Nhà phê bình Phạm Xuân Nguyên. “Ông rất hiểu tư duy trẻ thơ, kể với chúng theo cách nghĩ của chúng, lí giải sự vật theo lô gích của trẻ. Hơn thế, với biệt tài miêu tả loài vật, Tô Hoài dựng lên một thế giới gần gũi với trẻ thơ. Khi cần, ông biết đem vào chất du ký khiến cho độc giả nhỏ tuổi vừa hồi hộp theo dõi, vừa thích thú khám phá.” - TS Nguyễn Đăng Điệp"
+            },
+            {
+                "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT2SAXjnvFs2j83V6UoZI65ctJY4cp1ZbUAw&s",
+                "image": "images/stnhi(5).png",
+                "name": "Tuổi Thơ Dữ Dội",
+                "genre": "thiếu nhi & văn học Việt Nam",
+                "author": "Phùng Quán",
+                "price": "145.000đ",
+                "Content": "“Tuổi Thơ Dữ Dội” là một câu chuyện hay, cảm động viết về tuổi thơ. Sách dày 404 trang mà người đọc không bao giờ muốn ngừng lại, bị lôi cuốn vì những nhân vật ngây thơ có, khôn ranh có, anh hùng có, vì những sự việc khi thì ly kỳ, khi thì hài hước, khi thì gây xúc động đến ứa nước mắt... \"Tuổi Thơ Dữ Dội” không phải chỉ là một câu chuyện cổ tích, mà là một câu chuyện có thật ở trần gian, ở đó, những con người tuổi nhỏ đã tham gia vào cuộc kháng chiến chống xâm lược bảo vệ Tổ quốc với một chuỗi những chiến công đầy ắp li kì và hấp dẫn. Đọc Tuổi Thơ Dữ Dội chính là đọc lại một phần lịch sử tuổi thơ Việt, thấm đẫm xúc động, cảm phục và tự hào...\""
+            },
+            {
+                "link_image_author": "https://suckhoedoisong.qltns.mediacdn.vn/2015/chan-dung-nha-tho-tran-dang-khoa-1430155371700.jpg",
+                "image": "images/stnhi(6).png",
+                "name": "Góc Sân Khoảng Trời",
+                "genre": "Thiếu nhi & văn học Việt Nam",
+                "author": "Trần Đăng KHoa",
+                "price": "54.000đ",
+                "Content": "Được xem như một trong những hiện tượng hiếm có của làng thơ ca Việt Nam, nhà thơ Trần Đăng Khoa từ khi còn rất nhỏ đã chinh phục trái tim của biết bao độc giả bằng tài năng thiên bẩm và những bài thơ đầy màu sắc. Ra mắt lần đầu tiên khi ông mới 10 tuổi, \"Góc sân và khoảng trời\" đã nhanh chóng trở thành một tác phẩm thơ được yêu thích, in sâu trong tâm trí của nhiều thế hệ. Tập thơ như là câu chuyện trở về tuổi thơ với những hình ảnh mộc mạc, bình dị của làng quê Việt Nam. Mỗi bài thơ trong cuốn sách này đều chứa đựng sự hồn nhiên, trong trẻo nhưng cũng đầy triết lý về cuộc sống. Những bài thơ nổi tiếng như \"Hạt gạo làng ta,\" \"Mẹ ốm,\" và \"Mưa\" không chỉ là những tác phẩm văn học xuất sắc mà còn là những kỷ niệm đẹp đẽ của bao người, từ trẻ em đến người lớn."
+            },
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/7/71/Hector_Malot.jpg",
+                "image": "images/stnhi(7).png",
+                "name": "Không Gia Đình",
+                "genre": "Tiểu thuyết phiêu lưu – Cảm động-thiếu nhi",
+                "author": "Hector Malot",
+                "price": "126.000đ",
+                "Content": "Thở xa lắm, giữa lòng nước Pháp thế kỷ XIX, có một câu chuyện... Câu chuyện về cậu bé bất hạnh Rémi lang bạt trên dặm trường thiên lý, dấn thân giữa tất cả những bần cùng đói khổ và những xa hoa lộng lẫy. Cậu thiếu niên nhỏ tuổi đã đi qua biết bao miền quê, thấy biết bao cảnh đời, mỗi bước chân đều in dấu ấn của những câu chuyện kỳ lạ, có lúc hoan hỉ mừng vui, có khi thê lương đau đớn nhưng luôn lấp lánh tình người. Cuộc hành trình của Rémi với đoàn xiếc khỉ, chó, với những người thợ mỏ, với cậu bé hát rong người Ý đưa người đọc trải nghiệm mọi cung bậc cảm xúc: thích thú, bất ngờ, hồi hộp, thương tâm, thậm chí cả tuyệt vọng và dạy cho ta - những người chưa, đang, hay đã trưởng thành - những bài học thấm thía về ý chí, nghị lực và lao động chân chính..."
+            },
+            {
+                "link_image_author": "https://bizweb.dktcdn.net/thumb/grande/100/363/455/articles/a-nh-chu-p-ma-n-hi-nh-2023-10-14-lu-c-10-38-39.png?v=1697254726877",
+                "image": "images/stnhi(8).png",
+                "name": "Cây Cam Ngọt Của Tôi",
+                "genre": "Truyện dân gian - văn học –thiếu nhi",
+                "author": "José Mauro de Vasconcelos",
+                "price": "92.000đ",
+                "Content": "Với một đứa trẻ, thế giới không giới hạn trong một bữa ăn, mà thế giới cần có hào quang của tình thương. Bạn có bao giờ cảm thấy bị lạc lõng trong chính ngôi nhà của mình? Một câu chuyện chạm đến tận cùng cảm xúc"
+            },
+            {
+                "link_image_author": "https://www.nxbtre.com.vn/Images/Writer/nxbtre_thumb_30552016_085555.jpg",
+                "image": "images/stnhi(9).png",
+                "name": "Kính Vạn Hoa - Tập 1 - Kỉ Niệm 65 Năm NXB Kim Đồng",
+                "genre": "Truyện dài thiếu nhi / Học đường",
+                "author": "Nguyễn Nhật Ánh",
+                "price": "225.000đ",
+                "Content": "“Đọc Kính Vạn Hoa, tôi cảm ơn Nguyễn Nhật Ánh đã dày công phản ánh những sinh hoạt muôn mặt của lứa tuổi học trò. Từ cách học với các thủ thuật “phổ thơ” để ghi nhớ thuộc lòng các công thức Toán, Lý, Hóa, Anh văn... đến lối làm thơ, kể vè, dựng hoạt cảnh để học tập các môn Văn, Sử. Từ trò chơi bóng đá, thi giải câu đố... ở sân trường đến những chuyến đi nghỉ hè khám phá các vùng xa. Từ việc tìm hiểu (và yêu mến) những người thân trong gia đình, thầy cô giáo, đến việc làm quen với những bà con lao động đủ các nghề nghiệp: bán hàng rong, hốt rác, diễn thế thân (cascadeur), đạo diễn điện ảnh, nghệ sĩ ngôi sao, cầu thủ siêu hạng... Một độc giả - Võ Hồng Quân, lớp 10C3, PTTH chuyên Hà Nam - đã đưa KVH vào Kho vàng kiến thức, tôi muốn gọi KVH là một bộ Tiểu bách khoa cho thiếu nhi.” - Nhà văn VĂN HỒNG"
+            },
+            {
+                "link_image_author": "https://m.media-amazon.com/images/M/MV5BNzQ0YWMxNzYtOWM1Ni00MDM0LWI4ZDMtOTZjNzc2OThmMGY1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+                "image": "images/stnhi(10).png",
+                "name": "Hoàng Tử Bé",
+                "genre": "Truyện ngụ ngôn triết lý – Thiếu nhi",
+                "author": "Antoine De Saint-Exupéry",
+                "price": "73.000đ",
+                "Content": "Ẩn dụ nhưng vẫn giữ được nét đơn thuần, đượm buồn nhưng vẫn vẹn nguyên nét đẹp của tình yêu – không quá khó hiểu khi “Hoàng Tử Bé” được mệnh danh là câu chuyện cổ tích mang tính triết học dành cho cả trẻ em và người lớn. “Hoàng Tử Bé” là câu chuyện cổ tích nhưng không phải là cổ tích theo nghĩa thông thường. Nó chứa đựng triết lý nhân sinh nhưng không thể hiện qua bất cứ lời lẽ răn dạy nào mà điểm xuyết tinh tế qua những lời nói đơn thuần, ngây ngô của các nhân vật - ẩn chứa trong lời nói của hoàng tử bé, ẩn chứa trong những vì sao, ẩn chứa bên trong sa mạc và trong cả những đóa hoa hồng."
+            },
+            {
+                "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzXD59OmpcOMIXzETzcJrj_QPU7hwNE4LAyw&s",
+                "image": "images/stnhi(11).png",
+                "name": "Totto-chan: Cô bé bên cửa sổ",
+                "genre": "Tự truyện – Thiếu nhi",
+                "author": "Kuroyanagi Tetsuko",
+                "price": "102.000đ",
+                "Content": "Một lớp học trong toa xe lửa, một cô bé tinh nghịch và một thầy hiệu trưởng nhìn thấy điều đặc biệt trong từng học trò. \"Tottochan bên cửa sổ\" mở ra một thế giới giáo dục đầy yêu thương, nơi trẻ thơ được lắng nghe, thấu hiểu và tự do tỏa sáng."
+            },
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Nesbit.jpg",
+                "image": "images/stnhi(12).png",
+                "name": "Lũ Trẻ Đường Tàu",
+                "genre": "Tiểu thuyết phiêu lưu – Gia đình-thiếu nhi",
+                "author": "Edith Nesbit",
+                "price": "85.000đ",
+                "Content": "Một tối, cha đi khỏi nhà cùng hai người đàn ông lạ mặt và không trở về. Mẹ lẳng lặng gói ghém đồ đạc đưa lũ trẻ về sống tại “Ba ống khói”, ngôi nhà nằm bên một nhà ga thuộc miền quê Yorkshire. Từ ngày về đây, đường tàu đã trở thành trung tâm cuộc sống ba chị em Bobbie, cuốn chúng vào những chuyến phiêu lưu mạo hiểm nhưng vô cùng kỳ thú: Cứu cả đoàn tàu thoát khỏi tai nạn trong trận lở đất, giúp ông người Nga tha hương tìm lại gia đình, cứu em bé nhà “ông sà lan” thoát khỏi đám cháy… Nhưng đằng sau những chiến tích rực rỡ vẫn là một nỗi buồn thầm lặng khôn nguôi. Bởi vì, bao giờ cha sẽ về? Câu chuyện về ba đứa trẻ nghèo sống bên đường tàu đã cuốn độc giả vào một thế giới tinh nghịch, trong trẻo mà cảm động tha thiết, một xâu chuỗi khéo léo những tình tiết tưởng như rời xa nhau nhưng hóa ra lại đồng quy ở kết thúc đầy bất ngờ nơi cuối truyện. Đến từ nước Anh và sau hơn một thế kỷ ra mắt, Lũ trẻ đường tàu của Edith Nesbit vẫn luôn là một tượng đài tác phẩm thiếu nhi kinh điển không thể bỏ qua, một viên ngọc đã ở lại trong ký ức nhiều thế hệ độ"
+            },
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/6/60/Carlo_Collodi.jpg",
+                "image": "images/stnhi(13).png",
+                "name": "Những Cuộc Phiêu Lưu Của Pinocchio",
+                "genre": "Cổ tích – Phiêu lưu-thiếun hi",
+                "author": "Carlo Collodi",
+                "price": "470.000đ",
+                "Content": "Đôi mắt linh lợi, cái mũi nhọn dài ngoằng, Pinocchio là một chú rối gỗ vô cùng tinh nghịch! Vừa được đẽo xong, chú đã thè lưỡi với bác Geppetto, cha của chú, rồi giật bộ tóc giả của ông mà chụp lên đầu mình. Và đấy mới chi là rắc rối đầu tiên! Bởi vì mặc dù rất muốn được trở thành một dứa con ngoan, một cậu bé bằng xương bằng thịt, chú rối gỗ lại sợ làm việc, ngại học hành, không đếm xỉa gì đến những lời khuyên nhủ ân cần mà chỉ thích làm những trỏ ngốc nghếch, ưa giao du cùng những kẻ xảo quyệt. May thay, cô tiên xanh luôn ở bên để dẫn dắt và che chở chú... Câu chuyện về chú rối gỗ Pinocchio là một tượng đài trong nền văn học dành cho trẻ em của nước Ý và của cả thế giới. Với nội dung vừa cổ tích, vừa nên thơ nhưng cũng không kém phần xúc động, cuốn sách không chỉ làm lay động con tim của độc giả nhỏ tuổi mà còn mang lại niềm vui cho bất kỳ ai đã từng qua tuổi bé thơ."
+            },
+            {
+                "link_image_author": "https://static.wikia.nocookie.net/dorepedia/images/4/4e/Img_fujiko.jpg/revision/latest/scale-to-width-down/284?cb=20131012133632&path-prefix=vi",
+                "image": "images/stnhi(14).png",
+                "name": "Đội Quân Doraemon - Vương Quốc Bánh Kẹo Okashinana",
+                "genre": "Thiếu nhi - Truyện tranh – Hài – Phiêu lưu Truyện tranh – Viễn tưởng – Thiếu nhi",
+                "author": "Fujiko F Fujio",
+                "price": "28.500đ",
+                "Content": "Câu chuyện bắt đầu khi Dora Vương và Dora - The - Kid lên đường tới Vương quốc Okashinana, nơi được mệnh danh là \"Nhà máy bánh kẹo lớn nhất thế giới\". Ở đó có Jedora - bạn học cùng Trường đào tạo robot và cũng là một thợ làm bánh tài ba. Jedora đã nhờ nhóm Doraemon chuyển tới những nguyên liệu làm bánh tươi ngon nhất để cậu có thể tham gia Lễ hội bánh ngọt được tổ chức một lần trong năm, Thế nhưng, lễ hội đã trở nên hỗn loạn bởi những kẻ gây rối từ đâu xuất hiện... Mời các bạn cùng theo dõi diễn biến câu chuyện!"
+            },
+            {
+                "link_image_author": "https://static.wikia.nocookie.net/dorepedia/images/4/4e/Img_fujiko.jpg/revision/latest/scale-to-width-down/284?cb=20131012133632&path-prefix=vi",
+                "image": "images/stnhi(15).png",
+                "name": "Dorami Và Đội Quân Doraemon - 7 Bí Ẩn Của Trường Đào Tạo Robot",
+                "genre": "Truyện tranh – Viễn tưởng – Thiếu nhi",
+                "author": "Fujiko F Fujio",
+                "price": "30.000đ",
+                "Content": "Thế kỉ 22 Doraemon trở lại trường đào tạo robot để dự lễ tốt nghiệp của em gái Dorami. Đúng lúc đó mây đen bao phủ, rất nhiều sự việc kì lạ xảy ra, ngay cả Doramon cũng bị hút vào một sinh vật bí ẩn…"
+            },
+            {
+                "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJFSkkn-PJlWgfYYEX8a2x1hnEfGdkBg_wBztiLpCmaVcSLg3dt0Rkcof0PezjWgm62wA&usqp=CAU",
+                "image": "images/stnhi(16).png",
+                "name": "Thám Tử Lừng Danh Conan - Tập 1",
+                "genre": "Thiếu nhi – trinh thám- truyện tranh",
+                "author": "Gosho Aoyama",
+                "price": "18.000đ",
+                "Content": "Kudo Shinichi là một cậu thám tử học sinh năng nổ với biệt tài suy luận có thể sánh ngang với Sherlock Holmes! Một ngày nọ, khi mải đuổi theo những kẻ khả nghi, cậu đã bị chúng cho uống một loại thuốc kì lạ khiến cho cơ thể bị teo nhỏ. Vậy là một thám tử tý hon xuất hiện với cái tên giả Edogawa Conan!"
+            },
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/vi/0/07/Yoshito_Usui.jpg",
+                "image": "images/stnhi(17).png",
+                "name": "Shin - Cậu Bé Bút Chì - Tập 49",
+                "genre": "Thiếu nhi – truyện tranh- hài hước",
+                "author": "Yoshito Usui",
+                "price": "25.000đ",
+                "Content": "Những bài học giáo dục nhẹ nhàng, thấm thía cũng được lồng ghép một cách khéo léo trong từng tình huống truyện. Có thể Shin là một cậu bé cá tính, hiếu động. Có thể những trò tinh nghịch của Shin đôi khi quá trớn, chẳng chừa một ai. Nhưng sau những \"sự cố\" do Shin gây ra, người lớn thấy mình cần \"quan tâm\" đến trẻ con nhiều hơn nữa, các bạn đọc nhỏ tuổi chắc hẳn cũng được dịp nhìn nhận lại bản thân, để phân biệt điều tốt điều xấu trong cuộc sống."
+            },
+            {
+                "link_image_author": "https://static.cand.com.vn/Files/Image/thanhbinh/2020/07/27/b9718468-0478-48d0-a5a6-5d0c1579df7f.jpg",
+                "image": "images/stnhi(18).png",
+                "name": "Tý Quậy - Tập 8",
+                "genre": "Thiếu nhi – truyện tranh – hài hước",
+                "author": "Đào Hải",
+                "price": "40.000đ",
+                "Content": "“Tý Quậy  là một phần tuổi thơ của tôi, của bạn bè tôi. Không có ý mong Tý trở thành nhân vật điển hình, tôi chỉ ước sao Tý quậy là một người bạn gần gũi, quen thuộc và sống với đúng nghĩa tuổi thơ. Thật không khôn ngoan khi dạy trẻ phải suy nghĩ những gì, mà nên hướng cho tuổi thơ cách suy nghĩ. Một đứa trẻ không hoạt bát thì tuyệt đối sẽ không trở thành người thông minh.” (Họa sĩ  Đào Hải) Có câu danh ngôn rằng: Việc độc nhất vô nhị và không gì có thể thay thế, đó là hồi ức về tuổi thơ. Vậy khi làm sách Tý Quậy, bên cạnh tình yêu thương trong tôi có cả sự trân trọng… Những trò đùa vui học trò ai cũng đã từng kinh qua, những nghịch ngợm nho nhỏ trên đường trưởng thành… bạn đọc nhí sẽ cười nghiêng ngả, cha mẹ cũng bật cười: \"Sao Tý và Tèo giống mình ngày xưa quá vậy!\" Sau những trận cười ấy, hẳn bạn sẽ nhận ra điều nhắn nhủ giản đơn mà sâu sắc của tác giả, giúp chúng ta  học hỏi và tiến bộ hơn sau mỗi tiếng cười vui vẻ."
+            },
+            {
+                "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvWGwp3hJLxcS6knHxs-6TMC7Rcq6wvS5QHw&s",
+                "image": "images/stnhi(19).png",
+                "name": "Dragon Ball SD - 7 Viên Ngọc Rồng Nhí - Tập 1",
+                "genre": "Thiếu nhi – truyện tranh – hành động – phiêu lưu",
+                "author": "Akira Toriyama, Naho Ohishi",
+                "price": "71.000đ",
+                "Content": "Ngày xửa ngày xưa, tương truyền trên thế giới có 7 viên ngọc rồng nằm rải rác khắp nơi. Ai tìm thấy và gom đủ 7 viên sẽ được rồng thần ban cho 1 điều ước thành sự thật. Một ngày nọ, Son Goku, cậu bé sống một mình nơi rừng sâu núi thẳm đã tình cờ gặp Bulma, cô gái dũng cảm đang phiêu lưu tìm 7 viên ngọc rồng. Goku quyết định đi theo giúp đỡ cô ấy và hành trình của họ đã bắt đầu trong tác phẩm SD này!! Đây là một series ngoại truyện được biến tấu phỏng theo cốt truyện chính của Dragon Ball, do hoạ sĩ Naho Ohishi đảm nhiệm, trong Dragon Ball SD, các nhân vật được minh hoạ rất đáng yêu theo style chibi, phong cách này còn được gọi chung là Super Deformation. Thế nên mới có cái tên SD - 7 viên ngọc rồng NHÍ!"
+            },
+            {
+                "link_image_author": "https://cdn-images.vtv.vn/zoom/554_346/2017/photo-1-1486453368951.jpg",
+                "image": "images/stnhi(20).png",
+                "name": "Đất Rồng - Tập 2: Lệnh Bài",
+                "genre": "THiếu nhi – truyện tranh – phiêu lưu – kỳ bí",
+                "author": "Can Tiểu Hy",
+                "price": "30.000đ",
+                "Content": "Truyền thuyết Sơn Tinh - Thủy Tinh là câu chuyện đã quá quen thuộc với người Việt Nam. Lấy ý tưởng từ cốt truyện này, nhóm thực hiện bộ truyện tranh “Đất Rồng” đã phát triển thành một câu chuyện hoàn toàn mới và rất gần gũi với hoàn cảnh ngày nay: Hàng năm, Thủy Tinh vẫn dâng nước để trả mối thù không cưới được nàng Mỵ Nương năm xưa. Nhưng càng ngày, vị thần nước càng gây ra những hậu quả nặng nề cho cuộc sống con người. Trong một dịp tình cờ, Phong và Di - hai nhân vật chính của “Đất Rồng” - đã phát hiện ra truyền thuyết xưa là khởi nguồn cho cả một chuỗi những bí mật. Cuộc chiến Sơn Tinh - Thủy Tinh hàm chứa sự thật về một cuộc chiến Thiện - Ác, mà Thủy Tinh là đại diện cho những nguồn năng lượng ác độc đang có phần thắng thế? Làm thế nào để đánh thức nguồn năng lượng của cái Thiện đang ngủ vùi trong những điểm phong ấn?"
+            },
+            {
+                "link_image_author": "https://cdn-images.vtv.vn/zoom/554_346/2017/photo-1-1486453368951.jpg",
+                "image": "images/stnhi(21).png",
+                "name": "Đất Rồng - Tập 1: Trận Chiến Trên Không",
+                "genre": "THiếu nhi – truyện tranh – phiêu lưu – kỳ bí",
+                "author": "Can Tiểu Hy",
+                "price": "25.000đ",
+                "Content": "Truyền thuyết Sơn Tinh - Thủy Tinh là câu chuyện đã quá quen thuộc với người Việt Nam. Lấy ý tưởng từ cốt truyện này, nhóm thực hiện bộ truyện tranh “Đất Rồng” đã phát triển thành một câu chuyện hoàn toàn mới và rất gần gũi với hoàn cảnh ngày nay: Hàng năm, Thủy Tinh vẫn dâng nước để trả mối thù không cưới được nàng Mỵ Nương năm xưa. Nhưng càng ngày, vị thần nước càng gây ra những hậu quả nặng nề cho cuộc sống con người. Trong một dịp tình cờ, Phong và Di - hai nhân vật chính của “Đất Rồng” - đã phát hiện ra truyền thuyết xưa là khởi nguồn cho cả một chuỗi những bí mật. Cuộc chiến Sơn Tinh - Thủy Tinh hàm chứa sự thật về một cuộc chiến Thiện - Ác, mà Thủy Tinh là đại diện cho những nguồn năng lượng ác độc đang có phần thắng thế? Làm thế nào để đánh thức nguồn năng lượng của cái Thiện đang ngủ vùi trong những điểm phong ấn?"
+            }
+        ],
+        "Tôn giáo & Triết học": [
+            {
+                "link_image_author": "https://danviet.ex-cdn.com/files/f1/upload/4-2019/images/2019-11-28/Kham-pha-Ho-Tay-40ky-1241-Phan-Ke-Binh-va-39dem-trang-choi-Ho-Tay39-1022-1574911958-width429height300.jpg",
+                "image": "images/stg-trh(1).png",
+                "name": "Việt Nam Phong Tục",
+                "genre": "tôn giáo học -Văn hoá – Dân tộc học – Lịch sử xã hội",
+                "author": "Phan Kế Bính",
+                "price": "175.000đ",
+                "Content": "Mỗi nước có một phong tục riêng. Phong tục ấy kỳ thuỷ hoặc bởi tự một vài người mà rồi bắt chước nhau thành ra thói quen. Hoặc bởi ở phong thổ và cách chính trị, cách giáo dục trong nước mà thành ra. Hoặc bởi cái phong trào ở ngoài tràn vào rồi mà dần dần tiêm nhiễm thành tục. Nhưng đại để tục gì cũng vậy, phải trải lâu tháng lâu năm mới thành được, mà trong những tục ấy cũng có tục hay, cũng có tục dở. Duy chỉ bởi tai mắt người đã quen, lòng người đã tin dùng, thì dẫu có người biết là dở mà cũng không sao đổi ngay đi được."
+            },
+            {
+                "link_image_author": "https://vi.waj.world//cms/uploads/news/2024/03/20//img_2835.jpeg",
+                "image": "images/stg-trh(2).png",
+                "name": "\"Đạo mẫu di sản văn hoá của tình thương\"",
+                "genre": "Văn hoá dân gian – Tôn giáo học",
+                "author": "Hà Huy Thanh",
+                "price": "199.000đ",
+                "Content": "Tín ngưỡng thờ Mẫu Tam phủ của người Việt là một tín ngưỡng dân gian mang đậm bản sắc văn hóa Việt Nam. Tín ngưỡng này đã được UNESCO vinh danh là Di sản văn hóa phi vật thể đại diện của nhân loại vào ngày 1 tháng 12 năm 2016. Tín ngưỡng thờ Mẫu Tam phủ là một hệ thống thờ cúng các vị thần linh, trong đó, vị thần tối cao là Đức Thánh Mẫu Liễu Hạnh. Tín ngưỡng này được hình thành và phát triển từ lâu đời, gắn liền với lịch sử và văn hóa của dân tộc Việt Nam. Tín ngưỡng thờ Mẫu Tam phủ mang nhiều ý nghĩa quan trọng đối với người Việt Nam. Tín ngưỡng này thể hiện niềm tin của người Việt Nam vào các vị thần linh, cầu mong sự che chở, phù hộ của các vị thần cho cuộc sống bình an, hạnh phúc. Ngoài ra, tín ngưỡng này còn thể hiện tinh thần đoàn kết, gắn bó của cộng đồng làng xã."
+            },
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/vi/a/ad/Picturecarnegie.jpg",
+                "image": "images/stg-trh(3).png",
+                "name": "Đắc Nhân Tâm",
+                "genre": "Tâm lý ứng xử-tôn giáo học",
+                "author": "Dale Carnegie",
+                "price": "60.600đ",
+                "Content": "Đắc Nhân Tâm. Một trong những cuốn sách thay đổi cuộc đời hàng triệu người trên thế giới. Đây là phiên bản được dịch từ phiên bản “How to Win Friends and Influence People” do nhà xuất bản Simon and Schuster xuất bản lần đầu tiên năm 1936. “Đắc nhân tâm” là cuốn sách được lan tỏa rộng rãi và có sức ảnh hưởng vô cùng lớn, giúp thay đổi cuộc đời hàng triệu người trên thế giới. Đây là một trong những cuốn sách làm thay đổi cuộc đời của hàng triệu người trên toàn thế giới. “Đắc nhân tâm” đem lại những giá trị tuyệt vời cho người đọc, bao gồm những lời khuyên bổ ích về cách ứng xử trong cuộc sống hằng ngày. Sức lan tỏa của cuốn sách vô cùng lớn, tác động tới nhiều tầng lớp và nhiều đối tượng khác nhau."
+            },
+            {
+                "link_image_author": "https://i.guim.co.uk/img/static/sys-images/Admin/BkFill/Default_image_group/2012/2/15/1329320024840/Richard-Holloway-007.jpg?width=465&dpr=1&s=none&crop=none",
+                "image": "images/stg-trh(4).png",
+                "name": "”Lược Sử tôn giáo học”",
+                "genre": "Tôn giáo học – Lịch sử văn hoá",
+                "author": "Richard Holloway",
+                "price": "119.200đ",
+                "Content": "Hơn bảy tỷ người trên thế giới có thể viết một thứ gì đó khác chữ “Không” vào mục Tôn giáo học trong hồ sơ của mình. Một số sinh ra đã theo một tôn giáo học được chọn sẵn; số khác có thể tự lựa chọn theo sở thích, theo định hướng, theo đám đông... Thế rồi họ thực hành đức tin của mình hằng ngày, tự hào về nó và muốn truyền bá nó cho nhiều người khác nữa. Đó là con đường phát triển hết sức tự nhiên của tôn giáo học suốt hàng nghìn năm qua, kết quả là vô số tín ngưỡng với cành nhánh xum xuê mà chúng ta thấy ngày nay. Nhiều tôn giáo học ra đời cách đây hàng nghìn năm với số lượng tín đồ hùng hậu, một số khác non trẻ hơn nhưng không kém phần đình đám vì những tín đồ ít ỏi nhưng nổi tiếng của mình. Thế nhưng, ai trong số họ dám chắc những gì mình đang làm là đúng nguyên bản và không khiến các vị khai sinh ra tôn giáo học ấy lắc đầu, thất vọng?"
+            },
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
+                "image": "images/stg-trh(5).png",
+                "name": "Tôn giáo học - Khái Lược Những Tư Tưởng Lớn",
+                "genre": "Tôn giáo học– Triết học – Kiến thức tổng hợp",
+                "author": "DK",
+                "price": "348.000đ",
+                "Content": "Chỉ có một Thượng đế? Vì sao con người chịu khổ? Điều gì chờ ta sau cái chết? Hàng tỉ người trên thế giới tìm thấy ý nghĩa sống trong tôn giáo học, nhưng những tư tưởng nào đã nâng đỡ những đức tin đó, và chúng đã phát triển như thế nào? Bao quát những tôn giáo học tín ngưỡng lớn của thế giới bằng một văn phong dễ hiểu và sáng sủa, Tôn giáo học – Khái lược những tư tưởng lớn là tập hợp những bài viết ngắn gọn hàm súc giải thích rõ những điều khó hiểu, những sơ đồ từng bước một giúp làm sáng tỏ những giáo lí trọng tâm, và những hình ảnh minh họa dí dỏm giúp chúng ta suy tư với nhận thức về tôn giáo học của mình."
+            },
+            {
+                "link_image_author": "https://lytu.vn/uploads/images/2022/03/image_750x_622ffed78df71.jpg",
+                "image": "images/stg-trh(6).png",
+                "name": "Phật Giáo Và Thiền",
+                "genre": "Triết học – Tôn giáo học – Thiền học",
+                "author": "Lý Tứ",
+                "price": "110.500đ",
+                "Content": "Bạn đọc thân mến !!! Cuốn Phật Giáo và Thiền các bạn đang cầm trên tay, được mình viết từ năm 2010. Năm ấy, có một số Phật tử trẻ từ Mỹ về thăm, và mong muốn có một tài liệu Phật pháp cô đọng, nhưng đầy đủ, để họ mang về bên ấy tu tập. Thế là mình bắt tay viết cuốn Phật Giáo Và Thiền !!! Trải qua thời gian mười năm, cuốn sách lưu hành trong nội bộ Huynh Đệ Lý Gia(1), coi như một tài liệu mang ý nghĩa giáo khoa đặc trưng của Lý Gia. Và cuốn sách đã giúp rất nhiều Huynh Đệ Lý Gia thành công trong tu tập !!! Hôm nay, có lẽ duyên lành đã đến, cuốn sách không còn là tài sản nội bộ của Lý Gia, mà nó được phép xuất bản chính thức, do Nhà Sách Minh Thắng phát hành !!! Về nội dung, cuốn sách được viết dưới dạng giáo trình dạy và học, nên nó hình thành theo thứ lớp từ thấp lên cao, từ cạn đến sâu, từ đại cương đến chi tiết, hướng dẫn người học từng bước tu tập cụ thể. Trong đó các khái niệm cơ bản của Phật đạo cũng được cắt nghĩa một cách rõ ràng và khoa học !!! Đây là lí do vì sao cuốn sách lại mang hình thức của một luận văn, như: - Phần I: Tổng quan, gồm các chương: Phương pháp tiếp cận, định hướng, cơ sở lí luận... - Phần II: Giáo lý Phật giáo và thiền, gồm các chương: Liên hệ giữa thiền và giác ngộ, thiền và ngũ triền cái, bốn đế và ba thừa, ba mươi bảy phẩm... - Phần III: Một số khái niệm liên quan đến thiền, gồm các chương: Khái niệm nghiệp, khái niệm sám hối, khái niệm ngũ trược, khái niệm tập nhân giao báo, khái niệm ba duyên hoà hiệp, khái niệm ngã và tâm...v..v... - Phần IV: Thiền của Phật giáo, gồm các chương: Các loại thiền, thiền và các ba la mật, thiền đốn ngộ... - Phần V: Lịch sử Phật giáo và thiền... - Phần VI: Chánh kiến..."
+            },
+            {
+                "link_image_author": "https://fms.wustl.edu/sites/fms.wustl.edu/files/styles/square_1_1_1888w/public/2025-04/john_powers.jpeg.webp",
+                "image": "images/stg-trh(7).png",
+                "name": "Thế Giới Phật Giáo",
+                "genre": "Tôn giáo học – Văn hoá – Lịch sử",
+                "author": "John Powers",
+                "price": "600.000đ",
+                "Content": "Thế giới Phật giáo là một tuyển tập các bài viết về văn hóa và tu hành Phật giáo trên thế giới, khảo sát sinh động và cập nhật về Nghiên cứu Phật giáo cho sinh viên cũng như học giả. Thế giới Phật giáo khám phá các loại hình Phật giáo trong khu vực và các chủ đề cốt lõi bao gồm Phật tính, nghi lễ và hành hương.Ngoài các quan điểm về lịch sử và địa chính của Phật giáo, bộ sách có các chương chuyên đề về các khái niệm triết học như đạo đức, cũng như các cấu trúc và phạm trù xã hội như cộng đồng và gia đình. Cuốn sách cũng đề cập đến Phật giáo tồn tại dưới nhiều hình thức, xem xét các cách thức mà hiện đại đang định hình lại các cấu trúc truyền thống, các học thuyết cổ xưa và niềm tin vào vũ trụ."
+            },
+            {
+                "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmY-BuXBaLHNbKWmHNr9KV4h5UpTiktefyfQ&s",
+                "image": "images/stg-trh(8).png",
+                "name": "Nho giáo",
+                "genre": "Tôn giáo học-Triết học – Văn hoá",
+                "author": "Trần Trọng Kim",
+                "price": "174.000đ",
+                "Content": "Nho Giáo là một công trình nghiên cứu nghiêm túc, công phu của nhà văn hóa, nhà sử học Trần Trọng Kim được in lần đầu vào những năm 30 của thế kỷ XX. Trong những bộ khảo luận về Nho học xuất bản ở nước ta cho tới nay, Bộ Nho giáo của Lệ Thần Trần Trọng Kim vẫn được đánh giá cao. Đây là một trong những không nhiều cuốn sách ra đời sớm nhất thời hiện đại nghiên cứu về Nho giáo Trung Hoa và tầm ảnh hưởng lớn lao của nó trong đời sống văn hóa Việt Nam ta hàng nghìn năm nay. Việc làm quyển sách nói về Nho giáo tức là việc vẽ lấy cái bản đồ của nho giáo. Nho giáo là một đạo rất cao minh của nhân loại đã phát huy ra từ xưa đến nay ... Ai đã tâm đắc cái tinh thần, thì cũng có cái nhân cách tôn quý đặc biệt, khác hẳn người thường."
+            },
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
+                "image": "images/stg-trh(9).png",
+                "name": "Công Giáo Và Đức Kitô",
+                "genre": "Tôn giáo học – Thần học – Lịch sử tôn giáo",
+                "author": "Lý Minh Tuấn",
+                "price": "230.400đ",
+                "Content": "Công Giáo Và Đức Ki Tô cốt yếu dành cho những bạn ở ngoài Công giáo, muốn có kiến thức về Công giáo, một tôn giáo học từ Israel được truyền sang phương Tây và truyền vào Việt Nam đã được gần 500 năm rồi."
+            },
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/250px-User_icon_2.svg.png",
+                "image": "images/stg-trh(10).png",
+                "name": "Đạo Giáo Sinh Tử Kỳ Thư",
+                "genre": "Tôn giáo- Triết học – Tôn giáo – Văn hoá",
+                "author": "Tống Đạo Nguyên",
+                "price": "246.000đ",
+                "Content": "Mỗi dân tộc khác nhau lại có những nhận thức khác nhau về cái chết, quan niệm về sinh tử của Đạo giáo có sự dung hòa giữa tín ngưỡng dân gian và Phật giáo. Nguồn gốc của quan niệm này xuất phát từ lòng khao khát nhiệt thành đối với cuộc sống. Hệ thống lý thuyết dưỡng sinh hoàn bị và hệ thống giả tưởng của Đạo giáo về cái chết, đã nhắc nhở chúng ta cần phải biết quý trọng sinh mệnh hiện tại, thuận theo tự nhiên, thực hiện phép dưỡng sinh để có được một cơ thể và tinh thần khỏe mạnh, tỉnh táo để nhận thức về quá trình Sinh - Lão - Bệnh - Tử của bản thân, để có một cuộc đời lạc quan và ý nghĩa. Cuốn Đạo Giáo Sinh Tử Kỳ Thư đã tập hợp một lượng tư liệu phong phú từ trong thư tịch cổ, được sắp xếp một cách hệ thống, kết hợp với hệ thống hình minh họa sinh động và trực quan, sẽ dẫn dắt bạn đọc khám phá về hành trình của sinh mệnh sau cái chết, thám hiểm vùng đất từ lâu vẫn là một ẩn số đối với con người. Những địa danh đánh dấu hành trình của linh hồn sau cái chết: Quỷ môn quan: cánh cổng mở vào địa phủ Cầu Nại Hà: bắc qua con sông tại ranh giới địa phủ. Đá Tam Sinh: phản ánh các hình ảnh của kiếp trước, kiếp này và kiếp sau. Hoa bỉ ngạn: loài hoa duy nhất nỏ trong cõi u minh. Thập điện Diêm Vương: vị phán quan công minh nơi địa phủ. Canh Mạnh Hà: bát canh thần bí xóa sạch mọi ký ức về kiếp trước."
+            },
+            {
+                "link_image_author": "https://www.babelio.com/users/AVT_Jean-Louis-Siemons_2237.jpg",
+                "image": "images/stg-trh(11).png",
+                "name": "Bí Ẩn Luân Hồi",
+                "genre": "Tôn giáo – Tâm linh – Triết học nhân sinh",
+                "author": "Jean-Louisn Siemons",
+                "price": "136.000đ",
+                "Content": "Đầu thai và Luân hồi là gì? Điều đó có thay đổi đời sống của bạn không? Liệu có thể có những chứng cứ hợp lý về nó? Những thắc mắc đó vẫn chưa hề nhận được trả lời thỏa đáng – ngoại trừ những giai thoại và những khẳng định không thể kiểm chứng của một số cá nhân – cũng như việc không chấp nhận có bất kỳ sự tồn tại nào sau cái chết, với lý do là con người chỉ có thể tư duy nếu có thân xác. Bí ẩn Luân hồi là cuốn sách tập hợp những câu chuyện được xem là bằng chứng thực nghiệm của sự đầu thai và luân hồi. Là một chuyên gia rất am hiểu về vấn đề này và đam mê với cuộc sống tâm linh trong thời gian dài, Jean-Louis Siémons đã chia sẻ điều kỳ diệu và chân thực trong tập hợp các minh chứng của nhiều nhân chứng về việc đầu thai, luân hồi."
+            },
+            {
+                "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmlt5Lf6TdZhoqk1-IdlyNwoA8Mkm7f72A0w&s",
+                "image": "images/stg-trh(12).png",
+                "name": "Lịch Âm Dương Cát Tường Năm Bính Ngọ 2026",
+                "genre": "Văn hoá dân gian – Phong thuỷ – Tử vi – Lịch học-tôn giáo",
+                "author": "Nguyễn Mạnh Linh",
+                "price": "31.500đ",
+                "Content": "Lịch âm - Dương cát tường năm Bính Ngọ 2026 được phát hành, xây dựng dựa vào thuyết âm dương Ngũ hành sinh khắc chế hoá lẫn nhau, kết hợp với Thập can, Thập nhị chi, Cửu cung, Bát quái và nhiều cơ sở lý luận khác thuộc khoa học cổ đại phương Đông như Thập nhị trực (Kiến Trừ thập nhị khách), Nhị thập bát tú, 12 cung Hoàng đạo, Hắc đạ để tính ngày giờ tốt xấu và được đối chiếu với lịch của Ban lịch Nhà nước. Cuốn sách cũng có chức năng để bạn đọc tham khảo cách chọn ngày lành, tháng tốt, giờ Hoàng đạo/Hắc đạo (Giờ ở đây, là tính theo giờ tại nơi cư ngụ của bạn), sao tốt/sao xấu lo cho công việc, chọn người xông đất đầu năm, chọn tuổi làm nhà, chọn ngày giờ đẹp cho cưới hỏi, xuất hành, khai trương, mở hàng, thành lập công được tốt đẹp nhất theo dân gian."
+            }
+        ],       
+        "Văn học Lãng mạn": [
+            {
+                "image": "images/vhlm(1).png",
+                "name": "Khởi đầu của chúng ta",
+                "genre": "Văn học Lãng mạn",
+                "author": "COLLEEN HOOVER",
+                "price": "185.000đ",
+                "Content": "Tác phẩm là phần tiếp theo của “It Ends with Us” (Kết thúc để bắt đầu), tiếp tục câu chuyện của Lily Bloom, người phụ nữ mạnh mẽ đang học cách cân bằng giữa vai trò làm mẹ và việc hàn gắn tổn thương trong quá khứ. Khi Atlas Corrigan, mối tình đầu của cô, xuất hiện trở lại, Lily đứng trước cơ hội yêu thương mới, nhưng đồng thời phải đối mặt với Ryle – chồng cũ, người vẫn là một phần trong cuộc sống của cô và con gái.Câu chuyện được kể xen kẽ giữa góc nhìn của Lily và Atlas, mang đến cảm xúc chân thực về tình yêu, sự tha thứ, lòng kiên cường và khát vọng hạnh phúc."
+            },
+            {
+                "image": "images/vhlm(2).png",
+                "name": "Tình yêu xấu xí",
+                "genre": "Văn học Lãng mạn",
+                "author": "COLLEEN HOOVER",
+                "price": "206.000đ",
+                "Content": "“Tình yêu xấu xí” (Ugly Love) là tiểu thuyết nổi tiếng của Colleen Hoover, xuất bản năm 2014. Câu chuyện xoay quanh Tate Collins, cô sinh viên vừa chuyển đến San Francisco, và Miles Archer, chàng phi công lạnh lùng mang nhiều tổn thương. Họ bước vào mối quan hệ chỉ dựa trên đam mê, với hai quy tắc: “Đừng hỏi về quá khứ. Đừng mong đợi tương lai.” Nhưng khi cảm xúc thật xuất hiện, mọi giới hạn dần sụp đổ, kéo theo nỗi đau, sự mất mát và khát vọng được yêu thương thật sự."
+            },
+            {
+                "image": "images/vhlm(3).png",
+                "name": "Tì Nam: Nữ hải tặc",
+                "genre": "Văn học Lãng mạn",
+                "author": "Châu Văn Văn",
+                "price": " 280.000đ",
+                "Content": "Tì Nam: Nữ hải tặc là tiểu thuyết trinh thám – huyền huyễn – cổ đại, mở đầu bằng vụ cháy bí ẩn tại điện Phụng Thiên trong Tử Cấm Thành. Câu chuyện theo chân Chu Duật Hằng, hoàng thái tôn triều Minh, người bị nguyền rủa chỉ còn sống một năm, và Ti Nam, cô gái bí ẩn vừa trở về từ hải ngoại. Họ cùng nhau khám phá những bí thuật cổ xưa như Ngũ Hành Quyết, Lục Cực Lôi, Tam Thiên Giai... để giải mã âm mưu kinh thiên động địa đe dọa vận mệnh giang sơn."
+            },
+            {
+                "image": "images/vhlm(4).png",
+                "name": "Tớ muốn ăn tụy của cậu",
+                "genre": "Văn học Lãng mạn",
+                "author": "SUMINO YORU",
+                "price": "126.000đ",
+                "Content": "“Tớ muốn ăn tụy của cậu” là một tiểu thuyết cảm động xoay quanh câu chuyện giữa một nam sinh hướng nội và một cô gái mắc bệnh nan y tên Sakura. Dù biết mình sắp chết, Sakura vẫn sống lạc quan và nỗ lực tận hưởng từng khoảnh khắc cuối cùng của cuộc đời. Qua tình bạn đặc biệt giữa hai người, tác phẩm khắc họa sâu sắc ý nghĩa của sự sống, cái chết và tình yêu thương."
+            },
+            {
+                "image": "images/vhlm(5).png",
+                "name": "Em thuộc về anh",
+                "genre": "Văn học Lãng mạn",
+                "author": "EMILY GIFFIN",
+                "price": " 102.000đ",
+                "Content": "“Em thuộc về anh” – Emily Giffin.Câu chuyện xoay quanh Marian Caldwell, người phụ nữ thành đạt với cuộc sống tưởng như hoàn hảo, nhưng bị đảo lộn khi Kirby Rose – cô con gái mà Marian từng cho đi làm con nuôi – bất ngờ xuất hiện sau 18 năm. Cuộc gặp gỡ định mệnh ấy mở ra hành trình tìm lại quá khứ, đối mặt với bí mật, tổn thương và sự lựa chọn giữa lý trí và con tim. Một cuốn tiểu thuyết sâu sắc, cảm động về tình mẫu tử, sự tha thứ và hành trình đi tìm nơi mình thực sự thuộc về."
+            },
+            {
+                "image": "images/vhlm(6).png",
+                "name": "Trong đáy mắt trời xanh là vĩnh viễn",
+                "genre": "Văn học Lãng mạn",
+                "author": "Xuân Quỳnh",
+                "price": "155.000đ",
+                "Content": "Nhân dịp kỷ niệm 80 năm ngày sinh của nữ thi sĩ Xuân Quỳnh, tập di cảo “Trong đáy mắt trời xanh là vĩnh viễn” được ra mắt như một lời tri ân sâu sắc. Cuốn sách tập hợp nhật ký, ghi chép và thư từ của Xuân Quỳnh – những trang viết chan chứa tình cảm, phản ánh tâm hồn nhạy cảm, tình yêu tha thiết với cuộc đời, với gia đình và Tổ quốc. Qua từng dòng chữ, độc giả cảm nhận được hình ảnh một người mẹ dịu dàng, một thi sĩ tận tụy và một con người sống trọn vẹn với yêu thương và khát vọng sáng tạo."
+            },
+            {
+                "image": "images/vhlm(7).png",
+                "name": "Cô gái năm ấy chúng ta cùng theo đuổi",
+                "genre": "Văn học Lãng mạn",
+                "author": "CỬU BẢ ĐAO",
+                "price": "96.000đ",
+                "Content": "“Cô gái năm ấy chúng ta cùng theo đuổi” – Cửu Bả Đao.Tác phẩm kể về tuổi thanh xuân rực rỡ của nhóm nam sinh cùng đem lòng yêu mến cô bạn học xinh đẹp, thông minh Thẩm Giai Nghi. Giữa những rung động đầu đời, sự ngây ngô và chân thành, họ cùng trải qua những năm tháng học trò đầy kỷ niệm. Đây là câu chuyện trong trẻo, hoài niệm và cảm động về tình yêu, tuổi trẻ và những điều đẹp đẽ nhưng không thể níu giữ – nơi mỗi người đều có “cô gái năm ấy” của riêng mình."
+            },
+            {
+                "image": "images/vhlm(8).png",
+                "name": "Kết thúc của chúng ta (It Ends With Us)",
+                "genre": "Văn học Lãng mạn",
+                "author": "COLLEEN HOOVER",
+                "price": "188.000đ",
+                "Content": "“Kết thúc của chúng ta” (It Ends With Us) – Colleen Hoover . Là tác phẩm nổi bật và cảm xúc nhất của Colleen Hoover, được chính tác giả thừa nhận là “cuốn sách khó viết nhất”. Xuất bản năm 2016, tác phẩm nhanh chóng trở thành hiện tượng toàn cầu, bán hàng triệu bản và được dịch ra hơn 20 ngôn ngữ. Câu chuyện chạm đến vấn đề bạo lực gia đình, tình yêu và sự dũng cảm buông bỏ, khiến người đọc phải suy ngẫm sâu sắc về ranh giới giữa yêu thương và tổn thương. Đây cũng là cuốn sách được lan tỏa mạnh mẽ trên BookTok, trở thành biểu tượng của sức mạnh và lòng tự trọng trong tình yêu."
+            },
+            {
+                "image": "images/vhlm(9).png",
+                "name": "All in Love",
+                "genre": "Văn học Lãng mạn",
+                "author": "All in Love",
+                "price": "119.000đ",
+                "Content": "“All in Love” – Cố Tây Tước .All in Love là một tác phẩm ngọt ngào và gần gũi, được xem như cuốn nhật ký thanh xuân của nhà văn Cố Tây Tước. Qua lời kể của nhân vật “tôi” – Cố Thanh Khê và chàng trai “vô sỉ” nhưng chân thành Từ Vi Vũ, cuốn sách tái hiện những câu chuyện giản dị, hài hước và cảm động về tình yêu, tình bạn và tuổi trẻ. Tác phẩm không chỉ mang lại tiếng cười mà còn chạm đến những rung động sâu sắc, gợi người đọc nhớ về một thời thanh xuân đầy cảm xúc và chân thật."
+            },
+            {
+                "image": "images/vhlm(10).png",
+                "name": "Khó Dỗ Dành - Tập 1",
+                "genre": "Văn học Lãng mạn",
+                "author": "Trúc Dĩ",
+                "price": "145.000đ",
+                "Content": "“Khó Dỗ Dành” kể về Ôn Dĩ Phàm và Tang Diên – hai người từng là bạn học, từng lỡ nhau trong quá khứ và gặp lại sau nhiều năm. Tang Diên vẫn âm thầm yêu cô, còn Ôn Dĩ Phàm quyết tâm không để lạc mất anh thêm lần nữa. Với giọng văn tinh tế, sâu sắc, Cửu Nguyệt Hi đã khắc họa một chuyện tình vừa ngọt ngào vừa day dứt, về những người từng tổn thương nhưng vẫn dũng cảm yêu thêm lần nữa."
+            },
+            {
+                "image": "images/vhlm(11).png",
+                "name": "Chiều Em Đau Cả Trái Tim",
+                "genre": "Văn học Lãng mạn",
+                "author": "Túy Hậu Ngư Ca",
+                "price": "139.000đ",
+                "Content": "“Chiều em đau cả trái tim” là một tiểu thuyết thanh xuân vườn trường cảm động của Tiêu Đường Đông Qua, kể về mối tình sâu sắc nhưng nhiều tổn thương giữa Thời Hạ và Thẩm Nhất Thành. Họ từng là hai con người mang đầy kiêu ngạo và sĩ diện, vì vậy đã bỏ lỡ nhau trong những năm tháng tuổi trẻ. Chỉ khi mất đi, Thời Hạ mới nhận ra tình cảm thật sự của mình dành cho Thẩm Nhất Thành – người đã rời đi không hẹn ngày trở lại. Gặp lại nhau sau nhiều biến cố, giữa họ không còn là sự ngông cuồng của tuổi trẻ mà là những vết thương, nỗi day dứt và tình yêu sâu đậm chưa từng nguôi."
+            },
+            {
+                "image": "images/vhlm(12).png",
+                "name": "Đoán xem anh yêu em nhường nào",
+                "genre": "Văn học Lãng mạn",
+                "author": "Superpanda",
+                "price": "125.000đ",
+                "Content": "“Đoán xem anh yêu em nhường nào” xoay quanh Phù Hiểu và Trần Ý Hành, những người chọn đè nén tình yêu để theo đuổi sự nghiệp. Họ bước vào mối quan hệ “quen nửa vời” kỳ quặc: Không tùy ý gặp mặt, nắm tay hay ôm hôn, mà mỗi phần thưởng của tình yêu đều phải nhờ vào tiến triển trong sự nghiệp. Tình cảm cùng sự nghiệp cứ thế song hành, lặng lẽ lớn dần lên qua những năm tháng kỳ lạ đó."
+            }
+        ],
+        "Sách Ngoại Ngữ": [
+            {
+                "image": "images/snngu(1).png",
+                "name": "Destination B1 - Grammar And Vocabulary With Answer Key (Tái Bản 2024)",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Malcom Mann, Syeve Taylore-Knowles",
+                "price": "162.000đ",
+                "Content": "Destination B1 – Grammar & Vocabulary With Answer Key là cuốn sách tự học và luyện thi lấy chứng chỉ B1 uy tín nhất hiện nay. Rất cần thiết cho mọi lứa tuổi vì tiếng Anh B1 là một chứng chỉ phổ biến, là điều kiện cần có của nhiều thạc sĩ, tiến sĩ và sinh viên."
+            },
+            {
+                "image": "images/snngu(2).png",
+                "name": "Cambridge IELTS 18 Academic - With Answer + Audio",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Nhiều tác giả",
+                "price": "230.000đ",
+                "Content": "Bộ sách IELTS được thiết kế chuẩn theo cấu trúc bài thi thực tế, sử dụng được cho cả hai hình thức thi là IELTS General và Academic. Giúp giải quyết các vấn đề thường gặp của thí sinh như không căn chỉnh được thời gian thi, không quen cấu trúc đề thi, và thiếu tài liệu có đáp án giải chi tiết."
+            },
+            {
+                "image": "images/snngu(3).png",
+                "name": "Essential Words For The Toeic 6th (Tái Bản 2019)",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Dr Lin Lougheed",
+                "price": "238.000đ",
+                "Content": "“Essential Words for the TOEIC” là cuốn sách giúp người học xây dựng và củng cố vốn từ vựng tiếng Anh cần thiết cho kỳ thi TOEIC. Sách tập trung vào 600 từ thông dụng nhất thường xuất hiện trong các ngữ cảnh giao tiếp và kinh doanh quốc tế. Mỗi chương giới thiệu các từ vựng theo chủ đề thực tế, kèm ví dụ và ngữ cảnh từng xuất hiện trong bài thi TOEIC, giúp người học hiểu cách dùng từ tự nhiên và hiệu quả hơn. Đây là tài liệu thiết yếu dành cho những ai muốn nâng cao điểm số TOEIC và cải thiện khả năng tiếng Anh giao tiếp chuyên nghiệp."
+            },
+            {
+                "image": "images/snngu(4).png",
+                "name": "15 Phút luyện Kanji mỗi ngày",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Trường Nhật ngữ Quốc tế KCP",
+                "price": "145.000đ",
+                "Content": "“15 Phút luyện Kanji mỗi ngày” là bộ sách học Kanji được thiết kế theo cấp độ tương ứng với kỳ thi JLPT, gồm 4 tập chia thành hai trình độ: Sơ cấp – Sơ trung cấp và Trung cấp. Tập 3 và 4 hướng đến người học Kanji cấp độ N2 hoặc những ai gặp khó khăn trong việc ghi nhớ chữ Hán. Với phương pháp học 15 phút mỗi ngày – 5 chữ Kanji kèm câu chuyện và chủ đề riêng, sách giúp người học tiếp thu dễ dàng và ghi nhớ lâu hơn. Mỗi bài học có giải nghĩa tiếng Việt, ví dụ minh họa, file nghe CD và từ vựng thực tế, giúp người học rèn kỹ năng đọc, viết, nghe và sử dụng Kanji tự nhiên hơn."
+            },
+            {
+                "image": "images/snngu(5).png",
+                "name": "Giáo Trình Chuẩn HSK 1",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Khương Lệ Bình, Vương Phương, Vương Phong, Lưu Lệ Bình",
+                "price": "198.000đ",
+                "Content": "Giáo Trình Chuẩn HSK 1 là cuốn đầu tiên trong bộ giáo trình 6 cấp độ, được biên soạn theo chuẩn cấu trúc đề thi HSK của Trung Quốc. Sách giúp người học tiếng Trung làm quen với từ vựng, ngữ pháp, và mẫu câu cơ bản trong giao tiếp hằng ngày. Với nội dung gần gũi, hình ảnh minh họa sinh động và bài luyện nghe – nói – đọc – viết phong phú, cuốn sách này là lựa chọn lý tưởng cho người mới bắt đầu học tiếng Trung hoặc chuẩn bị thi HSK cấp 1."
+            },
+            {
+                "image": "images/snngu(6).png",
+                "name": "Giáo Trình Chuẩn HSK 2",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Khương Lệ Bình",
+                "price": "135.000đ",
+                "Content": "Giáo Trình Chuẩn HSK 2 – Bài Học là cuốn sách tiếp nối HSK 1, được biên soạn theo chuẩn đề thi HSK nhằm giúp người học nâng cao trình độ tiếng Trung. Sách cung cấp hệ thống từ vựng, ngữ pháp và bài tập luyện nghe – nói – đọc – viết phù hợp với cấp độ 2. Với nội dung gần gũi, tình huống giao tiếp thực tế, cách trình bày sinh động và file nghe chuẩn giọng bản xứ, đây là tài liệu lý tưởng cho cả người tự học lẫn giảng dạy, giúp người học tự tin chinh phục kỳ thi HSK 2."
+            },
+            {
+                "image": "images/snngu(7).png",
+                "name": "Giáo Trình Chuẩn HSK 3",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Khương Lệ Bình",
+                "price": "205.000đ",
+                "Content": "Giáo Trình Chuẩn HSK 3 là phần tiếp theo trong bộ giáo trình chuẩn HSK, được biên soạn bám sát cấu trúc và nội dung kỳ thi HSK. Sách kết hợp hài hòa giữa giảng dạy và luyện thi, giúp người học củng cố ngữ pháp, mở rộng vốn từ và nâng cao kỹ năng nghe – nói – đọc – viết qua các tình huống giao tiếp thực tế. Với bố cục khoa học, hình ảnh minh họa sinh động và file nghe MP3 chuẩn giọng bản xứ, đây là tài liệu lý tưởng cho người học tiếng Trung ở trình độ trung cấp, giúp họ tiến gần hơn đến việc sử dụng tiếng Trung một cách tự nhiên và hiệu quả."
+            },
+            {
+                "image": "images/snngu(8).png",
+                "name": "Giáo trình chuẩn HSK 4",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Khương Lệ Bình",
+                "price": "228.000đ",
+                "Content": "Giáo Trình Chuẩn HSK 4 thuộc bộ giáo trình HSK gồm 6 cấp độ (18 cuốn), được biên soạn dựa trên cấu trúc và nội dung của đề thi HSK thật, giúp người học vừa rèn luyện kỹ năng ngôn ngữ vừa chuẩn bị hiệu quả cho kỳ thi. Sách có bố cục logic, giải thích rõ ràng các điểm ngữ pháp, mở rộng vốn từ và mẫu câu giao tiếp ở trình độ trung – cao cấp. Các bài học được thiết kế sinh động, gần gũi với đời sống, kèm file nghe MP3 giúp luyện phát âm và nghe hiểu. Đây là tài liệu lý tưởng cho người học tiếng Trung muốn nâng cao kỹ năng toàn diện và đạt chứng chỉ HSK cấp 4."
+            },
+            {
+                "image": "images/snngu(9).png",
+                "name": "Giáo Trình Chuẩn HSK 5 - Tập 1",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Khương Lệ Bình, Lỗ Giang, Lưu Sướng",
+                "price": " 278.000đ",
+                "Content": "Giáo Trình Chuẩn HSK 5 – Tập 1 nằm trong bộ giáo trình HSK gồm 6 cấp độ (18 cuốn), được biên soạn dựa trên cấu trúc và nội dung của kỳ thi HSK thật. Sách giúp người học nâng cao khả năng ngôn ngữ toàn diện thông qua hệ thống bài học có bố cục khoa học, ngữ pháp rõ ràng và vốn từ phong phú. Các chủ đề quen thuộc, gắn liền với đời sống, giúp rèn luyện kỹ năng nghe – nói – đọc – viết một cách tự nhiên. Với cách trình bày sinh động, nhiều hình minh họa và file nghe MP3 đi kèm, đây là tài liệu lý tưởng cho người học tiếng Trung ở trình độ trung – cao cấp, đặc biệt là những ai đang chuẩn bị thi chứng chỉ HSK 5."
+            },
+            {
+                "image": "images/snngu(10).png",
+                "name": "Giáo Trình Chuẩn HSk 6 - Tập 1",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Khương Lệ Bình",
+                "price": "298.000đ",
+                "Content": "Giáo Trình Chuẩn HSK 6 – Tập 1 là cấp độ cao nhất trong bộ giáo trình HSK, được biên soạn dành cho người học tiếng Trung nâng cao và những ai chuẩn bị thi chứng chỉ HSK 6. Sách kết hợp hài hòa giữa giảng dạy và luyện thi, giúp người học rèn luyện toàn diện các kỹ năng nghe, nói, đọc, viết. Bố cục bài học logic, ngữ pháp chuyên sâu, cùng nhiều chủ đề thực tế giúp người học mở rộng vốn từ và khả năng diễn đạt. Với nội dung phong phú, hình ảnh minh họa sinh động và file nghe MP3 đi kèm, đây là tài liệu không thể thiếu cho những ai muốn đạt trình độ tiếng Trung lưu loát và chuyên nghiệp."
+            },
+            {
+                "image": "images/snngu(11).png",
+                "name": "Giáo Trình Chuẩn HSK 6 - Tập 2",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Khương Lệ Bình",
+                "price": "298.000đ",
+                "Content": "Giáo Trình Chuẩn HSK 6 – Tập 2 là phần tiếp theo của cấp độ cao nhất trong bộ HSK, được thiết kế dành cho người học tiếng Trung nâng cao và chuẩn bị thi HSK 6. Sách giúp người học củng cố vốn từ vựng, ngữ pháp phức tạp và nâng cao khả năng đọc – viết ở trình độ học thuật. Với bố cục khoa học, chủ đề phong phú và bài luyện nghe đi kèm MP3, cuốn sách hỗ trợ hiệu quả trong việc rèn luyện kỹ năng ngôn ngữ toàn diện. Đây là tài liệu lý tưởng cho người học muốn đạt trình độ tiếng Trung thành thạo và sử dụng lưu loát trong học tập, công việc."
+            },
+            {
+                "image": "images/snngu(12).png",
+                "name": "Destination C1&C2 - Grammar & Vocabulary With Answer Key (Tái Bản 2024)",
+                "genre": "Sách Ngoại Ngữ",
+                "author": "Malcolm Mann",
+                "price": "205.000đ",
+                "Content": "Destination C1 & C2 là giáo trình luyện ngữ pháp và từ vựng tiếng Anh nâng cao, được biên soạn dành cho người học hướng tới trình độ C1–C2 theo Khung tham chiếu châu Âu (CEFR). Sách gồm 42 bài học, xen kẽ giữa ngữ pháp và từ vựng theo chủ đề, giúp người học củng cố kiến thức chuyên sâu, mở rộng vốn từ và cải thiện kỹ năng sử dụng tiếng Anh học thuật. Với phần đáp án chi tiết, Destination C1 & C2 là tài liệu lý tưởng cho cả học viên tự học và người đang ôn luyện cho các kỳ thi chứng chỉ quốc tế."
+            }
+        ],
+          "Lịch sử , văn hóa và tiểu sử": [
+            {
+                "image": "images/lsu-vh-tsu(1).png",
+                "name": "Lược sử loài người ( Sapiens: A Brief History of Humankind )",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
+                "author": "Yuval Noah Harari",
+                "price": "157.000đ",
+                "Content": "“Sapiens: A Brief History of Humankind” (Lược sử loài người) là tác phẩm nổi tiếng của Yuval Noah Harari, nhà sử học người Israel, xuất bản lần đầu năm 2011. Cuốn sách là một hành trình khám phá toàn diện lịch sử nhân loại, từ thời loài người nguyên thủy (Homo sapiens) xuất hiện cách đây hơn 70.000 năm cho đến thời đại công nghệ và trí tuệ nhân tạo ngày nay. Harari phân tích cách con người tiến hóa, xây dựng xã hội, tín ngưỡng, kinh tế và khoa học, đồng thời đặt ra nhiều câu hỏi triết học về ý nghĩa của sự tồn tại và tương lai của loài người."
+            },
+            {
+                "image": "images/lsu-vh-tsu(2).png",
+                "name": "Súng, vi trùng và thép ( Guns, Germs, and Steel )",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
+                "author": "Jared Diamond",
+                "price": "95.000đ",
+                "Content": "“Guns, Germs, and Steel” (Súng, vi trùng và thép) là công trình nổi tiếng của Jared Diamond, học giả và nhà địa lý học người Mỹ, được xuất bản năm 1997. Tác phẩm tìm cách giải thích vì sao các nền văn minh trên thế giới phát triển không đồng đều, và tại sao người châu Âu lại có thể chinh phục và thống trị nhiều khu vực khác. Jared Diamond cho rằng sự khác biệt này không bắt nguồn từ chủng tộc hay trí tuệ, mà từ điều kiện địa lý, khí hậu, tài nguyên, cây trồng – vật nuôi và bệnh tật. Cuốn sách kết hợp giữa lịch sử, sinh học, địa lý và nhân học, đưa ra cái nhìn khoa học và toàn diện về sự phát triển của loài người."
+            },
+            {
+                "image": "images/lsu-vh-tsu(3).png",
+                "name": "Lịch sử nhân dân Hoa Kỳ ( A People’s History of the United States )",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
+                "author": "Howard Zinn",
+                "price": "89.000đ",
+                "Content": "“A People’s History of the United States” của Howard Zinn là một cuốn lịch sử phi truyền thống, kể lại lịch sử Mỹ từ góc nhìn của những nhóm bị áp bức: người bản địa, nô lệ, phụ nữ, người lao động và các cộng đồng thiểu số. Cuốn sách nhấn mạnh những cuộc đấu tranh xã hội và bất công, thách thức các câu chuyện chính thống về quyền lực và lịch sử “chính thức” của nước Mỹ."
+            },
+            {
+                "image": "images/lsu-vh-tsu(4).png",
+                "name": "A Man of Two Faces: A Memoir, A History, A Memorial ( Hồi ký, Lịch sử và Tưởng niệm )",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
+                "author": "Nguyễn Thanh Việt ",
+                "price": "145.000đ",
+                "Content": "A Man of Two Faces: A Memoir, A History, A Memorial của Viet Thanh Nguyen là hồi ký kết hợp giữa tự truyện, lịch sử và tưởng niệm. Cuốn sách kể về tuổi thơ của tác giả, trải nghiệm di cư từ Việt Nam sang Mỹ, những mất mát gia đình, và hành trình tìm kiếm bản sắc. Với lối viết sáng tạo, Nguyen kết hợp hồi tưởng cá nhân, phân tích xã hội và văn hóa, phản ánh sâu sắc trải nghiệm người nhập cư và di dân."
+            },
+            {
+                "image": "images/lsu-vh-tsu(5).png",
+                "name": "Nhật ký Anne Frank ( The Diary of a Young Girl )",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
+                "author": "Anne Frank",
+                "price": "198.000đ",
+                "Content": "“Nhật ký Anne Frank là cuốn hồi ký cảm động của cô bé người Do Thái Anne Frank, ghi lại cuộc sống của gia đình cô khi phải ẩn náu trong suốt Thế chiến II để trốn tránh sự truy bắt của phát xít Đức. Qua những trang viết chân thực, Anne thể hiện tâm hồn nhạy cảm, niềm tin mãnh liệt vào con người và khát vọng sống giữa bối cảnh tăm tối của chiến tranh. Tác phẩm không chỉ là lời chứng lịch sử sâu sắc mà còn là biểu tượng của nghị lực, hi vọng và nhân tính trong nghịch cảnh."
+            },
+            {
+                "image": "images/lsu-vh-tsu(6).png",
+                "name": "Văn minh và những bất mãn của nó ( Civilization and Its Discontents )",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
+                "author": "Sigmund Freud",
+                "price": "138.000đ",
+                "Content": "Civilization and Its Discontents (Văn minh và những bất mãn của nó) của Sigmund Freud (1930) là một tác phẩm kinh điển về tâm lý học và xã hội học. Trong cuốn sách, Freud phân tích xung đột giữa bản năng cá nhân và những yêu cầu của xã hội văn minh, chỉ ra rằng văn minh mang lại trật tự nhưng cũng tạo ra bất mãn và căng thẳng tâm lý. Tác phẩm bàn về tội lỗi, đạo đức, tình dục và tôn giáo, đồng thời đặt nền tảng cho nhiều nghiên cứu về bản chất con người và mối quan hệ giữa cá nhân với xã hội."
+            },
+            {
+                "image": "images/lsu-vh-tsu(7).png",
+                "name": "Lịch sử vạn vật ( A Short History of Nearly Everything )",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
+                "author": "Bill Bryson",
+                "price": "209.000đ",
+                "Content": "A Short History of Nearly Everything (Lược sử vạn vật) của Bill Bryson là một tác phẩm khoa học phổ thông nổi tiếng , xuất bản năm 2003 . Cuốn sách giúp người đọc hiểu về lịch sử hình thành vũ trụ , Trái Đất và sự sống – từ vụ nổ Big Bang , sự tiến hóa , đén vai trò của con người trong tự nhiên . Với lối viết hài hước , dễ hiểu và giàu thông tin , Bryson kể lại hành trình khám phá khoa học qua nhà bác học vĩ đại như Newton ,Darwin hay Einstein. Tác phẩm từng đoạt nhiều giải thưởng, trong đó có Aventis Prize for Science Books, và được xem là một trong những cuốn sách giúp phổ biến khoa học hay nhất thế kỷ 21."
+            },
+            {
+                "image": "images/lsu-vh-tsu(8).png",
+                "name": "Sụp đổ: Cách các xã hội lựa chọn thất bại hay thành công ( Collapse: How Societies Choose to Fail or Succeed )",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
+                "author": "Jared Diamond",
+                "price": "200.000đ",
+                "Content": "Collapse: How Societies Choose to Fail or Succeed (Sụp đổ: Cách các xã hội lựa chọn thất bại hay thành công) của Jared Diamond, xuất bản năm 2005, là tác phẩm nghiên cứu về nguyên nhân khiến nhiều nền văn minh trong lịch sử suy tàn. Diamond phân tích các trường hợp như người Maya, người Viking ở Greenland hay đảo Phục Sinh, để chỉ ra tác động của môi trường, tài nguyên và cách con người ra quyết định. Ông đồng thời cảnh báo rằng xã hội hiện đại cũng có thể sụp đổ nếu không biết cân bằng giữa phát triển và bảo về hành tinh."
+            },
+            {
+                "image": "images/lsu-vh-tsu(9).png",
+                "name": "Con đường dài đến tự do ( Long Walk to Freedom )",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
+                "author": "Nelson Mendela",
+                "price": " 197.000đ",
+                "Content": "Long Walk to Freedom (Con đường dài đến tự do) là hồi ký của Nelson Mandela, xuất bản năm 1994. Cuốn sách kể lại cuộc đời ông từ thời niên thiếu ở Nam Phi, quá trình trở thành nhà đấu tranh chống chủ nghĩa phân biệt chủng tộc (Apartheid), 27 năm tù đày, và hành trình đi đến tự do cũng như trở thành Tổng thống Nam Phi. Tác phẩm thể hiện tinh thần kiên cường, lòng nhân ái và khát vọng bình đẳng, trở thành biểu tượng cho tự do và công lý trên toàn thế giới."
+            },
+            {
+                "image": "images/lsu-vh-tsu(10).png",
+                "name": "Tự truyện của Mahatma Gandhi ( The Story of My Experiments with Truth )",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
+                "author": "Mahatma Gandi",
+                "price": "249.000đ",
+                "Content": "The Story of My Experiments with Truth (Tự truyện của Mahatma Gandhi) là hồi ký của lãnh tụ Ấn Độ Mahatma Gandhi, được viết trong giai đoạn 1925–1929. Cuốn sách ghi lại hành trình tìm kiếm chân lý, đạo đức và tinh thần bất bạo động (ahimsa) của Gandhi — từ thời niên thiếu, những năm du học ở Anh, đến khi lãnh đạo phong trào độc lập Ấn Độ. Qua những “thí nghiệm với sự thật”, Gandhi chia sẻ triết lý sống giản dị, lòng tin vào công lý và sức mạnh đạo đức của con người."
+            },
+            {
+                "image": "images/lsu-vh-tsu(11).png",
+                "name": "Đại Việt sử ký toàn thư",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
+                "author": "Ngô Sĩ Liên",
+                "price": "350.000đ",
+                "Content": "“Đại Việt sử ký toàn thư” do Ngô Sĩ Liên biên soạn vào năm 1479 dưới triều Lê Thánh Tông, là bộ quốc sử chính thống đầu tiên và đầy đủ nhất của Việt Nam thời trung đại. Tác phẩm ghi chép lịch sử dân tộc từ thời Hồng Bàng đến cuối triều Lê sơ, dựa trên các nguồn sử cũ như Đại Việt sử ký và Đại Việt sử ký tục biên. Với cách biên soạn khoa học, có nhận xét, đánh giá mang tư tưởng Nho giáo, tác phẩm không chỉ có giá trị lịch sử mà còn là di sản văn hóa, thể hiện tinh thần độc lập, tự hào dân tộc."
+            },
+            {
+                "image": "images/lsu-vh-tsu(12).png",
+                "name": "Đường Kách Mệnh",
+                "genre": "Lịch sử , văn hóa và tiểu sử",
+                "author": "Nguyễn Ái Quốc",
+                "price": "499.000đ",
+                "Content": "“Đường Kách mệnh” là tác phẩm của Chủ tịch Hồ Chí Minh, viết năm 1927, tập hợp các bài giảng của Người tại lớp huấn luyện chính trị ở Quảng Châu (Trung Quốc). Tác phẩm trình bày những vấn đề cơ bản về con đường cách mạng Việt Nam, vai trò của giai cấp công nhân, tổ chức Đảng và tinh thần đoàn kết quốc tế. Đây được xem là cuốn sách lý luận chính trị đầu tiên của cách mạng Việt Nam, đặt nền tảng tư tưởng cho việc thành lập Đảng Cộng sản Việt Nam năm 1930."
+            }
+        ],
+        "Kinh tế & Quản trị Kinh doanh": [
+            {
+                "image": "images/skt-qtkd(1).png",
+                "name": "Tại sao các Đế quốc sụp đổ",
+                "genre": "Kinh tế & Quản trị Kinh doanh",
+                "author": "Peter Heather, John Rapley",
+                "price": "144.500đ",
+                "Content": "Từng có một Hoa Kỳ là cuốn sách của Peter Heather và John Rapley, khám phá quy luật thịnh – suy của các đế quốc trong lịch sử, đặc biệt so sánh giữa đế chế La Mã cổ đại và phương Tây hiện đại. Bằng cách phân tích kinh tế, chính trị và xã hội, hai tác giả lý giải nguyên nhân khiến phương Tây – từng thống trị toàn cầu – đang dần suy yếu trước sự trỗi dậy của các cường quốc mới như Trung Quốc. Tác phẩm mang đến góc nhìn sâu sắc về chu kỳ phát triển của các nền văn minh và đặt ra câu hỏi liệu lịch sử có đang lặp lại."
+            },
+            {
+                "image": "images/skt-qtkd(2).png",
+                "name": "Tiền mã hóa - Giấc mơ vàng và cơn ác mộng tài chính",
+                "genre": "Kinh tế & Quản trị Kinh doanh",
+                "author": "Zeke Faux",
+                "price": "193.800đ",
+                "Content": "Cuốn “Tiền mã hóa – Giấc mơ vàng và cơn ác mộng tài chính” là tác phẩm điều tra nổi bật của nhà báo Zeke Faux, được đề cử cho nhiều giải thưởng uy tín như Edgar, Macavity, Porchlight, SABEW và được vinh danh trong danh sách sách hay nhất năm của nhiều tờ báo lớn (The New York Times, Washington Post, Financial Times,…). Nội dung sách kể về hành trình hai năm điều tra của tác giả nhằm khám phá mặt tối của cơn sốt tiền mã hóa bùng nổ năm 2021 – khi cả thế giới từ giới đầu tư lớn, người nổi tiếng đến truyền thông đều xem crypto là “tương lai của tiền tệ”. Zeke Faux đặt ra câu hỏi: liệu đây là cuộc cách mạng tài chính thật sự hay một trò lừa đảo tinh vi?"
+            },
+            {
+                "image": "images/skt-qtkd(3).png",
+                "name": "How money works - Hiểu biết về tiền",
+                "genre": "Kinh tế & Quản trị Kinh doanh",
+                "author": "Bùi Thị Quỳnh Chi",
+                "price": "280.500đ",
+                "Content": "How money works – Hiểu hết về tiền tìm hiểu cách thức các chính phủ kiểm soát tiền tệ, cách các công ty kiếm ra tiền, cách các thị trường tài chính vận hành, cách các cá nhân tối đa hóa thu nhập thông qua đầu tư… Đưa ra định nghĩa cho hàng trăm khái niệm, cùng với những kiến thức nền tảng nhất về các hệ thống tài chính, như trái phiếu, cổ phiếu, tiền mã hóa, bitcoin, quản lý nợ, tránh vỡ nợ trực tuyến và gọi vốn cộng đồng, cũng như cách tiền vận hành thế giới."
+            },
+            {
+                "image": "images/skt-qtkd(4).png",
+                "name": "Kinh doanh sự lựa chọn",
+                "genre": "Kinh tế & Quản trị Kinh doanh",
+                "author": "Matthew Willcox ",
+                "price": "145.000đ",
+                "Content": "Cuốn sách phân tích cách con người thực sự đưa ra quyết định – từ những lựa chọn nhỏ nhất đến các quyết định lớn trong đời – dựa trên cách bộ não tiến hóa qua hàng triệu năm. Tác phẩm giúp các marketer hiểu và vận dụng khoa học hành vi vào chiến lược marketing, từ đó tạo ra sản phẩm và thương hiệu phù hợp với bản chất tự nhiên của người tiêu dùng, khiến chúng trở thành “lựa chọn tự nhiên” trong tâm trí khách hàng."
+            },
+            {
+                "image": "images/skt-qtkd(5).png",
+                "name": "Doanh Nghiệp Cống Hiến",
+                "genre": "Kinh tế & Quản trị Kinh doanh",
+                "author": "Anne Frank",
+                "price": "198.000đ",
+                "Content": "Doanh Nghiệp Cống Hiến đưa ra những lời khuyên hữu ích để tích hợp các sáng kiến marketing vì cộng đồng vào mục tiêu kinh doanh tổng thể của doanh nghiệp. Đây cũng là cuốn sổ tay giúp các nhà quản lý và nhân viên trong công ty có thể lựa chọn những vấn đề phù hợp nhất, những đối tác tốt nhất và những sáng kiến có tiềm năng cao nhất để theo đuổi. Đối với các tổ chức phi lợi nhuận và cơ quan công ích đang tìm kiếm sự hỗ trợ từ các doanh nghiệp, cuốn sách cung cấp những hiểu biết sâu sắc cần thiết để tạo ra những mối quan hệ đối tác đôi bên cùng có lợi."
+            }
+        ],
+        "Sách Nấu Ăn & Phong Cách Sống": [
+            {
+                "image": "images/snan-pcs(1).png",
+                "name": "Khác Biệt Để Tỏa Sáng",
+                "genre": "Sách Nấu Ăn & Phong Cách Sống",
+                "author": "Hồ Tuệ Mạn",
+                "price": "148.750đ",
+                "Content": "Cuốn sách của Hồ Tuệ Mạn là một tiểu thuyết ứng dụng tâm lý học Virginia Satir, giúp người đọc hiểu rõ bản thân, giữ vững cái tôi và ứng xử hài hòa trong các mối quan hệ. Qua những câu chuyện quen thuộc, tác phẩm chỉ ra cách sống dịu dàng nhưng kiên định, biết thấu hiểu người khác mà vẫn bảo vệ giá trị của chính mình – để sống một cuộc đời trọn vẹn và trưởng thành hơn."
+            },
+            {
+                "image": "images/snan-pcs(2).png",
+                "name": "Sống trọn vẹn năm giác quan",
+                "genre": "Sách Nấu Ăn & Phong Cách Sống",
+                "author": "Gretchen Rubin",
+                "price": "143.650đ",
+                "Content": "Với hơn một thập kỷ nghiên cứu về hạnh phúc và bản chất con người, một ngày nọ, sau khi bước ra từ phòng khám mắt, Gretchen Rubin chợt nhận thấy mình đã bỏ qua một yếu tố then chốt để đạt đến hạnh phúc: năm giác quan. Trong chuyến hành trình này, cô đã bước ra khỏi tâm trí mà đi vào thế giới thực qua trải nghiệm cơ bản nhất của con người: nhìn, nghe, ngửi, nếm và chạm. Từ vui thích đơn giản nhất trong việc trân trọng hương vị tương cà hay thêm bài hát vào danh sách nhạc yêu thích, cho tới những việc đầy tính phiêu lưu hơn như thăm thú bảo tàng, hay tham dự một lớp học hương vị, Rubin đã hướng dẫn chúng ta cảm nhận từng ngày một cách sâu lắng và trọn vẹn nhất. Trong cơn hối hả của cuộc sống, cô phát hiện rằng năm giác quan là thứ mang lại cho chúng ta niềm vui, sự động viên một cách nhanh chóng và ổn định nhất – đồng thời giúp chúng ta thoáng chạm vào tâm hồn và vượt ra khỏi tâm trí để bước vào thế giới thực."
+            },
+            {
+                "image": "images/snan-pcs(3).png",
+                "name": "Tuổi giá rực rỡ",
+                "genre": "Sách Nấu Ăn & Phong Cách Sống",
+                "author": "Daniel J. Levitin",
+                "price": "254.150đ",
+                "Content": "Cuốn sách của Daniel J. Levitin mang đến một góc nhìn tích cực và khoa học về tuổi già — không phải là thời kỳ suy tàn, mà là giai đoạn chín muồi của trí tuệ và cảm xúc. Dựa trên nghiên cứu về khoa học thần kinh, y học và tâm lý học, tác giả chỉ ra rằng với lối sống lành mạnh và tư duy đúng đắn, con người có thể “già đi theo cách mình muốn” — sống hạnh phúc, minh mẫn và khôn ngoan hơn qua từng năm tháng."
+            },
+            {
+                "image": "images/snan-pcs(4).png",
+                "name": "Tiệm Cà Phê Tại Nhà",
+                "genre": "Sách Nấu Ăn & Phong Cách Sống",
+                "author": "WOW",
+                "price": "88.000 đ",
+                "Content": "“Tiệm cà phê tại nhà” là cuốn sách đầu tay của tác giả WOW. Cô là là một nhà sáng tạo nội dung đa nền tảng mạng xã hội như Tiktok, Instagram, Facebook… với tên gọi “Wow_homecafe”. Cô bắt đầu tìm thấy niềm đam mê với pha chế vào 4 năm trước và hoàn thiện cuốn sách này với khao khát bất cứ ai cũng có thể tự pha cho mình một ly đồ uống yêu thích. Dù bạn đã từng thử, hoặc chưa thì cuốn sách này cũng sẽ trở thành một người bạn dễ mến trên hành trình khám phá hương vị của bạn. “Tiệm cà phê tại nhà” – Đong trà pha cà phê chưa bao giờ đơn giản đến thế!"
+            },
+            {
+                "image": "images/snan-pcs(5).png",
+                "name": "Nấu Ăn Gia Đình - 30 Thực Đơn Ngày Thường + 52 Thực Đơn Ngày Chủ Nhật",
+                "genre": "Sách Nấu Ăn & Phong Cách Sống",
+                "author": "Triệu Thị Chơi",
+                "price": "38.000đ",
+                "Content": "Mỗi dân tộc ở mỗi vùng lãnh thổ khác nhau trên thê giới đều có tập quán ăn uống và món ăn riêng. Song, dân tộc nào cũng có các loại thức ăn thường ngày trong gia đình, các bữa ăn tươi, các bữa cỗ, bữa tiệc,... Dù là bữa ăn được tổ chức dưới bất cứ hình thức nào, mọi người cũng đều ưa thích được thưởng thức một bữa ăn ngon. Nhưng, một bữa ăn ngon thật sự là gì? Chúng phải có sự phong phú và ngon miệng, tạo được sự thích thú, và trên hết tất cả phải có đủ chất dinh dưỡng."
+            },
+             {
+                "image": "images/snan-pcs(6).png",
+                "name": "Vegan Asian - Đi Khắp Châu Á Để Ăn Chay",
+                "genre": "Sách Nấu Ăn & Phong Cách Sống",
+                "author": "Jeeca Uy",
+                "price": "121.500 đ",
+                "Content": "“Vegan Asian – Đi khắp châu Á để ăn chay” của Jeeca Uy là một hành trình khám phá ẩm thực chay đặc sắc khắp châu Á, được giới thiệu bởi I Love Cookbook trong bối cảnh xu hướng “Ăn sạch - Sống khỏe” ngày càng lan rộng sau đại dịch Covid-19. Tác phẩm mang đến gần 70 công thức món chay tiêu biểu từ nhiều quốc gia châu Á: Pad Thái của Thái Lan, mì Udon của Nhật Bản, Dimsum Trung Quốc, và nhiều món khác. Mỗi công thức không chỉ là hướng dẫn nấu ăn mà còn phản ánh nền văn hóa ẩm thực đặc trưng của từng quốc gia. Jeeca Uy – tác giả đồng thời là food blogger và nhiếp ảnh gia của The Foodie Takes Flight, chịu ảnh hưởng sâu sắc từ ẩm thực Philippines và Trung Quốc, tạo nên phong cách nấu ăn kết hợp hài hòa giữa Đông Á và Đông Nam Á. "
+            },
+            {
+                "image": "images/snan-pcs(7).png",
+                "name": "Kỹ Thuật Làm Bánh Ngọt - Ngẫu Hứng Cùng Cake (Tái Bản)",
+                "genre": "Sách Nấu Ăn & Phong Cách Sống",
+                "author": "Đình Bình, Đình Trung",
+                "price": "68.000đ",
+                "Content": "Giữa lúc dịch bệnh đang ngày một khó lường, mỗi người dân đều cố gắng nâng cao ý thức tự bảo vệ mình và những người xung quanh bằng việc hạn chế đi ăn hàng quán, hạn chế tiếp xúc đông người. Còn gì tuyệt hơn khi trong những ngày “giãn cách” chúng ta được tự tay làm ra những món ăn ngon lành, mới lạ để những người thân yêu thưởng thức. Hơn lúc nào hết các bà, các mẹ, các chị,.. thậm chí là cả các bố, các anh,.. rất cần những “người bạn” gợi ý và chỉ dẫn để gian bếp gia đình có đa dạng hơn những hương vị của các loại đồ ăn khác nhau. Hiểu được nhu cầu đó, Nhà xuất bản Phụ nữ Việt Nam xin trân trọng giới thiệu cuốn sách Ngẫu hứng cùng Cake, để làm phong phú thêm kĩ năng chế biến món ăn nhẹ của các độc giả yêu bếp. Với một chiếc lò nướng bánh gia đình và một số dụng cụ, khi bạn làm đúng theo các bước hướng dẫn và công thức đảm bảo bạn luôn đi đúng đường, mùi thơm của bánh ngọt sẽ lan tỏa trong căn bếp nhà bạn."
+            }
+        ]
+        
+    }
+}
+        
+
+
+        
+    
