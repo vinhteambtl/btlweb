@@ -1,0 +1,19 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+}
+
+/* Căn chỉnh khối liên hệ */
+.contact-section {
+  max-width: 1000px;
+}
+
+/* Biểu tượng */
+.info-box i {
+  font-size: 20px;
+}
+
+/* Nút gửi */
+.btn-dark:hover {
+  background-color: #222 !important;
+}
