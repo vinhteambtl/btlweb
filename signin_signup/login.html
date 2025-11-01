@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng nhập tài khoản | Tu Tiên Book</title>
+  <!-- Bootstrap 4 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<a href="index.html" class="btn-home">Trở về trang chủ</a>
+
+<div class="container">
+  <!-- Khung trái -->
+  <div class="register-left">
+    <h2>Đăng nhập tài khoản</h2>
+
+    <form id="loginForm" novalidate>
+      <div class="form-group">
+        <label for="email">Email <span style="color:red;">*</span></label>
+        <input type="email" class="form-control" id="email" placeholder="Email" required>
+        <div class="invalid-feedback">Vui lòng nhập email hợp lệ</div>
+      </div>
+
+      <div class="form-group password-container">
+        <label for="password">Mật khẩu <span style="color:red;">*</span></label>
+        <div class="password-wrapper">
+          <input type="password" class="form-control password-input" id="password" placeholder="Mật khẩu" required>
+          <button type="button" class="password-toggle" id="togglePassword">
+            <i class="bi bi-eye-fill"></i>
+          </button>
+        </div>
+        <div class="invalid-feedback">Mật khẩu phải có ít nhất 6 ký tự</div>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-block btn-register">ĐĂNG NHẬP</button>
+
+      <div class="text-center mt-3">
+         <p><a href="./forgot.html">Quên mật khẩu?</a></p>
+      </div>
+
+      <div class="social-login">
+        <p>Hoặc đăng nhập bằng</p>
+        <div class="social-buttons">
+          <button class="btn btn-outline-secondary facebook-btn">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+            Facebook
+          </button>
+
+          <button class="btn btn-outline-secondary google-btn">
+            <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt="Google">
+            Google
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- Khung phải -->
+  <div class="register-right">
+    <h3>Quyền lợi với thành viên</h3>
+    <div class="benefit-item">Vận chuyển siêu tốc</div>
+    <div class="benefit-item">Sản phẩm đa dạng</div>
+    <div class="benefit-item">Đổi trả dễ dàng</div>
+    <div class="benefit-item">Tích điểm đổi quà</div>
+    <div class="benefit-item">Được giảm giá cho lần mua tiếp theo lên đến 10%</div>
+
+    <div class="login-button">
+      <p>Chưa có tài khoản?</p>
+      <a href="./signuptest.html"><button class="btn btn-outline-light btn-login">Đăng ký</button></a>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="login.js"></script>
+</body>
+</html>

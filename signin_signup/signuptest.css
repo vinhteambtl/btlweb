@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6fdf5;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-home {
+    display: inline-block;
+    color: #2c8b2c;
+    text-align: center;
+    background: #c8e1c3;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 2px solid #2c8b2c;
+    margin: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-home:hover {
+    background-color: #2c8b2c;
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    background: #c8e1c3;
+    margin: 50px auto;
+    display: flex;
+    border: 2px solid #2c8b2c;
+    border-radius: 20px;
+    overflow: hidden;
+    min-height: 600px;
+}
+
+/* --- Khung trái --- */
+.register-left {
+    flex: 2;
+    padding: 40px;
+    background: #c8e1c3;
+}
+
+h2 {
+    color: #2c8b2c;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #2c8b2c;
+    font-size: 14px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px 15px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all 0.3s;
+    background: white;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #2c8b2c;
+    box-shadow: 0 0 5px rgba(44, 139, 44, 0.3);
+}
+
+/* Password container styles */
+.password-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.password-input {
+    padding-right: 45px !important;
+    width: 100%;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    color: #2c8b2c;
+    transition: all 0.3s ease;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    z-index: 2;
+}
+
+.password-toggle:hover {
+    background-color: rgba(44, 139, 44, 0.1);
+}
+
+.password-toggle:active {
+    transform: translateY(-50%) scale(0.9);
+}
+
+.password-toggle i {
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+/* Khi mật khẩu đang hiện */
+.password-toggle.active {
+    color: #257825;
+    background-color: rgba(37, 120, 37, 0.1);
+}
+
+.btn-register {
+    width: 100%;
+    background-color: #2c8b2c;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: all 0.1s ease;
+}
+
+.btn-register:hover {
+    background-color: #257825;
+    transform: translateY(-2px);
+}
+
+/* --- Đăng nhập xã hội --- */
+.social-login {
+    text-align: center;
+    margin-top: 25px;
+    position: relative;
+}
+
+.social-login p {
+    display: inline-block;
+    padding: 0 10px;
+    color: #2c8b2c;
+    background: #c8e1c3;
+    position: relative;
+    z-index: 1;
+}
+
+.social-login::before {
+    display: none !important;
+}
+
+
+.social-buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Facebook button */
+.facebook-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #1877f2;
+    border: 2px solid #1877f2;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    border: none;
+}
+
+.facebook-btn img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.facebook-btn:hover {
+    background-color: white;
+    color: #1877f2;
+    border: 2px solid #1877f2;
+    transform: translateY(-2px);
+}
+
+/* Google button */
+.google-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #db4437;
+    border: 2px solid #db4437;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    border: none;
+}
+
+.google-btn img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.google-btn:hover {
+    background-color: white;
+    color: #db4437;
+    border: 2px solid #db4437;
+    transform: translateY(-2px);
+}
+
+/* --- Khung phải --- */
+.register-right {
+  flex: 1;
+  background-color: #2c8b2c;
+  color: white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+   flex-direction: column;
+  justify-content: space-between;
+}
+
+.register-right h3 {
+  font-size: 22px;
+  margin-bottom: 2px;
+  padding-top: 10px;
+    font-weight: bold;
+  padding-bottom: 14px;
+  line-height: 1.4;
+}
+
+.register-right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.benefit-item {
+  font-size: 15px;
+  padding-top: 19px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.login-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-text {
+  margin-top: 20px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.btn-login {
+  width: 100%;
+  display: inline-block;
+  background-color: white;
+  color: #2c8b2c;
+  font-weight: bold;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.btn-login:hover {
+  background-color: #f2f2f2;
+}
+
+/* Validation styles */
+.is-invalid {
+    border-color: #dc3545 !important;
+}
+
+.is-invalid:focus {
+    box-shadow: 0 0 5px rgba(220, 53, 69, 0.3) !important;
+}
+
+.invalid-feedback {
+    display: none;
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.is-invalid ~ .invalid-feedback {
+    display: block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 95%;
+        margin: 20px auto;
+        border: 2px solid #2c8b2c;
+    }
+    
+    .register-left,
+    .register-right {
+        padding: 25px 20px;
+    }
+    
+    .register-right {
+        margin: 15px;
+        border-radius: 20px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    .social-buttons {
+        flex-direction: column;
+    }
+    
+    .password-toggle {
+        right: 8px;
+        width: 28px;
+        height: 28px;
+    }
+    
+    .password-toggle i {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        margin: 10px auto;
+        border: 2px solid #2c8b2c;
+        border-radius: 20px;
+    }
+    
+    .register-left,
+    .register-right {
+        padding: 20px 15px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+    
+    .btn-home {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+    
+    .social-buttons {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .facebook-btn,
+    .google-btn {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .password-input {
+        padding-right: 40px !important;
+    }
+    
+    .password-toggle {
+        right: 6px;
+        width: 26px;
+        height: 26px;
+    }
+    
+    .password-toggle i {
+        font-size: 15px;
+    }
+}

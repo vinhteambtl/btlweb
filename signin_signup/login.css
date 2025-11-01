@@ -1,0 +1,259 @@
+body {
+  background-color: #f2f2f2;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 1000px;
+  background: #c8e1c3;
+  margin: 50px auto;
+  display: flex;
+  border: solid #2f7b1f 2px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* Bên trái */
+.register-left {
+  flex: 2;
+  padding: 40px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.register-left h2 {
+  color: #2f7b1f;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 10px;
+  height: 45px;
+}
+
+.btn-register {
+  background-color: #2f7b1f;
+  border: none;
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.btn-register:hover {
+  background-color: #25691a;
+}
+
+/* Bên phải */
+.register-right {
+  flex: 1;
+  background-color: #2f7b1f;
+  color: white;
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.register-right h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.benefit-item {
+  margin-bottom: 10px;
+}
+
+.btn-login {
+  border-radius: 10px;
+  background-color: white;
+  color: #2f7b1f;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+}
+
+/* Nút trở về */
+.btn-home {
+  display: inline-block;
+  background: #c8e1c3;
+  color: #2f7b1f;
+  border: 2px solid #2f7b1f;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.btn-home:hover {
+  background-color: #2f7b1f;
+  color: white;
+  text-decoration: none;
+}
+
+/* Ẩn/hiện mật khẩu */
+.password-wrapper {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #555;
+}
+
+/* Social login */
+.social-login {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.social-buttons button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  margin: 5px;
+  border-radius: 50px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  padding: 10px;
+}
+
+.facebook-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  background-color: #1877f2;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.facebook-btn img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+.facebook-btn:hover {
+  background-color: white;
+  color: #1877f2;
+  border: 2px solid #1877f2;
+}
+
+/* Google */
+.google-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  background-color: #db4437;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.google-btn img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+.google-btn:hover {
+  background-color: white;
+  color: #db4437;
+  border: 2px solid #db4437;
+}
+
+
+
+/* === Con mắt màu xanh === */
+#togglePassword i {
+  color: #2f7b1f;           /* Màu xanh lá chủ đạo */
+  font-size: 1.1rem;
+  transition: color 0.2s ease-in-out;
+}
+
+/* Khi hover hoặc đang bật */
+#togglePassword:hover i,
+#togglePassword.active i {
+  color: #1f5f14;           /* Xanh đậm hơn khi hover hoặc khi đang bật */
+}
+
+/* Nếu muốn nền con mắt bo tròn nhẹ */
+#togglePassword {
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 95%;
+    margin: 20px auto;
+    border: solid #2c8b2c;
+  }
+  
+  .login-left,
+  .login-right {
+    padding: 25px 20px;
+  }
+  
+  .login-right {
+    margin: none;
+    border-radius:   20px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    margin: 10px auto;
+    border: solid #2c8b2c;
+    border-radius: 20px;
+  }
+  
+  .login-left,
+  .login-right {
+    padding: 20px 15px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  .btn-home {
+    font-size: 16px;
+  }
+  
+  .social-buttons {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .facebook-btn,
+  .google-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
