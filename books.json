@@ -854,7 +854,7 @@
         "Văn học Hiện đại & Kinh điển": [
             {
                 "link_image_author": "https://vimages.coccoc.com/vimage?ns=public_people&url=https://imgprofile.vnanet.vn/Media/Graphic/Profile/2023/07/25/nam-cao-3.JPG",
-                "image": "images/vhhd-kd(1).png",
+                "image": "image_book/vhhd-kd(1).png",
                 "name": "Chí Phèo",
                 "genre": "Văn học Hiện đại & Kinh điển",
                 "author": "Nam Cao",
@@ -863,7 +863,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/vhhd-kd(2).png",
+                "image": "image_book/vhhd-kd(2).png",
                 "name": "ROMEO AND JULIET",
                 "genre": "Văn học Hiện đại & Kinh điển",
                 "author": "William Shakespeare",
@@ -872,7 +872,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/vhhd-kd(3).png",
+                "image": "image_book/vhhd-kd(3).png",
                 "name": "Chiến tranh và hòa bình (War and Peace)",
                 "genre": "Văn học Hiện đại & Kinh điển",
                 "author": "LEO TOLSTOY",
@@ -881,7 +881,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/vhhd-kd(4).png",
+                "image": "image_book/vhhd-kd(4).png",
                 "name": "Những người khốn khổ (Les Misérables)",
                 "genre": "Văn học Hiện đại & Kinh điển",
                 "author": "Victor Hugo",
@@ -890,7 +890,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/vhhd-kd(5).png",
+                "image": "image_book/vhhd-kd(5).png",
                 "name": "Frankenstein",
                 "genre": "Văn học Hiện đại & Kinh điển",
                 "author": "Mary Shelley",
@@ -899,7 +899,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/vhhd-kd(6).png",
+                "image": "image_book/vhhd-kd(6).png",
                 "name": "Nhà Quý tộc tài ba xứ ManCha (Don Quixote)",
                 "genre": "Văn học Hiện đại & Kinh điển",
                 "author": "Miguel de Cervantes",
@@ -908,7 +908,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/vhhd-kd(7).png",
+                "image": "image_book/vhhd-kd(7).png",
                 "name": "Ông già và biển cả (The Old Man and the Sea)",
                 "genre": "Văn học Hiện đại & Kinh điển",
                 "author": "Ernest Hemingway",
@@ -917,7 +917,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/vhhd-kd(8).png",
+                "image": "image_book/vhhd-kd(8).png",
                 "name": "Kiêu hãnh và định kiến (Pride and Prejudice)",
                 "genre": "Văn học Hiện đại & Kinh điển",
                 "author": "Jane Austen",
@@ -926,7 +926,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/vhhd-kd(9).png",
+                "image": "image_book/vhhd-kd(9).png",
                 "name": "Cuộc đời của Pi (Life of Pi)",
                 "genre": "Văn học Hiện đại & Kinh điển",
                 "author": "Yann Martel",
@@ -935,7 +935,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/vhhd-kd(10).png",
+                "image": "image_book/vhhd-kd(10).png",
                 "name": "KẺ TRỘM SÁCH (The Book Thief)",
                 "genre": "Văn học Hiện đại & Kinh điển",
                 "author": "Markus Zusak",
@@ -944,7 +944,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/vhhd-kd(11).png",
+                "image": "image_book/vhhd-kd(11).png",
                 "name": "HÓA THÂN (The Metamorphosis)",
                 "genre": "Văn học Hiện đại & Kinh điển",
                 "author": "Franz Kafka",
@@ -953,7 +953,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/vhhd-kd(12).png",
+                "image": "image_book/vhhd-kd(12).png",
                 "name": "Những cuộc phiêu lưu của Huckleberry Finn (The Adventures of Huckleberry Finn)",
                 "genre": "Văn học Hiện đại & Kinh điển",
                 "author": "Mark Twain",
@@ -964,7 +964,7 @@
         "Văn học Lãng mạn": [
             {
                 "link_image_author": "",
-                "image": "images/vhlm(1).png",
+                "image": "image_book/vhlm(1).png",
                 "name": "Khởi đầu của chúng ta",
                 "genre": "Văn học Lãng mạn",
                 "author": "COLLEEN HOOVER",
@@ -973,7 +973,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/vhlm(2).png",
+                "image": "image_book/vhlm(2).png",
                 "name": "Tình yêu xấu xí",
                 "genre": "Văn học Lãng mạn",
                 "author": "COLLEEN HOOVER",
@@ -982,7 +982,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/vhlm(3).png",
+                "image": "image_book/vhlm(3).png",
                 "name": "Tì Nam: Nữ hải tặc",
                 "genre": "Văn học Lãng mạn",
                 "author": "Châu Văn Văn",
@@ -991,7 +991,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/vhlm(4).png",
+                "image": "image_book/vhlm(4).png",
                 "name": "Tớ muốn ăn tụy của cậu",
                 "genre": "Văn học Lãng mạn",
                 "author": "SUMINO YORU",
@@ -1000,7 +1000,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/vhlm(5).png",
+                "image": "image_book/vhlm(5).png",
                 "name": "Em thuộc về anh",
                 "genre": "Văn học Lãng mạn",
                 "author": "EMILY GIFFIN",
@@ -1009,7 +1009,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/vhlm(6).png",
+                "image": "image_book/vhlm(6).png",
                 "name": "Trong đáy mắt trời xanh là vĩnh viễn",
                 "genre": "Văn học Lãng mạn",
                 "author": "Xuân Quỳnh",
@@ -1018,7 +1018,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/vhlm(7).png",
+                "image": "image_book/vhlm(7).png",
                 "name": "Cô gái năm ấy chúng ta cùng theo đuổi",
                 "genre": "Văn học Lãng mạn",
                 "author": "CỬU BẢ ĐAO",
@@ -1027,7 +1027,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/vhlm(8).png",
+                "image": "image_book/vhlm(8).png",
                 "name": "Kết thúc của chúng ta (It Ends With Us)",
                 "genre": "Văn học Lãng mạn",
                 "author": "COLLEEN HOOVER",
@@ -1036,7 +1036,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/vhlm(9).png",
+                "image": "image_book/vhlm(9).png",
                 "name": "All in Love",
                 "genre": "Văn học Lãng mạn",
                 "author": "All in Love",
@@ -1045,7 +1045,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/vhlm(10).png",
+                "image": "image_book/vhlm(10).png",
                 "name": "Khó Dỗ Dành - Tập 1",
                 "genre": "Văn học Lãng mạn",
                 "author": "Trúc Dĩ",
@@ -1054,7 +1054,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/vhlm(11).png",
+                "image": "image_book/vhlm(11).png",
                 "name": "Chiều Em Đau Cả Trái Tim",
                 "genre": "Văn học Lãng mạn",
                 "author": "Túy Hậu Ngư Ca",
@@ -1063,7 +1063,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/vhlm(12).png",
+                "image": "image_book/vhlm(12).png",
                 "name": "Đoán xem anh yêu em nhường nào",
                 "genre": "Văn học Lãng mạn",
                 "author": "Superpanda",
@@ -1074,7 +1074,7 @@
         "Kinh tế & Quản trị Kinh doanh": [
             {
                 "link_image_author": "",
-                "image": "images/skt-qtkd(1).png",
+                "image": "image_book/skt-qtkd(1).png",
                 "name": "Tại sao các Đế quốc sụp đổ",
                 "genre": "Kinh tế & Quản trị Kinh doanh",
                 "author": "Peter Heather, John Rapley",
@@ -1083,7 +1083,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/skt-qtkd(2).png",
+                "image": "image_book/skt-qtkd(2).png",
                 "name": "Tiền mã hóa - Giấc mơ vàng và cơn ác mộng tài chính",
                 "genre": "Kinh tế & Quản trị Kinh doanh",
                 "author": "Zeke Faux",
@@ -1092,7 +1092,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/skt-qtkd(3).png",
+                "image": "image_book/skt-qtkd(3).png",
                 "name": "How money works - Hiểu biết về tiền",
                 "genre": "Kinh tế & Quản trị Kinh doanh",
                 "author": "Bùi Thị Quỳnh Chi",
@@ -1101,7 +1101,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/skt-qtkd(4).png",
+                "image": "image_book/skt-qtkd(4).png",
                 "name": "Kinh doanh sự lựa chọn",
                 "genre": "Kinh tế & Quản trị Kinh doanh",
                 "author": "Matthew Willcox ",
@@ -1110,7 +1110,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/skt-qtkd(5).png",
+                "image": "image_book/skt-qtkd(5).png",
                 "name": "Doanh Nghiệp Cống Hiến",
                 "genre": "Kinh tế & Quản trị Kinh doanh",
                 "author": "Anne Frank",
@@ -1121,7 +1121,7 @@
         "Sách Ngoại Ngữ": [
             {
                 "link_image_author": "",
-                "image": "images/snngu(1).png",
+                "image": "image_book/snngu(1).png",
                 "name": "Destination B1 - Grammar And Vocabulary With Answer Key (Tái Bản 2024)",
                 "genre": "Sách Ngoại Ngữ",
                 "author": "Malcom Mann, Syeve Taylore-Knowles",
@@ -1130,7 +1130,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/snngu(2).png",
+                "image": "image_book/snngu(2).png",
                 "name": "Cambridge IELTS 18 Academic - With Answer + Audio",
                 "genre": "Sách Ngoại Ngữ",
                 "author": "Nhiều tác giả",
@@ -1139,7 +1139,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/snngu(3).png",
+                "image": "image_book/snngu(3).png",
                 "name": "Essential Words For The Toeic 6th (Tái Bản 2019)",
                 "genre": "Sách Ngoại Ngữ",
                 "author": "Dr Lin Lougheed",
@@ -1148,7 +1148,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/snngu(4).png",
+                "image": "image_book/snngu(4).png",
                 "name": "15 Phút luyện Kanji mỗi ngày",
                 "genre": "Sách Ngoại Ngữ",
                 "author": "Trường Nhật ngữ Quốc tế KCP",
@@ -1157,7 +1157,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/snngu(5).png",
+                "image": "image_book/snngu(5).png",
                 "name": "Giáo Trình Chuẩn HSK 1",
                 "genre": "Sách Ngoại Ngữ",
                 "author": "Khương Lệ Bình, Vương Phương, Vương Phong, Lưu Lệ Bình",
@@ -1166,7 +1166,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/snngu(6).png",
+                "image": "image_book/snngu(6).png",
                 "name": "Giáo Trình Chuẩn HSK 2",
                 "genre": "Sách Ngoại Ngữ",
                 "author": "Khương Lệ Bình",
@@ -1175,7 +1175,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/snngu(7).png",
+                "image": "image_book/snngu(7).png",
                 "name": "Giáo Trình Chuẩn HSK 3",
                 "genre": "Sách Ngoại Ngữ",
                 "author": "Khương Lệ Bình",
@@ -1184,7 +1184,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/snngu(8).png",
+                "image": "image_book/snngu(8).png",
                 "name": "Giáo trình chuẩn HSK 4",
                 "genre": "Sách Ngoại Ngữ",
                 "author": "Khương Lệ Bình",
@@ -1193,7 +1193,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/snngu(9).png",
+                "image": "image_book/snngu(9).png",
                 "name": "Giáo Trình Chuẩn HSK 5 - Tập 1",
                 "genre": "Sách Ngoại Ngữ",
                 "author": "Khương Lệ Bình, Lỗ Giang, Lưu Sướng",
@@ -1202,7 +1202,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/snngu(10).png",
+                "image": "image_book/snngu(10).png",
                 "name": "Giáo Trình Chuẩn HSk 6 - Tập 1",
                 "genre": "Sách Ngoại Ngữ",
                 "author": "Khương Lệ Bình",
@@ -1211,7 +1211,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/snngu(11).png",
+                "image": "image_book/snngu(11).png",
                 "name": "Giáo Trình Chuẩn HSK 6 - Tập 2",
                 "genre": "Sách Ngoại Ngữ",
                 "author": "Khương Lệ Bình",
@@ -1220,7 +1220,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/snngu(12).png",
+                "image": "image_book/snngu(12).png",
                 "name": "Destination C1&C2 - Grammar & Vocabulary With Answer Key (Tái Bản 2024)",
                 "genre": "Sách Ngoại Ngữ",
                 "author": "Malcolm Mann",
@@ -1231,7 +1231,7 @@
         "Sách Nấu Ăn & Phong Cách Sống": [
             {
                 "link_image_author": "",
-                "image": "images/snan-pcs(1).png",
+                "image": "image_book/snan-pcs(1).png",
                 "name": "Khác Biệt Để Tỏa Sáng",
                 "genre": "Sách Nấu Ăn & Phong Cách Sống",
                 "author": "Hồ Tuệ Mạn",
@@ -1240,7 +1240,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/snan-pcs(2).png",
+                "image": "image_book/snan-pcs(2).png",
                 "name": "Sống trọn vẹn năm giác quan",
                 "genre": "Sách Nấu Ăn & Phong Cách Sống",
                 "author": "Gretchen Rubin",
@@ -1249,7 +1249,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/snan-pcs(3).png",
+                "image": "image_book/snan-pcs(3).png",
                 "name": "Tuổi giá rực rỡ",
                 "genre": "Sách Nấu Ăn & Phong Cách Sống",
                 "author": "Daniel J. Levitin",
@@ -1258,7 +1258,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/snan-pcs(4).png",
+                "image": "image_book/snan-pcs(4).png",
                 "name": "Tiệm Cà Phê Tại Nhà",
                 "genre": "Sách Nấu Ăn & Phong Cách Sống",
                 "author": "WOW",
@@ -1267,7 +1267,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/snan-pcs(5).png",
+                "image": "image_book/snan-pcs(5).png",
                 "name": "Nấu Ăn Gia Đình - 30 Thực Đơn Ngày Thường + 52 Thực Đơn Ngày Chủ Nhật",
                 "genre": "Sách Nấu Ăn & Phong Cách Sống",
                 "author": "Triệu Thị Chơi",
@@ -1276,7 +1276,7 @@
             },
              {
                  "link_image_author": "",
-                "image": "images/snan-pcs(6).png",
+                "image": "image_book/snan-pcs(6).png",
                 "name": "Vegan Asian - Đi Khắp Châu Á Để Ăn Chay",
                 "genre": "Sách Nấu Ăn & Phong Cách Sống",
                 "author": "Jeeca Uy",
@@ -1285,7 +1285,7 @@
             },
             {
                 "link_image_author": "",
-                "image": "images/snan-pcs(7).png",
+                "image": "image_book/snan-pcs(7).png",
                 "name": "Kỹ Thuật Làm Bánh Ngọt - Ngẫu Hứng Cùng Cake (Tái Bản)",
                 "genre": "Sách Nấu Ăn & Phong Cách Sống",
                 "author": "Đình Bình, Đình Trung",
@@ -1297,4 +1297,5 @@
     }
 
 }
+
 
