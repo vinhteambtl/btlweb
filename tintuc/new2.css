@@ -1,31 +1,3 @@
-/* ===== Breadcrumb ===== */
-.breadcrumb-custom {
-  padding-left: 30px; /* cách lề trái 30px */
-  font-size: 14px; /* giảm từ 16px xuống 14px */
-}
-.breadcrumb-bold {
-  font-weight: 600;
-  color: #6c757d; /* màu xám */
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.breadcrumb-bold:hover {
-  color: #0d6efd; /* xanh Bootstrap khi hover */
-}
-.breadcrumb-item + .breadcrumb-item::before {
-  content: '>'; /* đảm bảo nó dùng dấu “>” */
-  font-weight: 700; /* làm đậm dấu “>” */
-  color: #0b0c0e; /* giữ màu xám */
-  margin: 0 6px; /* khoảng cách hai bên */
-}
-
-.divider {
-  border: none;
-  border-top: 1px solid #646769;
-  margin: 0 0 20px 0;
-}
-
 /* ===== Bài viết ===== */
 .article-container {
   max-width: 800px;
@@ -86,3 +58,4 @@ pre {
   word-break: break-word; /* tránh chữ bị tràn */
   margin-bottom: 20px; /* khoảng cách dưới */
 }
+
