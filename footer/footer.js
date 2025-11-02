@@ -44,4 +44,3 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 2500);
   });
 });
-e.textContent = "✅ Gửi thành công!"; setTimeout(() => { input.value = ""; message.textContent = ""; }, 2500); }); });
