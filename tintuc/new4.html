@@ -4,40 +4,107 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> TOP 10 tiệm sách cũ giá rẻ ở TPHCM</title>
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <!-- CSS riêng -->
   <link rel="stylesheet" href="new2.css">
-  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="../footer/footer.css">
+  <link href="../index.css" rel="stylesheet">
 </head>
 <body>
+<header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="../index.html"><img src="../image/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-  <!-- ======= Breadcrumb ======= -->
-  <div class="container-fluid mt-3 breadcrumb-custom">
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html" class="breadcrumb-bold">Trang chủ</a></li>
-        <li class="breadcrumb-item"><a href="news.html" class="breadcrumb-bold">Tin tức</a></li>
-        <li class="breadcrumb-item active" aria-current="page">TOP 10 tiệm sách cũ giá rẻ ở TPHCM</li>
-      </ol>
-    </nav>
-  </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../kesach.html">Tủ Sách</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">Tin tức</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="../footer/Gioithieu.html">Giới thiệu</a>
+                </li>
+                <form class="form-inline my-2 my-lg-0 ml-5" onsubmit="return search(event)">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                </ul>
+                <div class="dropdown mr-4">
+                    <a class="nav-link dropdown-toggle p-0 text-dark" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                        </svg>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                        <a class="dropdown-item" href="../signin_signup/signin1.html">Đăng nhập</a>
+                        <a class="dropdown-item" href="../signin_signup/signup.html">Đăng ký</a>
+                    </div>
+                </div>
+                <a href="../kesach/kesach.html" class="text-dark mr-3" style="text-decoration: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                    </svg>
+                </a>
+            </div>
+        </nav>
 
-  <hr class="divider">
-
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img class="d-block w-100" src="../image_slide/4a6fe33f42d295fc2fc96fb2ac736c84 (1).jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-100" src="../image_slide\Make Them Notice_ Impactful YouTube Banner and Background Inspiration (1).jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-100" src="../image_slide\Untitled.png" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+  
   <!-- ======= Nội dung bài viết ======= -->
   <div class="article-container my-4">
-    <h3 class="fw-bold text-black mb-3 text-uppercase text-center">
+    <h3 class="font-weight-bold text-dark mb-3 text-uppercase text-center">
       TOP 10 tiệm sách cũ giá rẻ ở TPHCM
     </h3>
     <p>Bạn là một người yêu thích đọc sách cần tìm những đầu sách mà mình đang muốn đọc, hay bạn muốn tìm địa chỉ để có thể trao đổi, mua bán sách cũ tại TP Hồ Chí Minh, thì dưới đây là List danh sách các địa chỉ tiệm bán sách cũ tại TPHCM mà bạn không nên bỏ qua.</p>
     <p>Các cửa hàng sách có quy mô lớn nhỏ khác nhau, nhưng đều có điểm chung là được những người nghiền sách đánh giá cao về sự đa dạng, chất lượng sách và đặc biệt với chi phí bỏ ra rất ít so với mua sách mới nào hãy cùng Vựa sách cũ khám phá chi tiết ngay bây giờ nhé.
     </p>
 
-    <h4 class="fw-bold mt-5 text-black">1. Sách cũ Bá Tân</h4>
+    <h4 class="font-weight-bold mt-5 text-dark">1. Sách cũ Bá Tân</h4>
     <p>
      Cửa hàng có nhiều ngăn kệ chứa đầy sách cũ từ các thể loại văn học, kinh tế, lịch sử đến sách về nghệ thuật. Nơi đây còn thu mua sách cũ với giá cao, đáp ứng nhu cầu của khách hàng. Chủ hiệu sách rất thân thiện và chuyên nghiệp trong việc tư vấn và giới thiệu sách phù hợp. Bá Tân là địa chỉ tham khảo tuyệt vời cho những ai đam mê sách cũ, đây cũng là điểm thu mua sách giá tốt.
     </p>
@@ -51,7 +118,7 @@
      <b>Website</b>: https://batansach.com/
     </pre>
     
-    <h4 class="fw-bold mt-5 text-black">2. Các hiệu sách trên đường sách cũ Trần Nhân Tôn, TP HCM</h4>
+    <h4 class="font-weight-bold mt-5 text-dark">2. Các hiệu sách trên đường sách cũ Trần Nhân Tôn, TP HCM</h4>
     <p>Đường sách cũ Trần Nhân Tôn nằm ở Quận 5, TP.HCM, là một địa chỉ lý tưởng cho những ai yêu sách cũ. Trải dài trên con đường nhỏ, cửa hàng sách cũ tại đây sắp xếp sách theo từng chủ đề, thể loại và tác giả khác nhau.  </p>
     <p>Nếu có nhiều thời gian để tản bộ và tìm đọc những cuốn sách mà bạn đang quan tâm, thì đây cũng là một trải nghiệm rất tuyệt vời. Và nếu bạn có sách cũ để bán hay trao đổi thì các cửa tiệm ở đây cùng rất sẵn sàng thu mua sách bạn nhé.</p>
 
@@ -62,7 +129,7 @@
      <b>Địa chỉ</b>: Trần Nhân Tôn, Quận 5, TP HCM(Sài Gòn)
     </pre>
 
-    <h4 class="fw-bold mt-5 text-black">3. Đường Sách Thành phố Sài Gòn </h4>
+    <h4 class="font-weight-bold mt-5 text-dark">3. Đường Sách Thành phố Sài Gòn </h4>
     <p>Đường sách Thành phố Sài Gòn là một nơi thu hút đông đảo người yêu sách ở TP.HCM. Nằm trên con đường Nguyễn Văn Bình, Quận 1, đây là một trong những địa điểm nổi tiếng nhất để mua và đổi sách cũ, sách mới và sách hiếm. </p>
     <p>Trên đường sách, có rất nhiều cửa hàng sách cũ, từ những cửa hàng nhỏ đến các cửa hàng lớn, tất cả đều có đủ các thể loại sách với giá cả phải chăng.. .</p>
     <p>Thật tuyệt vời khi dạo bước trên con đường sách này, bạn sẽ cảm nhận được sự tươi vui và sự phấn khích của những ai yêu sách. Chắc chắn đường sách Thành phố Sài Gòn sẽ là một trải nghiệm thú vị cho tất cả những ai đam mê sách.</p>
@@ -73,7 +140,7 @@
      <b>Địa chỉ</b>:  Đường Nguyễn Văn Bình, Bến Nghé, Quận 1, TP Hồ Chí Minh
     </pre>
 
-    <h4 class="fw-bold mt-5 text-black">4. Trung tâm sách cũ</h4>
+    <h4 class="font-weight-bold mt-5 text-dark">4. Trung tâm sách cũ</h4>
     <p>Trung tâm sách cũ là cửa hàng sách cũ giá rẻ của NXB Trẻ tại TP.HCM. Trung tâm này được thành lập với mục đích giúp những ai đam mê sách có thể tìm lại được những tác phẩm cũ mà không còn xuất bản trên thị trường. Mỗi năm, NXB Trẻ chỉ giữ lại một số lượng nhỏ sách đã xuất bản. Do đó, khi đến đây, bạn sẽ tìm thấy những tác phẩm cũ mà sách vẫn còn gần như mới nguyên.</p>
     <div class="text-center my-4">
       <img src="https://file.hstatic.net/200000612501/file/trung_tam_sach_cu_63eb590044b447dab03c8461cac4e217.jpg" alt="Ảnh minh họa 4" class="img-fluid rounded shadow-sm">
@@ -82,7 +149,7 @@
      <b>Địa chỉ</b>:   Số 50, Võ Thị Sáu, Tân Định, Quận 1, Hồ Chí Minh
     </pre>
 
-    <h4 class="fw-bold mt-5 text-black">5. Nhà sách Kim - Sachxuasaigon </h4>
+    <h4 class="font-weight-bold mt-5 text-dark">5. Nhà sách Kim - Sachxuasaigon </h4>
     <p>
       Đây được coi là một thiên đường sách cũ bởi các đầu sách ở đây đều được lựa chọn và kiểm tra kỹ càng trước khi bày bán, đảm bảo chất lượng rất tốt. 
     </p>
@@ -96,7 +163,7 @@
      <b>Website</b>: sachxuasaigon.com
     </pre>
 
-    <h4 class="fw-bold mt-5 text-black">6. Cửa hàng sách Hồng Đào</h4>
+    <h4 class="font-weight-bold mt-5 text-dark">6. Cửa hàng sách Hồng Đào</h4>
     <p>
       Nhà sách Hồng Đào có không gian của nhà sách khá rộng rãi, với hàng loạt các kệ sách được xếp sát nhau và mỗi kệ đều chứa một loại sách khác nhau. Mọi thứ đều được sắp xếp rất chuyên nghiệp nên bạn có thể dễ dàng tìm thấy đầu sách mà mình muốn tìm kiếm.
     </p>
@@ -104,7 +171,7 @@
      <b>Địa chỉ</b>:  426 Sư Vạn Hạnh, Phường 9, Quận 10, TP Hồ Chí Minh
     </pre>
 
-    <h4 class="fw-bold mt-5 text-black">7. Hiệu sách cũ 61 Trần Nhân Tông</h4>
+    <h4 class="font-weight-bold mt-5 text-dark">7. Hiệu sách cũ 61 Trần Nhân Tông</h4>
     <p>
       Là địa chỉ cửa hàng thu mua sách cũ uy tín không thể bỏ qua trong danh sách nhà sách cũ giá rẻ tại TP. HCM. Với kinh nghiệm lâu năm trong lĩnh vực kinh doanh sách cũ, cửa hàng sở hữu những cuốn sách cũ mà chất, hay và có giá trị. Đặc biệt nhà sách nhận được rất nhiều những đánh giá tốt bởi thái độ phục vụ chuyên nghiệp và nhiệt tình của các bạn nhân viên tại đây.
     </p>
@@ -115,7 +182,7 @@
      <b>Địa chỉ</b>:  61 Trần Nhân Tôn, Phường 9, Quận 5, TP HCM
     </pre>
     
-    <h4 class="fw-bold mt-5 text-black">8. Tiệm sách cũ 470</h4>
+    <h4 class="font-weight-bold mt-5 text-dark">8. Tiệm sách cũ 470</h4>
     <p>
       Tại đây, hàng ngày luôn có sự cập nhật sách cũ mới nhất lên kệ để bạn có thể tìm thấy những cuốn sách mình cần. Sách ở đây, mặc dù là sách cũ, nhưng hầu hết đều còn rất mới, bìa sách và các trang sách đều còn đầy đủ như mới. 
     </p>
@@ -126,7 +193,7 @@
      <b>Địa chỉ</b>:  Số 470 đường Nguyễn Thị Minh Khai, Quận 3, TP Hồ Chí Minh
     </pre>
 
-    <h4 class="fw-bold mt-5 text-black">9. Đường sách cũ Trần Huy Liệu</h4>
+    <h4 class="font-weight-bold mt-5 text-dark">9. Đường sách cũ Trần Huy Liệu</h4>
     <p>
       Các nhà sách trên đường Trần Huy Liệu chuyên về sách truyện, văn học trong và ngoài nước, sách nghiên cứu... và luôn bán với giá chiết khấu tốt. So với mặt bằng chung, các nhà sách trên đường này cập nhật sách mới nhanh và đa dạng. Nhờ những đặc trưng trên mà phố sách cũ Trần Huy Liệu luôn tấp nập người vào những ngày cuối tuần.
     </p>
@@ -137,7 +204,7 @@
      <b>Địa chỉ</b>:  Trần Huy Liệu, P. Phú Nhuận, TP HCM
     </pre>
 
-    <h4 class="fw-bold mt-5 text-black">10. Sách Cũ Quang Huy</h4>
+    <h4 class="font-weight-bold mt-5 text-dark">10. Sách Cũ Quang Huy</h4>
     <p>
       Với không gian nhỏ nhắn nhưng rất ấm cúng và đầy sách, cửa hàng này chắc chắn sẽ là nơi lý tưởng cho các độc giả yêu thích tìm kiếm những cuốn sách cũ độc đáo.
     </p>
@@ -152,61 +219,64 @@
   
   <button onclick="topFunction()" class="btn btn-primary position-fixed" style="bottom:20px; right:20px;">^</button>
   </div>
-  <!-- Thanh nhận khuyến mãi -->
-  <section class="newsletter text-white py-3 text-center">
-    <div class="container d-flex flex-wrap justify-content-center align-items-center gap-3 newsletter-input">
-      <p class="mb-0 fw-semibold">NHẬN THÔNG TIN KHUYẾN MÃI TỪ CHÚNG TÔI</p>
-      <div class="d-flex">
-        <input type="email" class="form-control me-2" placeholder="Nhập email ưu đãi">
-        <button class="btn btn-dark" type="button">Đăng ký</button>
+  
+   <!-- Newsletter (mảnh, căn giữa) -->
+  <section class="newsletter">
+    <div class="container newsletter-container">
+      <div class="newsletter-inner d-flex align-items-center">
+        <span class="newsletter-title">NHẬN THÔNG TIN KHUYẾN MÃI TỪ CHÚNG TÔI</span>
+        <div class="newsletter-controls d-flex align-items-center">
+          <input type="email" class="form-control newsletter-input" placeholder="Nhập email ưu đãi">
+          <button class="btn btn-signup">Đăng ký</button>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Footer chính -->
-  <footer class="footer text-dark py-5">
+  <footer class="footer">
     <div class="container">
-      <div class="row g-4">
-        <!-- Cột 1 -->
-        <div class="col-md-3">
-          <a href="index.html">
-            <img src="Gemini_Generated_Image_u1yxncu1yxncu1yx-removebg-preview.png" alt="Logo" class="logo mb-3">
+      <div class="row pt-2 pb-2 align-items-start">
+        <!-- Cột 1 (trái, thông tin) -->
+        <div class="col-md-3 text-left">
+          <a href="../index.html">
+            <img src="../image/logo.png" alt="Logo" class="logo mb-3">
           </a>
-          <p><i class="fa-solid fa-location-dot me-2 text-gray"></i>Số 3, Cầu Giấy, Ngọc Khánh, Đống Đa, Hà Nội.</p>
-          <p><i class="fa-solid fa-envelope me-2 text-gray"></i>info@hanhlangvanhoc.vn</p>
-          <p><i class="fa-solid fa-phone me-2 text-gray"></i>0123456789</p>
+          <p class="mb-2"><i class="fa-solid fa-location-dot mr-2 text-secondary"></i>Số 3, Cầu Giấy, Ngọc Khánh, Đống Đa, Hà Nội.</p>
+          <p class="mb-2"><i class="fa-solid fa-envelope mr-2 text-secondary"></i>info@hanhlangvanhoc.vn</p>
+          <p class="mb-0"><i class="fa-solid fa-phone mr-2 text-secondary"></i>0123456789</p>
         </div>
 
-        <!-- Cột 2 -->
-        <div class="col-md-3">
-          <h5 class="text-gray fw-bold">GIỚI THIỆU</h5>
+        <!-- Cột 2 (giữa trái) -->
+        <div class="col-md-3 text-left">
+          <h5 class="footer-heading">GIỚI THIỆU</h5>
           <ul class="list-unstyled">
-            <li><a href="Gioithieu.html" class="footer-link">Về Hành Lang Văn Học</a></li>
-            <li><a href="hethongcuahang.html" class="footer-link">Hệ thống cửa hàng</a></li>
-            <li><a href="lienhe.html" class="footer-link">Liên hệ với chúng tôi</a></li>
+            <li><a href="../footer/Gioithieu.html" class="footer-link">Về Hành Lang Văn Học</a></li>
+            <li><a href="../footer/hethongcuahang.html" class="footer-link">Hệ thống cửa hàng</a></li>
+            <li><a href="../footer/lienhe.html" class="footer-link">Liên hệ với chúng tôi</a></li>
           </ul>
         </div>
 
-        <!-- Cột 3 -->
-        <div class="col-md-3">
-          <h5 class="text-gray fw-bold">CHÍNH SÁCH</h5>
+        <!-- Cột 3 (giữa phải) -->
+        <div class="col-md-3 text-left">
+          <h5 class="footer-heading">CHÍNH SÁCH</h5>
           <ul class="list-unstyled">
-            <li><a href="chinhsachbaomat.html" class="footer-link">Chính sách bảo mật</a></li>
-            <li><a href="chinhsachbaomat.html" class="footer-link">Chính sách đổi trả/hoàn tiền</a></li>
-            <li><a href="chinhsachbaomat.html" class="footer-link">Chính sách thanh toán/vận chuyển</a></li>
+            <li><a href="../footer/chinhsachbaomat.html" class="footer-link">Chính sách bảo mật</a></li>
+            <li><a href="../footer/chinhsachbaomat.html" class="footer-link">Chính sách đổi trả/hoàn tiền</a></li>
+            <li><a href="../footer/chinhsachbaomat.html" class="footer-link">Chính sách thanh toán/vận chuyển</a></li>
           </ul>
         </div>
 
-        <!-- Cột 4 -->
-        <div class="col-md-3">
-          <h5 class="text-gray fw-bold">PHƯƠNG THỨC THANH TOÁN</h5>
+        <!-- Cột 4 (phải, phương thức thanh toán) -->
+        <div class="col-md-3 text-left">
+          <h5 class="footer-heading">PHƯƠNG THỨC THANH TOÁN</h5>
           <div class="payment-methods mt-2">
-            <img src="image/momologo.webp" alt="Momo">
-            <img src="image/Logo_MB_new.png" alt="MB">
-            <img src="image/Logo-Agribank-V.webp" alt="Agribank">
-            <img src="image/zalopay-logo.png" alt="ZaloPay">
-            <img src="image/logo_VCB_828891.jpg" alt="VCB">
-            <img src="image/logo-techcombank-vector-3.jpg" alt="Techcombank">
+            <img src="../image/momologo.webp" alt="Momo">
+            <img src="../image/Logo_MB_new.png" alt="MB">
+            <img src="../image/Logo-Agribank-V.webp" alt="Agribank">
+            <img src="../image/zalopay-logo.png" alt="ZaloPay">
+            <img src="../image/logo_VCB_828891.jpg" alt="VCB">
+            <img src="../image/logo-techcombank-vector-3.jpg" alt="Techcombank">
           </div>
         </div>
       </div>
@@ -214,10 +284,13 @@
   </footer>
 
   <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
   <!-- JS riêng -->
-  <script src="footer.js"></script>
+  <script src="../footer/footer.js"></script>
+  <script src="../main.js"></script>
+  <script src="../search.js"></script>
   <script src="button.js"></script>
 </body>
 </html>
+
