@@ -48,13 +48,16 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   /* =============================
-     🔹 PHẦN 2: THANH TÌM KIẾM SÁCH
-  ============================== */
-  const searchForm = document.querySelector('form[role="search"], .search-form');
-  if (searchForm) {
-    searchForm.addEventListener("submit", async (event) => {
-      event.preventDefault();
-      const searchInput = searchForm.querySelector('input[type="search"]');
+   🔹 PHẦN 2: XỬ LÝ TÌM KIẾM SÁCH
+============================== */
+document.addEventListener("DOMContentLoaded", () => {
+  const searchForms = document.querySelectorAll('form[role="search"], .search-form');
+
+  searchForms.forEach(form => {
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault(); // 🔸 Ngăn reload
+
+      const searchInput = form.querySelector('input[type="search"]');
       const query = searchInput.value.trim().toLowerCase();
 
       if (!query) {
@@ -62,90 +65,79 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
 
-      const mainContent = document.querySelector('main');
+      const mainContent = document.querySelector("main");
+      if (!mainContent) {
+        console.error("Không tìm thấy phần <main> để hiển thị kết quả!");
+        return;
+      }
 
       try {
-        const response = await fetch('../books.json');
-        if (!response.ok) {
-          throw new Error('Không thể tải tệp books.json');
-        }
+        // 🔸 Đường dẫn tương đối – chỉnh theo vị trí file JS
+        const response = await fetch("../books.json");
+        if (!response.ok) throw new Error("Không thể tải tệp books.json");
+
         const data = await response.json();
         const allBooks = Object.values(data.books).flat();
+
         const results = allBooks.filter(book =>
           book.name.toLowerCase().includes(query)
         );
 
         displaySearchResults(results, query, mainContent);
+        searchInput.value = "";
 
       } catch (error) {
         console.error("Đã xảy ra lỗi:", error);
         mainContent.innerHTML = `
           <div class="container mt-4">
-            <h3 class="text-danger">Lỗi!</h3>
-            <p>Không thể tải dữ liệu sách. Vui lòng kiểm tra lại đường dẫn tệp và thử lại.</p>
+            <h3 class="text-danger">Lỗi tải dữ liệu!</h3>
+            <p>Không thể đọc tệp <b>books.json</b>. Vui lòng kiểm tra đường dẫn.</p>
           </div>`;
       }
     });
-  }
+  });
 
-  // === Hàm hiển thị kết quả tìm kiếm ===
+  // === HÀM HIỂN THỊ KẾT QUẢ ===
   function displaySearchResults(books, query, mainContent) {
-    mainContent.innerHTML = '';
+    mainContent.innerHTML = "";
 
-    const container = document.createElement('div');
-    container.className = 'container mt-4';
+    const container = document.createElement("div");
+    container.className = "container py-5";
 
-    const heading = document.createElement('h2');
-    heading.className = 'mb-4';
+    const heading = document.createElement("h2");
+    heading.className = "mb-4";
+    heading.innerHTML = `Kết quả tìm kiếm cho: <span class="text-success">"${query}"</span>`;
+    container.appendChild(heading);
 
     if (books.length > 0) {
-      heading.innerHTML = `Kết quả tìm kiếm cho: <span class="text-success">"${query}"</span>`;
-      const resultsList = document.createElement('div');
-      resultsList.className = 'list-group';
+      const resultsRow = document.createElement("div");
+      resultsRow.className = "row g-4";
 
       books.forEach(book => {
-        const bookItem = document.createElement('div');
-        bookItem.className = 'list-group-item d-flex align-items-center mb-3 shadow-sm';
+        const col = document.createElement("div");
+        col.className = "col-md-6 col-lg-4";
 
-        const bookImage = document.createElement('img');
-        bookImage.src = `../${book.image}`;
-        bookImage.alt = book.name;
-        bookImage.style.width = '90px';
-        bookImage.style.height = '130px';
-        bookImage.style.objectFit = 'cover';
-        bookImage.className = 'mr-4';
-
-        const bookInfo = document.createElement('div');
-        const bookName = document.createElement('h5');
-        bookName.textContent = book.name;
-        bookName.className = 'mb-1';
-
-        const bookAuthor = document.createElement('p');
-        bookAuthor.innerHTML = `<small class="text-muted">Tác giả: ${book.author}</small>`;
-        bookAuthor.className = 'mb-2';
-
-        const bookPrice = document.createElement('p');
-        bookPrice.textContent = book.price;
-        bookPrice.className = 'font-weight-bold text-danger mb-0';
-
-        bookInfo.appendChild(bookName);
-        bookInfo.appendChild(bookAuthor);
-        bookInfo.appendChild(bookPrice);
-
-        bookItem.appendChild(bookImage);
-        bookItem.appendChild(bookInfo);
-        resultsList.appendChild(bookItem);
+        col.innerHTML = `
+          <div class="card h-100 shadow-sm">
+            <img src="../${book.image}" class="card-img-top" alt="${book.name}" style="height:300px; object-fit:cover;">
+            <div class="card-body">
+              <h5 class="card-title">${book.name}</h5>
+              <p class="card-text"><small class="text-muted">Tác giả: ${book.author}</small></p>
+              <p class="text-danger fw-bold">${book.price}</p>
+            </div>
+          </div>
+        `;
+        resultsRow.appendChild(col);
       });
 
-      container.appendChild(heading);
-      container.appendChild(resultsList);
-
+      container.appendChild(resultsRow);
     } else {
-      heading.textContent = `Không tìm thấy kết quả nào phù hợp với từ khóa "${query}".`;
-      container.appendChild(heading);
+      const noResult = document.createElement("p");
+      noResult.className = "text-muted";
+      noResult.innerHTML = `Không tìm thấy kết quả nào phù hợp với từ khóa <b>${query}</b>.`;
+      container.appendChild(noResult);
     }
 
     mainContent.appendChild(container);
   }
-
 });
