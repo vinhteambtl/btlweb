@@ -79,7 +79,7 @@ select {
   min-width: 400px;
 }
 
-.newsletter {
+/* .newsletter {
   background-color: #343a40; /* hoặc màu bạn muốn */
 }
 /*====Phan khuyen mai de ngoai footer nen phải như v ==== */
@@ -108,3 +108,4 @@ select {
 .newsletter-input button {
   white-space: nowrap;
 }
+ */
