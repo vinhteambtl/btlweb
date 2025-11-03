@@ -4,33 +4,99 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cách Bảo Quản Sách Đơn Giản Hiệu Quả</title>
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+ <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <!-- CSS riêng -->
   <link rel="stylesheet" href="new8.css">
-  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="../footer/footer.css">
+  <link href="../index.css" rel="stylesheet">
 </head>
 <body class="bg-white text-dark">
+<header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="../index.html"><img src="../image/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-  <!-- ======= Breadcrumb ======= -->
-  <div class="container-fluid mt-3 breadcrumb-custom">
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html" class="breadcrumb-bold">Trang chủ</a></li>
-        <li class="breadcrumb-item"><a href="news.html" class="breadcrumb-bold">Tin tức</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Cách Bảo Quản Sách Đơn Giản Hiệu Quả</li>
-      </ol>
-    </nav>
-  </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../kesach.html">Tủ Sách</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">Tin tức</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="../footer/Gioithieu.html">Giới thiệu</a>
+                </li>
+                <form class="form-inline my-2 my-lg-0 ml-5" onsubmit="return search(event)">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                </ul>
+                <div class="dropdown mr-4">
+                    <a class="nav-link dropdown-toggle p-0 text-dark" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                        </svg>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                        <a class="dropdown-item" href="../signin_signup/signin1.html">Đăng nhập</a>
+                        <a class="dropdown-item" href="../signin_signup/signup.html">Đăng ký</a>
+                    </div>
+                </div>
+                <a href="../kesach/kesach.html" class="text-dark mr-3" style="text-decoration: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                    </svg>
+                </a>
+            </div>
+        </nav>
 
-  <hr class="divider">
-
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img class="d-block w-100" src="../image_slide/4a6fe33f42d295fc2fc96fb2ac736c84 (1).jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-100" src="../image_slide\Make Them Notice_ Impactful YouTube Banner and Background Inspiration (1).jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-100" src="../image_slide\Untitled.png" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
   <!-- ======= Nội dung bài viết ======= -->
   <div class="article-container my-4 px-3">
-    <h2 class="fw-bold text-dark d-inline-block pb-2 mb-4 text-uppercase">
+    <h2 class="font-weight-bold text-dark d-inline-block pb-2 mb-4 text-uppercase">
       Cách Bảo Quản Sách Đơn Giản Hiệu Quả
     </h2>
 
@@ -38,118 +104,120 @@
       Với một tín đồ yêu sách, việc sách bị ố vàng, mối mọt, ẩm mốc thì thật đáng buồn. Trong bài viết dưới đây, Hành Lang Văn Học sẽ gợi ý cho bạn một số cách bảo quản sách đơn giản nhưng vô cùng hiệu quả, cùng tìm hiểu ngay nhé.
     </p>
 
-    <h3 class="fw-bold text-dark mt-5">Cách bảo quản sách hiệu quả</h3>
+    <h3 class="font-weight-bold text-dark mt-5">Cách bảo quản sách hiệu quả</h3>
     <p>Dưới đây là một vài cách bảo quản sách mà ai cũng có thể làm được:</p>
 
-    <h4 class="fw-semibold text-dark mt-4">Đặt sách ở những nơi khô ráo, thoáng khí</h4>
+    <h4 class="font-weight-semibold text-dark mt-4">Đặt sách ở những nơi khô ráo, thoáng khí</h4>
     <p>Một cách bảo quản sách rất đơn giản nhưng giúp bạn tránh được tình trạng sách bị ố vàng, ẩm mốc và mối mọt là để sách ở những nơi khô ráo và thoáng khí, nhưng nên hạn chế ánh nắng mặt trời trực tiếp. Đối với sách không dùng đến trong thời gian dài bạn có thể sử dụng giấy báo hoặc ni lông để bọc quanh sách.</p>
     <p>Trên kệ sách bạn có thể đặt các gói hút ẩm chuyên dụng và thuốc đuổi mối gián nhằm hạn chế tình trạng sách bị ẩm mốc.</p>
 
     <div class="text-center my-4">
       <img src="https://static.oreka.vn/wp-content/uploads/2025/01/24084343/cach-bao-quan-sach-khong-bi-o-vang.jpg" alt="Bảo quản sách không bị ố vàng" class="img-fluid rounded shadow-sm">
-      <p class="img-caption fst-italic text-secondary fs-6 mt-2 text-center">Cách bảo quản sách không bị ố vàng (Nguồn: victorzastolskiy)</p>
+      <p class="img-caption font-italic text-secondary fs-6 mt-2 text-center">Cách bảo quản sách không bị ố vàng (Nguồn: victorzastolskiy)</p>
     </div>
 
-    <h4 class="fw-semibold text-dark mt-4">Chọn tủ, kệ sách kích thước phù hợp </h4>
+    <h4 class="font-weight-semibold text-dark mt-4">Chọn tủ, kệ sách kích thước phù hợp </h4>
     <p>Bạn nên chọn kệ sách có kích thước phù hợp với các quyển sách. Điều này không chỉ giúp việc bảo quản sách khoa học hơn mà còn đảm bảo tính thẩm mỹ khi đặt những cuốn sách lên kệ.</p>
 
-    <h4 class="fw-semibold text-dark mt-4">Luôn giữ gìn gáy sách kỹ lưỡng</h4>
+    <h4 class="font-weight-semibold text-dark mt-4">Luôn giữ gìn gáy sách kỹ lưỡng</h4>
     <p>Gáy sách giống như phần cột sống của mỗi cuốn sách giúp các trang không bị bung và xô lệch. Do đó, khi sử dụng để đọc sách bạn nên tránh mở sách quá lớn sẽ gây hỏng gáy sách, khi đặt sách lên kệ cần sắp xếp chắc chắn nhằm hạn chế tình trạng sách bị rơi có thể làm gãy gáy sách.</p>
 
-    <h4 class="fw-semibold text-dark mt-4">Sử dụng bookmark để đánh dấu trang đã đọc</h4>
+    <h4 class="font-weight-semibold text-dark mt-4">Sử dụng bookmark để đánh dấu trang đã đọc</h4>
     <p>Khi đọc dở một cuốn sách, nhiều bạn có thói quen gập trang giấy trước đó để đánh dấu, tuy vậy điều này có thể làm mất thẩm mỹ của cuốn sách. Thay vào đó, bạn có thể sử dụng bookmark để đánh dấu, việc làm này giúp sách luôn phẳng phiu và giữ được chất lượng tốt nhất. </p>
 
-    <h4 class="fw-semibold text-dark mt-4">Dọn dẹp kệ sách định kỳ thường xuyên 3 tháng 1 lần</h4>
+    <h4 class="font-weight-semibold text-dark mt-4">Dọn dẹp kệ sách định kỳ thường xuyên 3 tháng 1 lần</h4>
     <p>Sách sau khi đã được sắp xếp gọn gàng trên kệ, bạn nên lau dọn bụi thường xuyên. Bạn có thể định kỳ sau 3 tháng lại sắp xếp lại kệ sách lại một lần, đảm bảo các cuốn sách được xếp đúng chỗ và xử lý kịp thời các trường hợp sách bị mối mọt hoặc ẩm mốc.</p>
 
     <div class="text-center my-4">
       <img src="https://static.oreka.vn/wp-content/uploads/2025/01/24084459/cach-xu-ly-sach-bi-o-vang.jpg" alt="Cách xử lý sách khi bị ố vàng" class="img-fluid rounded shadow-sm">
-      <p class="img-caption fst-italic text-secondary fs-6 mt-2 text-center">Cách xử lý sách bị mối mọt (Nguồn: pixabay)</p>
+      <p class="img-caption font-italic text-secondary fs-6 mt-2 text-center">Cách xử lý sách bị mối mọt (Nguồn: pixabay)</p>
     </div>
 
-    <h4 class="fw-semibold text-dark mt-4">Phân loại sách khoa học khi cất</h4>
+    <h4 class="font-weight-semibold text-dark mt-4">Phân loại sách khoa học khi cất</h4>
     <p>Khi xếp sách lên giá, bạn nên sắp xếp sách theo thể loại hoặc mức độ ưu tiên sử dụng. Việc sắp xếp sách khoa học rất quan trọng, bởi nó có thể giúp bạn tiết kiệm thời gian tìm kiếm và lấy sách và trông thẩm mỹ hơn.</p>
 
-    <h3 class="fw-bold text-dark mt-5">Một số câu hỏi thường gặp</h3>
+    <h3 class="font-weight-bold text-dark mt-5">Một số câu hỏi thường gặp</h3>
 
-    <h4 class="fw-semibold text-dark mt-4">Tại sao sách bị ố vàng?</h4>
+    <h4 class="font-weight-semibold text-dark mt-4">Tại sao sách bị ố vàng?</h4>
     <p>Sách bị ố vàng có thể do nhiều nguyên nhân do cách bảo quản của chúng ta hoặc do chất lượng giấy không tốt.</p>
 
-    <h4 class="fw-semibold text-dark mt-4">Làm gì khi sách bị ố vàng?</h4>
+    <h4 class="font-weight-semibold text-dark mt-4">Làm gì khi sách bị ố vàng?</h4>
     <p>Khi sách bị ố vàng, bạn cần vệ sinh bề mặt của sách. Sau đó, sử dụng tăm bông có nhúng dung dịch axit oxalic hoặc axit citric để xử lý các vết ố vàng. Cuối cùng bạn lau sạch bằng nước và kẹp giấy thấm vào các trang sách và phơi sách trong bóng râm.</p>
 
-    <h4 class="fw-semibold text-dark mt-4">Làm gì khi sách bị ẩm mốc, mối mọt?</h4>
+    <h4 class="font-weight-semibold text-dark mt-4">Làm gì khi sách bị ẩm mốc, mối mọt?</h4>
     <p>Bạn có thể phơi sách dưới nắng trong một thời gian ngắn. Dùng bàn chải đánh răng cũ hoặc cọ nhỏ hoặc miếng vải nhỏ để làm sạch vết mốc. Sau đó, bạn bọc sách cẩn thận để tình trạng này không còn tái diễn.</p>
 
     <div class="text-center my-4">
       <img src="https://static.oreka.vn/wp-content/uploads/2025/01/24084544/sach-bi-moi-mot-phai-lam-sao.jpg" alt="Cách xử lý khi sách bị mối mọt" class="img-fluid rounded shadow-sm">
-      <p class="img-caption fst-italic text-secondary fs-6 mt-2 text-center">Làm gì khi sách bị mối mọt?</p>
+      <p class="img-caption font-italic text-secondary fs-6 mt-2 text-center">Làm gì khi sách bị mối mọt?</p>
     </div>
 
-    <h4 class="fw-semibold text-dark mt-4">Sách ướt thì phải làm sao?</h4>
+    <h4 class="font-weight-semibold text-dark mt-4">Sách ướt thì phải làm sao?</h4>
     <p>Nếu không may để sách dính nước, bạn cần nhanh chóng sử dụng giấy thấm nước để giảm thiểu tối đa lượng nước trên sách. Sau đó, sử dụng máy sấy tóc (mức độ sấy mát) hoặc quạt để hong khô sách, bạn cũng có thể đặt phơi sách dưới ánh sáng mặt trời trong thời gian ngắn.</p>
 
-    <h3 class="fw-bold text-dark mt-5">Tạm kết</h3>
+    <h3 class="font-weight-bold text-dark mt-5">Tạm kết</h3>
     <p>Trên đây là một vài cách bảo quản sách hiệu quả và đơn giản mà ai cũng có thể làm được mà Hành lang Văn Học muốn chia sẻ đến bạn. Hy vọng rằng, bài viết đã cung cấp đến bạn nhiều thông tin hữu ích về chủ đề này.</p>
     <p>Nếu bạn có thêm bất kỳ chia sẻ nào, đừng ngần ngại để lại bình luận để Hành lang Văn Học và mọi người cùng biết nhé.</p>
 
   <button onclick="topFunction()" class="btn btn-primary position-fixed" style="bottom:20px; right:20px;">^</button>
   </div>
-  <!-- Thanh nhận khuyến mãi -->
-  <section class="newsletter text-white py-3 text-center">
-    <div class="container d-flex flex-wrap justify-content-center align-items-center gap-3 newsletter-input">
-      <p class="mb-0 fw-semibold">NHẬN THÔNG TIN KHUYẾN MÃI TỪ CHÚNG TÔI</p>
-      <div class="d-flex">
-        <input type="email" class="form-control me-2" placeholder="Nhập email ưu đãi">
-        <button class="btn btn-dark" type="button">Đăng ký</button>
+ <!-- Newsletter (mảnh, căn giữa) -->
+  <section class="newsletter">
+    <div class="container newsletter-container">
+      <div class="newsletter-inner d-flex align-items-center">
+        <span class="newsletter-title">NHẬN THÔNG TIN KHUYẾN MÃI TỪ CHÚNG TÔI</span>
+        <div class="newsletter-controls d-flex align-items-center">
+          <input type="email" class="form-control newsletter-input" placeholder="Nhập email ưu đãi">
+          <button class="btn btn-signup">Đăng ký</button>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Footer chính -->
-  <footer class="footer text-dark py-5">
+  <footer class="footer">
     <div class="container">
-      <div class="row g-4">
-        <!-- Cột 1 -->
-        <div class="col-md-3">
-          <a href="index.html">
-            <img src="Gemini_Generated_Image_u1yxncu1yxncu1yx-removebg-preview.png" alt="Logo" class="logo mb-3">
+      <div class="row pt-2 pb-2 align-items-start">
+        <!-- Cột 1 (trái, thông tin) -->
+        <div class="col-md-3 text-left">
+          <a href="../index.html">
+            <img src="../image/logo.png" alt="Logo" class="logo mb-3">
           </a>
-          <p><i class="fa-solid fa-location-dot me-2 text-gray"></i>Số 3, Cầu Giấy, Ngọc Khánh, Đống Đa, Hà Nội.</p>
-          <p><i class="fa-solid fa-envelope me-2 text-gray"></i>info@hanhlangvanhoc.vn</p>
-          <p><i class="fa-solid fa-phone me-2 text-gray"></i>0123456789</p>
+          <p class="mb-2"><i class="fa-solid fa-location-dot mr-2 text-secondary"></i>Số 3, Cầu Giấy, Ngọc Khánh, Đống Đa, Hà Nội.</p>
+          <p class="mb-2"><i class="fa-solid fa-envelope mr-2 text-secondary"></i>info@hanhlangvanhoc.vn</p>
+          <p class="mb-0"><i class="fa-solid fa-phone mr-2 text-secondary"></i>0123456789</p>
         </div>
 
-        <!-- Cột 2 -->
-        <div class="col-md-3">
-          <h5 class="text-gray fw-bold">GIỚI THIỆU</h5>
+        <!-- Cột 2 (giữa trái) -->
+        <div class="col-md-3 text-left">
+          <h5 class="footer-heading">GIỚI THIỆU</h5>
           <ul class="list-unstyled">
-            <li><a href="Gioithieu.html" class="footer-link">Về Hành Lang Văn Học</a></li>
-            <li><a href="hethongcuahang.html" class="footer-link">Hệ thống cửa hàng</a></li>
-            <li><a href="lienhe.html" class="footer-link">Liên hệ với chúng tôi</a></li>
+            <li><a href="../footer/Gioithieu.html" class="footer-link">Về Hành Lang Văn Học</a></li>
+            <li><a href="../footer/hethongcuahang.html" class="footer-link">Hệ thống cửa hàng</a></li>
+            <li><a href="../footer/lienhe.html" class="footer-link">Liên hệ với chúng tôi</a></li>
           </ul>
         </div>
 
-        <!-- Cột 3 -->
-        <div class="col-md-3">
-          <h5 class="text-gray fw-bold">CHÍNH SÁCH</h5>
+        <!-- Cột 3 (giữa phải) -->
+        <div class="col-md-3 text-left">
+          <h5 class="footer-heading">CHÍNH SÁCH</h5>
           <ul class="list-unstyled">
-            <li><a href="chinhsachbaomat.html" class="footer-link">Chính sách bảo mật</a></li>
-            <li><a href="chinhsachbaomat.html" class="footer-link">Chính sách đổi trả/hoàn tiền</a></li>
-            <li><a href="chinhsachbaomat.html" class="footer-link">Chính sách thanh toán/vận chuyển</a></li>
+            <li><a href="../footer/chinhsachbaomat.html" class="footer-link">Chính sách bảo mật</a></li>
+            <li><a href="../footer/chinhsachbaomat.html" class="footer-link">Chính sách đổi trả/hoàn tiền</a></li>
+            <li><a href="../footer/chinhsachbaomat.html" class="footer-link">Chính sách thanh toán/vận chuyển</a></li>
           </ul>
         </div>
 
-        <!-- Cột 4 -->
-        <div class="col-md-3">
-          <h5 class="text-gray fw-bold">PHƯƠNG THỨC THANH TOÁN</h5>
+        <!-- Cột 4 (phải, phương thức thanh toán) -->
+        <div class="col-md-3 text-left">
+          <h5 class="footer-heading">PHƯƠNG THỨC THANH TOÁN</h5>
           <div class="payment-methods mt-2">
-            <img src="image/momologo.webp" alt="Momo">
-            <img src="image/Logo_MB_new.png" alt="MB">
-            <img src="image/Logo-Agribank-V.webp" alt="Agribank">
-            <img src="image/zalopay-logo.png" alt="ZaloPay">
-            <img src="image/logo_VCB_828891.jpg" alt="VCB">
-            <img src="image/logo-techcombank-vector-3.jpg" alt="Techcombank">
+            <img src="../image/momologo.webp" alt="Momo">
+            <img src="../image/Logo_MB_new.png" alt="MB">
+            <img src="../image/Logo-Agribank-V.webp" alt="Agribank">
+            <img src="../image/zalopay-logo.png" alt="ZaloPay">
+            <img src="../image/logo_VCB_828891.jpg" alt="VCB">
+            <img src="../image/logo-techcombank-vector-3.jpg" alt="Techcombank">
           </div>
         </div>
       </div>
@@ -157,10 +225,13 @@
   </footer>
 
   <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
   <!-- JS riêng -->
-  <script src="footer.js"></script>
-<script src="button.js"></script>
+  <script src="../footer/footer.js"></script>
+  <script src="../main.js"></script>
+  <script src="../search.js"></script>
+  <script src="button.js"></script>
 </body>
 </html>
+
