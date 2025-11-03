@@ -5,39 +5,106 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Điểm qua TOP 10 cuốn sách văn học Việt Nam cũ kinh điển nhất</title>
   <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <!-- CSS riêng -->
   <link rel="stylesheet" href="new10.css">
-  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="../footer/footer.css">
+  <link href="../index.css" rel="stylesheet">
 </head>
 <body>
+<header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="../index.html"><img src="../image/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-  <!-- ======= Breadcrumb ======= -->
-  <div class="container-fluid mt-3 breadcrumb-custom">
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html" class="breadcrumb-bold">Trang chủ</a></li>
-        <li class="breadcrumb-item"><a href="news.html" class="breadcrumb-bold">Tin tức</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Điểm qua TOP 10 cuốn sách văn học Việt Nam cũ kinh điển nhất</li>
-      </ol>
-    </nav>
-  </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../kesach.html">Tủ Sách</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">Tin tức</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="../footer/Gioithieu.html">Giới thiệu</a>
+                </li>
+                <form class="form-inline my-2 my-lg-0 ml-5" onsubmit="return search(event)">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                </ul>
+                <div class="dropdown mr-4">
+                    <a class="nav-link dropdown-toggle p-0 text-dark" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                        </svg>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                        <a class="dropdown-item" href="../signin_signup/signin1.html">Đăng nhập</a>
+                        <a class="dropdown-item" href="../signin_signup/signup.html">Đăng ký</a>
+                    </div>
+                </div>
+                <a href="../kesach/kesach.html" class="text-dark mr-3" style="text-decoration: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                    </svg>
+                </a>
+            </div>
+        </nav>
 
-  <hr class="divider">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img class="d-block w-100" src="../image_slide/4a6fe33f42d295fc2fc96fb2ac736c84 (1).jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-100" src="../image_slide\Make Them Notice_ Impactful YouTube Banner and Background Inspiration (1).jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-100" src="../image_slide\Untitled.png" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
 
   <!-- ======= Nội dung bài viết ======= -->
   <div class="article-container my-4">
-    <h3 class="fw-bold text-black mb-3 text-uppercase text-center">
+    <h3 class="font-weight-bold text-dark mb-3 text-uppercase text-center">
       Điểm qua TOP 10 cuốn sách văn học Việt Nam cũ kinh điển nhất
     </h3>
     <p>
       Không gì có thể phản ánh cụ thể từng thời kỳ phát triển của dân tộc sâu sắc hơn các tác phẩm văn học. Có lẽ vì thế mà những cuốn sách văn học Việt Nam cũ đến nay không chỉ là chứng nhân lịch sử, mà còn là tài liệu vô giá về văn hóa, văn chương của tâm hồn Việt. Trong bài viết dưới đây, chúng tôi xin giới thiệu đến bạn 10 tác phẩm văn học Việt Nam kinh điển nhất. Liệu bạn đã đọc qua hết những cuốn sách này hay chưa? Cùng theo dõi với chúng tôi nhé!
     </p>
     
-    <h4 class="fw-bold mt-5 text-black">Chí Phèo - Nam Cao </h4>
+    <h4 class="font-weight-bold mt-5 text-dark">Chí Phèo - Nam Cao </h4>
     <p>Tác phẩm Chí Phèo của nhà văn Nam Cao là một trong những tác phẩm kinh điển nhất được trích dẫn trong sách giáo khoa Ngữ Văn lớp 11. Truyện ngắn khắc họa hình ảnh người nông dân bị bần cùng hóa thông qua ngòi bút nhân đạo sâu sắc và đầy vị tha của Nam Cao.</p>
     <p>Truyện kể về Chí Phèo - nhân vật được mệnh danh là con quỷ làng Vũ Đại với thói nghiện rượu và hay chửi bới. Tuy nhiên, Chí đáng trách mà cũng đáng thương đến đau lòng. Vốn là đứa trẻ bị bỏ rơi trong lò gạch, được người ta truyền tay nhau nuôi nấng, Chí chưa bao giờ nghĩ rằng mình sẽ bị người ta hãm hại. Để rồi một ngày, cậu thanh niên trai tráng bị cho vào tù một cách đầy oan ức. Khi trở ra, Chí không còn là chính mình của ngày xưa nữa.  </p>
 
@@ -46,14 +113,14 @@
       <p class="img-caption">Hình ảnh bìa sách “Chí Phèo” – tác phẩm nổi tiếng của Nam Cao</p>
     </div>
 
-    <h4 class="fw-bold mt-5 text-black">Số Đỏ - Vũ Trọng Phụng</h4>
+    <h4 class="font-weight-bold mt-5 text-dark">Số Đỏ - Vũ Trọng Phụng</h4>
     <p>Số Đỏ của Vũ Trọng Phụng là một cuốn sách văn học Việt Nam cũ không chỉ phản ánh hiện thực rõ nét mà còn khéo léo châm biếm sâu cay xã hội bấy giờ. Toàn bộ “Số Đỏ” là những nghịch lý trớ trêu về cuộc đời của Xuân Tóc Đỏ. Từ một tên lang thang đầu đường xó chợ, nhờ cái miệng khéo léo và số phận may mắn, Xuân Tóc Đỏ dần gây dựng cho mình hình tượng “văn minh” đầy cao ngạo. Lối diễn đạt thân thuộc, tình huống đậm chất “tấn hài kịch” của “ông hoàng nghệ thuật trào phúng” Vũ Trọng Phụng đã thực sự ghi dấu ấn mạnh mẽ trong nền văn học Việt Nam. </p>
     <div class="text-center my-4">
       <img src="https://www.sachbaokhang.vn/uploads/files/2023/05/01/van-2.jpg" alt="Số Đỏ - Vũ Trọng Phụng" class="img-fluid">
       <p class="img-caption">Bìa sách “Số Đỏ” – kiệt tác trào phúng của Vũ Trọng Phụng</p>
     </div>
 
-    <h4 class="fw-bold mt-5 text-black">Truyện Kiều - Nguyễn Du </h4>
+    <h4 class="font-weight-bold mt-5 text-dark">Truyện Kiều - Nguyễn Du </h4>
     <p>Truyện Kiều của Đại thi hào Nguyễn Du hẳn không còn quá xa lạ với nhiều độc giả yêu mến văn học Việt Nam. Truyện Kiều kể về thân phận của con người trong xã hội phong kiến thông qua nhân vật nàng Kiều tài hoa bạc phận. </p>
     <p>Với thể thơ lục bát truyền thống, Nguyễn Du đã thực sự cô đúc tinh hoa văn hóa ngàn đời của dân tộc trong 3254 câu thơ. Đọc Truyện Kiều, không phải chỉ đơn thuần một sớm một chiều mà hiểu hết. Đây là cả một quá trình nghiền ngẫm và suy tư sâu sắc để thấy hết cái hay, cái đẹp trong từng ý thơ. </p>
     <div class="text-center my-4">
@@ -61,7 +128,7 @@
       <p class="img-caption">“Truyện Kiều” – tác phẩm bất hủ của Nguyễn Du</p>
     </div>
 
-    <h4 class="fw-bold mt-5 text-black">Những ngày thơ ấu - Nguyên Hồng </h4>
+    <h4 class="font-weight-bold mt-5 text-dark">Những ngày thơ ấu - Nguyên Hồng </h4>
     <p>Cuốn sách văn học Việt Nam cũ “Những ngày thơ ấu” của nhà văn Nguyên Hồng là tấm vé đưa ta về tuổi thơ. Bằng cuộc du ngoạn dẫn dắt bởi cậu bé từ nhỏ đã phải trải qua nhiều đắng cay, mất mát, độc giả cảm nhận được tình yêu thương trong cậu bé Hồng vẫn luôn rực cháy và chưa bao giờ vơi cạn. </p>
     <p>“Những ngày thơ ấu” là lời thủ thỉ tâm tình của Nguyên Hồng về tuổi thơ thông qua khắc họa hình ảnh người mẹ tần tảo yêu thương con vô ngần. Bên cạnh đó, đây còn là bức tranh hiện thực xã hội Việt Nam những năm đầu thế kỷ XX. </p>
     <div class="text-center my-4">
@@ -69,42 +136,42 @@
       <p class="img-caption">“Những ngày thơ ấu” – ký ức tuổi thơ đầy xúc động của Nguyên Hồng</p>
     </div>
 
-    <h4 class="fw-bold mt-5 text-black">Cánh đồng bất tận - Nguyễn Ngọc Tư </h4>
+    <h4 class="font-weight-bold mt-5 text-dark">Cánh đồng bất tận - Nguyễn Ngọc Tư </h4>
     <p>Là tập truyện nổi tiếng của nhà văn Nguyễn Ngọc Tư, “Cánh đồng bất tận” là bức tranh được ghép nối bởi những mảnh đời bất hạnh. Tại đó, những con người không quen biết nhau, ở những thời kỳ khác nhau, nhưng lại giống nhau đến kỳ lạ. Thông qua góc nhìn của người con gái nông thôn, tác giả đã nhẹ nhàng điểm tô giá trị nhân đạo trên nền đau thương, mất mát. Đây là tác phẩm cực kỳ phù hợp cho những ai tìm về quá khứ và yêu mến cái nét đẹp hoài cổ. </p>
     <div class="text-center my-4">
       <img src="https://www.sachbaokhang.vn/uploads/files/2023/05/01/van-5.jpg" alt="Cánh đồng bất tận - Nguyễn Ngọc Tư" class="img-fluid">
       <p class="img-caption">Bìa sách “Cánh đồng bất tận” – tác phẩm đậm chất nhân văn của Nguyễn Ngọc Tư</p>
     </div>
 
-    <h4 class="fw-bold mt-5 text-black">Vang bóng một thời - Nguyễn Tuân </h4>
+    <h4 class="font-weight-bold mt-5 text-dark">Vang bóng một thời - Nguyễn Tuân </h4>
     <p>“Vang bóng một thời” của Nguyễn Tuân là cuốn sách văn học Việt Nam cũ dẫn độc giả về với những bậc tài hoa một thời. Đó là cụ Ấm với thú thưởng trà trong sương sớm, là người đao phủ với ngón nghề “chém cheo ngành”, là người tử tù với những con chữ đầy chí khí tung hoành một đời người,...”Nhà văn của cái đẹp” Nguyễn Tuân vẫn ngông nghênh với giọng văn độc nhất như thế, để lại những bông hoa tuyệt đẹp cho đời. </p>
     <div class="text-center my-4">
       <img src="https://www.sachbaokhang.vn/uploads/files/2023/05/01/van-6.jpg" alt="Vang bóng một thời - Nguyễn Tuân" class="img-fluid">
       <p class="img-caption">“Vang bóng một thời” – đậm nét phong cách tài hoa của Nguyễn Tuân</p>
     </div>
 
-    <h4 class="fw-bold mt-5 text-black">Nhật ký trong tù - Hồ Chí Minh </h4>
+    <h4 class="font-weight-bold mt-5 text-dark">Nhật ký trong tù - Hồ Chí Minh </h4>
     <p>“Nhật ký trong tù” của Chủ tịch Hồ Chí Minh là một trong những cuốn sách văn học Việt Nam cũ đến nay vẫn còn nguyên giá trị. Tác phẩm tái hiện cái nền hiện thực trong tù còn lắm thiếu thốn, chông gai. Thế nhưng, tinh thần lạc quan, mạnh mẽ, yêu đời, yêu cuộc sống của Bác vẫn vượt lên trên tất cả. Những lời thơ thấm đượm cốt cách người lính với những bài học mang đậm giá trị tinh hoa văn hóa dân tộc và thời đại. </p>
     <div class="text-center my-4">
       <img src="https://www.sachbaokhang.vn/uploads/files/2023/05/01/van-7.jpg" alt="Nhật ký trong tù - Hồ Chí Minh" class="img-fluid">
       <p class="img-caption">Tác phẩm “Nhật ký trong tù” – ánh sáng của tinh thần kiên cường</p>
     </div>
 
-    <h4 class="fw-bold mt-5 text-black">Thơ - Tố Hữu </h4>
+    <h4 class="font-weight-bold mt-5 text-dark">Thơ - Tố Hữu </h4>
     <p>Tố Hữu không chỉ là nhà thơ mà còn là người chiến sĩ cách mạng đầy gai góc, dũng cảm. “Từ ấy” với lời thơ mạnh mẽ là nguồn động lực to lớn cho những người lính cụ Hồ trong thời kỳ kháng chiến cứu quốc. Cuốn sách văn học Việt Nam cũ “Thơ” không chỉ là một tập thơ hay mà còn là bản ghi chép lịch sử đầy sống động để thế hệ sau này biết ơn và thầm cảm nhớ những vị anh hùng đã hy sinh. </p>
     <div class="text-center my-4">
       <img src="https://www.sachbaokhang.vn/uploads/files/2023/05/01/van-8.jpg" alt="Thơ - Tố Hữu" class="img-fluid">
       <p class="img-caption">Tập “Thơ” của Tố Hữu – tiếng lòng người chiến sĩ cách mạng</p>
     </div>
 
-    <h4 class="fw-bold mt-5 text-black">Tắt Đèn - Ngô Tất Tố  </h4>
+    <h4 class="font-weight-bold mt-5 text-dark">Tắt Đèn - Ngô Tất Tố  </h4>
     <p>“Tắt Đèn” là cuốn sách văn học Việt Nam cũ được viết bởi nhà văn Ngô Tất Tố - một cây bút lão làng trong giai đoạn 1930 - 1945. Xuyên suốt tác phẩm là hình ảnh chị Dậu xinh đẹp - quật cường với số phận đầy sóng gió. Truyện khắc họa rõ nét người nông dân bị xã hội coi như cỏ rác. Từ đó làm sáng lên giá trị tình thân, tình mẫu tử và những giá trị sống tốt đẹp không bao giờ phai nhạt. </p>
     <div class="text-center my-4">
       <img src="https://www.sachbaokhang.vn/uploads/files/2023/05/01/van-9.jpg" alt="Tắt Đèn - Ngô Tất Tố" class="img-fluid">
       <p class="img-caption">“Tắt Đèn” – câu chuyện bi thương của người nông dân Việt Nam xưa</p>
     </div>
 
-    <h4 class="fw-bold mt-5 text-black">Gió lạnh đầu mùa - Thạch Lam </h4>
+    <h4 class="font-weight-bold mt-5 text-dark">Gió lạnh đầu mùa - Thạch Lam </h4>
     <p>“Gió lạnh đầu mùa” của nhà văn Thạch Lam tuyển tập những truyện ngắn hay nhất, tái hiện những số phận lao động mang đậm tính hiện thực. Không quá bi kịch như Chí Phèo, truyện ngắn của Thạch Lam luôn trung thành với triết lý “không đem đến cho người đọc sự thoát ly hay sự quên”. Đặc trưng của truyện ngắn Thạch Lam luôn lấp lánh ánh sáng của đoàn tàu đợi rời ga. </p>
     <div class="text-center my-4">
       <img src="https://www.sachbaokhang.vn/uploads/files/2023/05/01/van-10.jpg" alt="Gió lạnh đầu mùa - Thạch Lam" class="img-fluid">
@@ -112,61 +179,63 @@
     </div>
   <button onclick="topFunction()" class="btn btn-primary position-fixed" style="bottom:20px; right:20px;">^</button>
   </div>
-  <!-- Thanh nhận khuyến mãi -->
-  <section class="newsletter text-white py-3 text-center">
-    <div class="container d-flex flex-wrap justify-content-center align-items-center gap-3 newsletter-input">
-      <p class="mb-0 fw-semibold">NHẬN THÔNG TIN KHUYẾN MÃI TỪ CHÚNG TÔI</p>
-      <div class="d-flex">
-        <input type="email" class="form-control me-2" placeholder="Nhập email ưu đãi">
-        <button class="btn btn-dark" type="button">Đăng ký</button>
+  <!-- Newsletter (mảnh, căn giữa) -->
+  <section class="newsletter">
+    <div class="container newsletter-container">
+      <div class="newsletter-inner d-flex align-items-center">
+        <span class="newsletter-title">NHẬN THÔNG TIN KHUYẾN MÃI TỪ CHÚNG TÔI</span>
+        <div class="newsletter-controls d-flex align-items-center">
+          <input type="email" class="form-control newsletter-input" placeholder="Nhập email ưu đãi">
+          <button class="btn btn-signup">Đăng ký</button>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Footer chính -->
-  <footer class="footer text-dark py-5">
+  <footer class="footer">
     <div class="container">
-      <div class="row g-4">
-        <!-- Cột 1 -->
-        <div class="col-md-3">
-          <a href="index.html">
-            <img src="Gemini_Generated_Image_u1yxncu1yxncu1yx-removebg-preview.png" alt="Logo" class="logo mb-3">
+      <div class="row pt-2 pb-2 align-items-start">
+        <!-- Cột 1 (trái, thông tin) -->
+        <div class="col-md-3 text-left">
+          <a href="../index.html">
+            <img src="../image/logo.png" alt="Logo" class="logo mb-3">
           </a>
-          <p><i class="fa-solid fa-location-dot me-2 text-gray"></i>Số 3, Cầu Giấy, Ngọc Khánh, Đống Đa, Hà Nội.</p>
-          <p><i class="fa-solid fa-envelope me-2 text-gray"></i>info@hanhlangvanhoc.vn</p>
-          <p><i class="fa-solid fa-phone me-2 text-gray"></i>0123456789</p>
+          <p class="mb-2"><i class="fa-solid fa-location-dot mr-2 text-secondary"></i>Số 3, Cầu Giấy, Ngọc Khánh, Đống Đa, Hà Nội.</p>
+          <p class="mb-2"><i class="fa-solid fa-envelope mr-2 text-secondary"></i>info@hanhlangvanhoc.vn</p>
+          <p class="mb-0"><i class="fa-solid fa-phone mr-2 text-secondary"></i>0123456789</p>
         </div>
 
-        <!-- Cột 2 -->
-        <div class="col-md-3">
-          <h5 class="text-gray fw-bold">GIỚI THIỆU</h5>
+        <!-- Cột 2 (giữa trái) -->
+        <div class="col-md-3 text-left">
+          <h5 class="footer-heading">GIỚI THIỆU</h5>
           <ul class="list-unstyled">
-            <li><a href="Gioithieu.html" class="footer-link">Về Hành Lang Văn Học</a></li>
-            <li><a href="hethongcuahang.html" class="footer-link">Hệ thống cửa hàng</a></li>
-            <li><a href="lienhe.html" class="footer-link">Liên hệ với chúng tôi</a></li>
+            <li><a href="../footer/Gioithieu.html" class="footer-link">Về Hành Lang Văn Học</a></li>
+            <li><a href="../footer/hethongcuahang.html" class="footer-link">Hệ thống cửa hàng</a></li>
+            <li><a href="../footer/lienhe.html" class="footer-link">Liên hệ với chúng tôi</a></li>
           </ul>
         </div>
 
-        <!-- Cột 3 -->
-        <div class="col-md-3">
-          <h5 class="text-gray fw-bold">CHÍNH SÁCH</h5>
+        <!-- Cột 3 (giữa phải) -->
+        <div class="col-md-3 text-left">
+          <h5 class="footer-heading">CHÍNH SÁCH</h5>
           <ul class="list-unstyled">
-            <li><a href="chinhsachbaomat.html" class="footer-link">Chính sách bảo mật</a></li>
-            <li><a href="chinhsachbaomat.html" class="footer-link">Chính sách đổi trả/hoàn tiền</a></li>
-            <li><a href="chinhsachbaomat.html" class="footer-link">Chính sách thanh toán/vận chuyển</a></li>
+            <li><a href="../footer/chinhsachbaomat.html" class="footer-link">Chính sách bảo mật</a></li>
+            <li><a href="../footer/chinhsachbaomat.html" class="footer-link">Chính sách đổi trả/hoàn tiền</a></li>
+            <li><a href="../footer/chinhsachbaomat.html" class="footer-link">Chính sách thanh toán/vận chuyển</a></li>
           </ul>
         </div>
 
-        <!-- Cột 4 -->
-        <div class="col-md-3">
-          <h5 class="text-gray fw-bold">PHƯƠNG THỨC THANH TOÁN</h5>
+        <!-- Cột 4 (phải, phương thức thanh toán) -->
+        <div class="col-md-3 text-left">
+          <h5 class="footer-heading">PHƯƠNG THỨC THANH TOÁN</h5>
           <div class="payment-methods mt-2">
-            <img src="image/momologo.webp" alt="Momo">
-            <img src="image/Logo_MB_new.png" alt="MB">
-            <img src="image/Logo-Agribank-V.webp" alt="Agribank">
-            <img src="image/zalopay-logo.png" alt="ZaloPay">
-            <img src="image/logo_VCB_828891.jpg" alt="VCB">
-            <img src="image/logo-techcombank-vector-3.jpg" alt="Techcombank">
+            <img src="../image/momologo.webp" alt="Momo">
+            <img src="../image/Logo_MB_new.png" alt="MB">
+            <img src="../image/Logo-Agribank-V.webp" alt="Agribank">
+            <img src="../image/zalopay-logo.png" alt="ZaloPay">
+            <img src="../image/logo_VCB_828891.jpg" alt="VCB">
+            <img src="../image/logo-techcombank-vector-3.jpg" alt="Techcombank">
           </div>
         </div>
       </div>
@@ -174,10 +243,12 @@
   </footer>
 
   <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
   <!-- JS riêng -->
-  <script src="footer.js"></script>
-   <script src="button.js"></script>
-</body>
+  <script src="../footer/footer.js"></script>
+  <script src="../main.js"></script>
+  <script src="../search.js"></script>
+  <script src="button.js"></script>
 </html>
+
