@@ -1294,9 +1294,102 @@
             }
         ]
 
-    }
+    },
+    "top10": [
+            {
+                "link_image_author": "https://lh3.googleusercontent.com/proxy/-BZr5tSVuPOqWg1LnK2VtCAKy8FmZX_Nbj2mqoM4qCx4vbZyqr-bgbxF2JUDUxYnuKhKeJYgThh-A5hcVt73xfAGA9nuwOQmO8g-1FrvQ-amcF3pIshgUSsZQU91I9uQWuQ",
+                "image": "image_book/Screenshot 2025-10-21 203530.png",
+                "name": "Tam thể",
+                "genre": "Viễn tưởng không gian – xâm lăng ngoài hành tinh",
+                "author": "Lưu Từ Ân",
+                "price": "216.000đ",
+                "Content": "Giáo sư Uông Diểu say mê trò chơi Tam Thể, nơi tồn tại nền văn minh kỳ lạ có ba mặt trời. Nhưng trò chơi ấy lại là cánh cửa cho sinh vật ngoài hành tinh xâm chiếm Trái Đất – và nó đã mở ra từ lâu."
+            },
+            {
+                "link_image_author": "https://m.media-amazon.com/images/M/MV5BNzQ0YWMxNzYtOWM1Ni00MDM0LWI4ZDMtOTZjNzc2OThmMGY1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+                "image": "image_book/stn (10).PNG",
+                "name": "Hoàng Tử Bé",
+                "genre": "Truyện ngụ ngôn triết lý – Thiếu nhi",
+                "author": "Antoine De Saint-Exupéry",
+                "price": "73.000đ",
+                "Content": "Ẩn dụ nhưng vẫn giữ được nét đơn thuần, đượm buồn nhưng vẫn vẹn nguyên nét đẹp của tình yêu – không quá khó hiểu khi “Hoàng Tử Bé” được mệnh danh là câu chuyện cổ tích mang tính triết học dành cho cả trẻ em và người lớn. “Hoàng Tử Bé” là câu chuyện cổ tích nhưng không phải là cổ tích theo nghĩa thông thường. Nó chứa đựng triết lý nhân sinh nhưng không thể hiện qua bất cứ lời lẽ răn dạy nào mà điểm xuyết tinh tế qua những lời nói đơn thuần, ngây ngô của các nhân vật - ẩn chứa trong lời nói của hoàng tử bé, ẩn chứa trong những vì sao, ẩn chứa bên trong sa mạc và trong cả những đóa hoa hồng."
+            },
+            {
+                "link_image_author": "https://th.bing.com/th/id/OIP.0mxuH2gszU8kuLBuSknSHQHaF3?w=241&h=191&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+                "image": "image_book/g1 (4).png",
+                "name": "The Da Vinci Code – Mật mã Da Vinci",
+                "genre": "Trinh thám, Giật gân, Tôn giáo",
+                "author": "Dan Brown",
+                "price": "185.000đ",
+                "Content": "Giáo sư Robert Langdon bị cuốn vào vụ án giết người ở Louvre. Manh mối trong tranh Leonardo da Vinci dẫn đến bí mật ngàn năm của Giáo hội."
+            },
+            {
+                "link_image_author": "https://salt.tikicdn.com/ts/brickv2og/8a/f8/8a/2b0718c85dafd9707d7b832982a01906.jpg",
+                "image": "image_book/cnkh (3).PNG",
+                "name": "The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution (Những người tiên phong: Tin tặc, thiên tài và chuyên gia đã tạo ra cách mạng kỹ thuật số như thế nào)",
+                "genre": "Lịch sử công nghệ, khoa học, phi hư cấu",
+                "author": "Walter Isaacson",
+                "price": "827.600 ₫",
+                "Content": "Cuốn sách kể lại lịch sử hình thành của cuộc cách mạng số — từ những người tiên phong như Ada Lovelace, Alan Turing, John von Neumann, đến những người như Bill Gates, Steve Jobs. Tác giả tập trung vào yếu tố “hợp tác” (collaboration) – tại sao nhóm người làm cùng nhau mới tạo nên bước đột phá."
+            },
+            {
+                "link_image_author": "http://www.khoavanhoc-ngonngu.edu.vn/images/stories/freud.jpg",
+                "image": "image_book/civilization.png",
+                "name": "Văn minh và những bất mãn của nó",
+                "genre": "Lịch sử, Văn hóa & Tiểu sử",
+                "author": "Sigmund Freud",
+                "price": "185.000đ",
+                "Content": "Civilization and Its Discontents (Văn minh và những bất mãn của nó) của Sigmund Freud (1930) là một tác phẩm kinh điển về tâm lý học và xã hội học. Trong cuốn sách, Freud phân tích xung đột giữa bản năng cá nhân và những yêu cầu của xã hội văn minh, chỉ ra rằng văn minh mang lại trật tự nhưng cũng tạo ra bất mãn và căng thẳng tâm lý. Tác phẩm bàn về tội lỗi, đạo đức, tình dục và tôn giáo, đồng thời đặt nền tảng cho nhiều nghiên cứu về bản chất con người và mối quan hệ giữa cá nhân với xã hội."
+            },
+            {
+                "link_image_author": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT2SAXjnvFs2j83V6UoZI65ctJY4cp1ZbUAw&s",
+                "image": "image_book/stn (5).PNG",
+                "name": "Tuổi Thơ Dữ Dội",
+                "genre": "thiếu nhi & văn học Việt Nam",
+                "author": "Phùng Quán",
+                "price": "145.000đ",
+                "Content": "“Tuổi Thơ Dữ Dội” là một câu chuyện hay, cảm động viết về tuổi thơ. Sách dày 404 trang mà người đọc không bao giờ muốn ngừng lại, bị lôi cuốn vì những nhân vật ngây thơ có, khôn ranh có, anh hùng có, vì những sự việc khi thì ly kỳ, khi thì hài hước, khi thì gây xúc động đến ứa nước mắt... \"Tuổi Thơ Dữ Dội” không phải chỉ là một câu chuyện cổ tích, mà là một câu chuyện có thật ở trần gian, ở đó, những con người tuổi nhỏ đã tham gia vào cuộc kháng chiến chống xâm lược bảo vệ Tổ quốc với một chuỗi những chiến công đầy ắp li kì và hấp dẫn. Đọc Tuổi Thơ Dữ Dội chính là đọc lại một phần lịch sử tuổi thơ Việt, thấm đẫm xúc động, cảm phục và tự hào...\""
+            },
+            {
+                "link_image_author": "https://suckhoedoisong.qltns.mediacdn.vn/2015/chan-dung-nha-tho-tran-dang-khoa-1430155371700.jpg",
+                "image": "image_book/stn (6).PNG",
+                "name": "Góc Sân Khoảng Trời",
+                "genre": "Thiếu nhi & văn học Việt Nam",
+                "author": "Trần Đăng KHoa",
+                "price": "54.000đ",
+                "Content": "Được xem như một trong những hiện tượng hiếm có của làng thơ ca Việt Nam, nhà thơ Trần Đăng Khoa từ khi còn rất nhỏ đã chinh phục trái tim của biết bao độc giả bằng tài năng thiên bẩm và những bài thơ đầy màu sắc. Ra mắt lần đầu tiên khi ông mới 10 tuổi, \"Góc sân và khoảng trời\" đã nhanh chóng trở thành một tác phẩm thơ được yêu thích, in sâu trong tâm trí của nhiều thế hệ. Tập thơ như là câu chuyện trở về tuổi thơ với những hình ảnh mộc mạc, bình dị của làng quê Việt Nam. Mỗi bài thơ trong cuốn sách này đều chứa đựng sự hồn nhiên, trong trẻo nhưng cũng đầy triết lý về cuộc sống. Những bài thơ nổi tiếng như \"Hạt gạo làng ta,\" \"Mẹ ốm,\" và \"Mưa\" không chỉ là những tác phẩm văn học xuất sắc mà còn là những kỷ niệm đẹp đẽ của bao người, từ trẻ em đến người lớn."
+            },
+            {
+                "link_image_author": "https://danviet.ex-cdn.com/files/f1/upload/4-2019/images/2019-11-28/Kham-pha-Ho-Tay-40ky-1241-Phan-Ke-Binh-va-39dem-trang-choi-Ho-Tay39-1022-1574911958-width429height300.jpg",
+                "image": "image_book/stg (1).PNG",
+                "name": "Việt Nam Phong Tục",
+                "genre": "tôn giáo học -Văn hoá – Dân tộc học – Lịch sử xã hội",
+                "author": "Phan Kế Bính",
+                "price": "175.000đ",
+                "Content": "Mỗi nước có một phong tục riêng. Phong tục ấy kỳ thuỷ hoặc bởi tự một vài người mà rồi bắt chước nhau thành ra thói quen. Hoặc bởi ở phong thổ và cách chính trị, cách giáo dục trong nước mà thành ra. Hoặc bởi cái phong trào ở ngoài tràn vào rồi mà dần dần tiêm nhiễm thành tục. Nhưng đại để tục gì cũng vậy, phải trải lâu tháng lâu năm mới thành được, mà trong những tục ấy cũng có tục hay, cũng có tục dở. Duy chỉ bởi tai mắt người đã quen, lòng người đã tin dùng, thì dẫu có người biết là dở mà cũng không sao đổi ngay đi được."
+            },
+            {
+                "link_image_author": "https://vi.waj.world//cms/uploads/news/2024/03/20//img_2835.jpeg",
+                "image": "image_book/stg (2).PNG",
+                "name": "\"Đạo mẫu di sản văn hoá của tình thương\"",
+                "genre": "Văn hoá dân gian – Tôn giáo học",
+                "author": "Hà Huy Thanh",
+                "price": "199.000đ",
+                "Content": "Tín ngưỡng thờ Mẫu Tam phủ của người Việt là một tín ngưỡng dân gian mang đậm bản sắc văn hóa Việt Nam. Tín ngưỡng này đã được UNESCO vinh danh là Di sản văn hóa phi vật thể đại diện của nhân loại vào ngày 1 tháng 12 năm 2016. Tín ngưỡng thờ Mẫu Tam phủ là một hệ thống thờ cúng các vị thần linh, trong đó, vị thần tối cao là Đức Thánh Mẫu Liễu Hạnh. Tín ngưỡng này được hình thành và phát triển từ lâu đời, gắn liền với lịch sử và văn hóa của dân tộc Việt Nam. Tín ngưỡng thờ Mẫu Tam phủ mang nhiều ý nghĩa quan trọng đối với người Việt Nam. Tín ngưỡng này thể hiện niềm tin của người Việt Nam vào các vị thần linh, cầu mong sự che chở, phù hộ của các vị thần cho cuộc sống bình an, hạnh phúc. Ngoài ra, tín ngưỡng này còn thể hiện tinh thần đoàn kết, gắn bó của cộng đồng làng xã."
+            },
+            {
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/vi/a/ad/Picturecarnegie.jpg",
+                "image": "image_book/stg (3).PNG",
+                "name": "Đắc Nhân Tâm",
+                "genre": "Tâm lý ứng xử-tôn giáo học",
+                "author": "Dale Carnegie",
+                "price": "60.600đ",
+                "Content": "Đắc Nhân Tâm. Một trong những cuốn sách thay đổi cuộc đời hàng triệu người trên thế giới. Đây là phiên bản được dịch từ phiên bản “How to Win Friends and Influence People” do nhà xuất bản Simon and Schuster xuất bản lần đầu tiên năm 1936. “Đắc nhân tâm” là cuốn sách được lan tỏa rộng rãi và có sức ảnh hưởng vô cùng lớn, giúp thay đổi cuộc đời hàng triệu người trên thế giới. Đây là một trong những cuốn sách làm thay đổi cuộc đời của hàng triệu người trên toàn thế giới. “Đắc nhân tâm” đem lại những giá trị tuyệt vời cho người đọc, bao gồm những lời khuyên bổ ích về cách ứng xử trong cuộc sống hằng ngày. Sức lan tỏa của cuốn sách vô cùng lớn, tác động tới nhiều tầng lớp và nhiều đối tượng khác nhau."
+            }
+    ]
 
 }
+
 
 
 
