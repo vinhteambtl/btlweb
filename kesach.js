@@ -34,13 +34,15 @@ document.addEventListener("DOMContentLoaded", () => {
             id: allProducts.length + 1,
             title: book.name,
             author: book.author,
-            price: parseInt(book.price.replace(/[^\d]/g, '')) || 0,
+            price: parseInt((book.price || '').replace(/[^\d]/g, '')) || 0,
             category: category,
             tags: book.genre ? book.genre.split(',').map(tag => tag.trim()) : [],
             image: (book.image && book.image.trim() !== '') ?
               (book.image.startsWith('http') ? book.image : `${book.image}`) :
               'https://via.placeholder.com/180x250?text=No+Image',
-            link_image_author: book.link_image_author || 'https://via.placeholder.com/100?text=Author'
+            link_image_author: book.link_image_author || 'https://via.placeholder.com/100?text=Author',
+            // giữ content/description nếu có
+            content: book.Content || book.description || ''
           });
         });
       });
@@ -68,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
     paginatedProducts.forEach(product => {
       const productHTML = `
         <div class="col mb-4">
-          <div class="card product-card h-100 border-0 shadow">
+          <div class="card product-card h-100 border-0 shadow-sm" data-product-id="${product.id}">
             <img src="${product.image}" class="card-img-top product-image" alt="${product.title}" 
                  onerror="this.src='https://via.placeholder.com/180x250?text=No+Image';">
             <div class="card-body p-2 d-flex flex-column">
@@ -311,11 +313,8 @@ document.addEventListener("DOMContentLoaded", () => {
       container.insertAdjacentHTML('beforeend', slideHTML);
     }
   }
-});
 
-
-
-// ============================
+  // ============================
   // === BỔ SUNG: XEM CHI TIẾT ===
   // - Dùng event delegation trên productListElement
   // - Khi click vào card (không phải nút add-to-cart) -> tìm product bằng data-product-id -> hiển thị modal
@@ -446,4 +445,4 @@ document.addEventListener("DOMContentLoaded", () => {
   // ============================
   // === KẾT THÚC BỔ SUNG CHỨC NĂNG
   // ============================
-});    cái này để làm cái gì
+});
