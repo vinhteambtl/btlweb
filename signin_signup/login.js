@@ -53,7 +53,7 @@ $(document).ready(function() {
         if (isValid) {
             const alertHtml = `
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    <strong>Đăng nhập thành công!</strong> Chào mừng bạn quay lại Tu Tiên Book.
+                    <strong>Đăng nhập thành công!</strong> Chào mừng bạn quay lại.
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -111,3 +111,4 @@ $(document).ready(function() {
         }
     );
 });
+
