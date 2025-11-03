@@ -122,54 +122,48 @@
 //     mainContent.appendChild(container);
 
 // }
-// search.js - Hoạt động trên index.html và footer/Gioithieu.html
+// search.js - DÙNG CHUNG CHO index.html và footer/Gioithieu.html
+
 async function search(event) {
     event.preventDefault();
 
     const searchInput = document.querySelector('input[type="search"]');
     const query = searchInput.value.trim();
     if (!query) {
-        alert("Vui lòng nhập từ khóa tìm kiếm.");
+        alert("Vui lòng nhập từ khóa tìm kiếm!");
         return false;
     }
 
-    // Tự động tìm vùng chứa phù hợp
-    let resultsContainer = document.getElementById('search-results-container');
-
-    // Nếu chưa có vùng chứa → tạo tạm thời
-    if (!resultsContainer) {
-        resultsContainer = document.createElement('div');
-        resultsContainer.id = 'search-results-container';
-        resultsContainer.className = 'container mt-5';
-
-        // Xác định nơi chèn: sau header, trước nội dung chính
-        const header = document.querySelector('header');
+    // Tạo vùng chứa kết quả nếu chưa có
+    let container = document.getElementById('search-results');
+    if (!container) {
+        container = document.createElement('div');
+        container.id = 'search-results';
+        container.className = 'container mt-4';
         const main = document.querySelector('main');
-        if (main && header) {
-            main.insertBefore(resultsContainer, main.firstChild);
+        if (main) {
+            main.insertBefore(container, main.firstChild);
         } else {
-            document.body.appendChild(resultsContainer);
+            document.body.appendChild(container);
         }
     }
 
     // Hiển thị loading
-    resultsContainer.innerHTML = `
+    container.innerHTML = `
         <div class="text-center py-5">
-            <div class="spinner-border text-primary" role="status">
-                <span class="sr-only">Đang tìm...</span>
-            </div>
-            <p class="mt-3">Đang tìm kiếm "${query}"...</p>
+            <div class="spinner-border text-primary" role="status"></div>
+            <p class="mt-3">Đang tìm "${query}"...</p>
         </div>
     `;
-    resultsContainer.style.display = 'block';
+    container.style.display = 'block';
 
     try {
-        // Tự động xác định đường dẫn books.json theo trang hiện tại
+        // TỰ ĐỘNG XÁC ĐỊNH ĐƯỜNG DẪN books.json
         const isInFooter = window.location.pathname.includes('/footer/');
         const jsonPath = isInFooter ? '../books.json' : 'books.json';
 
         const response = await fetch(jsonPath);
-        if (!response.ok) throw new Error('Không tải được dữ liệu sách');
+        if (!response.ok) throw new Error(`Không tải được ${jsonPath}`);
 
         const data = await response.json();
         const allBooks = Object.values(data.books).flat();
@@ -179,14 +173,14 @@ async function search(event) {
             book.author.toLowerCase().includes(query.toLowerCase())
         );
 
-        displaySearchResults(results, query, resultsContainer);
+        displayResults(results, query, container);
 
     } catch (error) {
         console.error("Lỗi tìm kiếm:", error);
-        resultsContainer.innerHTML = `
+        container.innerHTML = `
             <div class="text-center text-danger py-5">
-                <h5>Không thể tải dữ liệu</h5>
-                <p>Vui lòng kiểm tra kết nối hoặc thử lại sau.</p>
+                <h5>Không thể tải dữ liệu sách</h5>
+                <p>Kiểm tra file <code>books.json</code> và đường dẫn.</p>
             </div>
         `;
     }
@@ -194,15 +188,14 @@ async function search(event) {
     return false;
 }
 
-// Hiển thị kết quả (giống nhau cho mọi trang)
-function displaySearchResults(books, query, container) {
+function displayResults(books, query, container) {
     container.innerHTML = '';
 
     if (books.length === 0) {
         container.innerHTML = `
             <div class="text-center py-5">
-                <h4>Không tìm thấy sách nào cho "<span class="text-primary">${query}</span>"</h4>
-                <p class="text-muted">Hãy thử từ khóa khác nhé!</p>
+                <h4>Không tìm thấy kết quả cho "<span class="text-primary">${query}</span>"</h4>
+                <p class="text-muted">Thử từ khóa khác nhé!</p>
             </div>
         `;
         return;
@@ -210,90 +203,38 @@ function displaySearchResults(books, query, container) {
 
     const heading = document.createElement('h3');
     heading.className = 'mb-4 text-center';
-    heading.innerHTML = `Tìm thấy <strong class="text-success">${books.length}</strong> kết quả cho: <span class="text-primary">"${query}"</span>`;
+    heading.innerHTML = `Tìm thấy <strong class="text-success">${books.length}</strong> kết quả cho "<span class="text-primary">${query}</span>"`;
 
-    const grid = document.createElement('div');
-    grid.className = 'row g-4';
+    const row = document.createElement('div');
+    row.className = 'row g-4';
 
     books.forEach(book => {
         const col = document.createElement('div');
         col.className = 'col-6 col-md-4 col-lg-3';
-
         col.innerHTML = `
-            <div class="card h-100 shadow-sm border-0 hover-shadow">
-                <img src="${book.image}" class="card-img-top" alt="${book.name}" 
-                     style="height: 180px; object-fit: cover; border-bottom: 1px solid #eee;">
-                <div class="card-body d-flex flex-column p-3">
-                    <h6 class="card-title text-truncate mb-2" title="${book.name}">${book.name}</h6>
-                    <p class="card-text text-muted small mb-1">Tác giả: ${book.author}</p>
-                    <p class="card-text text-danger font-weight-bold mb-2">${book.price}</p>
+            <div class="card h-100 shadow-sm border-0">
+                <img src="${book.image}" class="card-img-top" alt="${book.name}" style="height: 180px; object-fit: cover;">
+                <div class="card-body p-3 d-flex flex-column">
+                    <h6 class="card-title mb-2" title="${book.name}">${book.name}</h6>
+                    <p class="text-muted small mb-1">Tác giả: ${book.author}</p>
+                    <p class="text-danger font-weight-bold mb-2">${book.price}</p>
                     <a href="#" class="btn btn-outline-primary btn-sm mt-auto">Xem chi tiết</a>
                 </div>
             </div>
         `;
-        grid.appendChild(col);
+        row.appendChild(col);
     });
 
     container.appendChild(heading);
-    container.appendChild(grid);
-
-    // Thêm hiệu ứng nhẹ khi hover
-    container.querySelectorAll('.card').forEach(card => {
-        card.addEventListener('mouseenter', () => {
-            card.style.transform = 'translateY(-4px)';
-            card.style.transition = 'all 0.2s ease';
-        });
-        card.addEventListener('mouseleave', () => {
-            card.style.transform = 'translateY(0)';
-        });
-    });
+    container.appendChild(row);
 }
 
-// Tự động thêm CSS nếu chưa có
-function injectSearchStyles() {
-    if (document.getElementById('search-results-style')) return;
-
-    const style = document.createElement('style');
-    style.id = 'search-results-style';
-    style.textContent = `
-        #search-results-container .hover-shadow {
-            transition: all 0.3s ease;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        #search-results-container .hover-shadow:hover {
-            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-            transform: translateY(-5px);
-        }
-        #search-results-container .card-img-top {
-            transition: transform 0.3s ease;
-        }
-        #search-results-container .card:hover .card-img-top {
-            transform: scale(1.05);
-        }
-    `;
-    document.head.appendChild(style);
-}
-
-// Chạy khi DOM sẵn sàng
+// Tự động gắn lại sự kiện khi trang load
 document.addEventListener('DOMContentLoaded', () => {
-    injectSearchStyles();
-
-    // Gắn lại sự kiện nếu form bị reload (tránh lỗi double submit)
-    const forms = document.querySelectorAll('form[onsubmit*="search"]');
+    const forms = document.querySelectorAll('form');
     forms.forEach(form => {
-        form.onsubmit = (e) => search(e);
-    });
-
-    // Gắn sự kiện cho nút Search (nếu có onclick)
-    const searchBtns = document.querySelectorAll('button[type="submit"], .btn-outline-success');
-    searchBtns.forEach(btn => {
-        if (btn.textContent.includes('Search') || btn.onclick?.toString().includes('search')) {
-            btn.onclick = (e) => {
-                e.preventDefault();
-                search(e);
-                return false;
-            };
+        if (form.querySelector('input[type="search"]')) {
+            form.onsubmit = (e) => search(e);
         }
     });
 });
-
