@@ -15,6 +15,7 @@ body {
 .header-bar {
     background-color: var(--secondary-color);
     border-bottom: 1px solid #eee;
+    padding: 10px; /* Thêm padding cơ bản cho header */
 }
 
 .navbar-brand {
@@ -125,6 +126,7 @@ body {
     padding: 10px;
     transition: box-shadow 0.2s ease, border-color 0.2s;
     height: 100%; 
+    position: relative; /* Để vị trí nút thêm giỏ hàng */
 }
 
 .product-card:hover {
@@ -182,4 +184,110 @@ body {
 .pagination .page-link:focus, .pagination .page-link:hover {
     color: #a00000 !important;
     box-shadow: none;
+}
+
+/* === RESPONSIVE DESIGN === */
+
+/* Cho màn hình tablet và nhỏ hơn (max-width: 992px) */
+@media (max-width: 992px) {
+    .sidebar {
+        padding-right: 0;
+        margin-bottom: 20px; /* Thêm khoảng cách dưới sidebar khi stack */
+    }
+
+    .product-list-area {
+        padding-left: 0;
+    }
+
+    .product-card {
+        margin-bottom: 15px; /* Tăng khoảng cách giữa các card */
+    }
+
+    .filter-list {
+        max-height: 200px; /* Giảm chiều cao thanh cuộn cho màn hình nhỏ hơn */
+    }
+
+    .product-image {
+        max-height: 150px; /* Giảm kích thước ảnh sản phẩm */
+    }
+
+    .product-title {
+        font-size: 0.9rem; /* Giảm kích thước font tiêu đề */
+        height: 36px;
+    }
+
+    .product-price {
+        font-size: 0.95rem; /* Giảm kích thước font giá */
+    }
+}
+
+/* Cho màn hình mobile (max-width: 576px) */
+@media (max-width: 576px) {
+    body {
+        font-size: 0.9rem; /* Giảm font size toàn bộ cho mobile */
+    }
+
+    .header-bar {
+        padding: 5px; /* Giảm padding header */
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem; /* Điều chỉnh kích thước thương hiệu */
+    }
+
+    #search-button {
+        width: 100%; /* Làm nút tìm kiếm full width trên mobile */
+        margin-top: 10px;
+    }
+
+    .sidebar {
+        padding: 10px; /* Giảm padding sidebar */
+    }
+
+    .filter-header {
+        font-size: 0.9rem; /* Giảm font tiêu đề bộ lọc */
+        padding: 6px 10px;
+    }
+
+    .filter-list {
+        max-height: 150px; /* Giảm chiều cao thanh cuộn hơn nữa */
+        font-size: 0.85rem; /* Giảm font size label */
+    }
+
+    .filter-list label {
+        padding: 5px 8px; /* Giảm padding label */
+    }
+
+    .product-card {
+        padding: 8px; /* Giảm padding card */
+        margin-bottom: 10px;
+    }
+
+    .product-image {
+        max-height: 120px; /* Giảm kích thước ảnh hơn nữa */
+    }
+
+    .product-title {
+        font-size: 0.85rem;
+        height: 34px;
+    }
+
+    .product-price {
+        font-size: 0.9rem;
+    }
+
+    .add-to-cart-btn {
+        opacity: 1; /* Luôn hiển thị nút thêm giỏ hàng trên mobile (vì hover khó) */
+        position: static; /* Thay đổi vị trí để hiển thị rõ */
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .pagination {
+        font-size: 0.85rem; /* Giảm kích thước phân trang */
+    }
+
+    .pagination .page-link {
+        padding: 0.3rem 0.6rem; /* Giảm padding link phân trang */
+    }
 }
