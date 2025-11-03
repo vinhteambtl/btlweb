@@ -788,7 +788,7 @@
                 "Content": "“ A People’s History of the United States ” của Howard Zinn (xuất bản lần đầu 1980) là một tác phẩm lịch sử phi truyền thống nổi tiếng, kể lại lịch sử Mỹ từ góc nhìn của những nhóm bị áp bức, như người bản địa, nô lệ, phụ nữ, công nhân và các cộng đồng thiểu số. Cuốn sách nhấn mạnh các cuộc đấu tranh xã hội, bất công và những mâu thuẫn quyền lực, thách thức các câu chuyện lịch sử chính thống. Nó được coi là một tác phẩm kinh điển trong giáo dục và nghiên cứu về lịch sử xã hội và nhân quyền."
             },
             {
-                "link_image_author": "http://www.khoavanhoc-ngonngu.edu.vn/images/stories/freud.jpg",
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sigmund_Freud_LIFE.jpg/960px-Sigmund_Freud_LIFE.jpg",
                 "image": "image_book/civilization.png",
                 "name": "Văn minh và những bất mãn của nó",
                 "genre": "Lịch sử, Văn hóa & Tiểu sử",
@@ -1333,7 +1333,7 @@
                 "Content": "Cuốn sách kể lại lịch sử hình thành của cuộc cách mạng số — từ những người tiên phong như Ada Lovelace, Alan Turing, John von Neumann, đến những người như Bill Gates, Steve Jobs. Tác giả tập trung vào yếu tố “hợp tác” (collaboration) – tại sao nhóm người làm cùng nhau mới tạo nên bước đột phá."
             },
             {
-                "link_image_author": "http://www.khoavanhoc-ngonngu.edu.vn/images/stories/freud.jpg",
+                "link_image_author": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sigmund_Freud_LIFE.jpg/960px-Sigmund_Freud_LIFE.jpg",
                 "image": "image_book/civilization.png",
                 "name": "Văn minh và những bất mãn của nó",
                 "genre": "Lịch sử, Văn hóa & Tiểu sử",
@@ -1389,6 +1389,7 @@
     ]
 
 }
+
 
 
 
