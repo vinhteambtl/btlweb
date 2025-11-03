@@ -61,7 +61,7 @@ $(document).ready(function() {
             
             // Sau 2 giây, tự động chuyển về trang chủ
             setTimeout(function() {
-                window.location.href = "index.html";
+                window.location.href = window.location.origin + "/btlweb/index.html";
             }, 2000);
         }
     });
@@ -136,7 +136,7 @@ $(document).ready(function() {
             
             // Sau 3 giây, tự động chuyển sang trang đăng nhập
             setTimeout(function() {
-                window.location.href = window.location.origin + "/btlweb/index.html";
+                window.location.href = "../index.html";
             }, 3000);
         }
     });
@@ -179,4 +179,5 @@ $(document).ready(function() {
         }
     );
 });
+
 
