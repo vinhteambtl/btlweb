@@ -27,9 +27,9 @@ body {
 }
 
 .btn-home:hover {
-    background-color: #2c8b2c;
-    color: white;
-    text-decoration: none;
+    background-color: #2c8b2c !important;
+    color: white !important;
+    text-decoration: none !important;
 }
 
 .container {
@@ -411,4 +411,5 @@ h2 {
     .password-toggle i {
         font-size: 15px;
     }
+
 }
