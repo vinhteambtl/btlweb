@@ -299,7 +299,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   <div class="card-body text-center p-1">
                     <img src="${author.link_image_author}"
                          class="img-fluid mb-2 rounded-circle"
-                         style="width: 80px; height: 80px; object-fit: cover; margin-top: 20px;"
+                         style="width: 100px; height: 100px; object-fit: cover; margin-top: 30px;"
                          alt="${author.author}"
                          onerror="this.src='https://via.placeholder.com/100?text=Author';">
                     <p class="text-truncate mb-3 mt-2" style="font-size: 0.85rem;">${author.author}</p>
@@ -446,3 +446,4 @@ document.addEventListener("DOMContentLoaded", () => {
   // === KẾT THÚC BỔ SUNG CHỨC NĂNG
   // ============================
 });
+
