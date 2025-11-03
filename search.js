@@ -123,10 +123,8 @@
 
 // }
 // search.js - DÙNG CHUNG CHO index.html và footer/Gioithieu.html
-
-// search.js - Dùng chung cho index.html và footer/Gioithieu.html
-// Giữ nguyên giao diện list-group như file gốc
-// Tự động thêm ../ vào ảnh khi ở footer/
+// GIAO DIỆN GIỐNG ẢNH: list-group, ảnh nhỏ, tên + tác giả + giá dọc
+// TỰ ĐỘNG THÊM ../ vào ảnh khi KHÔNG phải index.html
 
 async function search(event) {
     event.preventDefault();
@@ -139,18 +137,21 @@ async function search(event) {
         return false;
     }
 
-    // Xác định đường dẫn ảnh (tự động thêm ../ nếu ở footer/)
-    const isInFooter = window.location.pathname.includes('/footer/');
-    const imagePrefix = isInFooter ? '../' : '';
-
-    // Tạo vùng chứa kết quả (giống file gốc)
-    let mainContent = document.querySelector('main');
+    const mainContent = document.querySelector('main');
     if (!mainContent) return false;
+
+    // Xác định xem có phải index.html không
+    const isIndexPage = window.location.pathname.endsWith('index.html') || 
+                        window.location.pathname === '/' || 
+                        !window.location.pathname.includes('/');
+
+    // Tự động thêm ../ vào ảnh nếu KHÔNG phải index.html
+    const imagePrefix = isIndexPage ? '' : '../';
 
     // Xóa nội dung cũ
     mainContent.innerHTML = '';
 
-    // Tạo container kết quả
+    // Tạo container
     const container = document.createElement('div');
     container.className = 'container mt-4';
 
@@ -159,14 +160,13 @@ async function search(event) {
 
     try {
         // Đường dẫn books.json
-        const jsonPath = isInFooter ? '../books.json' : 'books.json';
+        const jsonPath = isIndexPage ? 'books.json' : '../books.json';
         const response = await fetch(jsonPath);
         if (!response.ok) throw new Error('Không tải được books.json');
 
         const data = await response.json();
         const allBooks = Object.values(data.books).flat();
 
-        // Tìm kiếm trong tên sách
         const results = allBooks.filter(book =>
             book.name.toLowerCase().includes(query)
         );
@@ -179,31 +179,33 @@ async function search(event) {
 
             results.forEach(book => {
                 const bookItem = document.createElement('div');
-                bookItem.className = 'list-group-item d-flex align-items-center mb-3 shadow-sm';
+                bookItem.className = 'list-group-item d-flex align-items-start p-3 shadow-sm mb-3';
 
-                // Ảnh sách (thêm ../ nếu cần)
+                // Ảnh sách
                 const bookImage = document.createElement('img');
                 bookImage.src = imagePrefix + book.image;
                 bookImage.alt = book.name;
                 bookImage.style.width = '90px';
                 bookImage.style.height = '130px';
                 bookImage.style.objectFit = 'cover';
-                bookImage.className = 'mr-4';
+                bookImage.style.borderRadius = '6px';
+                bookImage.className = 'mr-3 flex-shrink-0';
 
                 // Thông tin sách
                 const bookInfo = document.createElement('div');
+                bookInfo.className = 'd-flex flex-column';
 
                 const bookName = document.createElement('h5');
                 bookName.textContent = book.name;
-                bookName.className = 'mb-1';
+                bookName.className = 'mb-1 font-weight-bold';
 
                 const bookAuthor = document.createElement('p');
                 bookAuthor.innerHTML = `<small class="text-muted">Tác giả: ${book.author}</small>`;
-                bookAuthor.className = 'mb-2';
+                bookAuthor.className = 'mb-1';
 
                 const bookPrice = document.createElement('p');
                 bookPrice.textContent = book.price;
-                bookPrice.className = 'font-weight-bold text-danger mb-0';
+                bookPrice.className = 'text-danger font-weight-bold mb-0';
 
                 bookInfo.appendChild(bookName);
                 bookInfo.appendChild(bookAuthor);
@@ -223,10 +225,12 @@ async function search(event) {
         }
 
     } catch (error) {
-        console.error("Lỗi:", error);
+        console.error("Lỗi tìm kiếm:", error);
         container.innerHTML = `
-            <h3 class="text-danger">Lỗi!</h3>
-            <p>Không thể tải dữ liệu sách. Vui lòng kiểm tra tệp <code>books.json</code>.</p>
+            <div class="text-center text-danger">
+                <h3>Lỗi!</h3>
+                <p>Không thể tải dữ liệu. Vui lòng kiểm tra <code>books.json</code>.</p>
+            </div>
         `;
     }
 
@@ -234,11 +238,12 @@ async function search(event) {
     return false;
 }
 
-// Gắn lại sự kiện khi DOM load
+// Gắn sự kiện khi trang load
 document.addEventListener('DOMContentLoaded', () => {
     const forms = document.querySelectorAll('form');
     forms.forEach(form => {
-        if (form.querySelector('input[type="search"]')) {
+        const hasSearchInput = form.querySelector('input[type="search"]');
+        if (hasSearchInput) {
             form.onsubmit = search;
         }
     });
@@ -246,7 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Gắn cho nút Search nếu có onclick
     const buttons = document.querySelectorAll('button[type="submit"]');
     buttons.forEach(btn => {
-        if (btn.textContent.includes('Search')) {
+        if (btn.textContent.trim() === 'Search') {
             btn.onclick = (e) => {
                 e.preventDefault();
                 search(e);
