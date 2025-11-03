@@ -194,3 +194,56 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch((err) => console.error("⚠️ Lỗi khi đọc và xử lý file JSON:", err));
 });
+
+document.addEventListener("DOMContentLoaded", async () => {
+  const top10Container = document.querySelector("#top10-books");
+  if (!top10Container) return;
+
+  try {
+    const response = await fetch("books.json");
+    if (!response.ok) throw new Error("Không thể tải file books.json");
+
+    const data = await response.json();
+    const top10 = data.top10;
+    if (!Array.isArray(top10)) throw new Error("Cấu trúc top10 không hợp lệ.");
+
+    // Hàm rút gọn chuỗi
+    const shorten = (text, limit = 40) =>
+      text.length > limit ? text.slice(0, limit - 3) + "..." : text;
+
+    const html = `
+      <div class="d-flex flex-column gap-1">
+        ${top10
+          .map(
+            (book, index) => `
+          <div class="d-flex align-items-center mb-2 p-1 bg-light rounded shadow-sm" style="min-height:55px;">
+            <img src="${book.image}" alt="${book.name}" 
+                 class="me-2"
+                 style="width:40px;height:55px;object-fit:cover;border-radius:4px;">
+
+            <div style="flex:1; line-height:1.2; max-width:200px;">
+              <p class="mb-1 fw-bold text-dark small font-weight-bold" title="${book.name}">
+                ${index + 1}. ${shorten(book.name, 40)}
+              </p>
+              <p class="mb-0 text-danger fw-semibold" style="font-size:0.85rem;">
+                ${book.price}
+              </p>
+            </div>
+
+            <img src="${book.link_image_author}" alt="Ảnh tác giả"
+                 title="${book.author}"
+                 style="width:30px;height:30px;border-radius:50%;object-fit:cover;margin-left:6px;">
+          </div>
+        `
+          )
+          .join("")}
+      </div>
+    `;
+
+    top10Container.innerHTML = html;
+  } catch (err) {
+    console.error(err);
+    top10Container.innerHTML =
+      "<p class='text-danger'>❌ Không thể tải danh sách Top 10.</p>";
+  }
+});
