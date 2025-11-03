@@ -315,104 +315,135 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+// ============================
+  // === BỔ SUNG: XEM CHI TIẾT ===
+  // - Dùng event delegation trên productListElement
+  // - Khi click vào card (không phải nút add-to-cart) -> tìm product bằng data-product-id -> hiển thị modal
+  // ============================
 
+  // Tạo modal HTML nếu chưa có (tạo động)
+  function ensureDetailModalExists() {
+    let modalEl = document.getElementById('productDetailModal');
+    if (modalEl) return modalEl;
 
-// Tạo modal HTML nếu chưa có (tạo động)
-function ensureDetailModalExists() {
-  let modalEl = document.getElementById('productDetailModal');
-  if (modalEl) return modalEl;
-
-  modalEl = document.createElement('div');
-  modalEl.id = 'productDetailModal';
-  modalEl.className = 'modal fade show'; // thêm "show" để dễ xử lý hiển thị
-  modalEl.style.display = 'none'; // mặc định ẩn
-  modalEl.innerHTML = `
-    <div class="modal-dialog modal-lg modal-dialog-centered" style="max-width: 800px; margin: auto;">
-      <div class="modal-content" style="border-radius: 10px; overflow: hidden;">
-        <div class="modal-header bg-danger text-white d-flex justify-content-between align-items-center">
-          <h5 class="modal-title" id="detail-title">Chi tiết sản phẩm</h5>
-          <button type="button" class="btn-close-modal" style="background:none; border:none; color:white; font-size:1.5rem;">×</button>
-        </div>
-        <div class="modal-body">
-          <div class="row">
-            <div class="col-md-4 text-center">
-              <img id="detail-image" src="" alt="" class="img-fluid rounded mb-3" style="max-height:360px; object-fit:contain;">
-            </div>
-            <div class="col-md-8">
-              <h5 id="detail-title-2"></h5>
-              <p><strong>Tác giả:</strong> <span id="detail-author">Đang cập nhật</span></p>
-              <p><strong>Thể loại:</strong> <span id="detail-category">Đang cập nhật</span></p>
-              <p><strong>Giá:</strong> <span id="detail-price" class="text-danger fw-bold"></span></p>
-              <hr>
-              <div id="detail-content" class="small text-secondary"></div>
+    modalEl = document.createElement('div');
+    modalEl.id = 'productDetailModal';
+    modalEl.className = 'modal fade';
+    modalEl.tabIndex = -1;
+    modalEl.setAttribute('aria-hidden','true');
+    modalEl.innerHTML = `
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-danger text-white">
+            <h5 class="modal-title" id="detail-title">Chi tiết sản phẩm</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-4 text-center">
+                <img id="detail-image" src="" alt="" class="img-fluid rounded mb-3" style="max-height:360px; object-fit:contain;">
+              </div>
+              <div class="col-md-8">
+                <h5 id="detail-title-2"></h5>
+                <p><strong>Tác giả:</strong> <span id="detail-author">Đang cập nhật</span></p>
+                <p><strong>Thể loại:</strong> <span id="detail-category">Đang cập nhật</span></p>
+                <p><strong>Giá:</strong> <span id="detail-price" class="text-danger fw-bold"></span></p>
+                <hr>
+                <div id="detail-content" class="small text-secondary"></div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary btn-close-modal">Đóng</button>
-          <button type="button" class="btn btn-danger add-to-cart-from-modal">Thêm vào giỏ</button>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+            <button type="button" class="btn btn-danger add-to-cart-from-modal">Thêm vào giỏ</button>
+          </div>
         </div>
       </div>
-    </div>
-  `;
-  document.body.appendChild(modalEl);
+    `;
+    document.body.appendChild(modalEl);
 
-  // ========== Đóng modal ==========
-  function hideModal() {
-    modalEl.style.display = 'none';
-    document.body.style.overflow = ''; // bỏ chặn cuộn
-    const backdrop = document.getElementById('customModalBackdrop');
-    if (backdrop) backdrop.remove();
+    // Nút "Thêm vào giỏ" trong modal: mặc định đóng modal (có thể mở rộng)
+    modalEl.querySelector('.add-to-cart-from-modal')?.addEventListener('click', () => {
+      const bs = bootstrap.Modal.getInstance(modalEl);
+      if (bs) bs.hide();
+      // TODO: bổ sung hoàn thiện add-to-cart nếu cần (vd: localStorage)
+    });
+
+    return modalEl;
   }
 
-  // Gắn sự kiện cho nút “Đóng”
-  modalEl.querySelectorAll('.btn-close-modal').forEach(btn => {
-    btn.addEventListener('click', hideModal);
-  });
+  // Hàm hiển thị chi tiết: dùng productId (number)
+  function showProductDetail(productId) {
+    const idNum = parseInt(productId, 10);
+    if (isNaN(idNum)) {
+      console.error('productId không hợp lệ:', productId);
+      return;
+    }
+    const product = allProducts.find(p => p.id === idNum);
+    if (!product) {
+      console.warn('Không tìm thấy sản phẩm với id =', idNum);
+      return;
+    }
 
-  // Nút “Thêm vào giỏ”
-  modalEl.querySelector('.add-to-cart-from-modal')?.addEventListener('click', () => {
-    hideModal();
-    // TODO: xử lý thêm vào giỏ nếu cần
-  });
+    const modalEl = ensureDetailModalExists();
 
-  return modalEl;
-}
+    // Điền dữ liệu
+    const imgEl = modalEl.querySelector('#detail-image');
+    if (imgEl) {
+      imgEl.src = product.image || 'https://via.placeholder.com/200x300?text=No+Image';
+      imgEl.onerror = function(){ this.src = 'https://via.placeholder.com/200x300?text=No+Image'; };
+    }
+    const titleMain = modalEl.querySelector('#detail-title');
+    const title2 = modalEl.querySelector('#detail-title-2');
+    const authorEl = modalEl.querySelector('#detail-author');
+    const categoryEl = modalEl.querySelector('#detail-category');
+    const priceEl = modalEl.querySelector('#detail-price');
+    const contentEl = modalEl.querySelector('#detail-content');
 
-// Hàm hiển thị modal thủ công (không cần Bootstrap)
-function showProductDetail(productId) {
-  const idNum = parseInt(productId, 10);
-  const product = allProducts.find(p => p.id === idNum);
-  if (!product) return;
+    if (titleMain) titleMain.textContent = product.title || 'Không rõ tên';
+    if (title2) title2.textContent = product.title || 'Không rõ tên';
+    if (authorEl) authorEl.textContent = product.author || 'Không rõ';
+    if (categoryEl) categoryEl.textContent = product.category || 'Không rõ';
+    if (priceEl) priceEl.textContent = (typeof product.price === 'number' ? product.price.toLocaleString('vi-VN') + 'đ' : (product.price || '')) ;
+    if (contentEl) contentEl.textContent = product.content || 'Chưa có mô tả chi tiết.';
 
-  const modalEl = ensureDetailModalExists();
-
-  // Điền dữ liệu
-  modalEl.querySelector('#detail-image').src = product.image || 'https://via.placeholder.com/200x300?text=No+Image';
-  modalEl.querySelector('#detail-title').textContent = product.title || 'Không rõ tên';
-  modalEl.querySelector('#detail-title-2').textContent = product.title || 'Không rõ tên';
-  modalEl.querySelector('#detail-author').textContent = product.author || 'Không rõ';
-  modalEl.querySelector('#detail-category').textContent = product.category || 'Không rõ';
-  modalEl.querySelector('#detail-price').textContent = (typeof product.price === 'number' ? product.price.toLocaleString('vi-VN') + 'đ' : (product.price || ''));
-  modalEl.querySelector('#detail-content').textContent = product.content || 'Chưa có mô tả chi tiết.';
-
-  // Hiển thị modal (thủ công)
-  modalEl.style.display = 'block';
-  document.body.style.overflow = 'hidden';
-
-  // Tạo nền mờ
-  if (!document.getElementById('customModalBackdrop')) {
-    const backdrop = document.createElement('div');
-    backdrop.id = 'customModalBackdrop';
-    backdrop.style.position = 'fixed';
-    backdrop.style.top = '0';
-    backdrop.style.left = '0';
-    backdrop.style.width = '100%';
-    backdrop.style.height = '100%';
-    backdrop.style.background = 'rgba(0,0,0,0.5)';
-    backdrop.style.zIndex = '1040';
-    document.body.appendChild(backdrop);
-    backdrop.addEventListener('click', () => modalEl.querySelector('.btn-close-modal').click());
+    // Hiển thị modal (Bootstrap 5)
+    try {
+      const bsModal = new bootstrap.Modal(modalEl);
+      bsModal.show();
+    } catch (err) {
+      console.error('Không tìm thấy Bootstrap JS: ', err);
+      // fallback: alert
+      alert(`${product.title}\nTác giả: ${product.author}\nGiá: ${priceEl?.textContent || ''}\n\n${product.content || ''}`);
+    }
   }
-}
 
+  // Event delegation: bắt click trên productListElement
+  if (productListElement) {
+    productListElement.addEventListener('click', (e) => {
+      // nếu click vào nút add-to-cart thì bỏ qua (không mở modal)
+      if (e.target.closest('.add-to-cart-btn')) return;
+
+      const card = e.target.closest('.product-card');
+      if (!card) return;
+
+      const productId = card.getAttribute('data-product-id');
+      if (productId) {
+        showProductDetail(productId);
+      } else {
+        // fallback: cố gắng tìm theo title + giá nếu data-product-id không có
+        const title = card.querySelector('.product-title')?.textContent?.trim();
+        const priceText = card.querySelector('.product-price')?.textContent?.trim();
+        if (title) {
+          // tìm product bằng title + giá
+          const matched = allProducts.find(p => p.title === title || (p.title && title.includes(p.title)) || (p.price && priceText && (p.price.toLocaleString('vi-VN') + 'đ') === priceText));
+          if (matched) showProductDetail(matched.id);
+        }
+      }
+    });
+  }
+
+  // ============================
+  // === KẾT THÚC BỔ SUNG CHỨC NĂNG
+  // ============================
+});    cái này để làm cái gì
