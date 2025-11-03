@@ -136,7 +136,7 @@ $(document).ready(function() {
             
             // Sau 3 giây, tự động chuyển sang trang đăng nhập
             setTimeout(function() {
-                window.location.href = "../index.html";
+                window.location.href = window.location.origin + "/btlweb/index.html";
             }, 3000);
         }
     });
@@ -179,3 +179,4 @@ $(document).ready(function() {
         }
     );
 });
+
