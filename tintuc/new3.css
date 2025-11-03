@@ -74,3 +74,13 @@ body {
   margin: 0;
   padding: 0;
 }
+/* ===== Nút cuộn lên đầu trang ===== */
+button.btn.btn-primary.position-fixed {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-weight: bold;
+  padding: 0;
+  line-height: 36px;
+}
+
