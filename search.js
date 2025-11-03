@@ -124,117 +124,134 @@
 // }
 // search.js - DÙNG CHUNG CHO index.html và footer/Gioithieu.html
 
+// search.js - Dùng chung cho index.html và footer/Gioithieu.html
+// Giữ nguyên giao diện list-group như file gốc
+// Tự động thêm ../ vào ảnh khi ở footer/
+
 async function search(event) {
     event.preventDefault();
 
     const searchInput = document.querySelector('input[type="search"]');
-    const query = searchInput.value.trim();
+    const query = searchInput.value.trim().toLowerCase();
+
     if (!query) {
-        alert("Vui lòng nhập từ khóa tìm kiếm!");
+        alert("Vui lòng nhập tên sách để tìm kiếm.");
         return false;
     }
 
-    // Tạo vùng chứa kết quả nếu chưa có
-    let container = document.getElementById('search-results');
-    if (!container) {
-        container = document.createElement('div');
-        container.id = 'search-results';
-        container.className = 'container mt-4';
-        const main = document.querySelector('main');
-        if (main) {
-            main.insertBefore(container, main.firstChild);
-        } else {
-            document.body.appendChild(container);
-        }
-    }
+    // Xác định đường dẫn ảnh (tự động thêm ../ nếu ở footer/)
+    const isInFooter = window.location.pathname.includes('/footer/');
+    const imagePrefix = isInFooter ? '../' : '';
 
-    // Hiển thị loading
-    container.innerHTML = `
-        <div class="text-center py-5">
-            <div class="spinner-border text-primary" role="status"></div>
-            <p class="mt-3">Đang tìm "${query}"...</p>
-        </div>
-    `;
-    container.style.display = 'block';
+    // Tạo vùng chứa kết quả (giống file gốc)
+    let mainContent = document.querySelector('main');
+    if (!mainContent) return false;
+
+    // Xóa nội dung cũ
+    mainContent.innerHTML = '';
+
+    // Tạo container kết quả
+    const container = document.createElement('div');
+    container.className = 'container mt-4';
+
+    const heading = document.createElement('h2');
+    heading.className = 'mb-4';
 
     try {
-        // TỰ ĐỘNG XÁC ĐỊNH ĐƯỜNG DẪN books.json
-        const isInFooter = window.location.pathname.includes('/footer/');
+        // Đường dẫn books.json
         const jsonPath = isInFooter ? '../books.json' : 'books.json';
-
         const response = await fetch(jsonPath);
-        if (!response.ok) throw new Error(`Không tải được ${jsonPath}`);
+        if (!response.ok) throw new Error('Không tải được books.json');
 
         const data = await response.json();
         const allBooks = Object.values(data.books).flat();
 
+        // Tìm kiếm trong tên sách
         const results = allBooks.filter(book =>
-            book.name.toLowerCase().includes(query.toLowerCase()) ||
-            book.author.toLowerCase().includes(query.toLowerCase())
+            book.name.toLowerCase().includes(query)
         );
 
-        displayResults(results, query, container);
+        if (results.length > 0) {
+            heading.innerHTML = `Kết quả tìm kiếm cho: <span class="text-success">"${query}"</span>`;
+
+            const resultsList = document.createElement('div');
+            resultsList.className = 'list-group';
+
+            results.forEach(book => {
+                const bookItem = document.createElement('div');
+                bookItem.className = 'list-group-item d-flex align-items-center mb-3 shadow-sm';
+
+                // Ảnh sách (thêm ../ nếu cần)
+                const bookImage = document.createElement('img');
+                bookImage.src = imagePrefix + book.image;
+                bookImage.alt = book.name;
+                bookImage.style.width = '90px';
+                bookImage.style.height = '130px';
+                bookImage.style.objectFit = 'cover';
+                bookImage.className = 'mr-4';
+
+                // Thông tin sách
+                const bookInfo = document.createElement('div');
+
+                const bookName = document.createElement('h5');
+                bookName.textContent = book.name;
+                bookName.className = 'mb-1';
+
+                const bookAuthor = document.createElement('p');
+                bookAuthor.innerHTML = `<small class="text-muted">Tác giả: ${book.author}</small>`;
+                bookAuthor.className = 'mb-2';
+
+                const bookPrice = document.createElement('p');
+                bookPrice.textContent = book.price;
+                bookPrice.className = 'font-weight-bold text-danger mb-0';
+
+                bookInfo.appendChild(bookName);
+                bookInfo.appendChild(bookAuthor);
+                bookInfo.appendChild(bookPrice);
+
+                bookItem.appendChild(bookImage);
+                bookItem.appendChild(bookInfo);
+                resultsList.appendChild(bookItem);
+            });
+
+            container.appendChild(heading);
+            container.appendChild(resultsList);
+
+        } else {
+            heading.textContent = `Không tìm thấy kết quả nào phù hợp với từ khóa "${query}"`;
+            container.appendChild(heading);
+        }
 
     } catch (error) {
-        console.error("Lỗi tìm kiếm:", error);
+        console.error("Lỗi:", error);
         container.innerHTML = `
-            <div class="text-center text-danger py-5">
-                <h5>Không thể tải dữ liệu sách</h5>
-                <p>Kiểm tra file <code>books.json</code> và đường dẫn.</p>
-            </div>
+            <h3 class="text-danger">Lỗi!</h3>
+            <p>Không thể tải dữ liệu sách. Vui lòng kiểm tra tệp <code>books.json</code>.</p>
         `;
     }
 
+    mainContent.appendChild(container);
     return false;
 }
 
-function displayResults(books, query, container) {
-    container.innerHTML = '';
-
-    if (books.length === 0) {
-        container.innerHTML = `
-            <div class="text-center py-5">
-                <h4>Không tìm thấy kết quả cho "<span class="text-primary">${query}</span>"</h4>
-                <p class="text-muted">Thử từ khóa khác nhé!</p>
-            </div>
-        `;
-        return;
-    }
-
-    const heading = document.createElement('h3');
-    heading.className = 'mb-4 text-center';
-    heading.innerHTML = `Tìm thấy <strong class="text-success">${books.length}</strong> kết quả cho "<span class="text-primary">${query}</span>"`;
-
-    const row = document.createElement('div');
-    row.className = 'row g-4';
-
-    books.forEach(book => {
-        const col = document.createElement('div');
-        col.className = 'col-6 col-md-4 col-lg-3';
-        col.innerHTML = `
-            <div class="card h-100 shadow-sm border-0">
-                <img src="${book.image}" class="card-img-top" alt="${book.name}" style="height: 180px; object-fit: cover;">
-                <div class="card-body p-3 d-flex flex-column">
-                    <h6 class="card-title mb-2" title="${book.name}">${book.name}</h6>
-                    <p class="text-muted small mb-1">Tác giả: ${book.author}</p>
-                    <p class="text-danger font-weight-bold mb-2">${book.price}</p>
-                    <a href="#" class="btn btn-outline-primary btn-sm mt-auto">Xem chi tiết</a>
-                </div>
-            </div>
-        `;
-        row.appendChild(col);
-    });
-
-    container.appendChild(heading);
-    container.appendChild(row);
-}
-
-// Tự động gắn lại sự kiện khi trang load
+// Gắn lại sự kiện khi DOM load
 document.addEventListener('DOMContentLoaded', () => {
     const forms = document.querySelectorAll('form');
     forms.forEach(form => {
         if (form.querySelector('input[type="search"]')) {
-            form.onsubmit = (e) => search(e);
+            form.onsubmit = search;
+        }
+    });
+
+    // Gắn cho nút Search nếu có onclick
+    const buttons = document.querySelectorAll('button[type="submit"]');
+    buttons.forEach(btn => {
+        if (btn.textContent.includes('Search')) {
+            btn.onclick = (e) => {
+                e.preventDefault();
+                search(e);
+                return false;
+            };
         }
     });
 });
