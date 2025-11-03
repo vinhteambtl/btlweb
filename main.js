@@ -220,8 +220,8 @@ document.addEventListener("DOMContentLoaded", async () => {
             (book, index) => `
           <div class="d-flex align-items-center mb-2 p-1 bg-light rounded shadow-sm" style="min-height:55px;">
             <img src="${book.image}" alt="${book.name}" 
-                 class="mr-4"
-                 style="width:40px;height:55px;object-fit:cover;border-radius:4px;">
+                 class="me-2"
+                 style="width:40px;height:55px;object-fit:cover;border-radius:4px;margin-right:15px;">
 
             <div style="flex:1; line-height:1.2; max-width:200px;">
               <p class="mb-1 fw-bold text-dark small font-weight-bold" title="${book.name}">
@@ -249,3 +249,4 @@ document.addEventListener("DOMContentLoaded", async () => {
       "<p class='text-danger'>❌ Không thể tải danh sách Top 10.</p>";
   }
 });
+
