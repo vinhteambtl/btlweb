@@ -1,4 +1,4 @@
-search có nội dug như sau :"async function search() {
+async function search() {
     event.preventDefault();
     // 1. Lấy nội dung người dùng nhập vào ô tìm kiếm
     const searchInput = document.querySelector('input[type="search"]');
@@ -121,4 +121,5 @@ function displaySearchResults(books, query) {
     
     mainContent.appendChild(container);
 
-} "
+}
+
