@@ -34,15 +34,13 @@ document.addEventListener("DOMContentLoaded", () => {
             id: allProducts.length + 1,
             title: book.name,
             author: book.author,
-            price: parseInt((book.price || '').replace(/[^\d]/g, '')) || 0,
+            price: parseInt(book.price.replace(/[^\d]/g, '')) || 0,
             category: category,
             tags: book.genre ? book.genre.split(',').map(tag => tag.trim()) : [],
             image: (book.image && book.image.trim() !== '') ?
               (book.image.startsWith('http') ? book.image : `${book.image}`) :
               'https://via.placeholder.com/180x250?text=No+Image',
-            link_image_author: book.link_image_author || 'https://via.placeholder.com/100?text=Author',
-            // giữ content/description nếu có
-            content: book.Content || book.description || ''
+            link_image_author: book.link_image_author || 'https://via.placeholder.com/100?text=Author'
           });
         });
       });
@@ -70,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
     paginatedProducts.forEach(product => {
       const productHTML = `
         <div class="col mb-4">
-          <div class="card product-card h-100 border-0 shadow-sm" data-product-id="${product.id}">
+          <div class="card product-card h-100 border-0 shadow-sm">
             <img src="${product.image}" class="card-img-top product-image" alt="${product.title}" 
                  onerror="this.src='https://via.placeholder.com/180x250?text=No+Image';">
             <div class="card-body p-2 d-flex flex-column">
@@ -299,7 +297,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   <div class="card-body text-center p-1">
                     <img src="${author.link_image_author}"
                          class="img-fluid mb-2 rounded-circle"
-                         style="width: 100px; height: 100px; object-fit: cover; margin-top: 30px;"
+                         style="width: 80px; height: 80px; object-fit: cover; margin-top: 20px;"
                          alt="${author.author}"
                          onerror="this.src='https://via.placeholder.com/100?text=Author';">
                     <p class="text-truncate mb-3 mt-2" style="font-size: 0.85rem;">${author.author}</p>
@@ -313,138 +311,4 @@ document.addEventListener("DOMContentLoaded", () => {
       container.insertAdjacentHTML('beforeend', slideHTML);
     }
   }
-
-
-  // ============================
-  // === BỔ SUNG: XEM CHI TIẾT ===
-  // - Dùng event delegation trên productListElement
-  // - Khi click vào card (không phải nút add-to-cart) -> tìm product bằng data-product-id -> hiển thị modal
-  // ============================
-
-  // Tạo modal HTML nếu chưa có (tạo động)
-  function ensureDetailModalExists() {
-    let modalEl = document.getElementById('productDetailModal');
-    if (modalEl) return modalEl;
-
-    modalEl = document.createElement('div');
-    modalEl.id = 'productDetailModal';
-    modalEl.className = 'modal fade';
-    modalEl.tabIndex = -1;
-    modalEl.setAttribute('aria-hidden','true');
-    modalEl.innerHTML = `
-      <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header bg-danger text-white">
-            <h5 class="modal-title" id="detail-title">Chi tiết sản phẩm</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
-          </div>
-          <div class="modal-body">
-            <div class="row">
-              <div class="col-md-4 text-center">
-                <img id="detail-image" src="" alt="" class="img-fluid rounded mb-3" style="max-height:360px; object-fit:contain;">
-              </div>
-              <div class="col-md-8">
-                <h5 id="detail-title-2"></h5>
-                <p><strong>Tác giả:</strong> <span id="detail-author">Đang cập nhật</span></p>
-                <p><strong>Thể loại:</strong> <span id="detail-category">Đang cập nhật</span></p>
-                <p><strong>Giá:</strong> <span id="detail-price" class="text-danger fw-bold"></span></p>
-                <hr>
-                <div id="detail-content" class="small text-secondary"></div>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
-            <button type="button" class="btn btn-danger add-to-cart-from-modal">Thêm vào giỏ</button>
-          </div>
-        </div>
-      </div>
-    `;
-    document.body.appendChild(modalEl);
-
-    // Nút "Thêm vào giỏ" trong modal: mặc định đóng modal (có thể mở rộng)
-    modalEl.querySelector('.add-to-cart-from-modal')?.addEventListener('click', () => {
-      const bs = bootstrap.Modal.getInstance(modalEl);
-      if (bs) bs.hide();
-      // TODO: bổ sung hoàn thiện add-to-cart nếu cần (vd: localStorage)
-    });
-
-    return modalEl;
-  }
-
-  // Hàm hiển thị chi tiết: dùng productId (number)
-  function showProductDetail(productId) {
-    const idNum = parseInt(productId, 10);
-    if (isNaN(idNum)) {
-      console.error('productId không hợp lệ:', productId);
-      return;
-    }
-    const product = allProducts.find(p => p.id === idNum);
-    if (!product) {
-      console.warn('Không tìm thấy sản phẩm với id =', idNum);
-      return;
-    }
-
-    const modalEl = ensureDetailModalExists();
-
-    // Điền dữ liệu
-    const imgEl = modalEl.querySelector('#detail-image');
-    if (imgEl) {
-      imgEl.src = product.image || 'https://via.placeholder.com/200x300?text=No+Image';
-      imgEl.onerror = function(){ this.src = 'https://via.placeholder.com/200x300?text=No+Image'; };
-    }
-    const titleMain = modalEl.querySelector('#detail-title');
-    const title2 = modalEl.querySelector('#detail-title-2');
-    const authorEl = modalEl.querySelector('#detail-author');
-    const categoryEl = modalEl.querySelector('#detail-category');
-    const priceEl = modalEl.querySelector('#detail-price');
-    const contentEl = modalEl.querySelector('#detail-content');
-
-    if (titleMain) titleMain.textContent = product.title || 'Không rõ tên';
-    if (title2) title2.textContent = product.title || 'Không rõ tên';
-    if (authorEl) authorEl.textContent = product.author || 'Không rõ';
-    if (categoryEl) categoryEl.textContent = product.category || 'Không rõ';
-    if (priceEl) priceEl.textContent = (typeof product.price === 'number' ? product.price.toLocaleString('vi-VN') + 'đ' : (product.price || '')) ;
-    if (contentEl) contentEl.textContent = product.content || 'Chưa có mô tả chi tiết.';
-
-    // Hiển thị modal (Bootstrap 5)
-    try {
-      const bsModal = new bootstrap.Modal(modalEl);
-      bsModal.show();
-    } catch (err) {
-      console.error('Không tìm thấy Bootstrap JS: ', err);
-      // fallback: alert
-      alert(`${product.title}\nTác giả: ${product.author}\nGiá: ${priceEl?.textContent || ''}\n\n${product.content || ''}`);
-    }
-  }
-
-  // Event delegation: bắt click trên productListElement
-  if (productListElement) {
-    productListElement.addEventListener('click', (e) => {
-      // nếu click vào nút add-to-cart thì bỏ qua (không mở modal)
-      if (e.target.closest('.add-to-cart-btn')) return;
-
-      const card = e.target.closest('.product-card');
-      if (!card) return;
-
-      const productId = card.getAttribute('data-product-id');
-      if (productId) {
-        showProductDetail(productId);
-      } else {
-        // fallback: cố gắng tìm theo title + giá nếu data-product-id không có
-        const title = card.querySelector('.product-title')?.textContent?.trim();
-        const priceText = card.querySelector('.product-price')?.textContent?.trim();
-        if (title) {
-          // tìm product bằng title + giá
-          const matched = allProducts.find(p => p.title === title || (p.title && title.includes(p.title)) || (p.price && priceText && (p.price.toLocaleString('vi-VN') + 'đ') === priceText));
-          if (matched) showProductDetail(matched.id);
-        }
-      }
-    });
-  }
-
-  // ============================
-  // === KẾT THÚC BỔ SUNG CHỨC NĂNG
-  // ============================
-});  
-
+});
