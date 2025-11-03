@@ -1,0 +1,107 @@
+body {
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.payment-list .bank-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  background: #fff;
+}
+
+.payment-list .bank-item img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.payment-list .bank-item:hover {
+  border-color: #28a745;
+  background-color: #f0fff4;
+}
+
+.payment-list .bank-item.active {
+  border: 2px solid #28a745;
+  background-color: #eafaea;
+}
+
+.qr-box img {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+}
+
+#confirm-btn {
+  font-size: 1rem;
+}
+
+.popup-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.4);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-box {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  animation: fadeIn 0.4s ease;
+}
+
+.back-home-wrapper {
+  margin-bottom: 10px;
+}
+
+.back-home-link {
+  text-decoration: none;
+  color: #2e7d32;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.back-home-link:hover {
+  color: #43a047;
+  text-decoration: underline;
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.back-home-wrapper {
+  margin-bottom: 10px;
+}
+
+.back-home-link {
+  text-decoration: none;
+  color: #2e7d32; /* xanh đậm */
+  font-weight: 600;
+  transition: 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+}
+
+.back-home-link:hover {
+  color: #43a047; /* xanh sáng hơn khi hover */
+  text-decoration: underline;
+  transform: translateX(-3px);
+}
