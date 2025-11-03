@@ -27,9 +27,9 @@ body {
 }
 
 .btn-home:hover {
-    background-color: #2c8b2c !important;
-    color: white !important;
-    text-decoration: none !important;
+    background-color: #2c8b2c;
+    color: white ;
+    text-decoration: none ;
 }
 
 .container {
@@ -413,3 +413,4 @@ h2 {
     }
 
 }
+
