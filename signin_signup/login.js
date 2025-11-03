@@ -69,7 +69,7 @@ $(document).ready(function() {
 
             // Tự động chuyển hướng về trang chủ
             setTimeout(() => {
-                window.location.href = "index.html";
+                window.location.href = "../index.html";
             }, 2500);
         }
     });
@@ -111,6 +111,7 @@ $(document).ready(function() {
         }
     );
 });
+
 
 
 
