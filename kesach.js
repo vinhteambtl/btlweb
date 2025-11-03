@@ -41,7 +41,6 @@ document.addEventListener("DOMContentLoaded", () => {
               (book.image.startsWith('http') ? book.image : `${book.image}`) :
               'https://via.placeholder.com/180x250?text=No+Image',
             link_image_author: book.link_image_author || 'https://via.placeholder.com/100?text=Author',
-            // giữ content/description nếu có
             content: book.Content || book.description || ''
           });
         });
@@ -93,28 +92,23 @@ document.addEventListener("DOMContentLoaded", () => {
     renderPagination(productsToDisplay.length);
   }
 
-  // --- 2. LỌC & SẮP XẾP (TRẢ VỀ KẾT QUẢ) ---
+  // --- CÁC HÀM KHÁC (filter, sort, pagination...) ---
   function filterAndSortProducts() {
     if (allProducts.length === 0) {
-      renderProducts([]); // render empty
+      renderProducts([]);
       return [];
     }
-
     let filtered = allProducts.filter(product => {
       const searchLower = currentFilters.search.toLowerCase();
       const titleMatch = product.title.toLowerCase().includes(searchLower);
       const authorMatch = product.author.toLowerCase().includes(searchLower);
       const tagMatch = product.tags.some(tag => tag.toLowerCase().includes(searchLower));
       const matchesSearch = currentFilters.search === '' || titleMatch || authorMatch || tagMatch;
-
       const matchesAuthor = currentFilters.author.length === 0 || currentFilters.author.includes(product.author);
       const matchesCategory = currentFilters.category.length === 0 || currentFilters.category.includes(product.category);
-      const matchesPrice = !currentFilters.price ||
-        (product.price >= currentFilters.price.min && product.price <= currentFilters.price.max);
-
+      const matchesPrice = !currentFilters.price || (product.price >= currentFilters.price.min && product.price <= currentFilters.price.max);
       return matchesSearch && matchesAuthor && matchesCategory && matchesPrice;
     });
-
     filtered.sort((a, b) => {
       switch (currentSort) {
         case 'price-asc': return a.price - b.price;
@@ -123,55 +117,43 @@ document.addEventListener("DOMContentLoaded", () => {
         default: return a.id - b.id;
       }
     });
-
-    // IMPORTANT: Không reset currentPage ở đây nữa.
     renderProducts(filtered);
     return filtered;
   }
 
-  // --- 3. XÓA LỌC ---
   function clearAllFilters() {
     currentFilters = { search: '', author: [], price: null, category: [] };
     searchInput && (searchInput.value = '');
-    document.querySelectorAll('.filter-list input[type="checkbox"], .filter-list input[type="radio"]').forEach(input => {
-      input.checked = false;
-    });
+    document.querySelectorAll('.filter-list input[type="checkbox"], .filter-list input[type="radio"]').forEach(input => input.checked = false);
     currentSort = 'default';
     sortDropdown.textContent = 'Sắp xếp: Mặc định';
-
-    // reset trang khi xóa lọc
     currentPage = 1;
     filterAndSortProducts();
   }
 
-  // --- 4. TÌM KIẾM ---
   if (searchButton && searchInput) {
     searchButton.addEventListener('click', (e) => {
       e.preventDefault();
       currentFilters.search = searchInput.value.trim();
-      currentPage = 1; // reset trang khi tìm kiếm mới
+      currentPage = 1;
       filterAndSortProducts();
     });
-
     searchInput.addEventListener('keypress', (e) => {
       if (e.key === 'Enter') {
         e.preventDefault();
         currentFilters.search = searchInput.value.trim();
-        currentPage = 1; // reset trang khi tìm kiếm mới
+        currentPage = 1;
         filterAndSortProducts();
       }
     });
   }
 
-  // --- 5. LỌC THEO CHECKBOX & RADIO ---
   filterLists.forEach(list => {
     list.addEventListener('change', (e) => {
       const input = e.target;
       if (!input.matches('input')) return;
-
       const filterType = input.getAttribute('data-filter');
       const filterValue = input.value;
-
       if (filterType === 'author' || filterType === 'category') {
         const arr = currentFilters[filterType];
         if (input.checked) {
@@ -186,141 +168,79 @@ document.addEventListener("DOMContentLoaded", () => {
           max: parseInt(input.getAttribute('data-max')) || Infinity
         };
       }
-
-      // reset trang khi thay đổi bộ lọc
       currentPage = 1;
       filterAndSortProducts();
     });
   });
 
-  // --- 6. SẮP XẾP ---
   sortOptions.forEach(option => {
     option.addEventListener('click', (e) => {
       e.preventDefault();
       currentSort = option.getAttribute('data-sort');
       sortDropdown.textContent = `Sắp xếp: ${option.textContent.trim()}`;
-      // reset trang khi thay đổi sắp xếp
       currentPage = 1;
       filterAndSortProducts();
     });
   });
 
-  // --- 7. XÓA LỌC ---
   if (clearFiltersBtn) {
     clearFiltersBtn.addEventListener('click', clearAllFilters);
   }
 
-  // --- 8. PHÂN TRANG (TỐI ĐA 9 TRANG) ---
   function renderPagination(totalProducts) {
     const totalPages = Math.ceil(totalProducts / productsPerPage);
     paginationNav.innerHTML = '';
-
     if (totalPages <= 1) return;
-
     const maxVisible = 9;
     let startPage = Math.max(1, currentPage - Math.floor(maxVisible / 2));
     let endPage = Math.min(totalPages, startPage + maxVisible - 1);
     if (endPage - startPage + 1 < maxVisible) {
       startPage = Math.max(1, endPage - maxVisible + 1);
     }
-
-    let html = `
-      <li class="page-item ${currentPage === 1 ? 'disabled' : ''}">
-        <a class="page-link" href="#" data-page="${currentPage - 1}">Trước</a>
-      </li>
-    `;
-
+    let html = `<li class="page-item ${currentPage === 1 ? 'disabled' : ''}"><a class="page-link" href="#" data-page="${currentPage - 1}">Trước</a></li>`;
     for (let i = startPage; i <= endPage; i++) {
-      html += `
-        <li class="page-item ${i === currentPage ? 'active' : ''}">
-          <a class="page-link" href="#" data-page="${i}">${i}</a>
-        </li>
-      `;
+      html += `<li class="page-item ${i === currentPage ? 'active' : ''}"><a class="page-link" href="#" data-page="${i}">${i}</a></li>`;
     }
-
-    html += `
-      <li class="page-item ${currentPage === totalPages ? 'disabled' : ''}">
-        <a class="page-link" href="#" data-page="${currentPage + 1}">Sau</a>
-      </li>
-    `;
-
+    html += `<li class="page-item ${currentPage === totalPages ? 'disabled' : ''}"><a class="page-link" href="#" data-page="${currentPage + 1}">Sau</a></li>`;
     paginationNav.innerHTML = html;
-
-    // --- GẮN SỰ KIỆN CHO CÁC LINK PHÂN TRANG ---
     paginationNav.querySelectorAll('.page-link').forEach(link => {
       link.addEventListener('click', e => {
         e.preventDefault();
         const newPage = parseInt(link.getAttribute('data-page'));
-        const totalPagesLocal = totalPages; // captured
-        if (isNaN(newPage)) return;
-        if (newPage > 0 && newPage <= totalPagesLocal && newPage !== currentPage) {
+        if (!isNaN(newPage) && newPage > 0 && newPage <= totalPages && newPage !== currentPage) {
           currentPage = newPage;
-          // CHỈ gọi filterAndSortProducts vì nó sẽ renderProducts dựa trên currentPage hiện tại
           filterAndSortProducts();
         }
       });
     });
   }
 
-  // --- 9. CAROUSEL TÁC GIẢ ---
   function populateAuthorsCarousel(books) {
     const container = document.querySelector("#carouselAuthors .carousel-inner");
     if (!container) return;
-
     const perSlide = 6;
     const authors = {};
-
     books.forEach(book => {
       if (book.author && !authors[book.author]) {
         authors[book.author] = book.link_image_author;
       }
     });
-
-    const uniqueAuthors = Object.keys(authors).map(name => ({
-      author: name,
-      link_image_author: authors[name]
-    }));
-
+    const uniqueAuthors = Object.keys(authors).map(name => ({ author: name, link_image_author: authors[name] }));
     const totalSlides = Math.ceil(uniqueAuthors.length / perSlide);
-
-    container.innerHTML = ''; // Xóa cũ
-
+    container.innerHTML = '';
     for (let i = 0; i < totalSlides; i++) {
       const start = i * perSlide;
       const end = start + perSlide;
       const slideAuthors = uniqueAuthors.slice(start, end);
-
-      const slideHTML = `
-        <div class="carousel-item ${i === 0 ? 'active' : ''}">
-          <div class="row px-3 justify-content-center">
-            ${slideAuthors.map(author => `
-              <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
-                <div class="card bg-dark text-white border-secondary shadow-sm" style="border-radius: 0.6rem; overflow: hidden;">
-                  <div class="card-body text-center p-1">
-                    <img src="${author.link_image_author}"
-                         class="img-fluid mb-2 rounded-circle"
-                         style="width: 80px; height: 80px; object-fit: cover; margin-top: 20px;"
-                         alt="${author.author}"
-                         onerror="this.src='https://via.placeholder.com/100?text=Author';">
-                    <p class="text-truncate mb-3 mt-2" style="font-size: 0.85rem;">${author.author}</p>
-                  </div>
-                </div>
-              </div>
-            `).join('')}
-          </div>
-        </div>
-      `;
+      const slideHTML = `<div class="carousel-item ${i === 0 ? 'active' : ''}"><div class="row px-3 justify-content-center">${slideAuthors.map(author => `<div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3"><div class="card bg-dark text-white border-secondary shadow-sm" style="border-radius: 0.6rem; overflow: hidden;"><div class="card-body text-center p-1"><img src="${author.link_image_author}" class="img-fluid mb-2 rounded-circle" style="width: 80px; height: 80px; object-fit: cover; margin-top: 20px;" alt="${author.author}" onerror="this.src='https://via.placeholder.com/100?text=Author';"><p class="text-truncate mb-3 mt-2" style="font-size: 0.85rem;">${author.author}</p></div></div></div>`).join('')}</div></div>`;
       container.insertAdjacentHTML('beforeend', slideHTML);
     }
   }
 
   // ============================
-  // === BỔ SUNG: XEM CHI TIẾT ===
-  // - Dùng event delegation trên productListElement
-  // - Khi click vào card (không phải nút add-to-cart) -> tìm product bằng data-product-id -> hiển thị modal
+  // === XEM CHI TIẾT SẢN PHẨM ===
   // ============================
 
-  // Tạo modal HTML nếu chưa có (tạo động)
   function ensureDetailModalExists() {
     let modalEl = document.getElementById('productDetailModal');
     if (modalEl) return modalEl;
@@ -335,7 +255,9 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="modal-content">
           <div class="modal-header bg-danger text-white">
             <h5 class="modal-title" id="detail-title">Chi tiết sản phẩm</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Đóng">
+            <span aria-hidden="true">&times;</span>
+            </button>
           </div>
           <div class="modal-body">
             <div class="row">
@@ -353,7 +275,7 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
             <button type="button" class="btn btn-danger add-to-cart-from-modal">Thêm vào giỏ</button>
           </div>
         </div>
@@ -361,88 +283,111 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
     document.body.appendChild(modalEl);
 
-    // Nút "Thêm vào giỏ" trong modal: mặc định đóng modal (có thể mở rộng)
-    modalEl.querySelector('.add-to-cart-from-modal')?.addEventListener('click', () => {
-      const bs = bootstrap.Modal.getInstance(modalEl);
-      if (bs) bs.hide();
-      // TODO: bổ sung hoàn thiện add-to-cart nếu cần (vd: localStorage)
+    // === THAY ĐỔI 2: CẬP NHẬT EVENT LISTENER CHO NÚT TRONG MODAL ===
+    modalEl.querySelector('.add-to-cart-from-modal').addEventListener('click', () => {
+        const productId = modalEl.getAttribute('data-current-product-id');
+        if (!productId) {
+            console.error("Không tìm thấy ID sản phẩm trong modal.");
+            return;
+        }
+        const product = allProducts.find(p => p.id == parseInt(productId));
+        if (product) {
+            const book = {
+                name: product.title,
+                price: product.price,
+                qty: 1,
+                img: product.image
+            };
+            addToCart(book);
+        }
+        $('#productDetailModal').modal('hide');
     });
+    // ============================================================
 
     return modalEl;
   }
 
-  // Hàm hiển thị chi tiết: dùng productId (number)
   function showProductDetail(productId) {
     const idNum = parseInt(productId, 10);
-    if (isNaN(idNum)) {
-      console.error('productId không hợp lệ:', productId);
-      return;
-    }
+    if (isNaN(idNum)) return;
+    
     const product = allProducts.find(p => p.id === idNum);
-    if (!product) {
-      console.warn('Không tìm thấy sản phẩm với id =', idNum);
-      return;
-    }
+    if (!product) return;
 
     const modalEl = ensureDetailModalExists();
+    
+    // === THAY ĐỔI 1: LƯU ID SẢN PHẨM VÀO MODAL ===
+    modalEl.setAttribute('data-current-product-id', product.id);
+    // ============================================
 
-    // Điền dữ liệu
-    const imgEl = modalEl.querySelector('#detail-image');
-    if (imgEl) {
-      imgEl.src = product.image || 'https://via.placeholder.com/200x300?text=No+Image';
-      imgEl.onerror = function(){ this.src = 'https://via.placeholder.com/200x300?text=No+Image'; };
-    }
-    const titleMain = modalEl.querySelector('#detail-title');
-    const title2 = modalEl.querySelector('#detail-title-2');
-    const authorEl = modalEl.querySelector('#detail-author');
-    const categoryEl = modalEl.querySelector('#detail-category');
-    const priceEl = modalEl.querySelector('#detail-price');
-    const contentEl = modalEl.querySelector('#detail-content');
+    modalEl.querySelector('#detail-image').src = product.image || 'https://via.placeholder.com/200x300?text=No+Image';
+    modalEl.querySelector('#detail-title').textContent = product.title || 'Không rõ tên';
+    modalEl.querySelector('#detail-title-2').textContent = product.title || 'Không rõ tên';
+    modalEl.querySelector('#detail-author').textContent = product.author || 'Không rõ';
+    modalEl.querySelector('#detail-category').textContent = product.category || 'Không rõ';
+    modalEl.querySelector('#detail-price').textContent = (typeof product.price === 'number' ? product.price.toLocaleString('vi-VN') + 'đ' : (product.price || '')) ;
+    modalEl.querySelector('#detail-content').textContent = product.content || 'Chưa có mô tả chi tiết.';
 
-    if (titleMain) titleMain.textContent = product.title || 'Không rõ tên';
-    if (title2) title2.textContent = product.title || 'Không rõ tên';
-    if (authorEl) authorEl.textContent = product.author || 'Không rõ';
-    if (categoryEl) categoryEl.textContent = product.category || 'Không rõ';
-    if (priceEl) priceEl.textContent = (typeof product.price === 'number' ? product.price.toLocaleString('vi-VN') + 'đ' : (product.price || '')) ;
-    if (contentEl) contentEl.textContent = product.content || 'Chưa có mô tả chi tiết.';
-
-    // Hiển thị modal (Bootstrap 5)
     try {
-      const bsModal = new bootstrap.Modal(modalEl);
-      bsModal.show();
+      $('#productDetailModal').modal('show');
     } catch (err) {
-      console.error('Không tìm thấy Bootstrap JS: ', err);
-      // fallback: alert
-      alert(`${product.title}\nTác giả: ${product.author}\nGiá: ${priceEl?.textContent || ''}\n\n${product.content || ''}`);
+      console.error('Lỗi khi hiển thị modal:', err);
     }
   }
 
-  // Event delegation: bắt click trên productListElement
   if (productListElement) {
     productListElement.addEventListener('click', (e) => {
-      // nếu click vào nút add-to-cart thì bỏ qua (không mở modal)
       if (e.target.closest('.add-to-cart-btn')) return;
-
       const card = e.target.closest('.product-card');
-      if (!card) return;
-
-      const productId = card.getAttribute('data-product-id');
-      if (productId) {
-        showProductDetail(productId);
-      } else {
-        // fallback: cố gắng tìm theo title + giá nếu data-product-id không có
-        const title = card.querySelector('.product-title')?.textContent?.trim();
-        const priceText = card.querySelector('.product-price')?.textContent?.trim();
-        if (title) {
-          // tìm product bằng title + giá
-          const matched = allProducts.find(p => p.title === title || (p.title && title.includes(p.title)) || (p.price && priceText && (p.price.toLocaleString('vi-VN') + 'đ') === priceText));
-          if (matched) showProductDetail(matched.id);
+      if (card) {
+        const productId = card.getAttribute('data-product-id');
+        if (productId) {
+          showProductDetail(productId);
         }
       }
     });
   }
+  
+  // ===============================
+  // CHỨC NĂNG THÊM VÀO GIỎ HÀNG
+  // ===============================
 
-  // ============================
-  // === KẾT THÚC BỔ SUNG CHỨC NĂNG
-  // ============================
+  document.addEventListener("click", function (e) {
+    if (e.target.closest(".add-to-cart-btn")) {
+      const card = e.target.closest(".product-card");
+      const title = card.querySelector(".product-title").innerText;
+      const price = parseInt(card.querySelector(".product-price").innerText.replace(/\D/g, ""));
+      const img = card.querySelector(".product-image").src;
+      const book = { name: title, price: price, qty: 1, img: img };
+      addToCart(book);
+    }
+  });
+
+  function addToCart(book) {
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+    const existing = cart.find(item => item.name === book.name);
+    if (existing) {
+      existing.qty += 1;
+    } else {
+      cart.push(book);
+    }
+    localStorage.setItem("cart", JSON.stringify(cart));
+    showToast(`Đã thêm "${book.name}" vào giỏ hàng`);
+  }
+
+  function showToast(message) {
+    let toast = document.createElement("div");
+    toast.textContent = message;
+    toast.style.position = "fixed";
+    toast.style.bottom = "20px";
+    toast.style.right = "20px";
+    toast.style.background = "#28a745";
+    toast.style.color = "#fff";
+    toast.style.padding = "10px 15px";
+    toast.style.borderRadius = "5px";
+    toast.style.zIndex = "9999";
+    toast.style.boxShadow = "0 2px 6px rgba(0,0,0,0.2)";
+    document.body.appendChild(toast);
+    setTimeout(() => toast.remove(), 2000);
+  }
 });
