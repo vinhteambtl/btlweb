@@ -58,4 +58,13 @@ pre {
   word-break: break-word; /* tránh chữ bị tràn */
   margin-bottom: 20px; /* khoảng cách dưới */
 }
+/* ===== Nút cuộn lên đầu trang ===== */
+button.btn.btn-primary.position-fixed {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-weight: bold;
+  padding: 0;
+  line-height: 36px;
+}
 
