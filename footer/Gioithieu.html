@@ -139,39 +139,25 @@
     </div>
   </main>
 
- <!-- ========== Newsletter (mảnh, căn giữa) ========== -->
+ <!-- Newsletter (mảnh, căn giữa) -->
 <section class="newsletter py-3">
-  <div class="container">
-    <div class="row justify-content-center align-items-center text-center text-md-left">
-      <!-- Tiêu đề -->
+  <div class="container text-center">
+    <div class="row justify-content-center align-items-center">
       <div class="col-12 col-md-auto mb-2 mb-md-0">
-        <span class="newsletter-title text-uppercase font-weight-bold text-white">
+        <span class="newsletter-title fw-bold text-uppercase text-white">
           NHẬN THÔNG TIN KHUYẾN MÃI TỪ CHÚNG TÔI
         </span>
       </div>
 
-      <!-- Form -->
       <div class="col-12 col-md-auto">
-        <form
-          class="newsletter-form d-flex flex-wrap justify-content-center justify-content-md-start align-items-center"
-          onsubmit="return validateEmail(event)"
-        >
-          <input
-            type="email"
-            class="form-control newsletter-input mr-md-2 mb-2 mb-md-0"
-            placeholder="Nhập email ưu đãi"
-            required
-          />
-          <button type="submit" class="btn btn-signup">Đăng ký</button>
-          <small class="newsletter-error d-none text-danger w-100 text-center mt-1">
-            ❌ Chỉ chấp nhận email Gmail, Yahoo, iCloud hoặc Outlook.
-          </small>
+        <form class="d-flex flex-md-nowrap flex-wrap justify-content-center align-items-center newsletter-form" onsubmit="return false;">
+          <input type="email" class="form-control newsletter-input me-md-2 mb-2 mb-md-0" placeholder="Nhập email ưu đãi">
+          <button class="btn btn-signup">Đăng ký</button>
         </form>
       </div>
     </div>
   </div>
 </section>
-
 
 
   <!-- Footer chính -->
@@ -233,6 +219,7 @@
   <script src="../search.js"></script>
 </body>
 </html>
+
 
 
 
