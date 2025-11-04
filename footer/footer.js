@@ -1,62 +1,62 @@
-// === FOOTER JS ===
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector(".newsletter-form");
   const input = form?.querySelector(".newsletter-input");
   const button = form?.querySelector(".btn-signup");
+  const errorEl = form?.querySelector(".newsletter-error");
 
-  if (!form || !input || !button) return;
+  if (!form || !input || !button || !errorEl) return;
 
-  // Thêm thẻ hiển thị thông báo ngay sau input
-  let message = document.createElement("small");
-  message.className = "newsletter-error text-danger d-block mt-1";
-  form.insertBefore(message, button.nextSibling);
-
-  // Lấy danh sách email đã đăng ký
   let registeredEmails = JSON.parse(localStorage.getItem("emails")) || [];
 
-  // Sự kiện click nút "Đăng ký"
   button.addEventListener("click", () => {
     const email = input.value.trim();
-    message.style.color = "red";
+    errorEl.textContent = "";
+    errorEl.classList.remove("show");
+    errorEl.style.color = "#ff4d4f";
 
-    // 1️⃣ Kiểm tra rỗng
-    if (email === "") {
-      message.textContent = "⚠️ Vui lòng nhập email.";
+    // 1. Kiểm tra rỗng
+    if (!email) {
+      errorEl.textContent = "Vui lòng nhập email.";
+      errorEl.classList.add("show");
       return;
     }
 
-    // 2️⃣ Kiểm tra định dạng
+    // 2. Kiểm tra định dạng
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailPattern.test(email)) {
-      message.textContent = "⚠️ Email không hợp lệ.";
+      errorEl.textContent = "Email không hợp lệ.";
+      errorEl.classList.add("show");
       return;
     }
 
-    // 3️⃣ Kiểm tra miền hợp lệ
-    const allowedDomains = ["gmail.com", "yahoo.com", "icloud.com", "outlook.com"];
+    // 3. Kiểm tra miền
     const domain = email.split("@")[1]?.toLowerCase();
-    if (!allowedDomains.includes(domain)) {
-      message.textContent = "🚫 Chỉ chấp nhận email Gmail, Yahoo, iCloud hoặc Outlook.";
+    const allowed = ["gmail.com", "yahoo.com", "icloud.com", "outlook.com"];
+    if (!allowed.includes(domain)) {
+      errorEl.textContent = "Chỉ chấp nhận Gmail, Yahoo, iCloud, Outlook.";
+      errorEl.classList.add("show");
       return;
     }
 
-    // 4️⃣ Kiểm tra trùng lặp
+    // 4. Kiểm tra trùng
     if (registeredEmails.includes(email)) {
-      message.textContent = "🔁 Email này đã được đăng ký.";
+      errorEl.textContent = "Email này đã được đăng ký.";
+      errorEl.classList.add("show");
       return;
     }
 
-    // ✅ Nếu hợp lệ
+    // Thành công
     registeredEmails.push(email);
     localStorage.setItem("emails", JSON.stringify(registeredEmails));
+    errorEl.style.color = "limegreen";
+    errorEl.textContent = "Gửi thành công!";
+    errorEl.classList.add("show");
 
-    message.style.color = "limegreen";
-    message.textContent = "✅ Gửi thành công!";
-
-    // Xóa input & reset sau 2.5 giây
+    // Reset sau 2.5s
     setTimeout(() => {
       input.value = "";
-      message.textContent = "";
+      errorEl.textContent = "";
+      errorEl.classList.remove("show");
     }, 2500);
   });
 });
