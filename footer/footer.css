@@ -6,7 +6,7 @@ body {
 }
 /* newsletter.css */
 
-/* ========== NEWSLETTER - CĂN GIỮA HOÀN HẢO, GẦN HƠN ========== */
+/* ========== NEWSLETTER - HOÀN TOÀN RESET SAU 5S ========== */
 .newsletter {
   background-color: #3b403c;
   border-top: 4px solid rgba(0, 0, 0, 0.06);
@@ -19,7 +19,6 @@ body {
   padding: 0 15px;
 }
 
-/* Row: CĂN GIỮA TUYỆT ĐỐI */
 .newsletter .row {
   display: flex;
   flex-wrap: wrap;
@@ -38,18 +37,20 @@ body {
   margin: 0;
 }
 
-/* Form: căn giữa, gần hơn */
+/* Form */
 .newsletter-form {
   width: 100%;
   max-width: 460px;
   justify-content: center;
   margin: 0 auto;
+  transition: all 0.3s ease;
 }
 
 /* Input wrapper */
 .newsletter-input-wrapper {
   position: relative;
   flex: 1;
+  transition: min-width 0.3s ease, max-width 0.3s ease;
 }
 
 /* Input */
@@ -84,7 +85,7 @@ body {
   background-color: #2e9e34;
 }
 
-/* Lỗi: căn giữa */
+/* Lỗi */
 .newsletter-error {
   font-size: 12.5px;
   color: #ff4d4f;
@@ -100,13 +101,22 @@ body {
   opacity: 1;
 }
 
+/* ========== TRẠNG THÁI "COLLAPSED" – NHƯ BAN ĐẦU ========== */
+#newsletter-form-col.collapsed .newsletter-input-wrapper {
+  min-width: 240px !important;
+  max-width: 300px !important;
+}
+
+#newsletter-form-col.collapsed .newsletter-form {
+  max-width: 460px !important;
+}
+
 /* ========== RESPONSIVE ========== */
 @media (min-width: 992px) {
   .newsletter-form { flex-direction: row !important; }
 }
 @media (min-width: 576px) and (max-width: 991.98px) {
   .newsletter-form { flex-direction: row !important; gap: 10px; }
-  .newsletter-input-wrapper { min-width: 220px; max-width: 260px; }
 }
 @media (max-width: 575.98px) {
   .newsletter-title { font-size: 12px; }
@@ -168,6 +178,7 @@ body {
 footer.footer {
   padding-top: 15px;
 }
+
 
 
 
