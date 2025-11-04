@@ -6,7 +6,7 @@ body {
 }
 /* newsletter.css */
 
-/* ========== NEWSLETTER - THEO ĐÚNG YÊU CẦU ========== */
+/* ========== NEWSLETTER - CĂN GIỮA HOÀN HẢO ========== */
 .newsletter {
   background-color: #3b403c;
   border-top: 4px solid rgba(0, 0, 0, 0.06);
@@ -19,14 +19,15 @@ body {
   padding: 0 15px;
 }
 
-/* Row: căn giữa toàn bộ */
+/* Row: CĂN GIỮA TUYỆT ĐỐI */
 .newsletter .row {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
-  gap: 12px;
+  align-items: center;
+  gap: 16px;
   min-height: 56px;
+  text-align: center;
 }
 
 /* Tiêu đề */
@@ -37,13 +38,12 @@ body {
   letter-spacing: 0.6px;
   white-space: nowrap;
   margin: 0;
-  text-align: center;
 }
 
-/* Form */
+/* Form: căn giữa */
 .newsletter-form {
   width: 100%;
-  max-width: 420px;
+  max-width: 500px;
   justify-content: center;
 }
 
@@ -51,7 +51,6 @@ body {
 .newsletter-input-wrapper {
   position: relative;
   flex: 1;
-  min-width: 220px;
 }
 
 /* Input */
@@ -60,17 +59,18 @@ body {
   height: 38px;
   border-radius: 6px;
   border: none;
-  padding: 0 12px;
+  padding: 0 14px;
   font-size: 14px;
   outline: none;
   box-shadow: none;
   display: block;
+  background: #fff;
 }
 
 /* Nút */
 .btn-signup {
   height: 38px;
-  padding: 0 20px;
+  padding: 0 24px;
   background-color: #1c1e20;
   color: #fff;
   border: none;
@@ -79,83 +79,72 @@ body {
   white-space: nowrap;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
   transition: background 0.3s ease;
-  min-width: 90px;
+  min-width: 100px;
 }
 
 .btn-signup:hover {
   background-color: #2e9e34;
 }
 
-/* Lỗi: luôn ở dưới input, không lệch */
+/* Lỗi: căn giữa, không lệch */
 .newsletter-error {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -22px;
   font-size: 12.5px;
   color: #ff4d4f;
-  text-align: center;
   opacity: 0;
   transition: opacity 0.2s ease;
   pointer-events: none;
   width: 100%;
+  text-align: center;
+  margin-top: 4px;
 }
 
 .newsletter-error.show {
   opacity: 1;
 }
 
-/* ========== RESPONSIVE THEO YÊU CẦU ========== */
+/* ========== RESPONSIVE – CĂN GIỮA MỌI KÍCH THƯỚC ========== */
 
-/* 1. Desktop (≥992px): 1 hàng, lỗi ở dưới */
+/* Desktop: 1 hàng */
 @media (min-width: 992px) {
   .newsletter-form {
     flex-direction: row !important;
   }
   .newsletter-input-wrapper {
-    min-width: 260px;
     max-width: 300px;
   }
 }
 
-/* 2. Tablet (576px – 991px): 2 hàng (tiêu đề + form), form 1 hàng */
+/* Tablet: 2 hàng */
 @media (min-width: 576px) and (max-width: 991.98px) {
   .newsletter-form {
     flex-direction: row !important;
     gap: 12px;
   }
-  .newsletter-input-wrapper,
-  .newsletter-input {
-    min-width: 220px;
-    max-width: 100%;
-  }
-  .btn-signup {
-    min-width: 100px;
+  .newsletter-input-wrapper {
+    min-width: 240px;
+    max-width: 280px;
   }
 }
 
-/* 3. Mobile (≤575px): 4 hàng */
+/* Mobile: 4 hàng */
 @media (max-width: 575.98px) {
   .newsletter-title {
     font-size: 12px;
   }
   .newsletter-form {
     flex-direction: column !important;
-    align-items: stretch !important;
+    align-items: center !important;
     gap: 10px;
   }
   .newsletter-input-wrapper,
   .newsletter-input,
   .btn-signup {
     width: 100% !important;
-    min-width: 100% !important;
+    max-width: 100% !important;
   }
   .newsletter-error {
     position: static;
     margin-top: 8px;
-    text-align: center;
-    opacity: 1;
-    display: block;
   }
   .newsletter-error:not(.show) {
     display: none;
@@ -214,6 +203,7 @@ body {
 footer.footer {
   padding-top: 15px;
 }
+
 
 
 
