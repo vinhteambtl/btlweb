@@ -1,35 +1,39 @@
 // newsletter.js
 document.addEventListener("DOMContentLoaded", () => {
-  const form = document.querySelector(".newsletter-form");
-  const input = form?.querySelector(".newsletter-input");
-  const button = form?.querySelector(".btn-signup");
-  const errorEl = form?.querySelector(".newsletter-error");
+  const formCol = document.getElementById("newsletter-form-col");
+  const form = formCol.querySelector(".newsletter-form");
+  const input = form.querySelector(".newsletter-input");
+  const button = form.querySelector(".btn-signup");
+  const errorEl = form.querySelector(".newsletter-error");
 
-  if (!form || !input || !button || !errorEl) return;
+  if (!formCol || !form || !input || !button || !errorEl) return;
 
   let registeredEmails = JSON.parse(localStorage.getItem("emails")) || [];
   let resetTimeout = null;
 
-  // Hàm reset form
-  const resetForm = () => {
+  // Hàm reset hoàn toàn như ban đầu
+  const resetToInitial = () => {
     input.value = "";
-    input.placeholder = "Nhập email ưu đãi"; // Đảm bảo placeholder hiện lại
+    input.placeholder = "Nhập email ưu đãi";
     errorEl.textContent = "";
     errorEl.classList.remove("show");
+    formCol.classList.add("collapsed"); // Thu nhỏ lại
   };
 
-  // Hàm hiển thị lỗi + tự ẩn
+  // Hàm hiển thị lỗi + tự reset
   const showError = (msg) => {
     errorEl.textContent = msg;
     errorEl.classList.add("show");
+    formCol.classList.remove("collapsed"); // Mở rộng khi có lỗi
     clearTimeout(resetTimeout);
-    resetTimeout = setTimeout(resetForm, 5000); // 5 giây
+    resetTimeout = setTimeout(resetToInitial, 5000);
   };
 
   button.addEventListener("click", () => {
     const email = input.value.trim();
     clearTimeout(resetTimeout);
     errorEl.classList.remove("show");
+    formCol.classList.remove("collapsed"); // Mở rộng khi click
 
     if (!email) {
       showError("Vui lòng nhập email.");
@@ -60,11 +64,12 @@ document.addEventListener("DOMContentLoaded", () => {
     errorEl.classList.add("show");
 
     // Reset sau 5 giây
-    resetTimeout = setTimeout(resetForm, 5000);
+    resetTimeout = setTimeout(resetToInitial, 5000);
   });
 
-  // Nếu người dùng nhập lại → hủy reset
+  // Nếu người dùng nhập → hủy reset
   input.addEventListener("input", () => {
     clearTimeout(resetTimeout);
+    formCol.classList.remove("collapsed");
   });
 });
