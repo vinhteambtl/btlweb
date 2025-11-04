@@ -4,10 +4,9 @@ body {
   font-family: Arial, sans-serif;
   color: #333;
 }
-
 /* newsletter.css */
 
-/* ========== NEWSLETTER - TẤT CẢ CĂN GIỮA ========== */
+/* ========== NEWSLETTER - THEO ĐÚNG YÊU CẦU ========== */
 .newsletter {
   background-color: #3b403c;
   border-top: 4px solid rgba(0, 0, 0, 0.06);
@@ -24,8 +23,8 @@ body {
 .newsletter .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   gap: 12px;
   min-height: 56px;
 }
@@ -38,9 +37,10 @@ body {
   letter-spacing: 0.6px;
   white-space: nowrap;
   margin: 0;
+  text-align: center;
 }
 
-/* Form: căn giữa */
+/* Form */
 .newsletter-form {
   width: 100%;
   max-width: 420px;
@@ -64,7 +64,7 @@ body {
   font-size: 14px;
   outline: none;
   box-shadow: none;
-  text-align: center;
+  display: block;
 }
 
 /* Nút */
@@ -86,24 +86,28 @@ body {
   background-color: #2e9e34;
 }
 
-/* Lỗi: căn giữa, không lệch */
+/* Lỗi: luôn ở dưới input, không lệch */
 .newsletter-error {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -22px;
   font-size: 12.5px;
   color: #ff4d4f;
+  text-align: center;
   opacity: 0;
   transition: opacity 0.2s ease;
   pointer-events: none;
   width: 100%;
-  text-align: center;
 }
 
 .newsletter-error.show {
   opacity: 1;
 }
 
-/* ========== RESPONSIVE – CĂN GIỮA MỌI KÍCH THƯỚC ========== */
+/* ========== RESPONSIVE THEO YÊU CẦU ========== */
 
-/* Desktop: 1 hàng, căn giữa */
+/* 1. Desktop (≥992px): 1 hàng, lỗi ở dưới */
 @media (min-width: 992px) {
   .newsletter-form {
     flex-direction: row !important;
@@ -114,7 +118,7 @@ body {
   }
 }
 
-/* Tablet: 2 hàng, căn giữa */
+/* 2. Tablet (576px – 991px): 2 hàng (tiêu đề + form), form 1 hàng */
 @media (min-width: 576px) and (max-width: 991.98px) {
   .newsletter-form {
     flex-direction: row !important;
@@ -130,26 +134,28 @@ body {
   }
 }
 
-/* Mobile: 4 hàng, căn giữa */
+/* 3. Mobile (≤575px): 4 hàng */
 @media (max-width: 575.98px) {
   .newsletter-title {
     font-size: 12px;
   }
   .newsletter-form {
     flex-direction: column !important;
-    align-items: center !important;
+    align-items: stretch !important;
     gap: 10px;
   }
   .newsletter-input-wrapper,
   .newsletter-input,
   .btn-signup {
     width: 100% !important;
-    max-width: 100% !important;
+    min-width: 100% !important;
   }
   .newsletter-error {
     position: static;
     margin-top: 8px;
+    text-align: center;
     opacity: 1;
+    display: block;
   }
   .newsletter-error:not(.show) {
     display: none;
@@ -208,6 +214,7 @@ body {
 footer.footer {
   padding-top: 15px;
 }
+
 
 
 
