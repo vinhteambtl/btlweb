@@ -19,11 +19,11 @@ body {
   padding: 0 15px;
 }
 
-/* Row: CĂN GIỮA TUYỆT ĐỐI */
+/* Row: CĂN GIỮA TOÀN BỘ */
 .newsletter .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center !important;
   align-items: center;
   gap: 16px;
   min-height: 56px;
@@ -45,6 +45,7 @@ body {
   width: 100%;
   max-width: 500px;
   justify-content: center;
+  margin: 0 auto;
 }
 
 /* Input wrapper */
@@ -63,7 +64,6 @@ body {
   font-size: 14px;
   outline: none;
   box-shadow: none;
-  display: block;
   background: #fff;
 }
 
@@ -86,12 +86,12 @@ body {
   background-color: #2e9e34;
 }
 
-/* Lỗi: căn giữa, không lệch */
+/* Lỗi: căn giữa */
 .newsletter-error {
   font-size: 12.5px;
   color: #ff4d4f;
   opacity: 0;
-  transition: opacity 0.2s ease;
+  transition: opacity 0.3s ease;
   pointer-events: none;
   width: 100%;
   text-align: center;
@@ -102,53 +102,20 @@ body {
   opacity: 1;
 }
 
-/* ========== RESPONSIVE – CĂN GIỮA MỌI KÍCH THƯỚC ========== */
-
-/* Desktop: 1 hàng */
+/* ========== RESPONSIVE ========== */
 @media (min-width: 992px) {
-  .newsletter-form {
-    flex-direction: row !important;
-  }
-  .newsletter-input-wrapper {
-    max-width: 300px;
-  }
+  .newsletter-form { flex-direction: row !important; }
 }
-
-/* Tablet: 2 hàng */
 @media (min-width: 576px) and (max-width: 991.98px) {
-  .newsletter-form {
-    flex-direction: row !important;
-    gap: 12px;
-  }
-  .newsletter-input-wrapper {
-    min-width: 240px;
-    max-width: 280px;
-  }
+  .newsletter-form { flex-direction: row !important; gap: 12px; }
+  .newsletter-input-wrapper { min-width: 240px; max-width: 280px; }
 }
-
-/* Mobile: 4 hàng */
 @media (max-width: 575.98px) {
-  .newsletter-title {
-    font-size: 12px;
-  }
-  .newsletter-form {
-    flex-direction: column !important;
-    align-items: center !important;
-    gap: 10px;
-  }
-  .newsletter-input-wrapper,
-  .newsletter-input,
-  .btn-signup {
-    width: 100% !important;
-    max-width: 100% !important;
-  }
-  .newsletter-error {
-    position: static;
-    margin-top: 8px;
-  }
-  .newsletter-error:not(.show) {
-    display: none;
-  }
+  .newsletter-title { font-size: 12px; }
+  .newsletter-form { flex-direction: column !important; align-items: center !important; gap: 10px; }
+  .newsletter-input-wrapper, .newsletter-input, .btn-signup { width: 100% !important; max-width: 100% !important; }
+  .newsletter-error { position: static; margin-top: 8px; }
+  .newsletter-error:not(.show) { display: none; }
 }
 /* ========== FOOTER CHÍNH (GIỮ NGUYÊN 100%) ========== */
 .footer {
@@ -203,6 +170,7 @@ body {
 footer.footer {
   padding-top: 15px;
 }
+
 
 
 
