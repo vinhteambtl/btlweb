@@ -139,26 +139,37 @@
     </div>
   </main>
 
- <!-- Newsletter (mảnh, căn giữa) -->
-<section class="newsletter py-3">
-  <div class="container text-center">
-    <div class="row justify-content-center align-items-center">
-      <div class="col-12 col-md-auto mb-2 mb-md-0">
-        <span class="newsletter-title fw-bold text-uppercase text-white">
+ <!-- Newsletter (mảnh, căn giữa, responsive, không lệch) -->
+<section class="newsletter">
+  <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <!-- Tiêu đề -->
+      <div class="col-12 col-md-auto text-center text-md-start mb-2 mb-md-0">
+        <span class="newsletter-title text-white fw-bold text-uppercase">
           NHẬN THÔNG TIN KHUYẾN MÃI TỪ CHÚNG TÔI
         </span>
       </div>
 
+      <!-- Form + Input + Button + Error -->
       <div class="col-12 col-md-auto">
-        <form class="d-flex flex-md-nowrap flex-wrap justify-content-center align-items-center newsletter-form" onsubmit="return false;">
-          <input type="email" class="form-control newsletter-input me-md-2 mb-2 mb-md-0" placeholder="Nhập email ưu đãi">
-          <button class="btn btn-signup">Đăng ký</button>
+        <form class="newsletter-form d-flex flex-column flex-md-row align-items-stretch gap-2" onsubmit="return false;">
+          <!-- Wrapper: input + lỗi (không làm lệch layout) -->
+          <div class="newsletter-input-wrapper position-relative">
+            <input 
+              type="email" 
+              class="form-control newsletter-input" 
+              placeholder="Nhập email ưu đãi"
+              style="min-width: 240px;">
+            <small class="newsletter-error"></small>
+          </div>
+
+          <!-- Nút đăng ký -->
+          <button type="button" class="btn btn-signup">Đăng ký</button>
         </form>
       </div>
     </div>
   </div>
 </section>
-
 
   <!-- Footer chính -->
   <footer class="footer">
@@ -219,6 +230,7 @@
   <script src="../search.js"></script>
 </body>
 </html>
+
 
 
 
