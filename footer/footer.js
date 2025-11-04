@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   form.appendChild(message);
 
   button.addEventListener('click', () => {
+   e.preventDefault(); // 🚫 Ngăn form gửi → không reload trang
     const email = input.value.trim();
     message.style.color = "red";
 
@@ -54,4 +55,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 2500);
   });
 });
+
 
