@@ -120,7 +120,7 @@ body {
 footer.footer {
   padding-top: 15px; /* hoặc 10px nếu muốn sát hơn */
 }
-/* responsive */
+/* /* responsive */
 @media (max-width: 767px) {
   .newsletter-inner {
     flex-direction: column;
@@ -142,4 +142,5 @@ footer.footer {
     margin-bottom: 20px;
     text-align: left;
   }
-}
+} */
+
