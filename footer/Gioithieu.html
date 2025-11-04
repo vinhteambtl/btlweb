@@ -150,9 +150,12 @@
       </div>
 
       <div class="col-12 col-md-auto">
-        <form class="d-flex justify-content-center flex-wrap newsletter-form" onsubmit="return false;">
-          <input type="email" class="form-control newsletter-input me-2" placeholder="Nhập email ưu đãi">
+        <form class="d-flex flex-md-nowrap flex-wrap justify-content-center align-items-center newsletter-form" onsubmit="return false;">
+          <input type="email" class="form-control newsletter-input me-md-2 mb-2 mb-md-0" placeholder="Nhập email ưu đãi">
           <button class="btn btn-signup">Đăng ký</button>
+          <small class="newsletter-error d-none text-danger ms-2">
+          ❌ Chỉ chấp nhận email Gmail, Yahoo, iCloud hoặc Outlook.
+          </small>
         </form>
       </div>
     </div>
@@ -219,6 +222,7 @@
   <script src="../search.js"></script>
 </body>
 </html>
+
 
 
 
