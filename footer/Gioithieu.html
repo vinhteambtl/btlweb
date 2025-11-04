@@ -142,25 +142,26 @@
 <!-- newsletter.html -->
 <section class="newsletter py-3">
   <div class="container">
-    <div class="row justify-content-center align-items-center g-3">
-      
+    <div class="row justify-content-center align-items-center g-3 text-center">
+
       <!-- Tiêu đề -->
-      <div class="col-12 col-lg-auto text-center text-lg-start mb-2 mb-lg-0">
-        <span class="newsletter-title text-white fw-bold text-uppercase">
+      <div class="col-12 col-lg-auto mb-3 mb-lg-0">
+        <span class="newsletter-title text-white fw-bold text-uppercase d-block">
           NHẬN THÔNG TIN KHUYẾN MÃI TỪ CHÚNG TÔI
         </span>
       </div>
 
-      <!-- Form + Input + Button + Error -->
-      <div class="col-12 col-lg">
-        <form class="newsletter-form d-flex flex-column flex-sm-row flex-lg-row align-items-center align-items-sm-stretch gap-2 gap-sm-3 w-100" onsubmit="return false;">
-          <div class="newsletter-input-wrapper position-relative flex-fill">
-            <input type="email" class="form-control newsletter-input" placeholder="Nhập email ưu đãi">
-            <small class="newsletter-error text-danger"></small>
+      <!-- Form -->
+      <div class="col-12 col-lg-auto">
+        <form class="newsletter-form d-flex flex-column flex-sm-row align-items-center gap-2 gap-sm-3 w-100" onsubmit="return false;">
+          <div class="newsletter-input-wrapper position-relative flex-fill" style="min-width: 220px; max-width: 320px;">
+            <input type="email" class="form-control newsletter-input w-100 text-center" placeholder="Nhập email ưu đãi">
+            <small class="newsletter-error text-danger d-block mt-1"></small>
           </div>
-          <button type="button" class="btn btn-signup px-4 flex-shrink-0">Đăng ký</button>
+          <button type="button" class="btn btn-signup px-4">Đăng ký</button>
         </form>
       </div>
+
     </div>
   </div>
 </section>
@@ -223,6 +224,7 @@
   <script src="../search.js"></script>
 </body>
 </html>
+
 
 
 
