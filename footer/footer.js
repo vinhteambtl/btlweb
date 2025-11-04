@@ -17,23 +17,28 @@ document.addEventListener("DOMContentLoaded", () => {
     input.placeholder = "Nhập email ưu đãi";
     errorEl.textContent = "";
     errorEl.classList.remove("show");
-    formCol.classList.add("collapsed"); // Thu nhỏ lại
+    formCol.classList.add("collapsed");
   };
 
-  // Hàm hiển thị lỗi + tự reset
+  // Hàm bắt đầu đếm ngược 4 GIÂY
+  const startResetTimer = () => {
+    clearTimeout(resetTimeout);
+    resetTimeout = setTimeout(resetToInitial, 4000); 
+  };
+
+  // Hàm hiển thị lỗi
   const showError = (msg) => {
     errorEl.textContent = msg;
     errorEl.classList.add("show");
-    formCol.classList.remove("collapsed"); // Mở rộng khi có lỗi
-    clearTimeout(resetTimeout);
-    resetTimeout = setTimeout(resetToInitial, 5000);
+    formCol.classList.remove("collapsed");
+    startResetTimer(); // Reset sau 4s
   };
 
   button.addEventListener("click", () => {
     const email = input.value.trim();
     clearTimeout(resetTimeout);
     errorEl.classList.remove("show");
-    formCol.classList.remove("collapsed"); // Mở rộng khi click
+    formCol.classList.remove("collapsed");
 
     if (!email) {
       showError("Vui lòng nhập email.");
@@ -63,13 +68,14 @@ document.addEventListener("DOMContentLoaded", () => {
     errorEl.textContent = "Gửi thành công!";
     errorEl.classList.add("show");
 
-    // Reset sau 5 giây
-    resetTimeout = setTimeout(resetToInitial, 5000);
+    startResetTimer(); // Reset sau 4s
   });
 
-  // Nếu người dùng nhập → hủy reset
   input.addEventListener("input", () => {
     clearTimeout(resetTimeout);
     formCol.classList.remove("collapsed");
   });
+
+  // Ban đầu: thu nhỏ
+  formCol.classList.add("collapsed");
 });
