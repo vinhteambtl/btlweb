@@ -7,7 +7,7 @@ body {
 
 /* newsletter.css */
 
-/* ========== NEWSLETTER - CO DÃN TỰ NHIÊN ========== */
+/* ========== NEWSLETTER - TẤT CẢ CĂN GIỮA ========== */
 .newsletter {
   background-color: #3b403c;
   border-top: 4px solid rgba(0, 0, 0, 0.06);
@@ -20,13 +20,13 @@ body {
   padding: 0 15px;
 }
 
-/* Row: căn giữa, co dãn */
+/* Row: căn giữa toàn bộ */
 .newsletter .row {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
-  gap: 16px;
+  align-items: center;
+  gap: 12px;
   min-height: 56px;
 }
 
@@ -40,10 +40,11 @@ body {
   margin: 0;
 }
 
-/* Form: co dãn mượt */
+/* Form: căn giữa */
 .newsletter-form {
   width: 100%;
   max-width: 420px;
+  justify-content: center;
 }
 
 /* Input wrapper */
@@ -63,6 +64,7 @@ body {
   font-size: 14px;
   outline: none;
   box-shadow: none;
+  text-align: center;
 }
 
 /* Nút */
@@ -84,54 +86,73 @@ body {
   background-color: #2e9e34;
 }
 
-/* Lỗi: không làm lệch */
+/* Lỗi: căn giữa, không lệch */
 .newsletter-error {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -20px;
   font-size: 12.5px;
   color: #ff4d4f;
-  text-align: center;
   opacity: 0;
-  transition: opacity 0.2s;
+  transition: opacity 0.2s ease;
   pointer-events: none;
+  width: 100%;
+  text-align: center;
 }
 
 .newsletter-error.show {
   opacity: 1;
 }
 
-/* ========== CO DÃN TỰ NHIÊN THEO MÀN HÌNH ========== */
+/* ========== RESPONSIVE – CĂN GIỮA MỌI KÍCH THƯỚC ========== */
 
-/* Tablet trở lên: 1 hàng nếu đủ chỗ */
-@media (min-width: 576px) {
+/* Desktop: 1 hàng, căn giữa */
+@media (min-width: 992px) {
   .newsletter-form {
     flex-direction: row !important;
   }
   .newsletter-input-wrapper {
-    min-width: 250px;
+    min-width: 260px;
     max-width: 300px;
   }
 }
 
-/* Mobile: xuống dòng, full width */
+/* Tablet: 2 hàng, căn giữa */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .newsletter-form {
+    flex-direction: row !important;
+    gap: 12px;
+  }
+  .newsletter-input-wrapper,
+  .newsletter-input {
+    min-width: 220px;
+    max-width: 100%;
+  }
+  .btn-signup {
+    min-width: 100px;
+  }
+}
+
+/* Mobile: 4 hàng, căn giữa */
 @media (max-width: 575.98px) {
   .newsletter-title {
     font-size: 12px;
+  }
+  .newsletter-form {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 10px;
   }
   .newsletter-input-wrapper,
   .newsletter-input,
   .btn-signup {
     width: 100% !important;
-    min-width: 100% !important;
-  }
-  .newsletter-form {
-    gap: 10px;
+    max-width: 100% !important;
   }
   .newsletter-error {
-    bottom: -18px;
-    font-size: 12px;
+    position: static;
+    margin-top: 8px;
+    opacity: 1;
+  }
+  .newsletter-error:not(.show) {
+    display: none;
   }
 }
 /* ========== FOOTER CHÍNH (GIỮ NGUYÊN 100%) ========== */
@@ -187,6 +208,7 @@ body {
 footer.footer {
   padding-top: 15px;
 }
+
 
 
 
