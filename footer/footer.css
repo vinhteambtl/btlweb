@@ -5,24 +5,27 @@ body {
   color: #333;
 }
 
-/* ========== Newsletter (mảnh như ảnh) ========== */
+/* ========== Newsletter (SỬA HOÀN TOÀN - KHÔNG LỆCH) ========== */
 .newsletter {
-  background-color: #3b403c; /* màu tối như ảnh */
+  background-color: #3b403c;
   border-top: 4px solid rgba(0, 0, 0, 0.06);
+  padding: 12px 0;
 }
 
-.newsletter-container {
+.newsletter .container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 12px 20px;
+  padding: 0 20px;
 }
 
-.newsletter-inner {
+/* Dùng Bootstrap row + flex để căn giữa */
+.newsletter .row {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 56px; /* giống mẫu */
   flex-wrap: wrap;
+  gap: 12px 18px;
+  min-height: 56px; /* Giữ độ cao tối thiểu, không cố định */
 }
 
 /* Tiêu đề */
@@ -31,58 +34,114 @@ body {
   font-weight: 700;
   font-size: 13px;
   letter-spacing: 0.6px;
-  margin-right: 18px;
   white-space: nowrap;
+  margin: 0;
   text-align: center;
 }
 
-/* Khung input + nút */
-.newsletter-controls {
+/* Form nhóm input + nút */
+.newsletter-form {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background: transparent;
   flex-wrap: wrap;
+  gap: 8px;
+  align-items: stretch;
+  width: 100%;
+  max-width: 400px;
 }
 
-/* input */
+/* Wrapper cho input + lỗi (không làm lệch layout) */
+.newsletter-input-wrapper {
+  position: relative;
+  flex: 1;
+  min-width: 220px;
+}
+
+/* Input */
 .newsletter-input {
-  width: 300px;
-  max-width: 40vw;
+  width: 100%;
   height: 36px;
   border-radius: 6px;
   border: none;
-  padding: 6px 10px;
+  padding: 6px 12px;
+  font-size: 14px;
   outline: none;
   box-shadow: none;
+  display: block;
 }
 
-/* nút đăng ký nhỏ, vuông/nhỏ như ảnh */
+/* Nút đăng ký */
 .btn-signup {
-  margin-left: 8px;
   height: 36px;
-  padding: 6px 14px;
+  padding: 6px 16px;
   background-color: #1c1e20;
   color: #fff;
   border: none;
   border-radius: 6px;
   font-weight: 600;
+  white-space: nowrap;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
+  align-self: stretch;
 }
+
 .btn-signup:hover {
   background-color: #2e9e34;
   color: #fff;
 }
 
-/* ========== Footer chính ========== */
+/* Thông báo lỗi: không làm lệch layout */
+.newsletter-error {
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  font-size: 12.5px;
+  color: #ff4d4f;
+  white-space: nowrap;
+  width: 100%;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.newsletter-error.show {
+  opacity: 1;
+}
+
+/* Desktop: ép 1 hàng, không xuống dòng */
+@media (min-width: 768px) {
+  .newsletter .row {
+    flex-wrap: nowrap;
+  }
+  .newsletter-form {
+    flex-wrap: nowrap;
+    width: auto;
+  }
+  .newsletter-input-wrapper {
+    min-width: 280px;
+    max-width: 300px;
+  }
+}
+
+/* Mobile: xuống dòng đẹp */
+@media (max-width: 576px) {
+  .newsletter-title {
+    font-size: 12px;
+  }
+  .newsletter-input-wrapper {
+    min-width: 100%;
+  }
+  .btn-signup {
+    width: 100%;
+  }
+}
+
+/* ========== FOOTER CHÍNH (GIỮ NGUYÊN 100%) ========== */
 .footer {
   background-color: #f6f6f6;
   padding-top: 28px;
   padding-bottom: 28px;
 }
 
-/* heading các cột */
 .footer-heading {
   color: #6a6a6a;
   font-size: 15px;
@@ -92,29 +151,26 @@ body {
   text-transform: uppercase;
 }
 
-/* link */
 .footer-link {
   color: #6d6d6d;
   text-decoration: none;
   display: block;
   margin: 6px 0;
 }
+
 .footer-link:hover {
   color: #2e9e34;
   text-decoration: underline;
 }
 
-/* logo nhỏ */
 .logo {
   width: 70px;
 }
 
-/* icon text-secondary for contact */
 .text-secondary {
   color: #a0a0a0 !important;
 }
 
-/* payment icons */
 .payment-methods img {
   height: 28px;
   margin: 0 6px;
@@ -130,46 +186,5 @@ body {
 }
 
 footer.footer {
-  padding-top: 15px; /* sát hơn chút */
+  padding-top: 15px;
 }
-
-/* ========== Sửa lỗi lệch form Newsletter khi hiển thị thông báo ========== */
-
-/* Bọc input + thông báo lỗi */
-.input-group-wrapper {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-/* Dòng báo lỗi nhỏ, nằm ngay dưới input */
-.newsletter-error {
-  position: absolute;
-  bottom: -18px;
-  left: 0;
-  color: #ff4d4f;
-  font-size: 13px;
-  white-space: nowrap;
-}
-
-/* Form newsletter trên desktop phải giữ cùng hàng */
-@media (min-width: 768px) {
-  .newsletter-controls {
-    flex-wrap: nowrap !important; /* Desktop giữ 1 hàng */
-    align-items: flex-start !important; /* Không bị lệch dọc khi hiện lỗi */
-  }
-}
-
-/* Responsive cho màn hình nhỏ */
-@media (max-width: 576px) {
-  .newsletter-input {
-    width: 100%;
-  }
-
-  .btn-signup {
-    width: 50%; /* bằng nửa ô nhập */
-    align-self: center; /* căn giữa nút */
-  }
-}
-
