@@ -133,7 +133,7 @@ footer.footer {
   padding-top: 15px; /* sát hơn chút */
 }
 
-/* ========== Responsive (Mobile + Tablet) ========== */
+/* /* ========== Responsive (Mobile + Tablet) ========== */
 @media (max-width: 992px) {
   .newsletter-inner {
     flex-direction: column;
@@ -187,3 +187,4 @@ footer.footer {
     font-size: 14px;
   }
 }
+ */
