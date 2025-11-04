@@ -54,6 +54,7 @@ body {
   position: relative;
   flex: 1;
   min-width: 220px;
+  display: inline-block; /* Thêm dòng này */
 }
 
 /* Input */
@@ -188,3 +189,4 @@ body {
 footer.footer {
   padding-top: 15px;
 }
+
