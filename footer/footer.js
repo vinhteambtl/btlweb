@@ -1,6 +1,6 @@
 // === FOOTER JS ===
 document.addEventListener("DOMContentLoaded", () => {
-  const form = document.querySelector('.newsletter-controls');
+ const form = document.querySelector('.newsletter-form');
   const input = form?.querySelector('input');
   const button = form?.querySelector('button');
 
@@ -54,3 +54,4 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 2500);
   });
 });
+
