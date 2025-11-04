@@ -4,7 +4,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const button = form?.querySelector(".btn-signup");
   const errorEl = form?.querySelector(".newsletter-error");
 
-  if (!form || !input || !button || !errorEl) return;
+  if (!form || !input || !button || !errorEl) {
+    console.error("Không tìm thấy phần tử newsletter!");
+    return;
+  }
 
   let registeredEmails = JSON.parse(localStorage.getItem("emails")) || [];
 
@@ -14,14 +17,14 @@ document.addEventListener("DOMContentLoaded", () => {
     errorEl.classList.remove("show");
     errorEl.style.color = "#ff4d4f";
 
-    // 1. Kiểm tra rỗng
+    // Kiểm tra rỗng
     if (!email) {
       errorEl.textContent = "Vui lòng nhập email.";
       errorEl.classList.add("show");
       return;
     }
 
-    // 2. Kiểm tra định dạng
+    // Kiểm tra định dạng
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailPattern.test(email)) {
       errorEl.textContent = "Email không hợp lệ.";
@@ -29,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    // 3. Kiểm tra miền
+    // Kiểm tra miền
     const domain = email.split("@")[1]?.toLowerCase();
     const allowed = ["gmail.com", "yahoo.com", "icloud.com", "outlook.com"];
     if (!allowed.includes(domain)) {
@@ -38,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    // 4. Kiểm tra trùng
+    // Kiểm tra trùng
     if (registeredEmails.includes(email)) {
       errorEl.textContent = "Email này đã được đăng ký.";
       errorEl.classList.add("show");
@@ -52,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
     errorEl.textContent = "Gửi thành công!";
     errorEl.classList.add("show");
 
-    // Reset sau 2.5s
+    // Reset
     setTimeout(() => {
       input.value = "";
       errorEl.textContent = "";
