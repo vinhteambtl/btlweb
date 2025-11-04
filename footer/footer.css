@@ -6,7 +6,7 @@ body {
 }
 /* newsletter.css */
 
-/* ========== NEWSLETTER - CĂN GIỮA HOÀN HẢO ========== */
+/* ========== NEWSLETTER - CĂN GIỮA HOÀN HẢO, GẦN HƠN ========== */
 .newsletter {
   background-color: #3b403c;
   border-top: 4px solid rgba(0, 0, 0, 0.06);
@@ -19,14 +19,12 @@ body {
   padding: 0 15px;
 }
 
-/* Row: CĂN GIỮA TOÀN BỘ */
+/* Row: CĂN GIỮA TUYỆT ĐỐI */
 .newsletter .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center !important;
   align-items: center;
-  gap: 16px;
-  min-height: 56px;
   text-align: center;
 }
 
@@ -40,10 +38,10 @@ body {
   margin: 0;
 }
 
-/* Form: căn giữa */
+/* Form: căn giữa, gần hơn */
 .newsletter-form {
   width: 100%;
-  max-width: 500px;
+  max-width: 460px;
   justify-content: center;
   margin: 0 auto;
 }
@@ -70,7 +68,7 @@ body {
 /* Nút */
 .btn-signup {
   height: 38px;
-  padding: 0 24px;
+  padding: 0 22px;
   background-color: #1c1e20;
   color: #fff;
   border: none;
@@ -79,7 +77,7 @@ body {
   white-space: nowrap;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
   transition: background 0.3s ease;
-  min-width: 100px;
+  min-width: 95px;
 }
 
 .btn-signup:hover {
@@ -107,8 +105,8 @@ body {
   .newsletter-form { flex-direction: row !important; }
 }
 @media (min-width: 576px) and (max-width: 991.98px) {
-  .newsletter-form { flex-direction: row !important; gap: 12px; }
-  .newsletter-input-wrapper { min-width: 240px; max-width: 280px; }
+  .newsletter-form { flex-direction: row !important; gap: 10px; }
+  .newsletter-input-wrapper { min-width: 220px; max-width: 260px; }
 }
 @media (max-width: 575.98px) {
   .newsletter-title { font-size: 12px; }
@@ -170,6 +168,7 @@ body {
 footer.footer {
   padding-top: 15px;
 }
+
 
 
 
