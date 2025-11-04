@@ -1,8 +1,8 @@
 // === FOOTER JS ===
 document.addEventListener("DOMContentLoaded", () => {
-  const form = document.querySelector('.newsletter-controls'); // ✅ chọn đúng vùng bao input + button
-  const input = form.querySelector('input');
-  const button = form.querySelector('button');
+  const form = document.querySelector('.newsletter-controls');
+  const input = form?.querySelector('input');
+  const button = form?.querySelector('button');
 
   if (!form || !input || !button) return;
 
@@ -28,11 +28,21 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
+    // ✅ Kiểm tra miền hợp lệ
+    const allowedDomains = ["gmail.com", "yahoo.com", "icloud.com", "outlook.com"];
+    const domain = email.split("@")[1]?.toLowerCase();
+
+    if (!allowedDomains.includes(domain)) {
+      message.textContent = "🚫 Chỉ chấp nhận email Gmail, Yahoo, iCloud hoặc Outlook.";
+      return;
+    }
+
     if (registeredEmails.includes(email)) {
       message.textContent = "🔁 Email này đã được đăng ký.";
       return;
     }
 
+    // ✅ Nếu hợp lệ thì lưu
     registeredEmails.push(email);
     localStorage.setItem("emails", JSON.stringify(registeredEmails));
     message.style.color = "limegreen";
@@ -44,6 +54,3 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 2500);
   });
 });
-
-
-// Nội dung cho file: footer/search_footer.js
