@@ -210,18 +210,32 @@ Nếu như bạn khó khăn trong việc chọn sách hay tìm sách thì Chủ 
   <button onclick="topFunction()" class="btn btn-primary position-fixed" style="bottom:20px; right:20px;">^</button>
   </div>
   </main>
-  <!-- Newsletter (mảnh, căn giữa) -->
-  <section class="newsletter">
-    <div class="container newsletter-container">
-      <div class="newsletter-inner d-flex align-items-center">
-        <span class="newsletter-title">NHẬN THÔNG TIN KHUYẾN MÃI TỪ CHÚNG TÔI</span>
-        <div class="newsletter-controls d-flex align-items-center">
-          <input type="email" class="form-control newsletter-input" placeholder="Nhập email ưu đãi">
-          <button class="btn btn-signup">Đăng ký</button>
-        </div>
+ <!-- newsletter.html -->
+<section class="newsletter py-3">
+  <div class="container">
+    <div class="row justify-content-center align-items-center g-2 g-lg-3 text-center">
+
+      <!-- Tiêu đề -->
+      <div class="col-12 col-lg-auto mb-2 mb-lg-0">
+        <span class="newsletter-title text-white fw-bold text-uppercase d-block">
+          NHẬN THÔNG TIN KHUYẾN MÃI TỪ CHÚNG TÔI
+        </span>
       </div>
+
+      <!-- Form -->
+      <div class="col-12 col-lg-auto" id="newsletter-form-col">
+        <form class="newsletter-form d-flex flex-column flex-sm-row align-items-center gap-2 gap-sm-3 w-100" onsubmit="return false;">
+          <div class="newsletter-input-wrapper position-relative" style="min-width: 240px; max-width: 300px;">
+            <input type="email" class="form-control newsletter-input w-100" placeholder="Nhập email ưu đãi">
+            <small class="newsletter-error text-danger d-block mt-1"></small>
+          </div>
+          <button type="button" class="btn btn-signup px-4">Đăng ký</button>
+        </form>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Footer chính -->
   <footer class="footer">
@@ -283,6 +297,7 @@ Nếu như bạn khó khăn trong việc chọn sách hay tìm sách thì Chủ 
   <script src="button.js"></script>
 </body>
 </html>
+
 
 
 
