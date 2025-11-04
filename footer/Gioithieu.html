@@ -140,26 +140,28 @@
   </main>
 
 <!-- newsletter.html -->
-<section class="newsletter">
+<section class="newsletter py-3">
   <div class="container">
-    <div class="row justify-content-center align-items-center">
+    <div class="row justify-content-center align-items-center g-3 text-center">
+
       <!-- Tiêu đề -->
-      <div class="col-12 col-lg-auto text-center text-lg-left mb-3 mb-lg-0">
-        <span class="newsletter-title text-uppercase">
+      <div class="col-12 col-lg-auto mb-2 mb-lg-0">
+        <span class="newsletter-title text-white fw-bold text-uppercase d-block">
           NHẬN THÔNG TIN KHUYẾN MÃI TỪ CHÚNG TÔI
         </span>
       </div>
 
       <!-- Form -->
-      <div class="col-12 col-lg-auto">
-        <form class="newsletter-form d-flex flex-column flex-sm-row align-items-center align-items-sm-stretch gap-2 w-100" onsubmit="return false;">
-          <div class="newsletter-input-wrapper position-relative flex-fill">
-            <input type="email" class="form-control newsletter-input" placeholder="Nhập email ưu đãi">
-            <small class="newsletter-error"></small>
+      <div class="col-12 col-lg-auto w-100">
+        <form class="newsletter-form d-flex flex-column flex-sm-row align-items-center gap-2 gap-sm-3 w-100" onsubmit="return false;">
+          <div class="newsletter-input-wrapper position-relative w-100">
+            <input type="email" class="form-control newsletter-input w-100" placeholder="Nhập email ưu đãi">
+            <small class="newsletter-error text-danger d-block mt-1"></small>
           </div>
-          <button type="button" class="btn btn-signup">Đăng ký</button>
+          <button type="button" class="btn btn-signup px-4">Đăng ký</button>
         </form>
       </div>
+
     </div>
   </div>
 </section>
@@ -223,6 +225,7 @@
   <script src="../search.js"></script>
 </body>
 </html>
+
 
 
 
