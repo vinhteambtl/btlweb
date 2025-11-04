@@ -8,14 +8,28 @@ document.addEventListener("DOMContentLoaded", () => {
   if (!form || !input || !button || !errorEl) return;
 
   let registeredEmails = JSON.parse(localStorage.getItem("emails")) || [];
-  let timeoutId = null; // Dùng để clear timeout
+  let resetTimeout = null;
+
+  // Hàm reset form
+  const resetForm = () => {
+    input.value = "";
+    input.placeholder = "Nhập email ưu đãi"; // Đảm bảo placeholder hiện lại
+    errorEl.textContent = "";
+    errorEl.classList.remove("show");
+  };
+
+  // Hàm hiển thị lỗi + tự ẩn
+  const showError = (msg) => {
+    errorEl.textContent = msg;
+    errorEl.classList.add("show");
+    clearTimeout(resetTimeout);
+    resetTimeout = setTimeout(resetForm, 5000); // 5 giây
+  };
 
   button.addEventListener("click", () => {
     const email = input.value.trim();
-    clearTimeout(timeoutId); // Xóa timeout cũ
-    errorEl.textContent = "";
+    clearTimeout(resetTimeout);
     errorEl.classList.remove("show");
-    errorEl.style.color = "#ff4d4f";
 
     if (!email) {
       showError("Vui lòng nhập email.");
@@ -45,22 +59,12 @@ document.addEventListener("DOMContentLoaded", () => {
     errorEl.textContent = "Gửi thành công!";
     errorEl.classList.add("show");
 
-    // Tự động reset sau 4 giây
-    timeoutId = setTimeout(() => {
-      input.value = "";
-      errorEl.textContent = "";
-      errorEl.classList.remove("show");
-    }, 4000);
+    // Reset sau 5 giây
+    resetTimeout = setTimeout(resetForm, 5000);
   });
 
-  function showError(msg) {
-    errorEl.textContent = msg;
-    errorEl.classList.add("show");
-
-    // Tự động ẩn sau 4 giây (kể cả lỗi)
-    clearTimeout(timeoutId);
-    timeoutId = setTimeout(() => {
-      errorEl.classList.remove("show");
-    }, 4000);
-  }
+  // Nếu người dùng nhập lại → hủy reset
+  input.addEventListener("input", () => {
+    clearTimeout(resetTimeout);
+  });
 });
