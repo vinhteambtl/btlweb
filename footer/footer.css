@@ -133,6 +133,34 @@ footer.footer {
   padding-top: 15px; /* sát hơn chút */
 }
 
+/* ========== Sửa lỗi lệch form Newsletter khi hiển thị thông báo ========== */
+
+/* Bọc input + thông báo lỗi */
+.input-group-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Dòng báo lỗi nhỏ, nằm ngay dưới input */
+.newsletter-error {
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+  color: #ff4d4f;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+/* Form newsletter trên desktop phải giữ cùng hàng */
+@media (min-width: 768px) {
+  .newsletter-controls {
+    flex-wrap: nowrap !important; /* Desktop giữ 1 hàng */
+    align-items: flex-start !important; /* Không bị lệch dọc khi hiện lỗi */
+  }
+}
+
 /* Responsive cho màn hình nhỏ */
 @media (max-width: 576px) {
   .newsletter-input {
@@ -144,3 +172,4 @@ footer.footer {
     align-self: center; /* căn giữa nút */
   }
 }
+
