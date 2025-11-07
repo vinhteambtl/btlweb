@@ -1119,7 +1119,7 @@
             },
             {
                   "link_image_author": "https://drjudithorloff.com/",
-                  "image": "image_book/",
+                  "image": "image_book/skt-qtkd(6).png",
                   "name": "Kế Toán Vỉa Hè - Thực Hành Báo Cáo Tài Chính Căn Bản Từ Quầy Bán Nước Chanh",
                   "genre": "Kinh tế - Kế toán",
                   "author": "Darrell Mullis, Judith Orloff",
@@ -1128,7 +1128,7 @@
             },
             {
                   "link_image_author": "https://en.wikipedia.org/wiki/John_Perkins_(author)",
-                  "image": "image_book/",
+                  "image": "image_book/skt-qtkd(7).png",
                   "name": "Lời Thú Tội Của Một Sát Thủ Kinh Tế (Tái Bản 2023)",
                   "genre": "Chính trị - Kinh tế toàn cầu",
                   "author": "John Perkins",
@@ -1137,7 +1137,7 @@
             },
             {
                   "link_image_author": "https://vi.wikipedia.org/wiki/Philip_Arthur_Fisher",
-                  "image": "image_book/",
+                  "image": "image_book/skt-qtkd(8).png",
                   "name": "Cổ Phiếu Thường Lợi Nhuận Phi Thường (Tái Bản)",
                   "genre": "Đầu tư - Chứng khoán",
                   "author": "Philip A. Fisher",
@@ -1146,7 +1146,7 @@
             },
             {
                   "link_image_author": "https://vi.wikipedia.org/wiki/Donald_Trump",
-                  "image": "image_book/",
+                  "image": "image_book/skt-qtkd(9).png",
                   "name": "D. Trump - Nghệ Thuật Đàm Phán (Tái Bản 2020)",
                   "genre": "Kinh doanh - Đàm phán",
                   "author": "Donald J. Trump, Tony Schwartz",
@@ -1155,7 +1155,7 @@
             },
             {
                   "link_image_author": "https://finmath.uchicago.edu/about/faculty-and-lecturers/cris-doloc/",
-                  "image": "image_book/",
+                  "image": "image_book/skt-qtkd(10).png",
                   "name": "Ứng Dụng AI Trong Đầu Tư Tài Chính",
                   "genre": "Tài chính định lượng - Công nghệ AI",
                   "author": "Cris Doloc",
@@ -1164,7 +1164,7 @@
             },
             {
                   "link_image_author": "https://vi.wikipedia.org/wiki/Robert_Kiyosaki",
-                  "image": "image_book/",
+                  "image": "image_book/skt-qtkd(11).png",
                   "name": "Dạy Con Làm Giàu 02 - Sử Dụng Đồng Vốn (Tái Bản)",
                   "genre": "Tài chính cá nhân",
                   "author": "Robert T. Kiyosaki",
@@ -1173,7 +1173,7 @@
             },
             {
                   "link_image_author": "https://en.wikipedia.org/wiki/Richard_DeVos",
-                  "image": "image_book/",
+                  "image": "image_book/skt-qtkd(12).png",
                   "name": "Hồi Ký Rich DeVos - Con Đường Tỷ Phú",
                   "genre": "Hồi ký doanh nhân - Kinh doanh",
                   "author": "Rich DeVos",
@@ -1357,7 +1357,7 @@
             },
             {
                   "link_image_author": "https://www.netabooks.vn/tac-gia/hae-min-7888",
-                  "image": "image_book/",
+                  "image": "image_book/snan-pcs(8).png",
                   "name": "Khi Mọi Điều Không Như Ý",
                   "genre": "Tâm lý - Sống đẹp",
                   "author": "Hae Min",
@@ -1366,7 +1366,7 @@
             },
             {
                   "link_image_author": "https://nhungcuonsachhay.com/tac-gia/trac-nha/",
-                  "image": "image_book/",
+                  "image": "image_book/snan-pcs(9).png",
                   "name": "Khéo Ăn Nói Sẽ Có Được Thiên Hạ (Tái Bản 2022)",
                   "genre": "Kỹ năng giao tiếp",
                   "author": "Trác Nhã",
@@ -1375,7 +1375,7 @@
             },
             {
                   "link_image_author": "https://vi.wikipedia.org/wiki/Viktor_Frankl",
-                  "image": "image_book/",
+                  "image": "image_book/snan-pcs(10).png",
                   "name": "Đi Tìm Lẽ Sống (Tái Bản 2022)",
                   "genre": "Tâm lý học - Triết lý sống",
                   "author": "Viktor E. Frankl",
@@ -1384,7 +1384,7 @@
              },
              {
                   "link_image_author": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1m_Ph%C6%B0%C6%A1ng",
-                  "image": "image_book/",
+                  "image": "image_book/snan-pcs(11).png",
                   "name": "Tủ Sách Làm Cha Mẹ - Giáo Dục Nhi Đồng",
                   "genre": "Nuôi dạy trẻ",
                   "author": "Đạm Phương Nữ Sử",
@@ -1393,7 +1393,7 @@
             },
              {
                   "link_image_author": "https://afamily.vn/hachun-lyonnet-ba-me-dam-me-viet-sach-va-may-ca-tu-do-cho-con-2015102811308633.chn",
-                  "image": "image_book/",
+                  "image": "image_book/snan-pcs(12).png",
                   "name": "Nuôi Con Không Phải Là Cuộc Chiến 2 - Quyển 2",
                   "genre": "Nuôi dạy trẻ - Thực hành",
                   "author": "Hachun Lyonnet, Hương Đỗ",
@@ -1496,6 +1496,7 @@
     ]
 
 }
+
 
 
 
