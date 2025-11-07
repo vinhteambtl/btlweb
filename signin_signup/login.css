@@ -22,7 +22,7 @@ body {
 }
 
 .register-left h2 {
-  color: #2f7b1f;
+  color: #2c8b2c;
   margin-bottom: 25px;
   font-weight: bold;
 }
@@ -295,6 +295,7 @@ body {
   text-decoration: underline;
   transform: translateX(-3px);
 }
+
 
 
 
