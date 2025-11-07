@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f6fdf5;
+    background-color: #f2f2f2;
     margin: 0;
     padding: 0;
 }
@@ -440,5 +440,6 @@ h2 {
   text-decoration: underline;
   transform: translateX(-3px);
 }
+
 
 
