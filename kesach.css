@@ -2,7 +2,7 @@
 :root {
     --primary-color: #cc0000; /* Màu đỏ chủ đạo (cho thương hiệu VASAOCHU, giá) */
     --secondary-color: #f8f8f8; /* Màu nền nhẹ (cho header) */
-    --filter-header-color: #ff6633; /* Màu cam đậm (cho tiêu đề bộ lọc) */
+    --filter-header-color: #666666; /* Màu cam đậm (cho tiêu đề bộ lọc) */
 }
 
 body {
@@ -291,3 +291,4 @@ body {
         padding: 0.3rem 0.6rem; /* Giảm padding link phân trang */
     }
 }
+
