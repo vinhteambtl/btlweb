@@ -5,7 +5,7 @@ function populateTopSellers(books) {
     return;
   }
   const perSlide = 8;
-  const totalSlides = Math.ceil(books.length / perSlide);
+  const totalSlides = Math.ceil(books.length / perSlide); 
   for (let i = 0; i < totalSlides; i++) {
     const booksInSlide = books.slice(i * perSlide, (i + 1) * perSlide);
     const row1 = booksInSlide.slice(0, 4);
@@ -249,4 +249,5 @@ document.addEventListener("DOMContentLoaded", async () => {
       "<p class='text-danger'>❌ Không thể tải danh sách Top 10.</p>";
   }
 });
+
 
