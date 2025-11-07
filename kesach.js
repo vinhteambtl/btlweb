@@ -216,26 +216,57 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function populateAuthorsCarousel(books) {
-    const container = document.querySelector("#carouselAuthors .carousel-inner");
-    if (!container) return;
-    const perSlide = 6;
-    const authors = {};
-    books.forEach(book => {
-      if (book.author && !authors[book.author]) {
-        authors[book.author] = book.link_image_author;
-      }
-    });
-    const uniqueAuthors = Object.keys(authors).map(name => ({ author: name, link_image_author: authors[name] }));
-    const totalSlides = Math.ceil(uniqueAuthors.length / perSlide);
-    container.innerHTML = '';
-    for (let i = 0; i < totalSlides; i++) {
-      const start = i * perSlide;
-      const end = start + perSlide;
-      const slideAuthors = uniqueAuthors.slice(start, end);
-      const slideHTML = `<div class="carousel-item ${i === 0 ? 'active' : ''}"><div class="row px-3 justify-content-center">${slideAuthors.map(author => `<div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3"><div class="card bg-dark text-white border-secondary shadow-sm" style="border-radius: 0.6rem; overflow: hidden;"><div class="card-body text-center p-1"><img src="${author.link_image_author}" class="img-fluid mb-2 rounded-circle" style="width: 80px; height: 80px; object-fit: cover; margin-top: 20px;" alt="${author.author}" onerror="this.src='https://via.placeholder.com/100?text=Author';"><p class="text-truncate mb-3 mt-2" style="font-size: 0.85rem;">${author.author}</p></div></div></div>`).join('')}</div></div>`;
-      container.insertAdjacentHTML('beforeend', slideHTML);
-    }
+  const container = document.querySelector("#carouselAuthors .carousel-inner");
+  if (!container) {
+    console.error("Không tìm thấy container cho Authors carousel.");
+    return;
   }
+
+  const perSlide = 6;
+  const authors = {};
+
+  books.forEach((book) => {
+    if (book.author && !authors[book.author]) {
+      authors[book.author] = book.link_image_author;
+    }
+  });
+
+  const uniqueAuthors = Object.keys(authors).map((authorName) => ({
+    author: authorName,
+    link_image_author: authors[authorName],
+  }));
+
+  const totalSlides = Math.ceil(uniqueAuthors.length / perSlide);
+
+  for (let i = 0; i < totalSlides; i++) {
+    const authorsInSlide = uniqueAuthors.slice(i * perSlide, (i + 1) * perSlide);
+    const slideHTML = `
+      <div class="carousel-item ${i === 0 ? "active" : ""}">
+        <div class="row px-3 justify-content-center">
+          ${authorsInSlide
+            .map(
+              (author) => `
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+              <div class="card bg-dark text-white border-secondary shadow-sm" style="border-radius: 0.6rem; overflow: hidden;">
+                <div class="card-body text-center p-1">
+                  <img src="${author.link_image_author || "path/to/default-author-image.png"}"
+                       class="img-fluid mb-2 rounded-circle"
+                       style="width: 100px; height: 100px; object-fit: cover; margin-top: 30px;"
+                       alt="${author.author}"
+                       onerror="this.onerror=null; this.src='path/to/default-author-image.png';">
+                  <p class="text-truncate mb-4 mt-3" style="font-size: 0.9rem;">${author.author}</p>
+                </div>
+              </div>
+            </div>
+          `
+            )
+            .join("")}
+        </div>
+      </div>
+    `;
+    container.insertAdjacentHTML("beforeend", slideHTML);
+  }
+}
 
   // ============================
   // === XEM CHI TIẾT SẢN PHẨM ===
@@ -391,5 +422,6 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => toast.remove(), 2000);
   }
 });
+
 
 
