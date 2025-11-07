@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
     paginatedProducts.forEach(product => {
       const productHTML = `
         <div class="col mb-4">
-          <div class="card product-card h-100 border-0 card shadow" data-product-id="${product.id}">
+          <div class="card product-card h-100 border-0 shadow-sm" data-product-id="${product.id}">
             <img src="${product.image}" class="card-img-top product-image" alt="${product.title}" 
                  onerror="this.src='https://via.placeholder.com/180x250?text=No+Image';">
             <div class="card-body p-2 d-flex flex-column">
@@ -391,4 +391,5 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => toast.remove(), 2000);
   }
 });
+
 
